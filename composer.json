@@ -1,0 +1,40 @@
+{
+  "name": "Audible Edge",
+  "description": "Festival of Sound",
+  "type": "festival",
+  "keywords": [
+    "tone list",
+    "audible edge",
+    "music"
+  ],
+  "authors": [
+    {
+      "name": "Tone List",
+      "email": "***REMOVED***",
+      "homepage": "https://tonelist.com.au"
+    }
+  ],
+  "homepage": "https://ae.tonelist.com.au",
+  "support": {
+    "email": "support@getkirby.com",
+    "issues": "https://github.com/getkirby/starterkit/issues",
+    "forum": "https://forum.getkirby.com",
+    "source": "https://github.com/getkirby/starterkit"
+  },
+  "require": {
+    "php": ">=8.0.0 <8.3.0",
+    "getkirby/cms": "^4.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  }
+}

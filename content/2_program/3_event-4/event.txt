@@ -1,0 +1,93 @@
+Title: event 4
+
+----
+
+Subtitle: 
+
+----
+
+Location: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venue: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-02-10 00:00:00
+
+----
+
+End-date: 2025-12-25
+
+----
+
+Tags: 
+
+----
+
+Event-text: 
+
+----
+
+Artist-link: 
+
+----
+
+Accessibility: 
+
+----
+
+Links: 
+
+----
+
+Project-text: 
+
+----
+
+Project-link: 
+
+----
+
+Link-text: 
+
+----
+
+Link: https://here.com
+
+----
+
+Event-name: EVENT NAME
+
+----
+
+Project:
+
+- 
+  project: [ ]
+  text: Project
+
+----
+
+Uuid: CU8iMNB8gNwYP2Kh

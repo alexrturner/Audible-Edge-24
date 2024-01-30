@@ -1,0 +1,27 @@
+title: About
+image:
+  back: "blue-400"
+  icon: 🫐
+
+# columns:
+#   main:
+#     width: 1
+#     sections:
+#       extends: sections/about
+
+#   description:
+#     type: writer
+#     label: Description
+
+fields:
+  description:
+    label: Description
+    type: textarea
+
+sections:
+  pages:
+    type: pages
+    headline: About Subpages
+    template:
+      - supporters
+      - team

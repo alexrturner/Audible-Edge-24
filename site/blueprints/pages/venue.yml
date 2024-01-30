@@ -1,0 +1,72 @@
+title: Venue
+
+options:
+  url: false
+  status: true
+  delete: false
+
+fields:
+  title:
+    label: Venue Name
+    type: text
+
+  accessibility:
+    label: Accessibility Features
+    width: 1/2
+    icon: wheelchair
+    type: tags
+    options:
+      type: query
+      query: page.siblings.pluck('accessibility', ',', true)
+
+  accessibility_text:
+    label: Custom Accessibility Details
+    width: 1/2
+    icon: wheelchair
+    type: textarea
+
+  location:
+    label: Location
+    width: 1/2
+    type: text
+    help: Address or general location.
+
+  land:
+    label: Land Acknowledgement
+    width: 1/2
+    type: tag
+    options:
+      type: query
+      query: page.siblings.pluck('location_features', ',', true)
+
+  location_features:
+    label: Location Features
+    width: 1/2
+    type: tags
+    help: Outdoor venue, parking available, etc.
+    options:
+      type: query
+      query: page.siblings.pluck('location_features', ',', true)
+
+  map:
+    label: Map
+    type: textarea
+    help: Embed code from Google Maps.
+
+  contacts:
+    label: Venue Contacts
+    type: structure
+    fields:
+      contactName:
+        label: Contact Name
+        type: text
+      contactEmail:
+        label: Contact Email
+        type: email
+      contactPhone:
+        label: Contact Phone
+        type: tel
+
+  website:
+    label: Venue Website
+    type: url

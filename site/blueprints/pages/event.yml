@@ -1,0 +1,148 @@
+title: Event
+image:
+  back: "yellow-400"
+  icon: 🍊
+sortBy: start_date desc
+
+status:
+  draft:
+    label: Draft
+    text: The {{ page.title }} is invisible.
+  listed:
+    label: Published
+    text: The {{ page.title }} is shared.
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      title:
+        type: text
+        placeholder: "{{ page.title }}"
+        label: Title
+
+      subtitle:
+        label: Subtitle
+        type: textarea
+
+      location:
+        icon: pin
+        label: Location
+        type: text
+        width: 1/2
+        placeholder: "LOCATION, STATE/COUNTRY"
+
+      ticketed:
+        type: toggle
+        label: Ticketed
+        text: Is this a ticketed event?
+        width: 1/2
+        default: false
+
+      ticket_link:
+        icon: ticket
+        label: Tickets
+        type: url
+        width: 1/2
+        placeholder: "https://"
+        when:
+          ticketed: true
+
+      ticket_price:
+        label: Ticket Price
+        width: 1/4
+        type: number
+        before: $
+        step: 0.01
+        min: 0
+        placeholder: 0.00
+        when:
+          ticketed: true
+
+      ticket_price_text:
+        label: Ticket Price Text
+        width: 1/4
+        type: text
+        placeholder: "Free, $10, etc."
+        when:
+          ticketed: true
+
+      # gap:
+      #   type: gap
+      #   width: 1/4
+
+      venue:
+        label: Venue
+        icon: pin
+        width: 1/2
+        type: pages
+        query: site.index.filterBy('intendedTemplate', 'venue')
+        text: "{{ page.title }}"
+
+      venue_text:
+        icon: pin
+        label: Venue Details
+        type: text
+        width: 1/2
+
+      start_date:
+        icon: calendar
+        label: Start date
+        type: date
+        width: 1/4
+        display: DD/MM/YYYY
+        time: true
+
+      end_date:
+        icon: calendar
+        label: End date
+        type: date
+        width: 1/4
+        display: DD/MM/YYYY
+
+      tags:
+        width: 1/2
+        label: Tags
+        type: tags
+        options:
+          type: query
+          query: page.siblings.pluck('tags', ',', true)
+
+      event_text:
+        type: text
+        label: {{ page.title }} Details
+        width: 1
+
+      artist_link:
+        label: Associated Artists
+        width: 1/2
+        type: pages
+        query: site.index.filterBy('intendedTemplate', 'artist')
+        text: "{{ page.title }}"
+
+      accessibility:
+        label: {{ page.title }} Accessibility
+        type: textarea
+        help: Any accessibility features specific to the event.
+
+      links:
+        type: structure
+        label: {{ page.title }} Links
+        fields:
+          url:
+            type: url
+            label: URL
+            placeholder: https://
+          text:
+            type: text
+            label: Link Text
+          popup:
+            type: toggle
+            label: Open in new tab
+            default: true
+
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files

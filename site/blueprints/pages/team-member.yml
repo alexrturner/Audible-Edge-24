@@ -1,0 +1,37 @@
+title: Team member
+preset: page
+icon: user
+
+status:
+  draft: true
+  listed: true
+
+fields:
+  things:
+    label: things
+    type: text
+  phone:
+    label: Phone
+    type: tel
+    width: 1/2
+    placeholder: "+61"
+  email:
+    label: Email
+    type: email
+    width: 1/2
+  account:
+    label: AE Site Account
+    type: users
+  about:
+    label: ✉️ 💿
+    type: writer
+
+sidebar:
+  image:
+    extends: sections/image
+    label: 🪞
+    min: 1
+    max: 1
+    image:
+      ratio: 1/1
+      cover: true

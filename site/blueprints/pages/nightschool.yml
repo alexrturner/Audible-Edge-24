@@ -1,0 +1,23 @@
+title: Nightschool
+preset: pages
+image:
+  back: "yellow-400"
+  icon: 🍊
+
+listed:
+  extends: sections/nightschool
+  label: Published Nightschool Events
+  layout: table
+  columns:
+    title: false
+    start_date:
+      label: Start
+
+drafts:
+  extends: sections/nightschool
+  label: Draft Nightschool Events
+  layout: table
+  columns:
+    title: false
+    start_date:
+      label: Start

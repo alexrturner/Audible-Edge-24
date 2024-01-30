@@ -1,0 +1,54 @@
+title: Supporters
+image:
+  back: "green-400"
+  icon: ⚓︎
+
+columns:
+  - width: 2/3
+    fields:
+      title:
+        type: text
+        placeholder: "{{ page.title }}"
+        label: Title
+
+      description:
+        label: {{ page.title }} Description
+        type: writer
+    
+      currentSupporters:
+        type: headline
+        label: Current Supporters
+        numbered: false
+
+      fundingSupport:
+        label: Funding Support
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+
+      commissioningPartners:
+        label: Commissioning Partners
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+
+      presentingPartners:
+        label: Presenting Partners
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+        
+
+  - width: 1/3
+    sections:
+      logos:
+        label: All Logos
+        template: supporter_logo
+        type: files
+        layout: list
+        image:
+          ratio: 5/4
+          cover: true

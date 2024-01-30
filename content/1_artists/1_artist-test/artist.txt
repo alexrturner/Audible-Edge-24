@@ -1,0 +1,35 @@
+Title: Artist Test
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: ""
+  text: ""
+  popup: 'true'
+  type: link
+
+----
+
+Upcoming: 
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: x13vhMEECsXOyHg0

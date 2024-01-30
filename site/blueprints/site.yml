@@ -1,0 +1,40 @@
+title: 🪩
+
+tabs:
+  pages:
+    label: Pages
+    sections:
+      listedPages:
+        type: pages
+        headline: listed
+        status: listed
+        create: default
+        image: icon
+
+      unlistedPages:
+        type: pages
+        headline: unlisted
+        status: unlisted
+        create: default
+        image: icon
+
+  content:
+    label: Program
+    sections:
+      events: sections/events
+
+  # settings tab
+  settings:
+    label: Settings
+    sections:
+      appearance:
+        type: fields
+        fields:
+          email:
+            label: Contact Email
+            type: email
+
+          color:
+            label: Colour
+            type: color
+            default: blue

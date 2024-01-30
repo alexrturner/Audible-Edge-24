@@ -1,0 +1,9 @@
+title: Accessibility
+image:
+  back: "green-400"
+  icon: ♿︎
+
+fields:
+  description:
+    label: {{ page.title }} Information
+    type: textarea
