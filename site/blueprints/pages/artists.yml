@@ -1,8 +1,8 @@
 title: Artists
 preset: pages
 image:
-  back: "green-400"
-  icon: 🍐
+  back: "orange-600"
+  icon: ✦
 
 listed:
   extends: sections/artists

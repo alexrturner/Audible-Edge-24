@@ -1,8 +1,8 @@
 title: Venues
 preset: pages
 image:
-  back: "yellow-400"
-  icon: 🍊
+  back: "blue-200"
+  icon: ⛽︎
 
 type: pages
 label: Venues

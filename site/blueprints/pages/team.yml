@@ -1,7 +1,9 @@
 title: Team
 extends: layouts/team
 
-icon: 🥸
+image:
+  back: "blue-200"
+  icon: ☸︎
 
 options:
   url: false
