@@ -39,15 +39,18 @@
 
       <div class="logo-container desktop">
         <a class="logo" href="<?= $site->url() ?>" tabindex="1" title="Audible Edge" aria-label="Audible Edge Homepage">
-          <?= svg('assets/logo.svg') ?>
+          <?= svg('assets/img/logo-2.svg') ?>
         </a>
 
         <?php if ($page->isHomePage()) : ?>
-          <div class="search-container">
+          <!-- <div class="search-container">
             <input class="search" type="search" data-column="all" placeholder="search">
-          </div>
+          </div> -->
         <?php endif ?>
       </div>
+      <?php if (!$page->isHomePage()) : ?>
+        <h1><?= $page->title() ?></h1>
+      <?php endif ?>
 
 
       <nav class="menu-container">

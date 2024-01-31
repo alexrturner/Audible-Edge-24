@@ -4,6 +4,7 @@
     <?php if ($page->year()->isNotEmpty()) : ?>
         <h2 class="subtitle"><?= $page->subtitle() ?></h2>
     <?php endif ?>
+
     <?php if ($page->year()->isNotEmpty()) : ?>
         <span class="year"><?= $page->year() ?></span>
     <?php endif ?>
@@ -11,10 +12,9 @@
     <?php if ($page->credits()->isNotEmpty()) : ?>
         <ul class="credits-container">
             <?php
-            // using the `toStructure()` method, we create a structure collection
             $credits = $page->credits()->toStructure();
             $first = $credits->first();
-            // we can then loop through the entries and render the individual fields
+
             foreach ($credits as $credit) :
             ?>
                 <li class="credit">
@@ -40,8 +40,6 @@
                             </span>
                         <?php endif ?>
                     </div>
-
-
                 </li>
             <?php endforeach ?>
         </ul>

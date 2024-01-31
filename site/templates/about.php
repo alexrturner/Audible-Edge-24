@@ -3,9 +3,6 @@
 <main class="content">
     <div class="text-container">
         <section class="text">
-            <h1><?= $page->title()->html() ?></h1>
-        </section>
-        <section class="text">
             <div class="contact">
                 <?= kt($page->Description()) ?>
                 <span class="contact-details"></span>

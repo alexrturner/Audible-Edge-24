@@ -3,7 +3,6 @@
 <main class="main" role="main">
 
     <div class="text">
-        <h1><?= $page->title()->html() ?></h1>
         <?= kt($page->text()) ?>
     </div>
 
