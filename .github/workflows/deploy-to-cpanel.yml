@@ -20,7 +20,7 @@ jobs:
         with:
           host: ***REMOVED***
           username: ***REMOVED***
-          key: ${{ secrets.AE_AT_COM_SSH_PRIVATE_KEY }}
+          key: ${{ secrets.AE_AT_SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.AE_AT_COM_SSH_PRIVATE_KEY_PASSPHRASE }}
           port: 22
           debug: true
