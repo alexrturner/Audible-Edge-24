@@ -34,7 +34,7 @@ fields:
   land:
     label: Land Acknowledgement
     width: 1/2
-    type: tag
+    type: tags
     options:
       type: query
       query: page.siblings.pluck('location_features', ',', true)

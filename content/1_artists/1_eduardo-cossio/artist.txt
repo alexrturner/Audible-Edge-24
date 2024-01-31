@@ -1,4 +1,4 @@
-Title: Artist Test
+Title: Eduardo Cossio
 
 ----
 
@@ -13,14 +13,14 @@ Bio-long:
 Links:
 
 - 
-  url: ""
-  text: ""
+  url: https://bandcamp.com
+  text: Listening Link
   popup: 'true'
-  type: link
+  type: audio
 
 ----
 
-Upcoming: 
+Events: - page://Op2Hu6dIcJDGkmbP
 
 ----
 

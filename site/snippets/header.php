@@ -28,6 +28,9 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 
+  <script src="https://d3js.org/d3.v7.js"></script>
+
+
 </head>
 
 <body>

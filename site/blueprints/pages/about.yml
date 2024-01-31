@@ -17,11 +17,3 @@ fields:
   description:
     label: Description
     type: textarea
-
-sections:
-  pages:
-    type: pages
-    headline: About Subpages
-    template:
-      - supporters
-      - team

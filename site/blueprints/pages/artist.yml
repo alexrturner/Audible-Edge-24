@@ -45,14 +45,14 @@ columns:
             label: Link Type
             default: link
             options:
-              link: Link
+              link: Website
               video: Video
               audio: Audio
               image: Image
               pdf: PDF
               other: Other
 
-      upcoming:
+      events:
         label: Associated Events
         type: pages
         query: site.index.filterBy('intendedTemplate', 'event')
@@ -71,6 +71,7 @@ columns:
           group:
             label: Affiliated Groups
             type: tags
+        help: Members of the group, or other acknowledgements involved in the project.
 
       support:
         label: Supported By
