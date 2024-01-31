@@ -14,8 +14,6 @@ function generateArtistsAndEventsJson()
         foreach ($artist->events()->toPages() as $eventPage) {
             if ($eventPage) {
                 $events[] = [
-                    // 'uuid' => $eventPage->uuid(),
-                    // 'title' => $eventPage->title()
                     'uuid' => (string) $eventPage->id(),
                     'title' => (string) $eventPage->title()->value(),
 
@@ -24,8 +22,6 @@ function generateArtistsAndEventsJson()
         }
 
         $artistData[] = [
-            // 'uuid' => $artist->uuid(),
-            // 'title' => $artist->title(),
             'uuid' => (string) $artist->id(),
             'title' => (string) $artist->title()->value(),
             'events' => $events,

@@ -8,7 +8,6 @@
 </style>
 
 <main class="main">
-    <h1><?= $page->title()->html() ?></h1>
 
     <section class="description">
         <?= kt($page->description()) ?>
