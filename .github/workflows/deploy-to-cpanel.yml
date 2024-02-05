@@ -4,9 +4,7 @@
 name: Deploy to CPanel
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
