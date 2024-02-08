@@ -1,0 +1,155 @@
+{
+    "artists": {
+        "artists\/eduardo-cossio": {
+            "uuid": "artists\/eduardo-cossio",
+            "title": "Eduardo Cossio",
+            "events": [
+                "program\/audible-edge-denmark-workshop"
+            ]
+        },
+        "artists\/josten-myburgh": {
+            "uuid": "artists\/josten-myburgh",
+            "title": "Josten Myburgh",
+            "events": [
+                "program\/audible-edge-denmark-workshop",
+                "program\/kinds-of-light-4",
+                "program\/event-4",
+                "program\/event-3"
+            ]
+        },
+        "artists\/test-artist-1": {
+            "uuid": "artists\/test-artist-1",
+            "title": "test artist 1",
+            "events": [
+                "program\/audible-edge-denmark-workshop"
+            ]
+        },
+        "artists\/test-artist-5": {
+            "uuid": "artists\/test-artist-5",
+            "title": "test artist 5",
+            "events": []
+        },
+        "artists\/test-artist-3": {
+            "uuid": "artists\/test-artist-3",
+            "title": "test artist 3",
+            "events": []
+        },
+        "artists\/test-artist-4": {
+            "uuid": "artists\/test-artist-4",
+            "title": "test artist 4",
+            "events": []
+        },
+        "artists\/test-artist-2": {
+            "uuid": "artists\/test-artist-2",
+            "title": "test artist 2",
+            "events": []
+        },
+        "artists\/test-artist-6": {
+            "uuid": "artists\/test-artist-6",
+            "title": "test artist 6",
+            "events": []
+        },
+        "artists\/test-artist-7": {
+            "uuid": "artists\/test-artist-7",
+            "title": "test artist 7",
+            "events": []
+        },
+        "artists\/test-artist-8": {
+            "uuid": "artists\/test-artist-8",
+            "title": "test artist 8",
+            "events": []
+        },
+        "artists\/test-artist-9": {
+            "uuid": "artists\/test-artist-9",
+            "title": "test artist 9",
+            "events": []
+        },
+        "artists\/test-artist-10": {
+            "uuid": "artists\/test-artist-10",
+            "title": "test artist 10",
+            "events": []
+        },
+        "artists\/jenny-hickinbotham": {
+            "uuid": "artists\/jenny-hickinbotham",
+            "title": "Jenny Hickinbotham",
+            "events": []
+        },
+        "artists\/test-artist-12": {
+            "uuid": "artists\/test-artist-12",
+            "title": "test artist 12",
+            "events": [
+                "program\/event-3"
+            ]
+        }
+    },
+    "events": {
+        "program\/audible-edge-denmark-workshop": {
+            "uuid": "program\/audible-edge-denmark-workshop",
+            "title": "Audible Edge Denmark Workshop",
+            "date": "2024-04-28",
+            "artists": [
+                "artists\/eduardo-cossio",
+                "artists\/josten-myburgh",
+                "artists\/test-artist-1"
+            ]
+        },
+        "program\/kinds-of-light-4": {
+            "uuid": "program\/kinds-of-light-4",
+            "title": "Kinds of Light 4",
+            "date": "2024-04-26",
+            "artists": [
+                "artists\/josten-myburgh"
+            ]
+        },
+        "program\/event-4": {
+            "uuid": "program\/event-4",
+            "title": "event 4",
+            "date": "2024-04-27",
+            "artists": [
+                "artists\/josten-myburgh"
+            ]
+        },
+        "program\/event-3": {
+            "uuid": "program\/event-3",
+            "title": "event 3",
+            "date": "2024-04-27",
+            "artists": [
+                "artists\/josten-myburgh",
+                "artists\/test-artist-12"
+            ]
+        }
+    },
+    "dates": {
+        "2024-04-28": {
+            "events": [
+                "program\/audible-edge-denmark-workshop",
+                "program\/audible-edge-denmark-workshop",
+                "program\/audible-edge-denmark-workshop"
+            ],
+            "artists": [
+                "artists\/eduardo-cossio",
+                "artists\/josten-myburgh",
+                "artists\/test-artist-1"
+            ]
+        },
+        "2024-04-26": {
+            "events": [
+                "program\/kinds-of-light-4"
+            ],
+            "artists": [
+                "artists\/josten-myburgh"
+            ]
+        },
+        "2024-04-27": {
+            "events": [
+                "program\/event-4",
+                "program\/event-3",
+                "program\/event-3"
+            ],
+            "artists": [
+                "artists\/josten-myburgh",
+                "artists\/test-artist-12"
+            ]
+        }
+    }
+}

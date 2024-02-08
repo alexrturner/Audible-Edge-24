@@ -1,0 +1,48 @@
+Title: Eduardo Cossio
+
+----
+
+Bio-short: <p>A prolific improviser and organiser making wild sounds with prepared zithers.</p>
+
+----
+
+Bio-long: <p>A prolific improviser and organiser making wild sounds with prepared zithers.A prolific improviser and organiser making wild sounds with prepared zithers.A prolific improviser and organiser making wild sounds with prepared zithers.A prolific improviser and organiser making wild sounds with prepared zithers.</p>
+
+----
+
+Links:
+
+- 
+  url: https://bandcamp.com
+  text: Listening Link
+  popup: 'true'
+  type: audio
+- 
+  url: ""
+  text: Josten Myburgh
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://Op2Hu6dIcJDGkmbP
+
+----
+
+Credits:
+
+- 
+  other_name: Josten
+  sort_name: Myburgh
+  group: ""
+  group_page:
+    - page://x0iIazdyGwIK9E2j
+  url: ""
+
+----
+
+Support: 
+
+----
+
+Uuid: x13vhMEECsXOyHg0

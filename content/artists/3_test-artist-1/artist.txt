@@ -1,0 +1,35 @@
+Title: test artist 1
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: https://bandcamp.com
+  text: Listening Link
+  popup: 'true'
+  type: audio
+
+----
+
+Events: - page://Op2Hu6dIcJDGkmbP
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: T1QmDFVxIOa88h1e

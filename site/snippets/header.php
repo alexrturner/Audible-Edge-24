@@ -20,6 +20,10 @@
     '@auto',
   ]) ?>
 
+  <?= js([
+    'assets/js/script.js'
+  ]) ?>
+
   <style>
     :root {
       --cc-1: <?= $site->color()->or('blue') ?>;
@@ -28,47 +32,36 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 
+
   <script src="https://d3js.org/d3.v7.js"></script>
 
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="description" content="<?= $site->metaDescription() ?> ">
+  <meta name="keywords" content="<?= $site->metaKeywords() ?>">
+  <meta name="author" content="Tone List">
 
 </head>
 
 <body>
   <div class="header-container">
     <header class="header">
+      <a class="ae-title" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
+        <h1>
+          <?= $site->titleDisplay() ?>
+        </h1>
+      </a>
 
-      <div class="logo-container desktop">
-        <a class="logo" href="<?= $site->url() ?>" tabindex="1" title="Audible Edge" aria-label="Audible Edge Homepage">
-          <?= svg('assets/img/logo-2.svg') ?>
-        </a>
-
-        <?php if ($page->isHomePage()) : ?>
-          <!-- <div class="search-container">
-            <input class="search" type="search" data-column="all" placeholder="search">
-          </div> -->
-        <?php endif ?>
-      </div>
-      <?php if (!$page->isHomePage()) : ?>
-        <h1><?= $page->title() ?></h1>
+      <?php if ($page->isHomePage()) : ?>
+        <h2 class="ae-subtitle"><?= $site->subtitle() ?></h2>
+      <?php else : ?>
+        <h2 class="ae-subtitle">
+          <?php snippet('menu', ['expanded' => 'false']) ?>
+        </h2>
       <?php endif ?>
 
-
-      <nav class="menu-container">
-        <ul class="flex menu">
-
-          <?php foreach ($site->children()->listed() as $p) : ?>
-
-            <li class="menu-item">
-
-              <a <?php e($p->isOpen(), 'aria-current="page"') ?> class="menu-item  <?php e($p->isOpen(), ' active') ?>" href="<?= $p->url() ?>">
-                <?= $p->title()->esc() ?>
-              </a>
-            </li>
-
-          <?php endforeach ?>
-
-        </ul>
-      </nav>
+      <?php snippet('dates') ?>
 
     </header>
   </div>

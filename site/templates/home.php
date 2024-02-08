@@ -1,66 +1,54 @@
 <?php snippet('header') ?>
 
-<style>
-    .dot {
-        stroke: #000;
-        stroke-width: 1px;
-    }
 
-    .line {
-        stroke: black;
-        stroke-width: 2px;
-    }
+<svg id="lineCanvas">
+    <!-- squig -->
+</svg>
+<button id="settingsButton">🦑</button>
+<div id="input" class="hidden">
+    <label for="noiseIntensity">Noise Intensity:</label>
+    <input type="range" id="noiseIntensity" name="noiseIntensity" min="0" max="1000" step="10" value="800">
+    <span id="noiseIntensityValue">800</span>
 
-    .connection {
-        stroke: url(#gradient) red;
-        stroke-width: 2px;
-        animation: dash 5s linear infinite;
-        stroke-dashoffset: 2px;
+    <br>
 
-    }
+    <label for="subdivisionFactor">Subdivision Factor:</label>
+    <input type="range" id="subdivisionFactor" name="subdivisionFactor" min="1" max="20" value="2">
+    <span id="subdivisionFactorValue">2</span>
 
-    #gradient {
-        /* stop-color: #fff;
-        stop-color: #000;
+    <br>
 
-        stop-opacity: 1; */
+    <button id="toggleSquig">on</button>
+</div>
 
-        --color-stop: orange;
-        --color-stop: #73675d;
-        --color-bot: blue;
-    }
-
-    @keyframes dash {
-        from {
-            stroke-width: 10px;
-        }
-
-        to {
-            stroke-width: 0px;
-        }
-    }
-</style>
 <main>
-    <?= svg('assets/img/logo-1.svg') ?>
-    <div id="container">
 
+    <div class="content-container">
+        <?php snippet('menu') ?>
+
+        <!-- Events Section -->
+        <div class="section events" id="events">
+            <ul class="events-container">
+                <li class="events-item first-item">
+                    <button class="events-toggle toggle" aria-expanded="true" aria-controls="events-items">Program <span class="icon-bar"></span></button>
+                    <br><br>
+                    <?php snippet('listings', ['parentPageSlug' => 'program', 'className' => 'events']); ?>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section artists" id="artists">
+            <ul class="artists-container">
+                <li class="artists-item first-item">
+                    <button class="artists-toggle toggle" aria-expanded="true" aria-controls="artists-items">Lineup <span class="icon-bar"></span></button>
+                    <br><br>
+                    <div class="artists-content">
+                        <?php snippet('listings', ['parentPageSlug' => 'artists', 'className' => 'artists']); ?>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <script type="module">
-        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-    </script>
-
-
-    <svg class="dynamic" width="800" height="600"></svg>
-    <!-- <li>- This could also just be the front page</li>
-    <li>- Poster or animation, and text, with all the info of the program launch event</li>
-    <li>- Page will disappear or be archived for the March website update</li> -->
-
-
-    <div id="visualization"></div>
-    <?=
-    // js('assets/js/d3-script.js')
-    js('assets/js/d3-script-trace-paths.js')
-    ?>
 
 </main>
 

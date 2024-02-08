@@ -1,0 +1,29 @@
+Title: test artist 12
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://ZQ7BJxhToUnv8Mxa
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: b9XFeo9oZgeGpyqz

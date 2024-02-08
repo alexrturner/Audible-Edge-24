@@ -30,6 +30,23 @@ tabs:
       appearance:
         type: fields
         fields:
+          title:
+            label: Site Title
+            type: text
+            icon: title
+
+          titleDisplay:
+            label: Display Title
+            type: text
+            icon: title
+            width: 1/2
+
+          subtitle:
+            label: Subtitle
+            type: text
+            icon: title
+            width: 1/2
+
           email:
             label: Contact Email
             type: email
@@ -38,3 +55,22 @@ tabs:
             label: Colour
             type: color
             default: blue
+
+          acknowledgement:
+            label: Acknowledgement of Country
+            type: writer
+
+          seo:
+            type: headline
+            label: SEO
+
+          metaDescription:
+            label: Meta Description
+            type: writer
+
+          metaKeywords:
+            label: Meta Keywords
+            type: writer
+
+      seo:
+        type: files

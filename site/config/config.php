@@ -1,37 +1,94 @@
 <?php
 
-function generateArtistsAndEventsJson()
+// function generateArtistsAndEventsJson()
+// {
+//     $kirby = kirby();
+//     // Fetch artists using the 'artist' template
+//     $artists = page('artists')->children()->listed();
+//     $artistData = [];
+
+//     foreach ($artists as $artist) {
+//         // Fetch associated events using the 'events' field (pages field)
+//         $events = [];
+//         foreach ($artist->events()->toPages() as $eventPage) {
+//             if ($eventPage) {
+//                 $events[] = [
+//                     'uuid' => (string) $eventPage->id(),
+//                     'title' => (string) $eventPage->title()->value(),
+
+//                 ];
+//             }
+//         }
+
+//         $artistData[] = [
+//             'uuid' => (string) $artist->id(),
+//             'title' => (string) $artist->title()->value(),
+//             'events' => $events,
+//             // Include additional artist details as needed
+//         ];
+//     }
+
+//     $jsonData = json_encode($artistData, JSON_PRETTY_PRINT);
+//     file_put_contents($kirby->root('assets') . '/data/artists-and-events.json', $jsonData);
+// }
+
+
+
+function generateRelationsJson()
 {
     $kirby = kirby();
-    // Fetch artists using the 'artist' template
-    // $artists = $kirby->site()->children()->listed()->filterBy('intendedTemplate', 'artist');
     $artists = page('artists')->children()->listed();
     $artistData = [];
+    $eventsData = [];
+    $datesData = [];
 
     foreach ($artists as $artist) {
-        // Fetch associated events using the 'events' field (pages field)
         $events = [];
         foreach ($artist->events()->toPages() as $eventPage) {
             if ($eventPage) {
-                $events[] = [
-                    'uuid' => (string) $eventPage->id(),
-                    'title' => (string) $eventPage->title()->value(),
+                $eventUuid = (string) $eventPage->id();
+                $events[] = $eventUuid;
 
-                ];
+                // Assuming you have a startDate field in your event pages
+                $eventDate = (string) $eventPage->start_date()->toDate('Y-m-d');
+                if (!isset($datesData[$eventDate])) {
+                    $datesData[$eventDate] = ['events' => [], 'artists' => []];
+                }
+                $datesData[$eventDate]['events'][] = $eventUuid;
+                if (!in_array((string) $artist->id(), $datesData[$eventDate]['artists'])) {
+                    $datesData[$eventDate]['artists'][] = (string) $artist->id();
+                }
+
+                // Populate events data
+                if (!isset($eventsData[$eventUuid])) {
+                    $eventsData[$eventUuid] = [
+                        'uuid' => $eventUuid,
+                        'title' => (string) $eventPage->title()->value(),
+                        'date' => $eventDate,
+                        'artists' => [],
+                    ];
+                }
+                $eventsData[$eventUuid]['artists'][] = (string) $artist->id();
             }
         }
 
-        $artistData[] = [
+        $artistData[(string) $artist->id()] = [
             'uuid' => (string) $artist->id(),
             'title' => (string) $artist->title()->value(),
             'events' => $events,
-            // Include additional artist details as needed
         ];
     }
 
-    $jsonData = json_encode($artistData, JSON_PRETTY_PRINT);
-    file_put_contents($kirby->root('assets') . '/data/artists-and-events.json', $jsonData);
+    $combinedData = [
+        'artists' => $artistData,
+        'events' => $eventsData,
+        'dates' => $datesData,
+    ];
+
+    $jsonData = json_encode($combinedData, JSON_PRETTY_PRINT);
+    file_put_contents($kirby->root('assets') . '/data/relations.json', $jsonData);
 }
+
 
 
 /**
@@ -144,20 +201,25 @@ return [
     ],
     'hooks' => [
         'page.create:after' => function ($newPage) {
-            generateArtistsAndEventsJson();
+            // generateArtistsAndEventsJson();
+            generateRelationsJson();
             if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-                generateArtistsAndEventsJson();
+                // generateArtistsAndEventsJson();
+                generateRelationsJson();
             }
         },
         'page.update:after' => function ($newPage, $oldPage) {
-            generateArtistsAndEventsJson();
+            // generateArtistsAndEventsJson();
+            generateRelationsJson();
             if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-                generateArtistsAndEventsJson();
+                // generateArtistsAndEventsJson();
+                generateRelationsJson();
             }
         },
         'page.delete:after' => function ($status, $page) {
             if ($page && ($page->intendedTemplate() === 'artist' || $page->intendedTemplate() === 'event')) {
-                generateArtistsAndEventsJson();
+                // generateArtistsAndEventsJson();
+                generateRelationsJson();
             }
         },
     ],

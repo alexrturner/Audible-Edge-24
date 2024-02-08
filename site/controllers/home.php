@@ -1,5 +1,5 @@
 <?php
-
+// return project title to homepage
 return function ($site, $pages, $page) {
     $projectTitle = '';
 
@@ -12,7 +12,6 @@ return function ($site, $pages, $page) {
         }
     }
 
-    // Return variables to the template
     return [
         'projectTitle' => $projectTitle
     ];

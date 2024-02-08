@@ -2,99 +2,159 @@
 
 <style>
     .tag {
-        background-color: #000;
-        color: #fff;
-        padding: 0.5rem;
+        /* color: #fff; */
+        padding: 0.05rem 0.5rem;
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
         display: inline-block;
-        border: #000 1px solid;
+        border: var(--cc-primary) 1px solid;
         border-radius: 4px;
     }
 </style>
 
-<main class="content">
-    <section class="event-content">
+<main class="content-container">
 
-        <?php if ($title = $page->title()->html()) : ?>
-            <h1><?= $title ?></h1>
-        <?php endif; ?>
-        <?php if ($subtitle = $page->subtitle()->kirbytext()) : ?>
-            <h2><?= $subtitle ?></h2>
-        <?php endif; ?>
+    <!-- title, subtitle, date time, venue, location -->
+    <section class="section" id="col1">
+        <ul class="events" id="events-items">
+            <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
+                <h2 class="title"><?= $page->title()->html() ?></h2>
+            </li>
+
+        </ul>
+
+        <div class="subtitle">
+            <?php if ($subtitle = $page->subtitle()->kirbytext()) : ?>
+                <span><?= $subtitle ?></span>
+            <?php endif; ?>
+        </div>
 
         <?php if ($location = $page->location()->html()) : ?>
             <p class="location"><?= $location ?></p>
         <?php endif; ?>
 
-        <h3>Artists:</h3>
-        <ul class="artists">
+
+        <div class="event-dates">
+            <?php if ($start_date = $page->start_date()->toDate('d/m/Y')) : ?>
+                <p class="date">
+                    <?= $start_date ?>
+                    <?php if ($start_time = $page->start_time()->toDate('H:iA')) : ?>
+                        <span class="time">, <?= $start_time ?></span>
+                    <?php endif; ?>
+                </p>
+            <?php endif; ?>
+            <?php if ($end_date = $page->end_date()->toDate('d/m/Y')) : ?>
+                <p class="date"><?= $end_date ?>
+                    <?php if ($end_time = $page->end_time()->toDate('H:iA')) : ?>
+                        <span class="time">, <?= $end_time ?></span>
+                    <?php endif; ?>
+                </p>
+            <?php endif; ?>
+        </div>
+
+        <div class="venue">
+            <?php
+            $venue =  $page->venues()->toPages();
+            $venue = $venue->first();
+            ?>
+
+            <?php if ($venue->website()->isNotEmpty()) : ?>
+                <a href="<?= $venue->website()->value() ?>" target="_blank">
+                    <?= $venue->title() ?>
+                </a>
+            <?php else : ?>
+                <p>
+                    <?= $venue->title() ?>
+                </p>
+            <?php endif; ?>
+
+
+            <p>
+                <?= $venue->location()->html() ?>
+            </p>
+
+            <!-- land acknowledgement -->
+            <?php if ($venue->land()->isNotEmpty()) : ?>
+                <p>
+                    <?= $venue->land()->html() ?>
+                </p>
+            <?php endif; ?>
+
+            <details>
+                <summary>accessibility</summary>
+                <!-- custom accessibility details -->
+                <?php if ($venue->accessibility_text()->isNotEmpty()) : ?>
+                    <?= $venue->accessibility_text()->kt() ?>
+                <?php endif; ?>
+
+                <?php if ($venue->accessibility()->isNotEmpty()) : ?>
+                    <p>Accessibility Features:</p>
+                    <div class="accessibility-features"><?= $venue->accessibility()->html() ?></div>
+                <?php endif; ?>
+
+                <?php if ($accessibility = kt($page->accessibility())) : ?>
+                    <h3>Event Specific Accessibility:</h3>
+                    <div class="accessibility-info"><?= $accessibility ?></div>
+                <?php endif; ?>
+
+                <?php if ($venue->location_features()->isNotEmpty()) : ?>
+                    <p>Location Features: <?= $venue->location_features()->html() ?></p>
+                <?php endif; ?>
+
+                <!-- map -->
+                <?php if ($venue->map()->isNotEmpty()) : ?>
+                    <!-- <a>
+                            <div class="map map-open" onclick="toggleMap()">
+                                <img src="img/map-transparent.png">
+                            </div>
+                        </a> -->
+
+                <?php endif; ?>
+            </details>
+        </div>
+    </section>
+
+    <!-- artists, image -->
+    <section class="section" id="col2">
+
+        <ul class="artists" id="artists-items">
             <?php
             $artists =  $page->artist_link()->toPages();
             foreach ($artists as $artist) : ?>
-                <li>
-                    <a href="<?= $artist->url() ?>"><?= $artist->title() ?></a>
+                <li class="artists-item" data-type="artists" data-id="<?= $artist->id() ?>">
+                    <a href="<?= $artist->url() ?>">
+                        <?= $artist->title() ?>
+                    </a>
                 </li>
+
             <?php endforeach ?>
         </ul>
 
+
+        <?php if ($page->images()->isNotEmpty()) : ?>
+            <div class="event-images">
+                <?php foreach ($page->images() as $image) : ?>
+                    <figure>
+                        <img src="<?= $image->url() ?>" alt="<?= $image->alt()->or('Event image') ?>" loading="lazy">
+                        <figcaption><?= $image->caption()->or('') ?></figcaption>
+                    </figure>
+                <?php endforeach ?>
+            </div>
+        <?php endif ?>
+
+    </section>
+
+    <!-- description -->
+    <section class="section" id="col3">
         <?php if ($description = kt($page->description())) : ?>
-            <h3>Details:</h3>
-            <div class="event-details"><?= $description ?></div>
+            <div class="event-details">
+                <?= $description ?>
+            </div>
         <?php endif; ?>
 
-        <h3>Venue:</h3>
-        <p>
-            Data served from the `venue` pages.</p>
-        <ul class="venue">
-            <?php
-            $venues =  $page->venues()->toPages();
-            foreach ($venues as $venue) : ?>
-                <li>
-                    <a href="<?= $venue->url() ?>"><?= $venue->title() ?></a>
-
-                    <p>Location: <?= $venue->location()->html() ?></p>
-                    <!-- Display custom accessibility details -->
-                    <?php if ($venue->accessibility_text()->isNotEmpty()) : ?>
-                        <p>Accessibility: <?= $venue->accessibility_text()->kirbytextinline() ?></p>
-                    <?php endif; ?>
-                    <!-- Display land acknowledgement, if available -->
-                    <?php if ($venue->land()->isNotEmpty()) : ?>
-                        <p>Land Acknowledgement: <?= $venue->land()->html() ?></p>
-                    <?php endif; ?>
-
-
-                    <?php if ($venue->accessibility()->isNotEmpty()) : ?>
-                        <p>Accessibility Features: <?= $venue->accessibility()->html() ?></p>
-                    <?php endif; ?>
-
-
-                    <!-- Display land acknowledgement -->
-                    <?php if ($venue->land()->isNotEmpty()) : ?>
-                        <p>Land Acknowledgement: <?= $venue->land()->html() ?></p>
-                    <?php endif; ?>
-
-                    <!-- Display location features as tags -->
-                    <?php if ($venue->location_features()->isNotEmpty()) : ?>
-                        <p>Location Features: <?= $venue->location_features()->html() ?></p>
-                    <?php endif; ?>
-
-                    <!-- Display map -->
-                    <?php if ($venue->map()->isNotEmpty()) : ?>
-                        <div>Map: <?= $venue->map()->kirbytext() ?></div>
-                    <?php endif; ?>
-
-
-                    <!-- Display website -->
-                    <?php if ($venue->website()->isNotEmpty()) : ?>
-                        <p>Website: <a href="<?= $venue->website()->value() ?>" target="_blank"><?= $venue->website()->value() ?></a></p>
-                    <?php endif; ?>
 
 
 
-                </li>
-            <?php endforeach ?>
-        </ul>
 
         <?php if ($page->ticketed()->toBool()) : ?>
             <div class="ticket-info">
@@ -110,23 +170,7 @@
             </div>
         <?php endif; ?>
 
-        <h3>Event Dates:</h3>
-        <div class="event-dates">
-            <?php if ($start_date = $page->start_date()->toDate('d/m/Y')) : ?>
-                <p class="date">Start: <?= $start_date ?>
-                    <?php if ($start_time = $page->start_time()->toDate('H:iA')) : ?>
-                        <span class="time">at <?= $start_time ?></span>
-                    <?php endif; ?>
-                </p>
-            <?php endif; ?>
-            <?php if ($end_date = $page->end_date()->toDate('d/m/Y')) : ?>
-                <p class="date">End: <?= $end_date ?>
-                    <?php if ($end_time = $page->end_time()->toDate('H:iA')) : ?>
-                        <span class="time">at <?= $end_time ?></span>
-                    <?php endif; ?>
-                </p>
-            <?php endif; ?>
-        </div>
+
 
 
         <?php if ($tags = $page->tags()->split(',')) : ?>
@@ -139,10 +183,7 @@
         <?php endif; ?>
 
 
-        <?php if ($accessibility = kt($page->accessibility())) : ?>
-            <h3>Event Specific Accessibility:</h3>
-            <div class="accessibility-info"><?= $accessibility ?></div>
-        <?php endif; ?>
+
 
         <?php $links = $page->links()->toStructure();
         if ($links->isNotEmpty()) : ?>
@@ -157,6 +198,10 @@
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
+    </section>
+
+    <section class="section" id="col4">
+        <?php snippet('menu') ?>
     </section>
 
 </main>

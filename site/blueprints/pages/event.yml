@@ -11,19 +11,25 @@ status:
   listed:
     label: Published
     text: The {{ page.title }} is shared.
-
 columns:
-  main:
-    width: 2/3
+  - width: 1
     fields:
       title:
         type: text
         placeholder: "{{ page.title }}"
         label: Title
 
+      artist_link:
+        label: Lineup
+        width: 1/2
+        type: pages
+        query: site.index.filterBy('intendedTemplate', 'artist')
+        text: "{{ page.title }}"
+
       subtitle:
-        label: Subtitle
+        label: Optional Additional Subtitle
         type: writer
+        width: 1/2
 
       description:
         type: writer
@@ -128,7 +134,8 @@ columns:
             max: 1
             options:
               type: query
-              query: page.siblings.pluck('eventType', ',', true)
+              query: site.children.template('event').children.pluck('eventType', ',', true)
+
           startDate:
             label: Start Date and Time
             type: date
@@ -155,38 +162,29 @@ columns:
         type: tags
         options:
           type: query
-          query: page.siblings.pluck('tags', ',', true)
+          query: site.children.template('event').children.pluck('tags', ',', true)
 
-      artist_link:
-        label: Associated Artists
-        width: 1/2
-        type: pages
-        query: site.index.filterBy('intendedTemplate', 'artist')
-        text: "{{ page.title }}"
+      
 
       accessibility:
         label: {{ page.title }} Accessibility
         type: textarea
         help: Any accessibility features specific to the event, such as what to expect of the concert, etc.
 
-      links:
-        type: structure
-        label: {{ page.title }} Links
-        fields:
-          url:
-            type: url
-            label: URL
-            placeholder: https://
-          text:
-            type: text
-            label: Link Text
-          popup:
-            type: toggle
-            label: Open in new tab
-            default: true
+      links: 
+        extends: shared/links
 
-  sidebar:
-    width: 1/3
+  
+  - width: 1
     sections:
-      files:
+      images:
+        label: Images
         type: files
+        layout: cards
+        # template: image
+        # info: "{{ file.dimensions }}"
+        image:
+          ratio: 5/4
+          cover: true
+        size: small
+

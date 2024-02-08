@@ -1,0 +1,68 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+input,
+textarea {
+  color: var(--cc-primary);
+  border: 2px solid var(--cc-primary);
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--cc-secondary);
+  outline: var(--cc-secondary) 2px;
+}
+
+/* Styles for the fields with class .half to sit side by side */
+.field.half {
+  display: flex;
+}
+
+.field.half input[type="text"] {
+  flex: 1; /* Allows the input fields to expand and fill the available space */
+  margin-right: 5px; /* Adds a small margin between the two fields */
+}
+
+.field.half:last-child input[type="text"] {
+  margin-right: 0; /* Removes margin for the last element to align properly */
+}
+main {
+  display: grid;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1em;
+}
+
+.form {
+  grid-column: span 3;
+}
+.intro {
+  grid-column: span 2;
+}
+.description {
+  grid-column: span 2;
+  max-height: 66vh;
+  overflow-y: auto; /* enable vertical scrolling */
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  /* Adjust based on your breakpoint */
+  main {
+    grid-template-columns: 1fr; /* Switches to single column */
+  }
+
+  .form {
+    grid-column: auto; /* Resets to default column span */
+  }
+
+  .description {
+    max-height: none; /* Adjust or remove fixed height for mobile */
+    overflow-y: visible; /* Adjust as needed for mobile */
+  }
+}

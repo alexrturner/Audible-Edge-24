@@ -1,0 +1,120 @@
+Title: Audible Edge Denmark Workshop
+
+----
+
+Subtitle: <p>Eduardo Cossio, Josten Myburgh, Jasmin Wing-Yin Leung</p>
+
+----
+
+Description: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://iCzTirTUV8bjHns6
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-28
+
+----
+
+Start-time: 19:30:00
+
+----
+
+End-date: 2024-02-09
+
+----
+
+End-time: 21:00:00
+
+----
+
+Eventschedule:
+
+- 
+  eventtype: talk
+  startdate: 2024-01-11 13:55:00
+  enddate: 2024-01-11 16:00:00
+  description: '<p>With workshop attendees.</p>'
+  location: Main Hall
+
+----
+
+Tags: workshop
+
+----
+
+Artist-link:
+
+- page://x13vhMEECsXOyHg0
+- page://x0iIazdyGwIK9E2j
+
+----
+
+Accessibility: 
+
+----
+
+Links: 
+
+----
+
+Project-text: 
+
+----
+
+Project-link: 
+
+----
+
+Link-text: 
+
+----
+
+Link: 
+
+----
+
+Event-name: There
+
+----
+
+Project:
+
+- 
+  project:
+    - page://Sgr8mRSGpXlKdBJa
+  text: Test Project
+
+----
+
+Test-page: - page://2zdsN7AnCpxbk9nE
+
+----
+
+Uuid: Op2Hu6dIcJDGkmbP

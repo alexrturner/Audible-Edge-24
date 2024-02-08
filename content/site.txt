@@ -2,8 +2,28 @@ Title: Audible Edge
 
 ----
 
+Titledisplay: Audible Edge ‘24
+
+----
+
+Subtitle: Festival of Sound
+
+----
+
 Email: ***REMOVED***
 
 ----
 
 Color: #ff6607
+
+----
+
+Acknowledgement: <p>Tone List operates on Whadjuk Noongar boodja/country, and also hosts concerts on Mandjoogoordap Bindjareb, Ballardong and Minang boodja. We pay respects to Birdiya/Elders across time. We strive to listen to and be guided by place - boodja nih - in what we do.</p>
+
+----
+
+Metadescription: <p>Audible Edge Festival of Sound 2024. Presented by Tone List.</p>
+
+----
+
+Metakeywords: <p>Audible Edge Festival Sound Music Art Experimental Perth Boorloo</p>

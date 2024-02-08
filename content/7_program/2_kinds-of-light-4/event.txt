@@ -1,0 +1,142 @@
+Title: Kinds of Light 4
+
+----
+
+Artist-link: - page://x13vhMEECsXOyHg0
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>The final Kinds of Light of the year leans into unusual combinations and stark contrasts. The beguiling <a href="/@/page/T1QmDFVxIOa88h1e">Seacrest Gardens</a> inhabit a wonderfully strange world influenced by medieval music, early computer music, minimalism, neo-soul and free improvisation. Fragmented spoken word and lyrical melodies live inside textures made by guitars, keyboards and electronic sounds. Eduardo Cossio &amp; Michael Terren’s improvised duo combines the ringing and rattling of strings on microtonal harps with lush and meticulous musique concrete and live synthesis.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://tickets.com
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Free, book online
+
+----
+
+Venues: - page://iCzTirTUV8bjHns6
+
+----
+
+Location: 
+
+----
+
+Venue-text: Additional details about the venue.
+
+----
+
+Start-date: 2024-04-26
+
+----
+
+Start-time: 19:00:00
+
+----
+
+End-date: 
+
+----
+
+End-time: 
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: spoken word, computer music, free improvisation, live synthesis
+
+----
+
+Accessibility:
+
+**Sound:** The artists perform at a softer volume than typical concerts.
+**Lighting:** The lighting will be soft and non-strobing.
+**Seating:** This performance will be seated. Attendees are encouraged to find a spot where they feel most relaxed.
+
+----
+
+Links: 
+
+----
+
+Venue3: 
+
+----
+
+Venue2: 
+
+----
+
+Artist-text: 
+
+----
+
+Link-text: 
+
+----
+
+Link: 
+
+----
+
+Project-text: 
+
+----
+
+Project-link: 
+
+----
+
+Event-name: Malleefowl 7
+
+----
+
+Project:
+
+- 
+  project: [ ]
+  text: 'Pedro Alvarez & Djuna Lee'
+
+----
+
+Uuid: C4brXkAIF9m1sT71
+
+----
+
+Venue:
+
+- 
+  id: venues/ps-arts-space
+  image:
+    back: pattern
+    color: gray-500
+    cover: false
+    icon: page
+  info: ""
+  link: /pages/venues+ps-arts-space
+  sortable: true
+  text: PS Arts Space
+  uuid: page://iCzTirTUV8bjHns6
+  dragText: '(link: page://iCzTirTUV8bjHns6 text: PS Arts Space)'
+  hasChildren: false
+  url: >
+    http://localhost:8080/venues/ps-arts-space

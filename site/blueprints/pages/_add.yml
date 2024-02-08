@@ -1,6 +1,0 @@
-related:
-  label: Related
-  type: multiselect
-  options:
-    type: query
-    query: site.children.published

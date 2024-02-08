@@ -1,0 +1,18 @@
+.circle-button {
+  border: 2px solid var(--cc-primary);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+}
+.circle-button:hover {
+  background-color: #efefef;
+}
+
+.circle-button.clicked {
+  background-color: var(--cc-primary);
+}
+
+.audio-sample {
+  display: none;
+}

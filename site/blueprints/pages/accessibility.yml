@@ -4,6 +4,18 @@ image:
   icon: ♿︎
 
 fields:
+
+  intro:
+    label: {{ page.title }} Introduction
+    type: writer
+    
+
   description:
-    label: {{ page.title }} Information
-    type: textarea
+    label: {{ page.title }} Description
+    type: writer
+    size: medium
+
+  form:
+    label: {{ page.title }} Form Introduction
+    type: writer
+    

@@ -1,0 +1,73 @@
+.subtitle {
+  list-style: disc;
+}
+
+ul.menu-container {
+  margin: revert;
+}
+/* 
+============
+main content sections
+============
+*/
+
+/* mobile layout */
+@media (max-width: 768px) {
+  #menu,
+  #events,
+  #artists {
+    order: 1; /* Menu */
+  }
+
+  .events {
+    order: 2; /* Events */
+  }
+
+  .artists {
+    order: 3; /* Artists */
+  }
+}
+
+/* Desktop layout */
+@media (min-width: 769px) {
+  #events {
+    /* grid-column: 1; */
+    grid-column: 1 / span 2;
+  }
+  #artists {
+    /* grid-column: 2 / span 2; */
+    grid-column: 3 / span 4;
+  }
+  #menu {
+    grid-column: 7;
+  }
+  .section {
+    overflow-y: auto; /* Scrollable? */
+  }
+}
+
+/* artists - two column layout */
+.artists-content {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2; /* Standard syntax */
+
+  -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 20px; /* Firefox */
+  column-gap: 20px; /* Standard syntax */
+
+  max-height: 100%; /* Adjust based on your layout */
+}
+
+/* artists - single column layout for mobile */
+@media (max-width: 768px) {
+  #lineCanvas,
+  #input {
+    display: none;
+  }
+  .artists-content {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}

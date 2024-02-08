@@ -1,0 +1,92 @@
+/* 
+============
+layout 
+============
+*/
+
+.content-container {
+  max-height: var(--content-container-max-height);
+}
+
+/* .section > :not(ul) {
+  padding: 0 2.5rem;
+} */
+#col1 > *:not(ul),
+#col2 > *:not(ul),
+#col3 > *:not(ul) {
+  padding: 0 2.5rem;
+}
+
+/* mobile layout order */
+@media (max-width: 768px) {
+  /* reset order */
+  /* .section {
+    order: 1;
+  }
+
+  #col2 {
+    order: 2;
+  }
+
+  #col3 {
+    order: 3;
+  } */
+}
+
+/* Desktop layout */
+@media (min-width: 769px) {
+  #col1 {
+    /* grid-column: 1; */
+    grid-column: 1 / span 2;
+  }
+  #col2 {
+    grid-column: 3 / span 2;
+  }
+  #col3 {
+    grid-column: 5 / span 2;
+  }
+  #col4 {
+    grid-column: 7;
+  }
+  .section {
+    overflow-y: auto;
+  }
+}
+
+/* 
+============
+map
+============
+*/
+.map {
+  background-color: rgba(255, 255, 255, 0.47);
+  border: 1px solid black;
+  position: fixed;
+  bottom: 3vh;
+  left: 3vh;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.map-open {
+  width: 431px;
+  height: 647px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: visible;
+  z-index: 9999999999;
+}
+.map img {
+  height: 94vh;
+}
+.map-open img {
+  max-height: 100%;
+}
+/* map iframe */
+iframe {
+  width: 100% !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
