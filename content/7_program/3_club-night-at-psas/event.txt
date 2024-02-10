@@ -1,0 +1,73 @@
+Title: Something about the body
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>11PM - 12:30AM Lia T B2B Rok Riley<br><br>12:30 Miss Phoria<br>12:35 Bobbi Russell<br>12:40 Jxnior<br><br>12:30AM - 2AM DJ Wayang B2B ?? </p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 23:00:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 02:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: 2E8bwdPXejVSzAia

@@ -1,154 +1,200 @@
 {
     "artists": {
-        "artists\/eduardo-cossio": {
-            "uuid": "artists\/eduardo-cossio",
-            "title": "Eduardo Cossio",
-            "events": [
-                "program\/audible-edge-denmark-workshop"
-            ]
-        },
-        "artists\/josten-myburgh": {
-            "uuid": "artists\/josten-myburgh",
-            "title": "Josten Myburgh",
-            "events": [
-                "program\/audible-edge-denmark-workshop",
-                "program\/kinds-of-light-4",
-                "program\/event-4",
-                "program\/event-3"
-            ]
-        },
-        "artists\/test-artist-1": {
-            "uuid": "artists\/test-artist-1",
-            "title": "test artist 1",
-            "events": [
-                "program\/audible-edge-denmark-workshop"
-            ]
-        },
-        "artists\/test-artist-5": {
-            "uuid": "artists\/test-artist-5",
-            "title": "test artist 5",
+        "artists\/we-puddls": {
+            "uuid": "artists\/we-puddls",
+            "title": "Aaqila",
             "events": []
         },
-        "artists\/test-artist-3": {
-            "uuid": "artists\/test-artist-3",
-            "title": "test artist 3",
+        "artists\/anaxios": {
+            "uuid": "artists\/anaxios",
+            "title": "Anaxios",
             "events": []
         },
-        "artists\/test-artist-4": {
-            "uuid": "artists\/test-artist-4",
-            "title": "test artist 4",
+        "artists\/nick-ashwood": {
+            "uuid": "artists\/nick-ashwood",
+            "title": "Nick Ashwood (Naarm)",
             "events": []
         },
-        "artists\/test-artist-2": {
-            "uuid": "artists\/test-artist-2",
-            "title": "test artist 2",
+        "artists\/samuel-beilby": {
+            "uuid": "artists\/samuel-beilby",
+            "title": "Samuel Beilby",
             "events": []
         },
-        "artists\/test-artist-6": {
-            "uuid": "artists\/test-artist-6",
-            "title": "test artist 6",
+        "artists\/ben-luka-buchanan": {
+            "uuid": "artists\/ben-luka-buchanan",
+            "title": "Ben & Luka Buchanan",
             "events": []
         },
-        "artists\/test-artist-7": {
-            "uuid": "artists\/test-artist-7",
-            "title": "test artist 7",
+        "artists\/monica-brooks-katoomba-sage-pbbbt": {
+            "uuid": "artists\/monica-brooks-katoomba-sage-pbbbt",
+            "title": "Monica Brooks (Katoomba) & Sage Pbbbt",
             "events": []
         },
-        "artists\/test-artist-8": {
-            "uuid": "artists\/test-artist-8",
-            "title": "test artist 8",
+        "artists\/ben-byrne": {
+            "uuid": "artists\/ben-byrne",
+            "title": "Ben Byrne (Naarm)",
             "events": []
         },
-        "artists\/test-artist-9": {
-            "uuid": "artists\/test-artist-9",
-            "title": "test artist 9",
+        "artists\/simon-charles-john-kinsella": {
+            "uuid": "artists\/simon-charles-john-kinsella",
+            "title": "Simon Charles & John Kinsella (York)",
             "events": []
         },
-        "artists\/test-artist-10": {
-            "uuid": "artists\/test-artist-10",
-            "title": "test artist 10",
+        "artists\/cooper-cooper": {
+            "uuid": "artists\/cooper-cooper",
+            "title": "Cooper Cooper",
+            "events": []
+        },
+        "artists\/the-definitives": {
+            "uuid": "artists\/the-definitives",
+            "title": "The Definitives",
+            "events": []
+        },
+        "artists\/sophia-hansen-knarhoi": {
+            "uuid": "artists\/sophia-hansen-knarhoi",
+            "title": "Liam Downey & Sophia Hansen-Knarhoi",
+            "events": []
+        },
+        "artists\/daniel-garlett": {
+            "uuid": "artists\/daniel-garlett",
+            "title": "Daniel Garlett",
+            "events": []
+        },
+        "artists\/group-therapy": {
+            "uuid": "artists\/group-therapy",
+            "title": "Group Therapy",
+            "events": []
+        },
+        "artists\/patrick-gunasekera": {
+            "uuid": "artists\/patrick-gunasekera",
+            "title": "Patrick Gunasekera",
+            "events": []
+        },
+        "artists\/shoji-hano": {
+            "uuid": "artists\/shoji-hano",
+            "title": "Shoji Hano (Kyoto)",
+            "events": []
+        },
+        "artists\/jon-heilbron-rebecca-lane-berlin-play-catherine-lamb": {
+            "uuid": "artists\/jon-heilbron-rebecca-lane-berlin-play-catherine-lamb",
+            "title": "Jon Heilbron & Rebecca Lane (Berlin) play Catherine Lamb",
             "events": []
         },
         "artists\/jenny-hickinbotham": {
             "uuid": "artists\/jenny-hickinbotham",
-            "title": "Jenny Hickinbotham",
+            "title": "Jenny Hickinbotham (Naarm) with Chris Cobilis & Lana Rothnie",
             "events": []
         },
-        "artists\/test-artist-12": {
-            "uuid": "artists\/test-artist-12",
-            "title": "test artist 12",
+        "artists\/joee-i": {
+            "uuid": "artists\/joee-i",
+            "title": "Joee & I (Manila)",
+            "events": []
+        },
+        "artists\/jxnior": {
+            "uuid": "artists\/jxnior",
+            "title": "Jxnior",
+            "events": []
+        },
+        "artists\/siva-kumar-alex-reid": {
+            "uuid": "artists\/siva-kumar-alex-reid",
+            "title": "Siva Kumar & Alex Reid",
+            "events": []
+        },
+        "artists\/rebecca-lloyd-jones": {
+            "uuid": "artists\/rebecca-lloyd-jones",
+            "title": "Rebecca Lloyd-Jones (Meanjin) plays Sarah Hennies",
+            "events": []
+        },
+        "artists\/sally-ann-mcintyre": {
+            "uuid": "artists\/sally-ann-mcintyre",
+            "title": "Sally Ann McIntyre (Naarm)",
+            "events": []
+        },
+        "artists\/miss-phoria": {
+            "uuid": "artists\/miss-phoria",
+            "title": "Miss Phoria",
+            "events": []
+        },
+        "artists\/emilie-monty": {
+            "uuid": "artists\/emilie-monty",
+            "title": "Emilie Monty",
+            "events": []
+        },
+        "artists\/erin-royer-josten-myburgh-play-philip-glass": {
+            "uuid": "artists\/erin-royer-josten-myburgh-play-philip-glass",
+            "title": "Josten Myburgh & Erin Royer play Philip Glass",
+            "events": []
+        },
+        "artists\/myriad-sun": {
+            "uuid": "artists\/myriad-sun",
+            "title": "Myriad Sun",
+            "events": []
+        },
+        "artists\/mystery-wonder-records": {
+            "uuid": "artists\/mystery-wonder-records",
+            "title": "Mystery & Wonder Records",
+            "events": []
+        },
+        "artists\/matt-rosner": {
+            "uuid": "artists\/matt-rosner",
+            "title": "Matt R\u00f6sner (Myalup)",
             "events": [
-                "program\/event-3"
+                "program\/sun-returns"
             ]
+        },
+        "artists\/bobbi-russell": {
+            "uuid": "artists\/bobbi-russell",
+            "title": "Bobbi Russell",
+            "events": []
+        },
+        "artists\/lia-t": {
+            "uuid": "artists\/lia-t",
+            "title": "Lia T & Rok Riley",
+            "events": []
+        },
+        "artists\/lily-tait-naarm": {
+            "uuid": "artists\/lily-tait-naarm",
+            "title": "Lily Tait (Naarm)",
+            "events": []
+        },
+        "artists\/ten-forward": {
+            "uuid": "artists\/ten-forward",
+            "title": "Ten Forward",
+            "events": []
+        },
+        "artists\/michael-terren-with-paul-boye-sage-j-harlow-sze-tsang": {
+            "uuid": "artists\/michael-terren-with-paul-boye-sage-j-harlow-sze-tsang",
+            "title": "Michael Terren with Paul Boy\u00e9, Sage J Harlow & Sze Tsang",
+            "events": []
+        },
+        "artists\/wayang": {
+            "uuid": "artists\/wayang",
+            "title": "Wayang",
+            "events": []
+        },
+        "artists\/yikes": {
+            "uuid": "artists\/yikes",
+            "title": "Yikes",
+            "events": []
         }
     },
     "events": {
-        "program\/audible-edge-denmark-workshop": {
-            "uuid": "program\/audible-edge-denmark-workshop",
-            "title": "Audible Edge Denmark Workshop",
-            "date": "2024-04-28",
-            "artists": [
-                "artists\/eduardo-cossio",
-                "artists\/josten-myburgh",
-                "artists\/test-artist-1"
-            ]
-        },
-        "program\/kinds-of-light-4": {
-            "uuid": "program\/kinds-of-light-4",
-            "title": "Kinds of Light 4",
+        "program\/sun-returns": {
+            "uuid": "program\/sun-returns",
+            "title": "Sun returns",
             "date": "2024-04-26",
             "artists": [
-                "artists\/josten-myburgh"
-            ]
-        },
-        "program\/event-4": {
-            "uuid": "program\/event-4",
-            "title": "event 4",
-            "date": "2024-04-27",
-            "artists": [
-                "artists\/josten-myburgh"
-            ]
-        },
-        "program\/event-3": {
-            "uuid": "program\/event-3",
-            "title": "event 3",
-            "date": "2024-04-27",
-            "artists": [
-                "artists\/josten-myburgh",
-                "artists\/test-artist-12"
+                "artists\/matt-rosner"
             ]
         }
     },
     "dates": {
-        "2024-04-28": {
-            "events": [
-                "program\/audible-edge-denmark-workshop",
-                "program\/audible-edge-denmark-workshop",
-                "program\/audible-edge-denmark-workshop"
-            ],
-            "artists": [
-                "artists\/eduardo-cossio",
-                "artists\/josten-myburgh",
-                "artists\/test-artist-1"
-            ]
-        },
         "2024-04-26": {
             "events": [
-                "program\/kinds-of-light-4"
+                "program\/sun-returns"
             ],
             "artists": [
-                "artists\/josten-myburgh"
-            ]
-        },
-        "2024-04-27": {
-            "events": [
-                "program\/event-4",
-                "program\/event-3",
-                "program\/event-3"
-            ],
-            "artists": [
-                "artists\/josten-myburgh",
-                "artists\/test-artist-12"
+                "artists\/matt-rosner"
             ]
         }
     }

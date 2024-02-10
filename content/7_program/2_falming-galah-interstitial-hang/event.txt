@@ -1,0 +1,73 @@
+Title: Experimental pres, part one
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><strong>Flaming Galah<br></strong>DJ Wet Puddls</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: <p>Flaming Galah</p>
+
+----
+
+Start-date: 2024-04-26
+
+----
+
+Start-time: 17:00:00
+
+----
+
+End-date: 2024-04-26
+
+----
+
+End-time: 20:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: 7Nkhg2W0tlrbmJ3T

@@ -1,0 +1,73 @@
+Title: Sonic scavenger hunt
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><u><strong>Booyembarra Park<br><br></strong></u>Emilie Monty - Scavenger Hunt</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://nhhK7MPOOcAvE6Xq
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-28
+
+----
+
+Start-time: 14:00:00
+
+----
+
+End-date: 2024-04-28
+
+----
+
+End-time: 16:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: WnhQHKxglUqq2Rjw

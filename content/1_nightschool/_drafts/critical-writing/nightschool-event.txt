@@ -1,0 +1,73 @@
+Title: Critical Writing
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Sally Ann Macintyre — critical writing (online)<br><br>+ Simon Miraudo/Tristan Fidler?</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-07
+
+----
+
+Start-time: 14:00:00
+
+----
+
+End-date: 2024-04-07
+
+----
+
+End-time: 17:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: vX2bqqaSJhZiKPtf

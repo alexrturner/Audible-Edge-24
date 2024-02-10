@@ -1,0 +1,73 @@
+Title: Opt Out
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Ben Byrne's Opt Out</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-03-31
+
+----
+
+Start-time: 15:00:00
+
+----
+
+End-date: 2024-03-31
+
+----
+
+End-time: 17:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: blahqlTWwxTrtGvI

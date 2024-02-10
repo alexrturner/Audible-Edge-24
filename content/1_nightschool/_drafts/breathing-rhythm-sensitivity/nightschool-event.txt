@@ -1,0 +1,73 @@
+Title: Breathing, Rhythm & Sensitivity
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Breathing, Rhythm &amp; Sensitivity<br><br>Shoji Hano</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-21
+
+----
+
+Start-time: 11:00:00
+
+----
+
+End-date: 2024-04-21
+
+----
+
+End-time: 14:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: pFoWn8THXmxCWzvE

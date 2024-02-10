@@ -1,0 +1,73 @@
+Title: Making DIY merch
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-03-24
+
+----
+
+Start-time: 11:00:00
+
+----
+
+End-date: 2024-03-24
+
+----
+
+End-time: 15:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: XhyayGl0URBVEYwU

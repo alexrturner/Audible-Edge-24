@@ -1,0 +1,73 @@
+Title: Sun returns
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><strong>Boola Bardip<br></strong><em>Sun Returns<br><br></em>6:30 - 8:00 Matt Rösner </p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://visit.museum.wa.gov.au/boolabardip/sun-returns-matt-rosner
+
+----
+
+Ticket-price: 25
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://aBBmBklfSGTzxgqk
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-26
+
+----
+
+Start-time: 06:30:00
+
+----
+
+End-date: 2024-04-26
+
+----
+
+End-time: 08:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: sofCvcexl3vZSrx9

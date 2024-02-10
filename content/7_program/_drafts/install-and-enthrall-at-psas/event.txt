@@ -1,0 +1,73 @@
+Title: Install and Enthrall at PSAS
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><strong>PSAS</strong><em><br></em>Installation by Desmond Tan<em><br><br></em>7:30 doors<br><em><br></em>8:00 Daniel Garlett (w2c)<br><br>8:10 Rebecca Lloyd Jones plays Sarah Hennies<br><br>9:20 Joee &amp; I<br><br>10:15 Myriad Sun<br></p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 19:30:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 23:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: n6DI6gpWXjZEjOqT

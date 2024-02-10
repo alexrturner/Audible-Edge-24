@@ -1,0 +1,73 @@
+Title: Longtable Discussion
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Longtable discussion — "<em>What have we done?</em>" Facilitated by Iran ? Dramaturg ?</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-05-02
+
+----
+
+Start-time: 18:00:00
+
+----
+
+End-date: 2024-05-02
+
+----
+
+End-time: 22:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Uuid: J8RMT02zs87iLeUT
