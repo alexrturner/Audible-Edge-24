@@ -123,27 +123,17 @@ return [
             }
         ],
         [
-            'pattern' => 'projects',
+            'pattern' => 'artists',
             'action'  => function () {
-                if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-                    return go('/');
-                }
+                return go('/');
             }
         ],
         [
-            'pattern' => 'services',
+            'pattern' => 'program',
             'action'  => function () {
-                if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-                    return go('/');
-                }
-            }
-        ],
-        [
-            'pattern' => 'upcoming/(:any)',
-            'action'  => function ($any) {
-                if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-                    return go('/');
-                }
+                // if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
+                return go('/');
+                // }
             }
         ],
         [
@@ -201,24 +191,19 @@ return [
     ],
     'hooks' => [
         'page.create:after' => function ($newPage) {
-            // generateArtistsAndEventsJson();
             generateRelationsJson();
             if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-                // generateArtistsAndEventsJson();
                 generateRelationsJson();
             }
         },
         'page.update:after' => function ($newPage, $oldPage) {
-            // generateArtistsAndEventsJson();
             generateRelationsJson();
             if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-                // generateArtistsAndEventsJson();
                 generateRelationsJson();
             }
         },
         'page.delete:after' => function ($status, $page) {
             if ($page && ($page->intendedTemplate() === 'artist' || $page->intendedTemplate() === 'event')) {
-                // generateArtistsAndEventsJson();
                 generateRelationsJson();
             }
         },

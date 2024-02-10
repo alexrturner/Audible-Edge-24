@@ -1,0 +1,80 @@
+Title: Program Launch
+
+----
+
+Artist-link:
+
+- page://T1QmDFVxIOa88h1e
+- page://sIzAImOZg7RXdpMW
+
+----
+
+Subtitle: 
+
+----
+
+Description: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://kqypbNIl6mX6BgZv
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-03-13
+
+----
+
+Start-time: 
+
+----
+
+End-date: 
+
+----
+
+End-time: 
+
+----
+
+Eventschedule: 
+
+----
+
+Tags: 
+
+----
+
+Accessibility: 
+
+----
+
+Links: 
+
+----
+
+Uuid: Yaupu5Nsy8aTuUmk

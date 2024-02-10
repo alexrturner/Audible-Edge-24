@@ -14,17 +14,17 @@ columns:
   - width: 2/3
     fields:
       title:
+        label: Title
         type: text
         placeholder: "{{ page.title }}"
-        label: Title
 
       bio_short:
-        type: writer
         label: Short Bio
+        type: writer
 
       bio_long:
-        type: writer
         label: Long Bio
+        type: writer
 
       links:
         extends: fields/links
