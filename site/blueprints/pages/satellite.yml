@@ -1,0 +1,23 @@
+title: Satellite events
+preset: pages
+image:
+  back: "yellow-400"
+  icon: "☄"
+
+listed:
+  extends: sections/satellite
+  label: Published Satellite Events
+  layout: table
+  columns:
+    title: false
+    start_date:
+      label: Start
+
+drafts:
+  extends: sections/satellite
+  label: Draft Satellite Events
+  layout: table
+  columns:
+    title: false
+    start_date:
+      label: Start

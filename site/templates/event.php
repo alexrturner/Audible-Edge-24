@@ -2,7 +2,6 @@
 
 <style>
     .tag {
-        /* color: #fff; */
         padding: 0.05rem 0.5rem;
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
@@ -20,7 +19,6 @@
             <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
                 <h2 class="title"><?= $page->title()->html() ?></h2>
             </li>
-
         </ul>
 
         <div class="subtitle">
@@ -79,38 +77,6 @@
                     <?= $venue->land()->html() ?>
                 </p>
             <?php endif; ?>
-
-            <details>
-                <summary>accessibility</summary>
-                <!-- custom accessibility details -->
-                <?php if ($venue->accessibility_text()->isNotEmpty()) : ?>
-                    <?= $venue->accessibility_text()->kt() ?>
-                <?php endif; ?>
-
-                <?php if ($venue->accessibility()->isNotEmpty()) : ?>
-                    <p>Accessibility Features:</p>
-                    <div class="accessibility-features"><?= $venue->accessibility()->html() ?></div>
-                <?php endif; ?>
-
-                <?php if ($accessibility = kt($page->accessibility())) : ?>
-                    <h3>Event Specific Accessibility:</h3>
-                    <div class="accessibility-info"><?= $accessibility ?></div>
-                <?php endif; ?>
-
-                <?php if ($venue->location_features()->isNotEmpty()) : ?>
-                    <p>Location Features: <?= $venue->location_features()->html() ?></p>
-                <?php endif; ?>
-
-                <!-- map -->
-                <?php if ($venue->map()->isNotEmpty()) : ?>
-                    <!-- <a>
-                            <div class="map map-open" onclick="toggleMap()">
-                                <img src="img/map-transparent.png">
-                            </div>
-                        </a> -->
-
-                <?php endif; ?>
-            </details>
         </div>
     </section>
 
@@ -144,16 +110,13 @@
 
     </section>
 
-    <!-- description -->
+    <!-- description, accessibility -->
     <section class="section" id="col3">
         <?php if ($description = kt($page->description())) : ?>
             <div class="event-details">
                 <?= $description ?>
             </div>
         <?php endif; ?>
-
-
-
 
 
         <?php if ($page->ticketed()->toBool()) : ?>
@@ -198,6 +161,38 @@
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
+
+        <details>
+            <summary>accessibility</summary>
+            <!-- custom accessibility details -->
+            <?php if ($venue->accessibility_text()->isNotEmpty()) : ?>
+                <?= $venue->accessibility_text()->kt() ?>
+            <?php endif; ?>
+
+            <?php if ($venue->accessibility()->isNotEmpty()) : ?>
+                <p>Accessibility Features:</p>
+                <div class="accessibility-features"><?= $venue->accessibility()->html() ?></div>
+            <?php endif; ?>
+
+            <?php if ($accessibility = kt($page->accessibility())) : ?>
+                <h3>Event Specific Accessibility:</h3>
+                <div class="accessibility-info"><?= $accessibility ?></div>
+            <?php endif; ?>
+
+            <?php if ($venue->location_features()->isNotEmpty()) : ?>
+                <p>Location Features: <?= $venue->location_features()->html() ?></p>
+            <?php endif; ?>
+
+            <!-- map -->
+            <?php if ($venue->map()->isNotEmpty()) : ?>
+                <!-- <a>
+                            <div class="map map-open" onclick="toggleMap()">
+                                <img src="img/map-transparent.png">
+                            </div>
+                        </a> -->
+
+            <?php endif; ?>
+        </details>
     </section>
 
     <section class="section" id="col4">

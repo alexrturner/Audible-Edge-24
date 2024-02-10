@@ -1,0 +1,45 @@
+Title: Nightschool Test 1
+
+----
+
+Uuid: XhyayGl0URBVEYwU
+
+----
+
+Subtitle: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-price: 
+
+----
+
+Venues: 
+
+----
+
+Start-date: 
+
+----
+
+End-date: 
+
+----
+
+Tags: 
+
+----
+
+Artist-link: 
+
+----
+
+Accessibility: 
+
+----
+
+Links: 

@@ -2,7 +2,11 @@ Title: Alex Turner
 
 ----
 
-Things: Website developer
+Roles: Website Designer
+
+----
+
+Website: https://***REMOVED***
 
 ----
 
@@ -14,15 +18,16 @@ Email: alex.r.turner@gmail.com
 
 ----
 
+Bio-short: <p>They are involved in ambient things. </p>
+
+----
+
 Account: - user://PTcxkEMH
 
 ----
 
 About: 
 
-----
-
-Position: Website Developer
 
 ----
 

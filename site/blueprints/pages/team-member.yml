@@ -7,9 +7,15 @@ status:
   listed: true
 
 fields:
-  things:
-    label: things
+  roles:
+    label: Roles
     type: text
+    width: 1/2
+  website:
+    label: Website
+    type: url
+    placeholder: "https://"
+    width: 1/2
   phone:
     label: Phone
     type: tel
@@ -19,11 +25,8 @@ fields:
     label: Email
     type: email
     width: 1/2
-  account:
-    label: AE Site Account
-    type: users
-  about:
-    label: ✉️ 💿
+  bio_short:
+    label: Short bio
     type: writer
 
 sidebar:

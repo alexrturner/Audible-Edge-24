@@ -114,6 +114,12 @@ path {
   /* stroke:  */
 }
 
+@media (max-width: 768px) {
+  #settingsButton {
+    display: none;
+  }
+}
+
 /* 
 ============
 header desktop 
@@ -195,8 +201,6 @@ main content container
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr;
   /* height: var(--content-container-max-height); */
-
-  overflow: hidden;
   width: 100%;
 }
 
@@ -204,6 +208,7 @@ main content container
 @media screen and (min-width: 769px) {
   .content-container {
     /* max-height: 30vh;  */
+    overflow: hidden;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -235,11 +240,17 @@ nav
 ============
 */
 
-ul.items {
+ul.items:not(.dates) {
   padding: 0;
 }
 ul.items li:hover {
   list-style: circle;
+}
+/* mobile layout */
+@media (max-width: 768px) {
+  ul.items:not(.dates) {
+    padding: 0 2.5rem;
+  }
 }
 
 button.toggle {
@@ -252,54 +263,6 @@ button.toggle {
 
 .first-item.list-style-circle {
   list-style: circle;
-}
-
-/* 
-============
-cards 
-============
-*/
-
-.pill {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cards {
-  padding: calc(var(--gap) / 2);
-}
-.cards:not(.masonry) {
-  display: flex;
-  flex-wrap: wrap;
-}
-.cards:not(.masonry) .card {
-  width: 50%;
-}
-@media (max-width: 640px) {
-  .cards:not(.masonry) .card {
-    width: 100%;
-  }
-}
-.card {
-  display: block;
-  margin-bottom: var(--gap);
-  padding: calc(var(--gap) / 2);
-}
-.card .inner {
-  border-top: var(--hr);
-  padding-top: var(--gap);
-}
-.card .pill {
-  margin-bottom: 1rem;
-}
-.card h2 {
-  font-size: var(--h2);
-  letter-spacing: -0.02em;
-  line-height: 0.9;
-  margin-bottom: var(--gap);
-}
-.card figure {
-  margin-bottom: 1.2rem;
 }
 
 /* ------------------ 

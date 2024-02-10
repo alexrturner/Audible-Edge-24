@@ -172,7 +172,7 @@ columns:
         help: Any accessibility features specific to the event, such as what to expect of the concert, etc.
 
       links: 
-        extends: shared/links
+        extends: fields/links
 
   
   - width: 1
