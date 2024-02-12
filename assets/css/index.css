@@ -37,7 +37,8 @@ typography
 
 html {
   font-weight: var(--fw-primary);
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 12px;
   font-family: var(--ff-primary);
 }
 

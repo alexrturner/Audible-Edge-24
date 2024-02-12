@@ -79,16 +79,20 @@
 
 </section>
 
-<!-- description, accessibility -->
+
 <section class="section" id="col3">
-    <?php if ($description = kt($page->description())) : ?>
+    <?php
+    // description
+    if ($description = kt($page->description())) : ?>
         <div class="event-details">
             <?= $description ?>
         </div>
     <?php endif; ?>
 
 
-    <?php if ($page->ticketed()->toBool()) : ?>
+    <?php
+    // tickets
+    if ($page->ticketed()->toBool()) : ?>
         <div class="ticket-info">
             <?php if ($ticket_link = $page->ticket_link()->url()) : ?>
                 <a href="<?= $ticket_link ?>" class="ticket-link">Tickets</a>
@@ -103,21 +107,9 @@
     <?php endif; ?>
 
 
-
-
-    <?php if ($tags = $page->tags()->split(',')) : ?>
-        <h3>Tags:</h3>
-        <div class="tags">
-            <?php foreach ($tags as $tag) : ?>
-                <span class="tag"><?= $tag ?></span>
-            <?php endforeach; ?>
-        </div>
-    <?php endif; ?>
-
-
-
-
-    <?php $links = $page->links()->toStructure();
+    <?php
+    // links
+    $links = $page->links()->toStructure();
     if ($links->isNotEmpty()) : ?>
         <h3>Links:</h3>
         <ul class="event-links">

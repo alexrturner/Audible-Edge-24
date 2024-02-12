@@ -16,7 +16,7 @@ if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->has
                             <?= $display->name()->html() ?>
                             <?php if ($display->place()->isNotEmpty()) : ?>
                                 <span class="artist-place">
-                                    <sub>(<?= $display->place()->html() ?>)</sub>
+                                    <sup>[<?= $display->place()->html() ?>]</sup>
                                 </span>
                             <?php endif ?>
                             <?php if ($display->context()->isNotEmpty()) : ?>

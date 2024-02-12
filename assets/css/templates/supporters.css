@@ -1,5 +1,7 @@
 /* 
+================
 Layout
+================
  */
 .description {
   grid-column: span 2;
@@ -27,5 +29,48 @@ Layout
   .description {
     max-height: none;
     overflow-y: visible;
+  }
+}
+
+/* 
+================
+Logos 
+================
+*/
+.logo-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-image {
+  /* fix width for the logo image container */
+  flex: 0 0 200px;
+}
+
+.logo-caption {
+  flex: 1; /* take up remaining space */
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+  }
+
+  .logo-caption {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .logo-image {
+    flex: 0;
   }
 }

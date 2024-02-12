@@ -4,7 +4,7 @@
 <svg id="lineCanvas">
     <!-- squig -->
 </svg>
-<button id="settingsButton">🦑</button>
+<button id="settingsButton">settings</button>
 <div id="input" class="hidden">
     <label for="noiseIntensity">Noise Intensity:</label>
     <input type="range" id="noiseIntensity" name="noiseIntensity" min="0" max="1000" step="10" value="800">

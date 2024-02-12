@@ -11,26 +11,17 @@
     <section class="logos">
         <h2>Funding Support</h2>
         <?php foreach ($page->fundingSupport()->toFiles() as $logo) : ?>
-            <a href="<?= $logo->link()->isNotEmpty() ? $logo->link() : '#' ?>" class="logo-link" target="_blank">
-                <img src="<?= $logo->resize(200)->url() ?>" alt="<?= $logo->alt()->escape() ?>">
-                <p><?= $logo->caption()->kt() ?></p>
-            </a>
+            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
         <?php endforeach; ?>
 
         <h2>Commissioning Partners</h2>
         <?php foreach ($page->commissioningPartners()->toFiles() as $logo) : ?>
-            <a href="<?= $logo->link()->isNotEmpty() ? $logo->link() : '#' ?>" class="logo-link" target="_blank">
-                <img src="<?= $logo->resize(200)->url() ?>" alt="<?= $logo->alt()->escape() ?>">
-                <p><?= $logo->caption()->kt() ?></p>
-            </a>
+            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
         <?php endforeach; ?>
 
         <h2>Presenting Partners</h2>
         <?php foreach ($page->presentingPartners()->toFiles() as $logo) : ?>
-            <a href="<?= $logo->link()->isNotEmpty() ? $logo->link() : '#' ?>" class="logo-link" target="_blank">
-                <img src="<?= $logo->resize(200)->url() ?>" alt="<?= $logo->alt()->escape() ?>">
-                <p><?= $logo->caption()->kt() ?></p>
-            </a>
+            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
         <?php endforeach; ?>
     </section>
     </div>

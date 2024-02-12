@@ -50,11 +50,12 @@ Icon
 /site/config/.license
 /site/config/config.starterkit.test.php
 
-# Local Scripts
+# Local
 # ---------------
 
 /update.sh
 /local.sh
 /zzz/*
+/assets/font/Herbik
 
 
