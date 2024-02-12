@@ -31,10 +31,20 @@ columns:
         type: writer
         width: 1/2
 
+      # event_type:
+      #   label: Event Type
+      #   type: select
+      #   options:
+      #     program: Program
+      #     satellite: Satellite
+      #     nightschool: Nightschool
+      #   default: program
+      #   width: 1/2
+      #   required: true
+
       description:
         type: writer
-        label: {{ page.title }} Description
-        width: 1
+        label: {{ page.title }} Description  
 
       ticketed:
         type: toggle
@@ -58,7 +68,7 @@ columns:
         type: number
         before: $
         step: 0.01
-        min: 0
+        min: 0 
         placeholder: 0.00
         when:
           ticketed: true
@@ -155,24 +165,22 @@ columns:
             type: text
             width: 1/2
 
-
-      tags:
-        width: 1/2
-        label: Tags
-        type: tags
-        options:
-          type: query
-          query: site.children.template('event').children.pluck('tags', ',', true)
-
-      
-
       accessibility:
         label: {{ page.title }} Accessibility
         type: textarea
         help: Any accessibility features specific to the event, such as what to expect of the concert, etc.
 
-      links: 
-        extends: fields/links
+      # links: 
+      #   extends: fields/links
+
+      # tags:
+      #   width: 1/2
+      #   label: Tags
+      #   type: tags
+      #   options:
+      #     type: query
+      #     query: site.children.template('event').children.pluck('tags', ',', true)
+
 
   
   - width: 1

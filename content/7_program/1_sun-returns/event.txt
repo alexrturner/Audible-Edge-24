@@ -1,8 +1,8 @@
-Title: Sun returns
+Title: Sun Returns
 
 ----
 
-Artist-link: 
+Artist-link: - page://LOSr6V5um0TQxqh8
 
 ----
 
@@ -10,7 +10,11 @@ Subtitle:
 
 ----
 
-Description: <p><strong>Boola Bardip<br></strong><em>Sun Returns<br><br></em>6:30 - 8:00 Matt Rösner </p>
+Event-type: program
+
+----
+
+Description: <p>Boola Bardip</p>
 
 ----
 
@@ -62,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

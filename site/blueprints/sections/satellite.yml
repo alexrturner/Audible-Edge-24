@@ -4,7 +4,8 @@ parent: kirby.page('satellite')
 layout: table
 columns:
   title: false
-  start_date: true
+  start_date:
+    label: Start
 
 sortBy: start_date asc
 template: satellite-event

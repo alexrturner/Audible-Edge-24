@@ -9,20 +9,35 @@
     </section>
 
     <section class="logos">
-        <h2>Funding Support</h2>
-        <?php foreach ($page->fundingSupport()->toFiles() as $logo) : ?>
-            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-        <?php endforeach; ?>
+        <?php
+        // Funding Support
+        $fundingLogos = $page->fundingSupport()->toFiles();
+        if ($fundingLogos->isNotEmpty()) : ?>
+            <h2>Funding Support</h2>
+            <?php foreach ($fundingLogos as $logo) : ?>
+                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
+            <?php endforeach; ?>
+        <?php endif ?>
 
-        <h2>Commissioning Partners</h2>
-        <?php foreach ($page->commissioningPartners()->toFiles() as $logo) : ?>
-            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-        <?php endforeach; ?>
+        <?php
+        // Commissioning Partners
+        $commissioningLogos = $page->commissioningPartners()->toFiles();
+        if ($commissioningLogos->isNotEmpty()) : ?>
+            <h2>Commissioning Partners</h2>
+            <?php foreach ($commissioningLogos as $logo) : ?>
+                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
+            <?php endforeach; ?>
+        <?php endif ?>
 
-        <h2>Presenting Partners</h2>
-        <?php foreach ($page->presentingPartners()->toFiles() as $logo) : ?>
-            <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-        <?php endforeach; ?>
+        <?php
+        // Presenting Partners
+        $presentingLogos = $page->presentingPartners()->toFiles();
+        if ($presentingLogos->isNotEmpty()) : ?>
+            <h2>Presenting Partners</h2>
+            <?php foreach ($presentingLogos as $logo) : ?>
+                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
+            <?php endforeach; ?>
+        <?php endif ?>
     </section>
     </div>
 </main>

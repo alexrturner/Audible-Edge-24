@@ -10,6 +10,10 @@ Subtitle:
 
 ----
 
+Event-type: nightschool
+
+----
+
 Description: <p>Sally Ann Macintyre — critical writing (online)<br><br>+ Simon Miraudo/Tristan Fidler?</p>
 
 ----
@@ -62,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

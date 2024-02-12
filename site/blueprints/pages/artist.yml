@@ -59,9 +59,9 @@ columns:
               other: Other
 
       events:
-        label: Associated Events
+        label: Events with this Artist
         type: pages
-        query: site.index.filterBy('intendedTemplate', 'event')
+        query: site.index.filterBy("template", "in", ["event", "nightschool-event", "satellite-event"])
         text: "{{ page.title }}"
 
       credits:

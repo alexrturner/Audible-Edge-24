@@ -2,7 +2,19 @@ Title: nightschool tst 2
 
 ----
 
-Artist-link: 
+Artist-link: - page://OsXZ61VVeTRK73me
+
+----
+
+Subtitle: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Description: 
 
 ----
 
@@ -10,11 +22,27 @@ Ticketed: false
 
 ----
 
+Ticket-link: 
+
+----
+
 Ticket-price: 
 
 ----
 
+Ticket-price-text: 
+
+----
+
 Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
 
 ----
 
@@ -38,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

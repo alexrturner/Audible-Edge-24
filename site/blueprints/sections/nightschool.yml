@@ -5,7 +5,8 @@ layout: table
 columns:
   title: false
   start_date: true
+    label: Start
 
 sortBy: start_date asc
 template: nightschool-event
-empty: No events yet
+empty: No {{ page.title }} events yet

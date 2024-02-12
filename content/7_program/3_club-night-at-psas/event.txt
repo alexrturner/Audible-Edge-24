@@ -2,11 +2,20 @@ Title: Something about the body
 
 ----
 
-Artist-link: 
+Artist-link:
+
+- page://zsvM8szFexoJZj20
+- page://irD1DMGsexL0PEvA
+- page://akTW6TyxxjiA8rxi
+- page://xsiu2UOqTDN4pfyC
 
 ----
 
 Subtitle: 
+
+----
+
+Event-type: program
 
 ----
 
@@ -62,11 +71,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

@@ -26,7 +26,6 @@
     <div class="content-container">
         <?php snippet('menu') ?>
 
-        <!-- Events Section -->
         <div class="section events" id="events">
             <ul class="events-container">
                 <li class="events-item first-item">

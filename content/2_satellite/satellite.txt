@@ -2,4 +2,8 @@ Title: Satellite Events
 
 ----
 
+Description: <p>&lt; 3 Satellite events decription goes here &lt; 3</p>
+
+----
+
 Uuid: GATEEnMNvrbCGVrd

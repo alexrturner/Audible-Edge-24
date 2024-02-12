@@ -2,6 +2,7 @@
 // arguments: parent page slug, optional class name
 $parentPageSlug = $parentPageSlug ?? null;
 $className = $className ?? 'listing';
+$eventFilter = $eventFilter ?? null;
 
 if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->hasChildren()) : ?>
     <ul class="items" id="<?= $className ?>-items">

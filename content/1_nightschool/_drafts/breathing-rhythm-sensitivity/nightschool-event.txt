@@ -10,6 +10,10 @@ Subtitle:
 
 ----
 
+Event-type: nightschool
+
+----
+
 Description: <p>Breathing, Rhythm &amp; Sensitivity<br><br>Shoji Hano</p>
 
 ----
@@ -62,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

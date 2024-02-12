@@ -10,6 +10,10 @@ Subtitle:
 
 ----
 
+Event-type: nightschool
+
+----
+
 Description: <p>Longtable discussion — "<em>What have we done?</em>" Facilitated by Iran ? Dramaturg ?</p>
 
 ----
@@ -62,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

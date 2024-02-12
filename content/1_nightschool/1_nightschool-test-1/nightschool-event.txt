@@ -2,7 +2,7 @@ Title: Nightschool Test 1
 
 ----
 
-Uuid: XhyayGl0URBVEYwU
+Artist-link: - page://ko3QAx0YrEneFeyD
 
 ----
 
@@ -10,7 +10,19 @@ Subtitle:
 
 ----
 
+Event-type: nightschool
+
+----
+
+Description: 
+
+----
+
 Ticketed: false
+
+----
+
+Ticket-link: 
 
 ----
 
@@ -18,7 +30,19 @@ Ticket-price:
 
 ----
 
+Ticket-price-text: 
+
+----
+
 Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
 
 ----
 
@@ -26,19 +50,31 @@ Start-date:
 
 ----
 
+Start-time: 
+
+----
+
 End-date: 
 
 ----
 
-Tags: 
+End-time: 
 
 ----
 
-Artist-link: 
+Eventschedule: 
 
 ----
 
 Accessibility: 
+
+----
+
+Uuid: XhyayGl0URBVEYwU
+
+----
+
+Tags: 
 
 ----
 

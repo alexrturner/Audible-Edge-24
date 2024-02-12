@@ -33,7 +33,9 @@
         "artists\/ben-byrne": {
             "uuid": "artists\/ben-byrne",
             "title": "Ben Byrne",
-            "events": []
+            "events": [
+                "nightschool\/opt-out"
+            ]
         },
         "artists\/simon-charles-john-kinsella": {
             "uuid": "artists\/simon-charles-john-kinsella",
@@ -93,7 +95,9 @@
         "artists\/jxnior": {
             "uuid": "artists\/jxnior",
             "title": "Jxnior",
-            "events": []
+            "events": [
+                "program\/club-night-at-psas"
+            ]
         },
         "artists\/siva-kumar-alex-reid": {
             "uuid": "artists\/siva-kumar-alex-reid",
@@ -145,12 +149,16 @@
         "artists\/bobbi-russell": {
             "uuid": "artists\/bobbi-russell",
             "title": "Bobbi Russell",
-            "events": []
+            "events": [
+                "program\/club-night-at-psas"
+            ]
         },
         "artists\/lia-t": {
             "uuid": "artists\/lia-t",
             "title": "Lia T & Rok Riley",
-            "events": []
+            "events": [
+                "program\/club-night-at-psas"
+            ]
         },
         "artists\/lily-tait-naarm": {
             "uuid": "artists\/lily-tait-naarm",
@@ -179,16 +187,63 @@
         }
     },
     "events": {
+        "nightschool\/opt-out": {
+            "uuid": "nightschool\/opt-out",
+            "title": "Opt Out",
+            "date": "2024-03-31",
+            "artists": [
+                "artists\/ben-byrne"
+            ],
+            "event_type": [
+                "nightschool"
+            ]
+        },
+        "program\/club-night-at-psas": {
+            "uuid": "program\/club-night-at-psas",
+            "title": "Something about the body",
+            "date": "2024-04-27",
+            "artists": [
+                "artists\/jxnior",
+                "artists\/bobbi-russell",
+                "artists\/lia-t"
+            ],
+            "event_type": [
+                "program"
+            ]
+        },
         "program\/sun-returns": {
             "uuid": "program\/sun-returns",
-            "title": "Sun returns",
+            "title": "Sun Returns",
             "date": "2024-04-26",
             "artists": [
                 "artists\/matt-rosner"
+            ],
+            "event_type": [
+                "program"
             ]
         }
     },
     "dates": {
+        "2024-03-31": {
+            "events": [
+                "nightschool\/opt-out"
+            ],
+            "artists": [
+                "artists\/ben-byrne"
+            ]
+        },
+        "2024-04-27": {
+            "events": [
+                "program\/club-night-at-psas",
+                "program\/club-night-at-psas",
+                "program\/club-night-at-psas"
+            ],
+            "artists": [
+                "artists\/jxnior",
+                "artists\/bobbi-russell",
+                "artists\/lia-t"
+            ]
+        },
         "2024-04-26": {
             "events": [
                 "program\/sun-returns"

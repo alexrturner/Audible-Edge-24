@@ -2,7 +2,11 @@ Title: If it feels good, do it, if it don't, don't
 
 ----
 
-Artist-link: 
+Artist-link:
+
+- page://0V9lSxjVNf4GpUC8
+- page://ko3QAx0YrEneFeyD
+- page://Y2WX6PEbjCIhuEtw
 
 ----
 
@@ -62,11 +66,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

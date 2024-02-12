@@ -1,39 +1,5 @@
 <?php
 
-// function generateArtistsAndEventsJson()
-// {
-//     $kirby = kirby();
-//     // Fetch artists using the 'artist' template
-//     $artists = page('artists')->children()->listed();
-//     $artistData = [];
-
-//     foreach ($artists as $artist) {
-//         // Fetch associated events using the 'events' field (pages field)
-//         $events = [];
-//         foreach ($artist->events()->toPages() as $eventPage) {
-//             if ($eventPage) {
-//                 $events[] = [
-//                     'uuid' => (string) $eventPage->id(),
-//                     'title' => (string) $eventPage->title()->value(),
-
-//                 ];
-//             }
-//         }
-
-//         $artistData[] = [
-//             'uuid' => (string) $artist->id(),
-//             'title' => (string) $artist->title()->value(),
-//             'events' => $events,
-//             // Include additional artist details as needed
-//         ];
-//     }
-
-//     $jsonData = json_encode($artistData, JSON_PRETTY_PRINT);
-//     file_put_contents($kirby->root('assets') . '/data/artists-and-events.json', $jsonData);
-// }
-
-
-
 function generateRelationsJson()
 {
     $kirby = kirby();
@@ -46,11 +12,21 @@ function generateRelationsJson()
         $events = [];
         foreach ($artist->events()->toPages() as $eventPage) {
             if ($eventPage) {
+                // event link
                 $eventUuid = (string) $eventPage->id();
                 $events[] = $eventUuid;
 
-                // Assuming you have a startDate field in your event pages
+
+                // event date data
                 $eventDate = (string) $eventPage->start_date()->toDate('Y-m-d');
+
+                $eventType = 'program'; // default event type
+                if ($eventPage->intendedTemplate() == 'nightschool-event') {
+                    $eventType = 'nightschool';
+                } elseif ($eventPage->intendedTemplate() == 'satellite-event') {
+                    $eventType = 'satellite';
+                }
+
                 if (!isset($datesData[$eventDate])) {
                     $datesData[$eventDate] = ['events' => [], 'artists' => []];
                 }
@@ -59,14 +35,19 @@ function generateRelationsJson()
                     $datesData[$eventDate]['artists'][] = (string) $artist->id();
                 }
 
-                // Populate events data
+                // events data
                 if (!isset($eventsData[$eventUuid])) {
                     $eventsData[$eventUuid] = [
                         'uuid' => $eventUuid,
                         'title' => (string) $eventPage->title()->value(),
                         'date' => $eventDate,
                         'artists' => [],
+                        'event_type' => []
                     ];
+                }
+                // add event type if not already included
+                if (!in_array($eventType, $eventsData[$eventUuid]['event_type'])) {
+                    $eventsData[$eventUuid]['event_type'][] = $eventType;
                 }
                 $eventsData[$eventUuid]['artists'][] = (string) $artist->id();
             }
@@ -92,7 +73,7 @@ function generateRelationsJson()
 
 
 /**
- * All config options: https://getkirby.com/docs/reference/system/options
+ * all config options: https://getkirby.com/docs/reference/system/options
  */
 return [
     'debug' => true,
@@ -144,70 +125,41 @@ return [
                 return site()->visit($page);
             }
         ],
-
-        // [
-        //     'pattern' => 'api/data',
-        //     'method' => 'GET',
-        //     'action'  => function () {
-        //         $kirby = kirby();
-        //         $artists = page('artists')->children()->listed();
-        //         // $events = page('events')->children()->listed();
-
-        //         $artistData = [];
-        //         foreach ($artists as $artist) {
-        //             $events = [];
-        //             foreach ($artist->events()->toStructure() as $eventLink) {
-        //                 $eventPage = $kirby->page($eventLink->value());
-        //                 if ($eventPage) {
-        //                     $events[] = [
-        //                         'uuid' => $eventPage->uuid()->value(),
-        //                         'title' => $eventPage->title()->value(),
-        //                     ];
-        //                 }
-        //             }
-
-        //             $artistData[] = [
-        //                 'uuid' => $artist->uuid()->value(),
-        //                 'title' => $artist->title()->value(),
-        //                 'events' => $events,
-        //             ];
-        //         }
-
-        //         // Fetch events similarly, if needed
-
-        //         // Return JSON response
-        //         return [
-        //             'statusCode' => 200,
-        //             'headers' => [
-        //                 'Content-Type' => 'application/json'
-        //             ],
-        //             'body' => json_encode($artistData),
-        //         ];
-        //     },
-
-        // ],
-
-
     ],
+    // 'hooks' => [
+    //     'page.create:after' => function ($newPage) {
+    //         generateRelationsJson();
+    //         if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
+    //             generateRelationsJson();
+    //         }
+    //     },
+    //     'page.update:after' => function ($newPage, $oldPage) {
+    //         generateRelationsJson();
+    //         if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
+    //             generateRelationsJson();
+    //         }
+    //     },
+    //     'page.delete:after' => function ($status, $page) {
+    //         if ($page && ($page->intendedTemplate() === 'artist' || $page->intendedTemplate() === 'event')) {
+    //             generateRelationsJson();
+    //         }
+    //     },
+    // ],
     'hooks' => [
         'page.create:after' => function ($newPage) {
-            generateRelationsJson();
-            if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
+            if ($newPage && in_array($newPage->intendedTemplate(), ['artist', 'event', 'nightschool-event', 'satellite-event'])) {
                 generateRelationsJson();
             }
         },
         'page.update:after' => function ($newPage, $oldPage) {
-            generateRelationsJson();
-            if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
+            if ($newPage && in_array($newPage->intendedTemplate(), ['artist', 'event', 'nightschool-event', 'satellite-event'])) {
                 generateRelationsJson();
             }
         },
         'page.delete:after' => function ($status, $page) {
-            if ($page && ($page->intendedTemplate() === 'artist' || $page->intendedTemplate() === 'event')) {
+            if ($page && in_array($page->intendedTemplate(), ['artist', 'event', 'nightschool-event', 'satellite-event'])) {
                 generateRelationsJson();
             }
         },
     ],
-
-
 ];

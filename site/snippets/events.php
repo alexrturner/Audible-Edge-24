@@ -1,5 +1,5 @@
 <section class="events">
-    <ul class="tablesorter">
+    <ul>
         <?php foreach ($page->children()->listed() as $event) : ?>
             <li class="event">
                 <a href="<?= $event->url() ?>">
