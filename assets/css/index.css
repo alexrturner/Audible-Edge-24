@@ -246,6 +246,56 @@ section p:first-child {
 
 /* 
 ============
+Listings mobile layout
+menu/description, events, artists 
+============
+*/
+@media (max-width: 768px) {
+  .all-listings #menu,
+  .all-listings #description,
+  .all-listings #events,
+  .all-listings #artists {
+    order: 1;
+  }
+
+  .all-listings .events {
+    order: 2;
+  }
+
+  .all-listings .artists {
+    order: 3;
+  }
+}
+
+/* 
+============
+Listings desktop layout
+events, artists, description/menu
+============
+*/
+@media (min-width: 769px) {
+  #events {
+    grid-column: 1 / span 2;
+  }
+  .all-listings #artists {
+    grid-column: 3 / span 4;
+  }
+  #artists.filtered {
+    grid-column: 3 / span 2;
+  }
+  .all-listings #menu {
+    grid-column: 7;
+  }
+  #description {
+    grid-column: 5 / span 3;
+  }
+  .section {
+    overflow-y: auto; /* Scrollable? */
+  }
+}
+
+/* 
+============
 nav 
 ============
 */

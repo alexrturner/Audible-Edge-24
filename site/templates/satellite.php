@@ -2,7 +2,7 @@
 
 <main class="content-container">
 
-    <div class="section satellite" id="satellite">
+    <div class="section satellite" id="events">
         <ul class="satellite-container">
             <li class="satellite-item first-item">
                 <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items">Program<span class="icon-bar"></span></button>

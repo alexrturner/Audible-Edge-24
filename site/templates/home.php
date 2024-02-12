@@ -23,7 +23,7 @@
 
 <main>
 
-    <div class="content-container">
+    <div class="content-container all-listings">
         <?php snippet('menu') ?>
 
         <div class="section events" id="events">

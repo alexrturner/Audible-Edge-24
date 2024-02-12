@@ -2,7 +2,7 @@
 
 <main class="content-container">
 
-    <div class="section nightschool" id="nightschool">
+    <div class="section filtered" id="events">
         <ul class="nightschool-container">
             <li class="nightschool-item first-item">
                 <button class="nightschool-toggle toggle" aria-expanded="true" aria-controls="nightschool-items">Program <span class="icon-bar"></span></button>
@@ -11,7 +11,6 @@
             </li>
         </ul>
     </div>
-
 
     <?php snippet('artists-filtered', ['filter' => 'nightschool']) ?>
 

@@ -62,13 +62,13 @@
       <?php endif ?>
 
       <?php if ($page->isHomePage() || $page->intendedTemplate() === 'home_launch') : ?>
-
         <?php snippet('dates-global') ?>
-
+      <?php elseif ($page->uid() === 'nightschool') : ?>
+        <?php snippet('dates-global', ['parentPage' => 'nightschool'])  ?>
+      <?php elseif ($page->uid() === 'satellite') : ?>
+        <?php snippet('dates-global', ['parentPage' => 'satellite'])  ?>
       <?php else : ?>
-
         <?php snippet('dates-local') ?>
-
       <?php endif ?>
     </header>
   </div>

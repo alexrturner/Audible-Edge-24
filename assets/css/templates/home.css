@@ -7,38 +7,42 @@ ul.menu-container {
 }
 /* 
 ============
-main content sections
+homepage main content sections
 ============
 */
 
-/* mobile layout */
+/* 
+mobile layout
+= menu, events, artists 
+*/
 @media (max-width: 768px) {
-  #menu,
-  #events,
-  #artists {
-    order: 1; /* Menu */
+  .all-listings #menu,
+  .all-listings #events,
+  .all-listings #artists {
+    order: 1;
   }
 
-  .events {
-    order: 2; /* Events */
+  .all-listings .events {
+    order: 2;
   }
 
-  .artists {
-    order: 3; /* Artists */
+  .all-listings .artists {
+    order: 3;
   }
 }
 
-/* Desktop layout */
+/* 
+Desktop layout:
+events, artists, menu
+*/
 @media (min-width: 769px) {
-  #events {
-    /* grid-column: 1; */
+  .all-listings #events {
     grid-column: 1 / span 2;
   }
-  #artists {
-    /* grid-column: 2 / span 2; */
+  .all-listings #artists {
     grid-column: 3 / span 4;
   }
-  #menu {
+  .all-listings #menu {
     grid-column: 7;
   }
   .section {
