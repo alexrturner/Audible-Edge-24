@@ -61,7 +61,14 @@
         </h2>
       <?php endif ?>
 
-      <?php snippet('dates') ?>
+      <?php if ($page->isHomePage() || $page->intendedTemplate() === 'home_launch') : ?>
 
+        <?php snippet('dates-global') ?>
+
+      <?php else : ?>
+
+        <?php snippet('dates-local') ?>
+
+      <?php endif ?>
     </header>
   </div>

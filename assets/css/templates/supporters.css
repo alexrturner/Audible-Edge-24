@@ -1,0 +1,31 @@
+/* 
+Layout
+ */
+.description {
+  grid-column: span 2;
+  max-height: 66vh;
+  overflow-y: auto; /* enable vertical scrolling */
+}
+.logos {
+  grid-column: span 5;
+  max-height: 66vh;
+  overflow-y: auto; /* enable vertical scrolling */
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  /* single column */
+  main {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form {
+    grid-column: auto;
+  }
+
+  .description {
+    max-height: none;
+    overflow-y: visible;
+  }
+}

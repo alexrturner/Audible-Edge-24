@@ -1,4 +1,13 @@
-Title: Nick Ashwood (Naarm)
+Title: Nick Ashwood
+
+----
+
+Display-title:
+
+- 
+  name: Nick Ashwood
+  place: Naarm
+  styled: ""
 
 ----
 
@@ -23,6 +32,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Place: Naarm
+
+----
+
+Homepage-title: 
 
 ----
 

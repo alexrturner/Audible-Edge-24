@@ -2,6 +2,15 @@ Title: Joee & I (Manila)
 
 ----
 
+Display-title:
+
+- 
+  name: 'Joee & I'
+  place: Manila
+  context: ""
+
+----
+
 Bio-short: 
 
 ----

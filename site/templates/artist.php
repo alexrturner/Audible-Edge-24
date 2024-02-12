@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+
 <main class="content-container">
 
     <!-- associsated event -->
@@ -60,12 +61,12 @@
                 <?= $bio_short ?>
             </div>
         <?php endif; ?>
+
         <?php if ($bio_long = $page->bio_long()->kirbytext()) : ?>
             <div class="bio-long">
                 <?= $bio_long ?>
             </div>
         <?php endif; ?>
-
 
         <?php $links = $page->links()->toStructure(); ?>
         <?php if ($links->isNotEmpty()) : ?>

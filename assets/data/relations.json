@@ -1,7 +1,7 @@
 {
     "artists": {
-        "artists\/we-puddls": {
-            "uuid": "artists\/we-puddls",
+        "artists\/aaqila": {
+            "uuid": "artists\/aaqila",
             "title": "Aaqila",
             "events": []
         },
@@ -12,7 +12,7 @@
         },
         "artists\/nick-ashwood": {
             "uuid": "artists\/nick-ashwood",
-            "title": "Nick Ashwood (Naarm)",
+            "title": "Nick Ashwood",
             "events": []
         },
         "artists\/samuel-beilby": {
@@ -32,7 +32,7 @@
         },
         "artists\/ben-byrne": {
             "uuid": "artists\/ben-byrne",
-            "title": "Ben Byrne (Naarm)",
+            "title": "Ben Byrne",
             "events": []
         },
         "artists\/simon-charles-john-kinsella": {
@@ -75,8 +75,8 @@
             "title": "Shoji Hano (Kyoto)",
             "events": []
         },
-        "artists\/jon-heilbron-rebecca-lane-berlin-play-catherine-lamb": {
-            "uuid": "artists\/jon-heilbron-rebecca-lane-berlin-play-catherine-lamb",
+        "artists\/jon-heilbron-rebecca-lane": {
+            "uuid": "artists\/jon-heilbron-rebecca-lane",
             "title": "Jon Heilbron & Rebecca Lane (Berlin) play Catherine Lamb",
             "events": []
         },
@@ -107,7 +107,7 @@
         },
         "artists\/sally-ann-mcintyre": {
             "uuid": "artists\/sally-ann-mcintyre",
-            "title": "Sally Ann McIntyre (Naarm)",
+            "title": "Sally Ann McIntyre",
             "events": []
         },
         "artists\/miss-phoria": {
@@ -137,7 +137,7 @@
         },
         "artists\/matt-rosner": {
             "uuid": "artists\/matt-rosner",
-            "title": "Matt R\u00f6sner (Myalup)",
+            "title": "Matt R\u00f6sner",
             "events": [
                 "program\/sun-returns"
             ]

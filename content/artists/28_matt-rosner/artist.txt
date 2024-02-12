@@ -1,4 +1,13 @@
-Title: Matt Rösner (Myalup)
+Title: Matt Rösner
+
+----
+
+Display-title:
+
+- 
+  name: Matt Rösner
+  place: Myalup
+  context: ""
 
 ----
 

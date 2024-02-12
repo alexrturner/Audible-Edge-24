@@ -1,17 +1,22 @@
 <?php snippet('header') ?>
 
-<?php if ($works = page('works')) : ?>
-<?php endif ?>
-
 <main>
 
     <section id="festive">
 
         <div class="logo-container desktop">
-            <a class="logo" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
-                <?= svg('assets/img/logo-2.svg') ?>
-            </a>
+
+            <?php
+            // Retrieve files with the 'logo_landing' template
+            $logoFile = $site->files()->template('logo_landing')->first();
+            // Check if a file is found
+            if ($logoFile) : ?>
+                <a class="logo" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
+                    <img src="<?= $logoFile->url() ?>" alt="<?= $logoFile->alt()->isEmpty() ? $site->title()->value() : $logoFile->alt() ?>">
+                </a>
+            <?php endif; ?>
         </div>
+
 
     </section>
 

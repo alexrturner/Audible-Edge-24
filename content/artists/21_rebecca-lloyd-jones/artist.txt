@@ -2,6 +2,15 @@ Title: Rebecca Lloyd-Jones (Meanjin) plays Sarah Hennies
 
 ----
 
+Display-title:
+
+- 
+  name: Rebecca Lloyd-Jones
+  place: Meanjin
+  context: plays Sarah Hennies
+
+----
+
 Bio-short: 
 
 ----

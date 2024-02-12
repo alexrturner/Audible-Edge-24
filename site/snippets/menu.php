@@ -9,6 +9,11 @@ $expanded = $expanded ?? "true";
             <button class="menu-toggle toggle" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu <span class="icon-bar"></span></button>
             <br><br>
             <ul class="items <?php e($expanded === "true", "", "hidden flex"); ?> " id="menu-items">
+                <li class="menu-item">
+                    <a href="/satellite/program-launch" class="menu-link">
+                        Program Launch
+                    </a>
+                </li>
                 <?php foreach ($site->children()->listed() as $p) : ?>
                     <li class="menu-item">
                         <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
@@ -16,6 +21,7 @@ $expanded = $expanded ?? "true";
                         </a>
                     </li>
                 <?php endforeach ?>
+
             </ul>
         </li>
     </ul>

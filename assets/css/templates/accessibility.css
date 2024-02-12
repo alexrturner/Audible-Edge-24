@@ -1,43 +1,6 @@
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-input,
-textarea {
-  color: var(--cc-primary);
-  border: 2px solid var(--cc-primary);
-  outline: none;
-}
-
-input:focus,
-textarea:focus {
-  border-color: var(--cc-secondary);
-  outline: var(--cc-secondary) 2px;
-}
-
-/* Styles for the fields with class .half to sit side by side */
-.field.half {
-  display: flex;
-}
-
-.field.half input[type="text"] {
-  flex: 1; /* Allows the input fields to expand and fill the available space */
-  margin-right: 5px; /* Adds a small margin between the two fields */
-}
-
-.field.half:last-child input[type="text"] {
-  margin-right: 0; /* Removes margin for the last element to align properly */
-}
-main {
-  display: grid;
-}
-main {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 1em;
-}
-
+/* 
+Layout
+ */
 .form {
   grid-column: span 3;
 }
@@ -52,17 +15,98 @@ main {
 
 /* mobile */
 @media (max-width: 768px) {
-  /* Adjust based on your breakpoint */
+  /* single column */
   main {
-    grid-template-columns: 1fr; /* Switches to single column */
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .form {
-    grid-column: auto; /* Resets to default column span */
+    grid-column: auto;
   }
 
   .description {
-    max-height: none; /* Adjust or remove fixed height for mobile */
-    overflow-y: visible; /* Adjust as needed for mobile */
+    max-height: none;
+    overflow-y: visible;
+  }
+}
+
+/* 
+content layout 
+*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  gap: 1em 0;
+}
+input,
+textarea {
+  color: var(--cc-primary);
+  border: 2px solid var(--cc-primary);
+  outline: none;
+  padding: 0;
+}
+
+input[type="submit"] {
+  width: auto;
+  align-self: flex-end;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--cc-secondary);
+  outline: var(--cc-secondary) 2px;
+}
+
+.field.half {
+  display: flex;
+}
+
+.field.half input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.field.half:last-child input {
+  margin-right: 0;
+}
+
+.field,
+.field-group {
+  display: flex;
+}
+
+.field {
+  width: 100%;
+}
+
+.field-group {
+  justify-content: space-between;
+}
+
+.field.half input {
+  width: 40%;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .field input,
+  .field textarea {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .field-group {
+    margin-right: 0;
+  }
+
+  main {
+    gap: 0;
   }
 }

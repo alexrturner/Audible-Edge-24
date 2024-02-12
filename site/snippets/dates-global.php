@@ -1,4 +1,5 @@
 <?php
+
 $events = page('program')->children()->listed();
 $dates = [];
 

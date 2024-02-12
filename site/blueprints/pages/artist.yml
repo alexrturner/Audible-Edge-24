@@ -18,6 +18,23 @@ columns:
         type: text
         placeholder: "{{ page.title }}"
 
+      display_title:
+        label: Artist display title
+        type: structure
+        help: "The title to display on the website, if style is different from the artist's name."
+        fields:
+          name:
+            label: Artist Name
+            type: text
+          place:
+            label: Place
+            type: text
+            placeholder: "City, Country"
+          context:
+            label: Artist Context
+            type: text
+            help: "i.e. 'with [artist-name]', 'plays [work-title]'"
+
       bio_short:
         label: Short Bio
         type: writer
@@ -81,8 +98,7 @@ columns:
         label: Images
         type: files
         layout: cards
-        # template: image
-        # info: "{{ file.dimensions }}"
+
         image:
           ratio: 5/4
           cover: true

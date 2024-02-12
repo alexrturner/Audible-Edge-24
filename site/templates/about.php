@@ -1,27 +1,30 @@
 <?php snippet('header') ?>
 
-<main class="content">
-    <div class="text-container">
-        <section class="text">
-            <div class="contact">
-                <?= kt($page->Description()) ?>
-                <span class="contact-details"></span>
-            </div>
+<main class="main">
+    <div class="content-container">
+        <section class="description">
+
+            <?= kt($page->Description()) ?>
+
         </section>
 
+        <section class="contact">
 
-
-        <script type="text/javascript">
-            document.addEventListener("DOMContentLoaded", function() {
-                var email = "<?= $site->email()->esc() ?>";
-                var mailLink = "<a href='mailto:" + email + "'>" + email + "</a>";
-
-                var mailBox = document.querySelector('.contact-details');
-                if (mailBox) {
-                    mailBox.innerHTML = mailLink;
-                }
-            });
-        </script>
+            <span class="contact-details"></span>
+        </section>
+    </div>
 </main>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        var email = "<?= $site->email()->esc() ?>";
+        var mailLink = "<a href='mailto:" + email + "'>" + email + "</a>";
+
+        var mailBox = document.querySelector('.contact-details');
+        if (mailBox) {
+            mailBox.innerHTML = mailLink;
+        }
+    });
+</script>
 
 <?php snippet('footer') ?>

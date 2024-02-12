@@ -2,6 +2,23 @@ Title: Lily Tait (Naarm)
 
 ----
 
+Display-title:
+
+- 
+  name: Lily Tait
+  place: Naarm
+  context: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
 Links: 
 
 ----
@@ -11,6 +28,10 @@ Events:
 ----
 
 Credits: 
+
+----
+
+Support: 
 
 ----
 

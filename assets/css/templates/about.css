@@ -1,0 +1,13 @@
+main.main {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.description {
+  grid-column: span 4;
+  max-height: 66vh;
+  overflow-y: auto; /* enable vertical scrolling */
+}
+.intro {
+  grid-column: span 3;
+}

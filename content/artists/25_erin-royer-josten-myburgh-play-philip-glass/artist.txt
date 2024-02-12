@@ -2,6 +2,23 @@ Title: Josten Myburgh & Erin Royer play Philip Glass
 
 ----
 
+Display-title:
+
+- 
+  name: 'Josten Myburgh & Erin Royer'
+  place: ""
+  context: play Philip Glass
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
 Links: 
 
 ----
@@ -11,6 +28,10 @@ Events:
 ----
 
 Credits: 
+
+----
+
+Support: 
 
 ----
 

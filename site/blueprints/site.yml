@@ -72,5 +72,7 @@ tabs:
             label: Meta Keywords
             type: writer
 
-      seo:
+      landing:
+        label: Landing Logo
         type: files
+        template: logo_landing

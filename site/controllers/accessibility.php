@@ -15,6 +15,7 @@ return function ($kirby, $pages, $page) {
             'name'  => get('name'),
             'pronouns' => get('pronouns'),
             'email' => get('email'),
+            'phone' => get('phone'),
             'text'  => get('text')
         ];
 
@@ -22,6 +23,7 @@ return function ($kirby, $pages, $page) {
             'name'  => ['required', 'minLength' => 3],
             'pronouns' => ['minLength' => 3],
             'email' => ['required', 'email'],
+            'phone' => ['minLength' => 3, 'phone'],
             'text'  => ['required', 'minLength' => 3, 'maxLength' => 3000],
         ];
 
@@ -29,6 +31,7 @@ return function ($kirby, $pages, $page) {
             'name'  => 'Please enter your name',
             'pronouns' => 'Please enter your pronouns',
             'email' => 'Please enter a valid email address',
+            'phone' => 'Please enter a valid phone number',
             'text'  => 'Please enter your accessibility request'
         ];
 
@@ -36,7 +39,7 @@ return function ($kirby, $pages, $page) {
         if ($invalid = invalid($data, $rules, $messages)) {
             $alert = $invalid;
 
-            // the data is fine, let's send the email
+            // the data is fine, send the email
         } else {
             try {
                 $kirby->email([
@@ -59,9 +62,9 @@ return function ($kirby, $pages, $page) {
                 endif;
             }
 
-            // no exception occurred, let's send a success message
+            // no exception occurred, send a success message
             if (empty($alert) === true) {
-                $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                $success = 'Your message has been sent, thank you. The Tone List team will get back to you soon.';
                 $data = [];
             }
         }

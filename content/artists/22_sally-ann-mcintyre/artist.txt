@@ -1,4 +1,21 @@
-Title: Sally Ann McIntyre (Naarm)
+Title: Sally Ann McIntyre
+
+----
+
+Display-title:
+
+- 
+  name: Sally Ann McIntyre
+  place: Naarm
+  context: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
 
 ----
 
@@ -11,6 +28,10 @@ Events:
 ----
 
 Credits: 
+
+----
+
+Support: 
 
 ----
 

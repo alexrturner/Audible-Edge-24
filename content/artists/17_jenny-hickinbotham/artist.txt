@@ -2,6 +2,23 @@ Title: Jenny Hickinbotham (Naarm) with Chris Cobilis & Lana Rothnie
 
 ----
 
+Display-title:
+
+- 
+  name: Jenny Hickinbotham
+  place: Naarm
+  context: 'with Chris Cobilis & Lana Rothnie'
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
 Links: 
 
 ----
@@ -11,6 +28,10 @@ Events:
 ----
 
 Credits: 
+
+----
+
+Support: 
 
 ----
 

@@ -8,7 +8,26 @@ if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->has
         <?php foreach ($parentPage->children()->listed() as $child) : ?>
             <li class="<?= $className ?>-item" data-type="<?= $className ?>" data-id="<?= $child->id() ?>">
                 <a href="<?= $child->url() ?>" class="<?= $className ?>-link">
-                    <?= $child->title()->esc() ?>
+                    <?php if ($child->display_title()->isNotEmpty()) : ?>
+
+
+
+                        <?php foreach ($child->display_title()->toStructure() as $display) : ?>
+                            <?= $display->name()->html() ?>
+                            <?php if ($display->place()->isNotEmpty()) : ?>
+                                <span class="artist-place">
+                                    <sub>(<?= $display->place()->html() ?>)</sub>
+                                </span>
+                            <?php endif ?>
+                            <?php if ($display->context()->isNotEmpty()) : ?>
+                                <span class="artist-context">
+                                    <?= $display->context()->html() ?>
+                                </span>
+                            <?php endif ?>
+                        <?php endforeach ?>
+                    <?php else : ?>
+                        <?= $child->title()->html() ?>
+                    <?php endif ?>
                 </a>
             </li>
         <?php endforeach; ?>

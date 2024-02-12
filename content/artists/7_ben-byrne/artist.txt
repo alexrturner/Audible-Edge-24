@@ -1,4 +1,13 @@
-Title: Ben Byrne (Naarm)
+Title: Ben Byrne
+
+----
+
+Display-title:
+
+- 
+  name: Ben Byrne
+  place: Naarm
+  context: ""
 
 ----
 
