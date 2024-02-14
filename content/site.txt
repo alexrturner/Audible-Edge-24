@@ -27,3 +27,41 @@ Metadescription: <p>Audible Edge Festival of Sound 2024. Presented by Tone List.
 ----
 
 Metakeywords: <p>Audible Edge Festival Sound Music Art Experimental Perth Boorloo</p>
+
+----
+
+Landing:
+
+- file://31HmPg5FZAmdhqjH
+- file://M93zBpl9mbqFQfp2
+- file://6cH2EbLKn35zsYCu
+- file://lmUNNF94OWnRe0C4
+- file://Zkx41kS1dpea5Kbz
+- file://x0dOfnHZhmaA1i3t
+- file://rFp37oZDWDWDZEZn
+- file://MDHlW60SUOk0YVUG
+
+----
+
+Audio-intro-text: <p>If you’d prefer to listen, we recorded our welcome:</p>
+
+----
+
+Audio-intro: 
+
+----
+
+Audio-letters:
+
+- 
+  soundfile: [ ]
+  soundtype: ""
+  _id: 8c00bfc7-74c0-4edf-8e87-d073212db677
+
+----
+
+Audiointro: 
+
+----
+
+Lettersounds: 

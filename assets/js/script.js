@@ -9,14 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const sectionId = button.getAttribute("aria-controls");
     const sectionItems = document.getElementById(sectionId);
 
-    // display flex for non-homepage menu-items, block for others
-    if (sectionId === "menu-items") {
-      if (sectionItems.classList.contains("flex")) {
-        sectionItems.style.display = isExpanded ? "none" : "flex";
-      }
-    } else {
-      sectionItems.style.display = isExpanded ? "none" : "block";
-    }
+    // toggle block display
+    sectionItems.style.display = isExpanded ? "none" : "block";
+
     // update parent li class
     var parent = button.closest("li.first-item");
     if (parent) {

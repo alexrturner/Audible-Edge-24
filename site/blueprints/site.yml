@@ -18,7 +18,7 @@ tabs:
         create: default
         image: icon
 
-  content:
+  program:
     label: Program
     sections:
       events: sections/events
@@ -72,7 +72,38 @@ tabs:
             label: Meta Keywords
             type: writer
 
-      landing:
-        label: Landing Logo
+  media:
+    label: files
+    sections:
+      ae_logo:
+        label: AE logos
         type: files
-        template: logo_landing
+        template: ae_logo
+
+      audio_intro:
+        type: files
+        label: Audio Introduction
+        template: audio_intro
+        multiple: true
+        help: Audio introduction to the festival.
+
+      audio_intro_text:
+        type: fields
+        fields:
+          audio_intro_text:
+            label: Audio Introduction Text
+            type: writer
+            help: Text to accompany the audio introduction.
+
+      audio_custom:
+        label: Custom Audio (letter sounds)
+        type: files
+        template: audio_custom
+        layout: table
+        image:
+          icon: audio
+        columns:
+          title: false
+          audio_category:
+            label: letter
+        help: '"A!" "E?"'

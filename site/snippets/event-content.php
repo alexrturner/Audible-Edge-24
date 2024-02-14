@@ -95,7 +95,8 @@
     if ($page->ticketed()->toBool()) : ?>
         <div class="ticket-info">
             <?php if ($ticket_link = $page->ticket_link()->url()) : ?>
-                <a href="<?= $ticket_link ?>" class="ticket-link">Tickets</a>
+                <button href="<?= $ticket_link ?>" class="ticket-link" aria-label="Visit to purchase tickets" aria-type="link">Tickets</button>
+
             <?php endif; ?>
             <?php if ($ticket_price = $page->ticket_price()->value()) : ?>
                 <p class="ticket-price">$<?= $ticket_price ?></p>
@@ -104,23 +105,6 @@
                 <p class="ticket-price-text"><?= $ticket_price_text ?></p>
             <?php endif; ?>
         </div>
-    <?php endif; ?>
-
-
-    <?php
-    // links
-    $links = $page->links()->toStructure();
-    if ($links->isNotEmpty()) : ?>
-        <h3>Links:</h3>
-        <ul class="event-links">
-            <?php foreach ($links as $link) : ?>
-                <li>
-                    <a href="<?= $link->url() ?>" <?= $link->popup()->toBool() ? 'target="_blank"' : '' ?>>
-                        <?= $link->text()->html() ?>
-                    </a>
-                </li>
-            <?php endforeach; ?>
-        </ul>
     <?php endif; ?>
 
 
@@ -135,22 +119,21 @@
     <?php endif; ?>
 
     <?php if ($accessibility = kt($page->accessibility())) : ?>
-        <h3>Event Specific Accessibility:</h3>
+        <h3>Accessibility</h3>
         <div class="accessibility-info"><?= $accessibility ?></div>
     <?php endif; ?>
 
     <?php if ($venue && $venue->location_features()->isNotEmpty()) : ?>
-        <p>Location Features: <?= $venue->location_features()->html() ?></p>
+        <p><?= $venue->location_features()->html() ?></p>
     <?php endif; ?>
 
     <!-- map -->
     <?php if ($venue && $venue->map()->isNotEmpty()) : ?>
         <!-- <a>
                             <div class="map map-open" onclick="toggleMap()">
-                                <img src="img/map-transparent.png">
+                                <img src="<= $venue -> map() ?>">
                             </div>
                         </a> -->
-
     <?php endif; ?>
 
 </section>

@@ -17,7 +17,7 @@ foreach ($jsonData['events'] as $eventUUID => $eventData) {
 }
 ?>
 
-<div class="section artists" id="artists">
+<div class="section artists filtered" id="artists">
     <ul class="artists-container">
         <li class="artists-item first-item">
             <button class="artists-toggle toggle" aria-expanded="true" aria-controls="artists-items">Lineup <span class="icon-bar"></span></button>
