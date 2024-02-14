@@ -2,7 +2,7 @@
 <section class="section" id="col1">
     <ul class="events" id="events-items">
         <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
-            <h2 class="title"><?= $page->title()->html() ?></h2>
+            <h2 class="section-title"><?= $page->title()->html() ?></h2>
         </li>
     </ul>
 

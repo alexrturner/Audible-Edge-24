@@ -5,7 +5,9 @@
     <div class="section filtered" id="events">
         <ul class="nightschool-container">
             <li class="nightschool-item first-item">
-                <button class="nightschool-toggle toggle" aria-expanded="true" aria-controls="nightschool-items">Program <span class="icon-bar"></span></button>
+                <button class="nightschool-toggle toggle" aria-expanded="true" aria-controls="nightschool-items">
+                    <h2 class="section-title">Program</h2>
+                </button>
                 <br><br>
                 <?php snippet('listings', ['parentPageSlug' => 'nightschool', 'className' => 'nightschool']); ?>
             </li>

@@ -1,8 +1,8 @@
-Title: Nightschool
+Title: Night School
 
 ----
 
-Description: <p>(only 1 nightschool event occurs at night, shh)</p>
+Description: <p>Night School description text</p>
 
 ----
 

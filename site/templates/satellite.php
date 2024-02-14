@@ -5,7 +5,9 @@
     <div class="section satellite" id="events">
         <ul class="satellite-container">
             <li class="satellite-item first-item">
-                <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items">Program<span class="icon-bar"></span></button>
+                <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items">
+                    <h2 class="section-title">Program</h2>
+                </button>
                 <br><br>
                 <?php snippet('listings', ['parentPageSlug' => 'satellite', 'className' => 'satellite']); ?>
             </li>

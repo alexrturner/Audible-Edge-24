@@ -31,17 +31,6 @@ columns:
         type: writer
         width: 1/2
 
-      # event_type:
-      #   label: Event Type
-      #   type: select
-      #   options:
-      #     program: Program
-      #     satellite: Satellite
-      #     nightschool: Nightschool
-      #   default: program
-      #   width: 1/2
-      #   required: true
-
       description:
         type: writer
         label: {{ page.title }} Description  

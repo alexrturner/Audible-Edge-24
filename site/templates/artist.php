@@ -25,7 +25,9 @@
     <section class="section" id="col2">
         <ul class="artists" id="events-items">
             <li class="artists-item" data-type="artists" data-id="<?= $page->id() ?>">
-                <h2 class="title"><?= $page->title()->html() ?></h2>
+                <h2 class="section-title">
+                    <?= $page->title()->html() ?>
+                </h2>
             </li>
         </ul>
 
@@ -39,16 +41,7 @@
             </ul>
         <?php endif; ?>
 
-        <?php if ($page->images()->isNotEmpty()) : ?>
-            <div class="artist-images">
-                <?php foreach ($page->images() as $image) : ?>
-                    <figure>
-                        <img src="<?= $image->resize(50)->url() ?>" alt="<?= $image->alt()->or($page->title()->html()) ?>" loading="lazy">
-                        <figcaption><?= $image->caption()->or('') ?></figcaption>
-                    </figure>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
+        <?php snippet('gallery', ['images' => $page->images()]); ?>
 
 
     </section>
@@ -56,15 +49,15 @@
     <!-- description and links -->
     <section class="section" id="col3">
 
-        <?php if ($bio_short = $page->bio_short()->kirbytext()) : ?>
+        <?php if ($page->bio_short()->isNotEmpty()) : ?>
             <div class="bio-short">
-                <?= $bio_short ?>
+                <?= kt($page->bio_short()) ?>
             </div>
         <?php endif; ?>
 
-        <?php if ($bio_long = $page->bio_long()->kirbytext()) : ?>
+        <?php if ($page->bio_long()->isNotEmpty()) : ?>
             <div class="bio-long">
-                <?= $bio_long ?>
+                <?= $page->bio_long() ?>
             </div>
         <?php endif; ?>
 
@@ -76,21 +69,18 @@
                         <a href="<?= $link->url() ?>" <?= $link->popup()->toBool() ? 'target="_blank"' : '' ?>>
 
                             <?= $link->text()->html() ?>
-                            (
-                            <?php
-                            // Construct the SVG file path based on the link type
-                            $type = $link->type()->value(); // Assuming $link->type() returns the type name
-                            $svgFilePath = 'assets/imgs/icons/' . $type . '.svg';
+                            (<?php
+                                // Construct the SVG file path based on the link type
+                                $type = $link->type()->value();
+                                $svgFilePath = 'assets/imgs/icons/' . $type . '.svg';
 
-                            // Use the svg() function to include the SVG file, if it exists
-                            if (file_exists($svgFilePath)) {
-                                svg($svgFilePath);
-                            } else {
-                                // Fallback if the SVG file doesn't exist
-                                echo htmlspecialchars($type);
-                            }
-                            ?>
-                            )
+                                if (file_exists($svgFilePath)) {
+                                    svg($svgFilePath);
+                                } else {
+                                    // fallback text
+                                    echo htmlspecialchars($type);
+                                }
+                                ?>)
                         </a>
                     </li>
                 <?php endforeach; ?>
@@ -98,7 +88,7 @@
         <?php endif; ?>
 
         <?php if ($page->support()->isNotEmpty()) : ?>
-            <p class="support">Supported By: <?= $page->support() ?></p>
+            <p class="support"><?= html($page->support()) ?></p>
         <?php endif; ?>
     </section>
 
@@ -106,7 +96,7 @@
     <section class="section" id="col4">
 
         <?php
-        // Fetch files using the 'audio' template
+        // fetch audio
         $sounds = $page->files()->template('audio');
         $counter = 0;
         if ($sounds->isNotEmpty()) : ?>
@@ -126,43 +116,7 @@
     </section>
 </main>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Get all play buttons
-        var playButtons = document.querySelectorAll('.play-audio-button');
-
-        playButtons.forEach(function(button, index) {
-            // Each button controls the corresponding audio element
-            var audioSample = document.getElementById('audioSample' + index);
-
-            button.addEventListener("click", function() {
-                // Check if this audio is already playing
-                if (!audioSample.paused) {
-                    audioSample.pause();
-                    audioSample.currentTime = 0; // Optionally reset audio to start
-                    this.classList.remove("clicked");
-                } else {
-                    // Pause any other playing audio samples
-                    document.querySelectorAll('.audio-sample').forEach(function(otherAudio) {
-                        otherAudio.pause();
-                        otherAudio.currentTime = 0; // Optionally reset audio to start
-                    });
-                    // Reset all buttons to their initial state
-                    document.querySelectorAll('.play-audio-button').forEach(function(otherButton) {
-                        otherButton.classList.remove("clicked");
-                    });
-
-                    // Play this audio
-                    audioSample.play();
-                    this.classList.add("clicked");
-                }
-            });
-
-            // When the audio has ended, change the button background back to its original style
-            audioSample.onended = function() {
-                button.classList.remove("clicked");
-            };
-        });
-    });
-</script>
+<?= js([
+    'assets/js/gallery.js'
+]) ?>
 <?php snippet('footer') ?>

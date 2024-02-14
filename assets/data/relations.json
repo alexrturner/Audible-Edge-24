@@ -184,6 +184,13 @@
             "uuid": "artists\/yikes",
             "title": "Yikes",
             "events": []
+        },
+        "artists\/test-artist": {
+            "uuid": "artists\/test-artist",
+            "title": "test-artist",
+            "events": [
+                "satellite\/program-launch"
+            ]
         }
     },
     "events": {
@@ -221,6 +228,17 @@
             "event_type": [
                 "program"
             ]
+        },
+        "satellite\/program-launch": {
+            "uuid": "satellite\/program-launch",
+            "title": "Program Launch",
+            "date": "2024-03-13",
+            "artists": [
+                "artists\/test-artist"
+            ],
+            "event_type": [
+                "satellite"
+            ]
         }
     },
     "dates": {
@@ -250,6 +268,14 @@
             ],
             "artists": [
                 "artists\/matt-rosner"
+            ]
+        },
+        "2024-03-13": {
+            "events": [
+                "satellite\/program-launch"
+            ],
+            "artists": [
+                "artists\/test-artist"
             ]
         }
     }

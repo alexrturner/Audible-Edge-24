@@ -6,7 +6,7 @@ Titledisplay: Audible Edge ‘24
 
 ----
 
-Subtitle: Festival of Sound
+Subtitle: Festival of Exploratory Music
 
 ----
 
@@ -30,6 +30,10 @@ Metakeywords: <p>Audible Edge Festival Sound Music Art Experimental Perth Boorlo
 
 ----
 
+Audio-intro-text: <p>If you’d prefer to listen, we recorded our welcome:</p>
+
+----
+
 Landing:
 
 - file://31HmPg5FZAmdhqjH
@@ -40,10 +44,6 @@ Landing:
 - file://x0dOfnHZhmaA1i3t
 - file://rFp37oZDWDWDZEZn
 - file://MDHlW60SUOk0YVUG
-
-----
-
-Audio-intro-text: <p>If you’d prefer to listen, we recorded our welcome:</p>
 
 ----
 
