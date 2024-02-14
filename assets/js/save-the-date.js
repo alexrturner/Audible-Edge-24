@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         audio.currentTime = 0;
       });
 
-      // play
+      // play letter sound
       const audioElement = this.querySelector("audio");
       if (audioElement) {
         audioElement.play().catch((e) => {

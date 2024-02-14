@@ -14,7 +14,7 @@ document.getElementById("toggleSquig").addEventListener("click", function () {
   } else {
     svgContainer.style.display = "block";
     button.innerHTML = "on";
-    button.style.border = "var(--cc-primary) 1px solid";
+    button.style.border = "var(--cc-olive) 1px solid";
   }
 });
 

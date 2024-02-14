@@ -43,8 +43,8 @@ form {
 }
 input,
 textarea {
-  color: var(--cc-primary);
-  border: 2px solid var(--cc-primary);
+  color: var(--cc-olive);
+  border: 2px solid var(--cc-olive);
   outline: none;
   padding: 0;
 }

@@ -8,9 +8,6 @@
   src: url("/assets/font/Herbik/Herbik1.3Dev-Regular.otf") format("truetype");
 }
 :root {
-  --cc-primary: olive;
-  --cc-secondary: #ff3b00;
-
   --cc-olive: #8d8200;
   --cc-olive-light: #bfb326;
   --cc-olive-highlight: #fff600;
@@ -27,7 +24,11 @@
   --cc-blue-light: #d1dcda;
   --cc-blue-highlight: #f0faf7;
 
+  --cc-primary: var(--cc-olive);
+  --cc-secondary: #ff3b00;
+
   --cc-bg: #f5f5f5;
+  /* --cc-bg: var(--cc-blue-highlight); */
 
   --ff-primary: "Work Sans", sans-serif;
   --ff-serif: "Herbik", serif;

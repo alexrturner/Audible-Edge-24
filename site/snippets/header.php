@@ -125,7 +125,11 @@
     <header class="header">
       <a class="ae-title" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
         <h1>
-          <?= $site->titleDisplay() ?>
+          <?php if ($page->uid() === 'nightschool' || ($page->parent() && $page->parent()->uid() === 'nightschool')) : ?>
+            Nightschool
+          <?php else : ?>
+            <?= $site->titleDisplay() ?>
+          <?php endif ?>
         </h1>
       </a>
 
