@@ -39,7 +39,7 @@
     }
 
     .gallery-images figure img {
-        max-height: var(--gallery-height);
+        /* max-height: var(--gallery-height); */
         height: auto;
     }
 

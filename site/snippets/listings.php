@@ -25,9 +25,9 @@ if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->has
                                 </span>
                             <?php endif ?>
                             <?php if ($display->context()->isNotEmpty()) : ?>
-                                <sup class="artist-context serif">
+                                <span class="artist-context serif">
                                     <?= $display->context()->html() ?>
-                                </sup>
+                                </span>
                             <?php endif ?>
                         <?php endforeach ?>
                     <?php else : ?>

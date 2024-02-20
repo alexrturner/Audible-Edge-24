@@ -1,6 +1,6 @@
 // init global line attributes
-let noiseIntensity = 800;
-let subdivisionFactor = 2;
+let noiseIntensity = 80;
+let subdivisionFactor = 3;
 
 // squig controls
 document.getElementById("toggleSquig").addEventListener("click", function () {
@@ -10,11 +10,11 @@ document.getElementById("toggleSquig").addEventListener("click", function () {
   if (svgContainer.style.display !== "none") {
     svgContainer.style.display = "none";
     button.innerHTML = "off";
-    button.style.border = "var(--cc-secondary) 1px solid";
+    button.classList.toggle("inactive");
   } else {
     svgContainer.style.display = "block";
     button.innerHTML = "on";
-    button.style.border = "var(--cc-olive) 1px solid";
+    button.classList.toggle("inactive");
   }
 });
 

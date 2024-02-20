@@ -11,7 +11,7 @@
       }
 
       .cls-2 {
-        fill: #d0dbdc;
+        <!-- fill: #d0dbdc; -->
       }
 
       .cls-2, .cls-3 {
@@ -19,7 +19,7 @@
       }
 
       .cls-3 {
-        fill: #8d8200;
+        <!-- fill: #8d8200; -->
       }
     </style>
     <symbol id="Anchor" viewBox="0 0 13.5 13.5">

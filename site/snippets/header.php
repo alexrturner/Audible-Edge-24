@@ -34,7 +34,7 @@
 
   <script src="https://d3js.org/d3.v7.js"></script>
 
-  <?php if ($page->isHomePage() || $page->uid() === 'home_launch') : ?>
+  <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
     <?= js('assets/js/countdown.js') ?>
   <?php else : ?>
     <?= js('assets/js/menu-overlay.js') ?>
@@ -64,21 +64,25 @@
         </h1>
       </a>
 
-      <?php if ($page->isHomePage() || $page->uid() === 'home_launch') : ?>
+      <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
         <h2 class="ae-subtitle"><?= $site->subtitle() ?></h2>
-        <div class="countdown-container">
-          Full program announced in <span id="countdown"></span>
-        </div>
+        <?php if ($page->isHomePage()) : ?>
+          <div class="countdown-container">
+            Full program announced in <span id="countdown"></span>
+          </div>
+        <?php endif ?>
       <?php else : ?>
         <div class="ae-subtitle">
           <?php snippet('menu', ['expanded' => 'false']) ?>
         </div>
       <?php endif ?>
-      <button id="togglePlainTextView" style="position: absolute; top: 0; right: 0;">Plain Text View</button>
+      <button id="togglePlainTextView" class="pseudo-list-item" style="position: absolute; top: 0.5rem; right: 1.5rem;">Plain Text View</button>
 
       <?php
-      // || $page->uid() === 'home_launch'
       if ($page->isHomePage()) : ?>
+        <?php // snippet('dates-global') 
+        ?>
+      <?php elseif ($page->uid() === 'program') : ?>
         <?php snippet('dates-global') ?>
       <?php elseif ($page->uid() === 'nightschool') : ?>
         <?php snippet('dates-global', ['parentPage' => 'nightschool'])  ?>

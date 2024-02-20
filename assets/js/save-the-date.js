@@ -38,69 +38,94 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var svgElement = document.querySelector("#logo-0 svg"); // get the logo
-  var cls3Elements = svgElement.querySelectorAll(".cls-3"); // currently selects circles and paths
-
+  // select the SVG, dots and audio buttons
+  var svgElement = document.querySelector("#logo-0 svg");
+  var cls3Elements = svgElement.querySelectorAll(".cls-3");
   var audioButtons = document.querySelectorAll(".audio-button");
 
+  function isOverlapping(elem1, elem2) {
+    const rect1 = elem1.getBoundingClientRect();
+    const rect2 = elem2.getBoundingClientRect();
+
+    return !(
+      rect1.right < rect2.left ||
+      rect1.left > rect2.right ||
+      rect1.bottom < rect2.top ||
+      rect1.top > rect2.bottom
+    );
+  }
+
   audioButtons.forEach((button) => {
-    // Select a random .cls-3 element
-    var rCircle = Math.floor(Math.random() * cls3Elements.length);
-    var circle = cls3Elements[rCircle];
+    const screenWidth = window.innerWidth;
+    let attempts = 0;
+    const maxAttempts = 50;
 
-    // Get bounding box of the circle
-    var bbox = circle.getBBox();
+    function setPosition(circle) {
+      var bbox = circle.getBBox();
+      var cx = bbox.x + bbox.width / 2;
+      var cy = bbox.y + bbox.height / 2;
+      var svgRect = svgElement.getBoundingClientRect();
 
-    // calc center of the bounding box
-    var cx = bbox.x + bbox.width / 2;
-    var cy = bbox.y + bbox.height / 2;
+      var containerRect = document
+        .getElementById("svg-container")
+        .getBoundingClientRect();
 
-    // adjust for the SVG position on the page and scaling
-    // assumes no viewBox scaling adjustment needed
-    var svgRect = svgElement.getBoundingClientRect();
+      var leftPercent =
+        ((svgRect.left +
+          cx * (svgRect.width / svgElement.viewBox.baseVal.width) -
+          button.offsetWidth / 2) /
+          containerRect.width) *
+        100;
+      var topPercent =
+        ((svgRect.top +
+          cy * (svgRect.height / svgElement.viewBox.baseVal.height) -
+          button.offsetHeight / 2) /
+          containerRect.height) *
+        100;
 
-    // adjust for the SVG scaling and positioning
-    var scaleX = svgRect.width / svgElement.viewBox.baseVal.width;
-    var scaleY = svgRect.height / svgElement.viewBox.baseVal.height;
-    var adjustedX = svgRect.left + cx * scaleX - button.offsetWidth;
-    var adjustedY = svgRect.top + cy * scaleY - button.offsetHeight;
+      button.style.position = "absolute";
+      button.style.left = `${leftPercent}%`;
+      button.style.top = `${topPercent}%`;
+    }
 
-    // apply positions to buttons
-    // button.style.position = "absolute";
-    // button.style.left = `${adjustedX}px`;
-    // button.style.top = `${adjustedY}px`;
+    if (screenWidth < 769) {
+      // smaller screens: place the button on path
+      var rCircle = Math.floor(Math.random() * cls3Elements.length);
+      var circle = cls3Elements[rCircle];
+      setPosition(circle);
+    } else {
+      // larger screens: find a non-overlapping position
+      let placed = false;
+      let lastCircle = null;
+      while (!placed && attempts < maxAttempts) {
+        var rCircle = Math.floor(Math.random() * cls3Elements.length);
+        var circle = cls3Elements[rCircle];
+        setPosition(circle);
+        lastCircle = circle;
 
-    // var containerRect = document.body.getBoundingClientRect(); // Change `document.body` to your specific container if needed
-    var containerRect = document
-      .getElementById("svg-container")
-      .getBoundingClientRect();
+        let overlap = Array.from(audioButtons).some((otherButton) => {
+          return otherButton !== button && isOverlapping(button, otherButton);
+        });
 
-    var leftPercent =
-      ((svgRect.left +
-        cx * (svgRect.width / svgElement.viewBox.baseVal.width) -
-        button.offsetWidth / 2) /
-        containerRect.width) *
-      100;
-    var topPercent =
-      ((svgRect.top +
-        cy * (svgRect.height / svgElement.viewBox.baseVal.height) -
-        button.offsetHeight / 2) /
-        containerRect.height) *
-      100;
-
-    // Apply positions to buttons using percentage values
-    button.style.position = "absolute";
-    button.style.left = `${leftPercent}%`;
-    button.style.top = `${topPercent}%`;
+        if (!overlap) {
+          placed = true; // found a non-overlapping position
+        } else {
+          attempts++;
+        }
+      }
+      // failsafe: place the button at the last attempted position
+      if (attempts === maxAttempts) {
+        setPosition(lastCircle);
+        console.log("overlapping audio!");
+      }
+    }
   });
 
   d3.selectAll(".audio-button").on("click", function () {
     var audioID = d3.select(this).select("audio").attr("id");
     var audioElement = document.getElementById(audioID);
     if (audioElement) {
-      audioElement
-        .play()
-        .catch((e) => console.error("Error playing audio:", e));
+      audioElement.play().catch((e) => console.log("Error playing audio:", e));
     }
   });
 });
@@ -127,64 +152,54 @@ function playPauseIntro(button) {
     }
   });
 }
-
-// shake shake shake
-document.querySelectorAll("svg path").forEach((svg) => {
-  svg.addEventListener("mouseenter", () => {
+document.addEventListener("DOMContentLoaded", function () {
+  // trigger the shake animation on a random audio button
+  const shakeRandomButton = () => {
     const buttons = document.querySelectorAll(".audio-button");
+    if (buttons.length === 0) return; // exit if no audio button
+
     const randomButton = buttons[Math.floor(Math.random() * buttons.length)];
 
-    // Generate random values for the animation to vary its effect
-    const translateMax = 5 + Math.random() * 5; // Between 5px and 10px
-    const rotateMax = 5 + Math.random() * 5; // Between 5deg and 10deg
-    const duration = 0.5 + Math.random() * 0.5; // Between 0.5s and 1s
+    // gen random animation values
+    const translateMax = 5 + Math.random() * 5; // 1px – 6px
+    const rotateMax = 5 + Math.random() * 5; // 1deg – 6deg
+    const duration = 0.5 + Math.random() * 0.5; // 0.5s – 1s
 
-    // Apply the animation with variations
+    const randomNumber = Math.random();
+    let animationIterationCount = 1; // default to play once
+    if (randomNumber < 0.33) {
+      animationIterationCount = 1;
+    } else if (randomNumber >= 0.33 && randomNumber < 0.66) {
+      animationIterationCount = 2; // 33% probability to play twice
+    } else if (randomNumber >= 0.85) {
+      animationIterationCount = 3; // 33% probability to play three times
+    }
+
     randomButton.style.animation = `shake ${duration}s`;
-    randomButton.style.animationIterationCount = "1";
+    randomButton.style.animationIterationCount =
+      animationIterationCount.toString();
     randomButton.addEventListener(
       "animationend",
       () => {
-        // Remove the animation style to allow it to be reapplied next time
+        // rm animation style to allow it to be reapplied
         randomButton.style.animation = "";
       },
       { once: true }
     );
+  };
 
-    // Modify the keyframes directly or use inline styles for variations
-  });
+  // init delay before starting shaking
+  let delay = Math.random() * (10000 - 5000) + 1000; // 1s - 15s
+
+  const startShakeLoop = () => {
+    setTimeout(function loop() {
+      shakeRandomButton();
+
+      // calc next delay
+      delay = Math.random() * (10000 - 5000) + 1000; // 1s - 15s
+      setTimeout(loop, delay);
+    }, delay);
+  };
+
+  startShakeLoop();
 });
-
-// STROKE / FILL COLOUR CHANJGE
-const fillColors = [
-  getComputedStyle(document.documentElement).getPropertyValue("--cc-olive"),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-olive-light"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-olive-highlight"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue("--cc-orange"),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-orange-light"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-orange-highlight"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue("--cc-purple"),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-purple-light"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-purple-highlight"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue("--cc-blue"),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-blue-light"
-  ),
-  getComputedStyle(document.documentElement).getPropertyValue(
-    "--cc-blue-highlight"
-  ),
-];
-
-const strokeColors = fillColors;

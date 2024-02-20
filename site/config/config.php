@@ -94,27 +94,19 @@ return [
         ]
     ],
     'routes' => [
-        [
-            'pattern' => 'works(:all)',
-            'action'  => function () {
-                // Check user role or other conditions
-                if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-                    return go('/');
-                }
-            }
-        ],
+        // [
+        //     'pattern' => 'program',
+        //     'action'  => function () {
+        //         // Check user role or other conditions
+        //         if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
+        //             return go('/');
+        //         }
+        //     }
+        // ],
         [
             'pattern' => 'artists',
             'action'  => function () {
                 return go('/');
-            }
-        ],
-        [
-            'pattern' => 'program',
-            'action'  => function () {
-                // if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-                return go('/');
-                // }
             }
         ],
         [
@@ -126,25 +118,6 @@ return [
             }
         ],
     ],
-    // 'hooks' => [
-    //     'page.create:after' => function ($newPage) {
-    //         generateRelationsJson();
-    //         if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-    //             generateRelationsJson();
-    //         }
-    //     },
-    //     'page.update:after' => function ($newPage, $oldPage) {
-    //         generateRelationsJson();
-    //         if ($newPage && ($newPage->intendedTemplate() === 'artist' || $newPage->intendedTemplate() === 'event')) {
-    //             generateRelationsJson();
-    //         }
-    //     },
-    //     'page.delete:after' => function ($status, $page) {
-    //         if ($page && ($page->intendedTemplate() === 'artist' || $page->intendedTemplate() === 'event')) {
-    //             generateRelationsJson();
-    //         }
-    //     },
-    // ],
     'hooks' => [
         'page.create:after' => function ($newPage) {
             if ($newPage && in_array($newPage->intendedTemplate(), ['artist', 'event', 'nightschool-event', 'satellite-event'])) {

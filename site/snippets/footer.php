@@ -1,8 +1,8 @@
 <?php
 // load relations SVG on home page and nightschool index
-if ($page->isHomePage() || $page->uid() === "home_launch" || $page->uid() === "nightschool") : ?>
+if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "nightschool") : ?>
   <?= js([
-    'assets/js/d3-relations-v01.js',
+    'assets/js/ae24-squig.js',
     '@auto',
   ]) ?>
 <?php else : ?>
@@ -13,7 +13,6 @@ if ($page->isHomePage() || $page->uid() === "home_launch" || $page->uid() === "n
 <div class="overlay" style="display: none;">
   <div class="overlay-svg-container">
     <?= // squig
-
     svg('content/audible-edge-various-squigz-01.svg') ?>
   </div>
 </div>
