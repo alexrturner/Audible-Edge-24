@@ -1,0 +1,84 @@
+Title: Hand-made music albums: a hands-on workshop
+
+----
+
+Artist-link: - page://sR8HLq8ZmDM3MCa7
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Boorloo-via-Montréal label Mystery &amp; Wonder are known for their lovingly-made merchandise including hand-assembled CD cases, woodcut-printed vinyl sleeves, and ubiquitous black-and-white tote bags. They've toured extensively internationally, taking boxes of merch with them. In this workshop you are invited to make a merch item from scratch - die-cutting and folding paper, ink-stamping and gluing, and even burning audio onto a CD-R (or bringing your own dubbed tape). The workshop will discuss not just the art of making the thing, but also the love and care behind independent artistry, and how this extends to making and sharing merch.</p><p>Participants are invited to bring their own materials (paper, stamps, Lino cuts) if they have a preference, and a CD-R or dubbed cassette. Otherwise, participants can simply use all the materials provided to make a sleeve and burn a CD with their digital files at the workshop. Participants can also bring a digital copy of liner notes and album credits for printing, if available. It’s also fine to show up totally empty-handed and start from scratch.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://events.humanitix.com/audible-edge-night-school-hand-made-music-albums
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Pay-what-you-can (suggested $15/$10)
+
+----
+
+Venues: - page://zFNZnl0BjpIg4Gme
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-03-24
+
+----
+
+Start-time: 10:30:00
+
+----
+
+End-date: 2024-03-24
+
+----
+
+End-time: 13:30:00
+
+----
+
+Eventschedule:
+
+- 
+  eventtype: ""
+  startdate: ""
+  enddate: ""
+  description: ""
+  location: ""
+
+----
+
+Accessibility: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Tags: 
+
+----
+
+Uuid: XhyayGl0URBVEYwU

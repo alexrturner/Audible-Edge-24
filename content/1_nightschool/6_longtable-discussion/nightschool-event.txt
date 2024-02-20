@@ -1,0 +1,80 @@
+Title: What was that all about?
+
+----
+
+Artist-link: 
+
+----
+
+Subtitle: <p>Festival debrief</p>
+
+----
+
+Description: <p>The curators of Audible Edge, Annika Moses &amp; Josten Myburgh, invite you for a reflective discussion on the festival. Why was Audible Edge the way it was? What challenges were faced in pulling it together? How did it actually go? What was good about it? What didn’t work?</p><p>This debrief serves an important function for Tone List to reflect on how public money is put to use in service of our program. This is both ethical, and mandatory for our funding evaluations. But it’s also a way of inviting the public to join in that process and shape the festival into the future. It’s a space for you to support the festival with your perspective and ideas, and also to critique or challenge its curatorial perspectives.</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues:
+
+- page://zFNZnl0BjpIg4Gme
+- page://hXiZZ1iIeosH9m05
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-05-02
+
+----
+
+Start-time: 18:00:00
+
+----
+
+End-date: 2024-05-02
+
+----
+
+End-time: 20:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Tags: 
+
+----
+
+Uuid: J8RMT02zs87iLeUT

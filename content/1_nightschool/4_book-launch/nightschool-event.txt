@@ -1,0 +1,77 @@
+Title: Book Launch: Creative Tools and the Softwarization of Cultural Production
+
+----
+
+Artist-link: - page://GqHio8YMKUicktfD
+
+----
+
+Subtitle: <p>presented with the State Library of Western Australia</p>
+
+----
+
+Description: <p>Edited by Frédérik Lesage and Michael Terren, <em>Creative Tools and the Softwarization of Cultural Production</em> explores how creativity is increasingly designed, marketed, and produced through digital products and services which, the editors argue, are not politically, economically or culturally neutral.</p><p>For this Night School session Michael Terren will lead a discussion building off of ideas expressed in the book. This will explore how artistic praxis has been co-opted by the service economy, rebranding it as the 'creative industries'. It will explore the consequences of this co-opting: insecure work as the norm, erosion of work-life balance, erosion of unions, and so on. Terren will invite us to discuss how artists might seize the means of cultural production in our techno-feudalist setting, and the need for artists to critically re-assess "creativity" and "artistic expression" without becoming blueprints for global capital to co-opt.</p><p>Paul Boyé, Sage J Harlow and Sze Tsang will join the latter half of the discussion to offer provocations.</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://YgU1Cd9MUyKU7xNo
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-11
+
+----
+
+Start-time: 18:00:00
+
+----
+
+End-date: 2024-04-11
+
+----
+
+End-time: 20:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Tags: 
+
+----
+
+Uuid: dUUCj1skZQyzUiFO

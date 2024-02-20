@@ -2,7 +2,7 @@ Title: Night School
 
 ----
 
-Description: <p>Night School description text</p>
+Description: <p>Tone List presents the Audible Edge Night School, a series of workshops and critical conversations in the lead-up to the festival. The Night School is about the capacity of our scene: to write our own stories, build our own platforms, grow safer cultures, and to play and listen better. </p><p>We want to get stuck into ideas and skills that are overlooked or under-explored in our community. We want anyone to feel able to contribute at these workshops, growing new thoughts together. We all participate as teachers, students and provocateurs alike.</p><p>The night school is not always at night. In fact, it usually isn’t. This is largely the result of us becoming attached to the name before various circumstances changed. But it also nods to the “post-event hang” as an important site of learning. A nocturnal space where learning is reflected on, critiqued and hashed out over eats and drinks. </p><p>Night school events are presented in partnership with the State Library of Western Australia, Sound Exploration Fremantle<strong> </strong>and AvantWhatever. Discussion-based workshops take place in a hybrid in-person/online format (via Jitsi), with purely practical workshops being in-person only.</p><p>(It can and will get nerdy at times.)</p>
 
 ----
 

@@ -2,15 +2,15 @@ Title: Donate
 
 ----
 
-Description: <h1>Donation Title</h1><p>Information about fundraiser.</p>
+Description: <p>Each year we run an Australian Cultural Fund campaign to help pay for Audible Edge. 100% of donations via this portal go directly to artist payments for fees and commissioning. Donations are essential both to cover the costs of the festival, but also to secure the festival's longevity in a precarious funding landscape. Community and philanthropic support demonstrates broad co-investment in Audible Edge, helping us look better in our competitive funding applications year-to-year. So, your contribution goes a long way!</p><p>Donations above $2 are tax-deductible.</p>
 
 ----
 
-Link-text: 
+Link-text: Donate Now
 
 ----
 
-Link: https://extra.com
+Link: https://artists.australianculturalfund.org.au/s/project/a2EMn000004zTZ3MAM/audible-edge-festival-2024
 
 ----
 

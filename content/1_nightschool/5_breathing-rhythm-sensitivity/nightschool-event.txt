@@ -1,0 +1,77 @@
+Title: Breathing, Rhythm & Sensitivity
+
+----
+
+Artist-link: - page://rIH7f9meLnRjcNt3
+
+----
+
+Subtitle: <p>presented with Sound Exploration Fremantle</p>
+
+----
+
+Description: <p>Sound Exploration Fremantle is a monthly community workshop series at Sullivan Hall in White Gum Valley. This month, we join them to co-present a workshop with Japanese improvising legend Shoji Hano. Born in 1955, Hano has played with historical titans in improvised music like Peter Brotzmann, Johannes Bauer &amp; Kaoru Abe.<br><br>Participants are invited to listen to and play duos with Shoji, and hear a lecture from him about core concepts in his work. We’ll share in a reflective group discussion, and finally play all together.</p><p>Snacks and tea available for the breaks.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://events.humanitix.com/audible-edge-night-school-breathing-rhythm-sensitivity
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Donation entry (suggested $10 - $20)
+
+----
+
+Venues: - page://PP97yUGOdrjCjEel
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-21
+
+----
+
+Start-time: 11:00:00
+
+----
+
+End-date: 2024-04-21
+
+----
+
+End-time: 14:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Tags: 
+
+----
+
+Uuid: pFoWn8THXmxCWzvE

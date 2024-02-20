@@ -4,8 +4,8 @@ Title: Program Launch
 
 Artist-link:
 
-- page://T1QmDFVxIOa88h1e
-- page://sIzAImOZg7RXdpMW
+- page://tk6EV0QEXMeHj1Mg
+- page://NoI8Fa6FElOsovig
 
 ----
 
@@ -13,7 +13,7 @@ Subtitle:
 
 ----
 
-Description: 
+Description: <p>Join us on Wednesday March 13 from 6pm at Astral Weeks for a drink to celebrate the return of the festival and be the first to see the program in full. </p><p>The night features contributions from two projects which carry Audible Edge’s spirit of contrast, play and improvisation.</p><p>Audible Edge’s very own web designer and oddball experimentalist Sookie will present one of their fabled DJ sets between 6-9pm. Weaving vinyl, lo-fi field recordings and Youtube video samples together the vibe is joyfully intimate and impeccably strange.</p><p>At 7pm, Avant-jazz quartet Group Therapy, featuring Djuna Lee (bass), Jessica Carlton (trumpet), Simon Charles (saxophones) and Pete Evans (drums), will play a live set of driving and rhythmic improvised music. </p><p>There might be other silly antics, maybe a brief speech or two. Festival curators Annika Moses &amp; Josten Myburgh may share some strange items from their record collections later into the night.</p><p>Printed programs will be there in abundance and maybe some other surprises. Astral Weeks’ wine list is really good — and be sure to take a punt on the in-house curated cocktails...</p><p>Entry is free, but we encourage you to donate generously to the Audible Edge fundraiser.</p>
 
 ----
 
@@ -29,7 +29,7 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: 
+Ticket-price-text: Free
 
 ----
 
@@ -49,7 +49,7 @@ Start-date: 2024-03-13
 
 ----
 
-Start-time: 
+Start-time: 18:00:00
 
 ----
 
@@ -57,7 +57,7 @@ End-date:
 
 ----
 
-End-time: 
+End-time: 21:00:00
 
 ----
 
@@ -65,11 +65,11 @@ Eventschedule:
 
 ----
 
-Tags: 
+Accessibility: 
 
 ----
 
-Accessibility: 
+Tags: 
 
 ----
 

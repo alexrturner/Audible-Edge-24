@@ -1,16 +1,15 @@
-Title: nightschool tst 2
+Title: Goolugatup Sounds 18
 
 ----
 
-Artist-link: - page://OsXZ61VVeTRK73me
+Artist-link:
+
+- page://rIH7f9meLnRjcNt3
+- page://Bne7mfALvoc7e9WW
 
 ----
 
-Subtitle: 
-
-----
-
-Event-type: nightschool
+Subtitle: <p>presented by Goolugatup Heathcote</p>
 
 ----
 
@@ -34,7 +33,7 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues: - page://ax34O7v3mJrpZ61l
 
 ----
 
@@ -46,11 +45,11 @@ Venue-text:
 
 ----
 
-Start-date: 
+Start-date: 2024-04-20
 
 ----
 
-Start-time: 
+Start-time: 16:00:00
 
 ----
 
@@ -58,7 +57,7 @@ End-date:
 
 ----
 
-End-time: 
+End-time: 20:00:00
 
 ----
 
@@ -70,8 +69,4 @@ Accessibility:
 
 ----
 
-Tags: 
-
-----
-
-Uuid: wp2CQmOGyk1KBbhR
+Uuid: KIY4FmuZdXo7Dbx8

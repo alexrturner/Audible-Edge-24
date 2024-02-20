@@ -1,16 +1,12 @@
-Title: Critical Writing
+Title: Critical Writing for Experimental Music
 
 ----
 
-Artist-link: 
+Artist-link: - page://xQIDZamcSeUiK0Ku
 
 ----
 
 Subtitle: 
-
-----
-
-Event-type: nightschool
 
 ----
 
@@ -34,7 +30,10 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues:
+
+- page://zFNZnl0BjpIg4Gme
+- page://hXiZZ1iIeosH9m05
 
 ----
 
@@ -67,6 +66,10 @@ Eventschedule:
 ----
 
 Accessibility: 
+
+----
+
+Event-type: nightschool
 
 ----
 

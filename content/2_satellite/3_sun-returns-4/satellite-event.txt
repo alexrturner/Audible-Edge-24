@@ -1,16 +1,12 @@
-Title: Nightschool Test 1
+Title: Sun Returns 4
 
 ----
 
-Artist-link: - page://ko3QAx0YrEneFeyD
+Artist-link: - page://zYHw8cFZvTXLNJxW
 
 ----
 
-Subtitle: 
-
-----
-
-Event-type: nightschool
+Subtitle: <p>presented with the WA Museum Boola Bardip</p>
 
 ----
 
@@ -34,7 +30,7 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues: - page://aBBmBklfSGTzxgqk
 
 ----
 
@@ -46,11 +42,11 @@ Venue-text:
 
 ----
 
-Start-date: 
+Start-date: 2024-05-17
 
 ----
 
-Start-time: 
+Start-time: 06:30:00
 
 ----
 
@@ -58,7 +54,7 @@ End-date:
 
 ----
 
-End-time: 
+End-time: 08:00:00
 
 ----
 
@@ -70,12 +66,4 @@ Accessibility:
 
 ----
 
-Uuid: XhyayGl0URBVEYwU
-
-----
-
-Tags: 
-
-----
-
-Links: 
+Uuid: tiofuThVnEcNxwFP

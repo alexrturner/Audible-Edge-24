@@ -1,0 +1,80 @@
+Title: Opt-out
+
+----
+
+Artist-link: - page://JFgmE1qxuzOOVZal
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Opt-out is a workshop focused on 'opting out' of the attention economies of capitalist platforms and developing alternatives that foster listening online. Facilitated by Ben Byrne, it will feature a presentation of some of his work with Avantwhatever, a forum for digital sound, art, and design. This will include the decentralised social media server <a href="http://www.avantwhatever.org" title="Avantwhatever.org">Avantwhatever.org,</a> which workshop participants will be able to experiment with and will be provided as an online gathering space during the Audible Edge Festival. Participants will be invited to share their own struggles, with the infinite scroll of commercial social media, listening to and paying for music deliberately and ethically, connecting with other musicians and listeners online, or otherwise. Ben will then lead the group in discussing the possibilities of decentralised technologies and tactics for inhabiting the open web in creative ways.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://events.humanitix.com/audible-edge-night-school-opt-out
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Pay-what-you-can (suggested $15/$10)
+
+----
+
+Venues:
+
+- page://zFNZnl0BjpIg4Gme
+- page://hXiZZ1iIeosH9m05
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-03-31
+
+----
+
+Start-time: 15:00:00
+
+----
+
+End-date: 2024-03-31
+
+----
+
+End-time: 17:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Event-type: nightschool
+
+----
+
+Tags: 
+
+----
+
+Uuid: blahqlTWwxTrtGvI
