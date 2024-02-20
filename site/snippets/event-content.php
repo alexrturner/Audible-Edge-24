@@ -6,14 +6,32 @@
         </li>
     </ul>
 
+    <?php
+    // tickets
+    if ($page->ticketed()->toBool()) : ?>
+        <div class="ticket-info">
+            <?php if ($ticket_link = $page->ticket_link()->url()) : ?>
+                <?php if ($ticket_link->isNotEmpty()) : ?>
+                    <a href="<?= $ticket_link ?>" class="button__link" aria-label="Visit to purchase tickets" aria-type="link">Tickets</a>
+                <?php endif; ?>
+            <?php endif; ?>
+            <?php if ($ticket_price = $page->ticket_price()->value()) : ?>
+                <span class="ticket-price">$<?= $ticket_price ?></span>
+            <?php endif; ?>
+            <?php if ($ticket_price_text = $page->ticket_price_text()->html()) : ?>
+                <span class="ticket-price-text"><?= $ticket_price_text ?></span>
+            <?php endif; ?>
+        </div>
+    <?php endif; ?>
+
     <div class="subtitle">
-        <?php if ($subtitle = $page->subtitle()->kirbytext()) : ?>
-            <span><?= $subtitle ?></span>
+        <?php if ($subtitle = $page->subtitle()) : ?>
+            <span><?= kt($subtitle) ?></span>
         <?php endif; ?>
     </div>
 
-    <?php if ($location = $page->location()->html()) : ?>
-        <p class="location"><?= $location ?></p>
+    <?php if ($location = $page->location()) : ?>
+        <p class="location"><?= kt($location) ?></p>
     <?php endif; ?>
 
     <div class="venue">
@@ -35,6 +53,7 @@
             <?php endif; ?>
 
 
+
             <p>
                 <?= $venue->location()->html() ?>
             </p>
@@ -51,7 +70,7 @@
 
 <!-- artists, image -->
 <section class="section" id="col2">
-
+    <h3 class="hidden">Lineup:</h3>
     <ul class="artists" id="artists-items">
         <?php
         $artists =  $page->artist_link()->toPages();
@@ -66,69 +85,70 @@
     </ul>
 
 
-    <?php if ($page->images()->isNotEmpty()) : ?>
-        <div class="event-images">
-            <?php foreach ($page->images() as $image) : ?>
-                <figure>
-                    <img src="<?= $image->url() ?>" alt="<?= $image->alt()->or('Event image') ?>" loading="lazy">
-                    <figcaption><?= $image->caption()->or('') ?></figcaption>
-                </figure>
-            <?php endforeach ?>
-        </div>
-    <?php endif ?>
+
+    <?php snippet('gallery', ['images' => $page->images()]); ?>
 
 </section>
 
 
 <section class="section" id="col3">
     <?php
+    // event schedule
+    $eventSchedules = $page->eventSchedule()->toStructure();
+    ?>
+
+    <ul class="event-schedules">
+        <?php foreach ($page->eventSchedule()->toStructure() as $schedule) : ?>
+            <li class="event-schedule pseudo-list-item">
+
+                <div class="column description">
+                    <?= $schedule->description()->kirbytext() ?>
+                </div>
+                <div class="column details">
+                    <?php if ($schedule->location()->isNotEmpty()) : ?>
+                        <p class="location"><?= $schedule->location()->html() ?></p>
+                    <?php endif; ?>
+
+                    <?php if ($schedule->scheduleType()->value() === 'set time' && $schedule->setTime()->isNotEmpty()) : ?>
+                        <p class="set-time"><?= $schedule->setTime()->toDate('H:i') ?></p>
+                    <?php endif; ?>
+
+                    <?php if ($schedule->scheduleType()->value() === 'multi-day event') : ?>
+                        <?php if ($schedule->startDate()->isNotEmpty()) : ?>
+                            <p class="start-date"><?= $schedule->startDate()->toDate('d/m/Y H:i') ?></p>
+                        <?php endif; ?>
+                        <?php if ($schedule->endDate()->isNotEmpty()) : ?>
+                            <p class="end-date"><?= $schedule->endDate()->toDate('d/m/Y H:i') ?></p>
+                        <?php endif; ?>
+                    <?php endif; ?>
+                </div>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+
+
+
+    <?php
     // description
     if ($description = kt($page->description())) : ?>
-        <div class="event-details">
+        <div class="event-details" style="max-width: 60ch;">
             <?= $description ?>
         </div>
     <?php endif; ?>
 
 
     <?php
-    // tickets
-    if ($page->ticketed()->toBool()) : ?>
-        <div class="ticket-info">
-            <?php if ($ticket_link = $page->ticket_link()->url()) : ?>
-                <button href="<?= $ticket_link ?>" class="ticket-link" aria-label="Visit to purchase tickets" aria-type="link">Tickets</button>
-
-            <?php endif; ?>
-            <?php if ($ticket_price = $page->ticket_price()->value()) : ?>
-                <p class="ticket-price">$<?= $ticket_price ?></p>
-            <?php endif; ?>
-            <?php if ($ticket_price_text = $page->ticket_price_text()->html()) : ?>
-                <p class="ticket-price-text"><?= $ticket_price_text ?></p>
-            <?php endif; ?>
-        </div>
+    // event accessibility
+    if ($accessibility = kt($page->accessibility())) : ?>
+        <h3 class="section__subtitle pseudo-list-item">Accessibility</h3>
+        <div class="accessibility-info" style="max-width: 60ch;"><?= $accessibility ?></div>
     <?php endif; ?>
 
 
-    <!-- custom accessibility details -->
-    <?php if ($venue && $venue->accessibility_text()->isNotEmpty()) : ?>
-        <?= $venue->accessibility_text()->kt() ?>
-    <?php endif; ?>
 
-    <?php if ($venue && $venue->accessibility()->isNotEmpty()) : ?>
-        <p>Accessibility Features:</p>
-        <div class="accessibility-features"><?= $venue->accessibility()->html() ?></div>
-    <?php endif; ?>
-
-    <?php if ($accessibility = kt($page->accessibility())) : ?>
-        <h3>Accessibility</h3>
-        <div class="accessibility-info"><?= $accessibility ?></div>
-    <?php endif; ?>
-
-    <?php if ($venue && $venue->location_features()->isNotEmpty()) : ?>
-        <p><?= $venue->location_features()->html() ?></p>
-    <?php endif; ?>
-
-    <!-- map -->
-    <?php if ($venue && $venue->map()->isNotEmpty()) : ?>
+    <?php
+    // venue map
+    if ($venue && $venue->map()->isNotEmpty()) : ?>
         <!-- <a>
                             <div class="map map-open" onclick="toggleMap()">
                                 <img src="<= $venue -> map() ?>">
@@ -138,7 +158,7 @@
 
 </section>
 
-<section class="section" id="col4">
-    <?php // snippet('menu') 
-    ?>
-</section>
+<?= js([
+    'assets/js/gallery.js',
+    'assets/js/scroll.js',
+]) ?>

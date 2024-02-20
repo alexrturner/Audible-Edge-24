@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="content-container">
+<main class="content-container index">
 
     <div class="section satellite" id="events">
         <ul class="satellite-container">

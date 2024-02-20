@@ -1,23 +1,20 @@
 <?php snippet('header') ?>
 
 <style>
-    .honeypot {
-        position: absolute;
-        left: -9999px;
-    }
+
 </style>
 
-<main class="main content-container">
+<main class="main content-container index">
 
-    <section class="intro">
+    <section class="intro" style="max-width: 60ch;">
         <?= kt($page->intro()) ?>
     </section>
 
-    <section class="description">
+    <section class="description" style="max-width: 60ch;">
         <?= kt($page->description()) ?>
     </section>
 
-    <section class="form">
+    <section class="form" style="max-width: 60ch;">
 
         <?= kt($page->form()) ?>
 
@@ -30,7 +27,7 @@
                 <div><?= $alert['error'] ?></div>
             <?php endif ?>
             <form method="post" action="<?= $page->url() ?>">
-                <div class="honeypot">
+                <div class="honeypot" style="position: absolute; left: -9999px;">
                     <label for="website">Website <abbr title="required">*</abbr></label>
                     <input type="url" id="website" name="website" tabindex="-1">
                 </div>

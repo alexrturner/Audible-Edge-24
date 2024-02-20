@@ -6,9 +6,10 @@ $expanded = $expanded ?? "true";
 <nav class="section menu" id="menu" aria-label="Main Navigation">
     <ul class="menu-container">
         <li class="menu-item first-item <?php e($expanded === "true", "", "list-style-circle"); ?>">
-            <button class="menu-toggle toggle" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu <span class="icon-bar"></span></button>
+            <button class="menu-toggle toggle" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
             <br><br>
-            <ul class="items <?php e($expanded === "true", "", "hidden"); ?> " id="menu-items">
+
+            <ul class="items <?php e($expanded === "true", "", "hidden__visibility"); ?>" id="menu-items">
                 <li class="menu-item">
                     <a href="/satellite/program-launch" class="menu-link">
                         Program Launch

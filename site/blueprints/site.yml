@@ -18,10 +18,10 @@ tabs:
         create: default
         image: icon
 
-  program:
-    label: Program
-    sections:
-      events: sections/events
+  # program:
+  #   label: Program
+  #   sections:
+  #     events: sections/events
 
   # settings tab
   settings:
@@ -50,11 +50,6 @@ tabs:
           email:
             label: Contact Email
             type: email
-
-          color:
-            label: Colour
-            type: color
-            default: blue
 
           acknowledgement:
             label: Acknowledgement of Country

@@ -18,6 +18,22 @@
             </ul>
         <?php endif; ?>
 
+        <?php
+        // fetch audio
+        $sounds = $page->files()->template('audio');
+        $counter = 0;
+        if ($sounds->isNotEmpty()) : ?>
+            <div class="artist-sounds">
+                <?php foreach ($sounds as $sound) : ?>
+                    <audio id="audioSample<?= $counter ?>" class="audio-sample" controls>
+                        <source src="<?= $sound->url() ?>" type="<?= $sound->mime() ?>">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <button id="playAudioButton<?= $counter ?>" class="circle-button play-audio-button"></button>
+                    <?php $counter++; ?>
+                <?php endforeach; ?>
+            </div>
+        <?php endif; ?>
 
     </section>
 
@@ -31,14 +47,16 @@
             </li>
         </ul>
 
-        <?php if ($credits = $page->credits()->toStructure()) : ?>
-            <ul class="credits">
-                <?php foreach ($credits as $credit) : ?>
-                    <li>
-                        <?php if ($credit->other_name()->isNotEmpty()) : ?><?= $credit->other_name()->html() ?><?php endif; ?>&nbsp;<?php if ($credit->sort_name()->isNotEmpty()) : ?><?= $credit->sort_name()->html() ?><?php endif; ?><?php if ($credit->group()->isNotEmpty()) : ?>&nbsp;(<?= $credit->group()->html() ?>)<?php endif; ?>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+        <?php if ($page->credits()->count()->toArray() > 0) : ?>
+            <?php if ($credits = $page->credits()->toStructure()) : ?>
+                <ul class="credits">
+                    <?php foreach ($credits as $credit) : ?>
+                        <li>
+                            <?php if ($credit->other_name()->isNotEmpty()) : ?><?= $credit->other_name()->html() ?><?php endif; ?>&nbsp;<?php if ($credit->sort_name()->isNotEmpty()) : ?><?= $credit->sort_name()->html() ?><?php endif; ?><?php if ($credit->group()->isNotEmpty()) : ?>&nbsp;(<?= $credit->group()->html() ?>)<?php endif; ?>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
         <?php endif; ?>
 
         <?php snippet('gallery', ['images' => $page->images()]); ?>
@@ -49,17 +67,26 @@
     <!-- description and links -->
     <section class="section" id="col3">
 
-        <?php if ($page->bio_short()->isNotEmpty()) : ?>
-            <div class="bio-short">
-                <?= kt($page->bio_short()) ?>
-            </div>
-        <?php endif; ?>
+        <div class="bio-container">
+            <?php if ($page->bio_short()->isNotEmpty()) : ?>
+                <div class="bio-short">
+                    <?= kt($page->bio_short()) ?>
+                </div>
+            <?php endif; ?>
+            <?php if ($page->bio_long()->isNotEmpty()) : ?>
+                <button id="toggleBio" class="toggle-bio-btn">+</button>
+                <div id="bioLong" class="bio-long" style="visibility:hidden;">
 
-        <?php if ($page->bio_long()->isNotEmpty()) : ?>
-            <div class="bio-long">
-                <?= $page->bio_long() ?>
-            </div>
-        <?php endif; ?>
+                    <?= $page->bio_long()->kt() ?>
+
+                </div>
+            <?php endif; ?>
+        </div>
+
+
+
+
+
 
         <?php $links = $page->links()->toStructure(); ?>
         <?php if ($links->isNotEmpty()) : ?>
@@ -92,31 +119,15 @@
         <?php endif; ?>
     </section>
 
-    <!-- sounds -->
-    <section class="section" id="col4">
 
-        <?php
-        // fetch audio
-        $sounds = $page->files()->template('audio');
-        $counter = 0;
-        if ($sounds->isNotEmpty()) : ?>
-            <div class="artist-sounds">
-                <?php foreach ($sounds as $sound) : ?>
-                    <audio id="audioSample<?= $counter ?>" class="audio-sample" controls>
-                        <source src="<?= $sound->url() ?>" type="<?= $sound->mime() ?>">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <button id="playAudioButton<?= $counter ?>" class="circle-button play-audio-button"></button>
-                    <?php $counter++; ?>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
+    <!-- <section class="section" id="col4">
 
 
-    </section>
+    </section> -->
 </main>
 
 <?= js([
     'assets/js/gallery.js'
 ]) ?>
+
 <?php snippet('footer') ?>

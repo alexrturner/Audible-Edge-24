@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const showImage = (index) => {
       images.forEach((img, i) => {
-        img.style.display = i === index ? "block" : "none";
+        img.style.display = i === index ? "flex" : "none";
       });
       updateGalleryCount();
     };
@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
           showImage(currentIndex);
         });
     }
-    showImage(currentIndex); // Initial call to show the first image and update count
+    // show the first image and update count
+    showImage(currentIndex);
   }
 });

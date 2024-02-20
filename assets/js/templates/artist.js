@@ -38,4 +38,18 @@ document.addEventListener("DOMContentLoaded", function () {
       button.classList.remove("clicked");
     };
   });
+
+  // toggle bio
+  const toggleBtn = document.getElementById("toggleBio");
+  if (!toggleBtn) {
+    return;
+  }
+  const bioLong = document.getElementById("bioLong");
+
+  toggleBtn.addEventListener("click", function () {
+    const isOpen = bioLong.classList.contains("expanded");
+    toggleBtn.textContent = isOpen ? "+" : "-";
+    bioLong.classList.toggle("expanded");
+    bioLong.style.visibility = isOpen ? "hidden" : "visible";
+  });
 });

@@ -1,0 +1,17 @@
+Title: Newsletter
+
+----
+
+Description: 
+
+----
+
+Link-email: https://example.com
+
+----
+
+Link-sms: https://example.com
+
+----
+
+Uuid: yIS2F91ISTCVvfuE

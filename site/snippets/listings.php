@@ -4,6 +4,10 @@ $parentPageSlug = $parentPageSlug ?? null;
 $className = $className ?? 'listing';
 $eventFilter = $eventFilter ?? null;
 
+if ($className === 'nightschool') {
+    $className = 'events';
+}
+
 if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->hasChildren()) : ?>
     <ul class="items" id="<?= $className ?>-items">
         <?php foreach ($parentPage->children()->listed() as $child) : ?>

@@ -1,11 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   // function to toggle styles
-  const toggleStyles = document.getElementById("toggleStyles");
+  const togglePlainText = document.getElementById("togglePlainTextView");
 
-  toggleStyles.addEventListener("click", function () {
+  togglePlainText.addEventListener("click", function () {
+    const isDisabled = localStorage.getItem("stylesDisabled") === "true";
+    // Toggle the disabled state based on the opposite of the current state
     for (let i = 0; i < document.styleSheets.length; i++) {
-      document.styleSheets[i].disabled = !document.styleSheets[i].disabled;
+      document.styleSheets[i].disabled = !isDisabled;
     }
+    // Save the new state in localStorage
+    localStorage.setItem("stylesDisabled", !isDisabled);
   });
 
   // function to toggle visibility of sections
@@ -49,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-function initializeSections() {
-  const isMobile = window.innerWidth <= 768; // Define mobile viewport width threshold
+function initSections() {
+  const isMobile = window.innerWidth <= 768;
   const sections = document.querySelectorAll("[aria-controls]");
 
   sections.forEach((button) => {
@@ -58,17 +62,17 @@ function initializeSections() {
     const sectionItems = document.getElementById(sectionId);
 
     if (isMobile) {
-      // Collapse section items and set aria-expanded to false on mobile
+      // collapse section items & set aria-expanded to false on mobile
       sectionItems.style.display = "none";
       button.setAttribute("aria-expanded", "false");
 
-      // Ensure the parent li has the correct list style
+      // style collapsed sections
       const parent = button.closest("li.first-item");
       if (parent) {
         parent.classList.add("list-style-circle");
       }
     } else {
-      // On desktop, make sure the appropriate style is applied based on the expanded state
+      // style collapsed sections for desktop
       const isExpanded = button.getAttribute("aria-expanded") === "true";
       const parent = button.closest("li.first-item");
       if (parent) {
@@ -79,5 +83,5 @@ function initializeSections() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  initializeSections();
+  initSections();
 });

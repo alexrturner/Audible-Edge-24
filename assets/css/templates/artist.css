@@ -1,3 +1,13 @@
 .audio-sample {
   display: none;
 }
+
+.bio-long {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.bio-long.expanded {
+  max-height: 1000px;
+}

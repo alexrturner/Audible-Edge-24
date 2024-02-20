@@ -6,4 +6,12 @@ Description: Description text
 
 ----
 
+Link-email: https://example.com
+
+----
+
+Link-sms: https://example.com
+
+----
+
 Uuid: aHVUvWb1uOZgJNAC

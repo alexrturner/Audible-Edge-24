@@ -12,7 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // calculate days remaining & display
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    countdown.innerHTML = days + " days until Program Launch";
+
+    if (days === 1) {
+      countdown.innerHTML = days + " day";
+    } else {
+      countdown.innerHTML = days + " days";
+    }
 
     // if the countdown is over, display message
     if (distance < 0) {

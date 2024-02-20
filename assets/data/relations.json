@@ -189,7 +189,8 @@
             "uuid": "artists\/test-artist",
             "title": "test-artist",
             "events": [
-                "satellite\/program-launch"
+                "satellite\/program-launch",
+                "program\/test-event"
             ]
         }
     },
@@ -239,6 +240,17 @@
             "event_type": [
                 "satellite"
             ]
+        },
+        "program\/test-event": {
+            "uuid": "program\/test-event",
+            "title": "test event",
+            "date": "2024-04-27",
+            "artists": [
+                "artists\/test-artist"
+            ],
+            "event_type": [
+                "program"
+            ]
         }
     },
     "dates": {
@@ -254,12 +266,14 @@
             "events": [
                 "program\/club-night-at-psas",
                 "program\/club-night-at-psas",
-                "program\/club-night-at-psas"
+                "program\/club-night-at-psas",
+                "program\/test-event"
             ],
             "artists": [
                 "artists\/jxnior",
                 "artists\/bobbi-russell",
-                "artists\/lia-t"
+                "artists\/lia-t",
+                "artists\/test-artist"
             ]
         },
         "2024-04-26": {

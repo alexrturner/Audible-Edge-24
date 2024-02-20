@@ -3,17 +3,17 @@ image:
   back: "blue-200"
   icon: ℹ︎
 
-# columns:
-#   main:
-#     width: 1
-#     sections:
-#       extends: sections/about
-
-#   description:
-#     type: writer
-#     label: Description
-
 fields:
   description:
     label: Description
     type: textarea
+
+  link_email:
+    label: Email Newsletter Sign-up Link
+    type: url
+    width: 1/2
+
+  link_sms:
+    label: SMS Newsletter Sign-up Link
+    type: url
+    width: 1/2

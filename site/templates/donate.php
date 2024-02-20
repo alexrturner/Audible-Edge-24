@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <main class="content">
 
-    <div class="text-container">
+    <div class="content-container index">
         <section class="text">
             <?= $page->description() ?>
         </section>

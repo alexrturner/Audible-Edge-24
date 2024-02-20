@@ -11,7 +11,7 @@
         <div class="section events" id="events">
             <ul class="events-container">
                 <li class="events-item first-item">
-                    <button class="events-toggle toggle" aria-expanded="true" aria-controls="events-items">Program <span class="icon-bar"></span></button>
+                    <button class="events-toggle toggle" aria-expanded="true" aria-controls="events-items">Program</span></button>
                     <br><br>
                     <?php snippet('listings', ['parentPageSlug' => 'program', 'className' => 'events']); ?>
                 </li>
@@ -21,7 +21,7 @@
         <div class="section artists" id="artists">
             <ul class="artists-container">
                 <li class="artists-item first-item">
-                    <button class="artists-toggle toggle" aria-expanded="true" aria-controls="artists-items">Lineup <span class="icon-bar"></span></button>
+                    <button class="artists-toggle toggle" aria-expanded="true" aria-controls="artists-items">Lineup</span></button>
                     <br><br>
                     <div class="artists-content">
                         <?php snippet('listings', ['parentPageSlug' => 'artists', 'className' => 'artists']); ?>
@@ -37,8 +37,8 @@
 <svg id="lineCanvas">
     <!-- squig -->
 </svg>
-<button id="settingsButton">settings</button>
-<div id="input" class="hidden">
+<button id="settingsButton" style="display:none;">settings</button>
+<div id="input" class="hidden" style="display:none;">
     <label for="noiseIntensity">Noise Intensity:</label>
     <input type="range" id="noiseIntensity" name="noiseIntensity" min="0" max="1000" step="10" value="800">
     <span id="noiseIntensityValue">800</span>

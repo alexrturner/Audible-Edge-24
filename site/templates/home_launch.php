@@ -37,6 +37,7 @@
     }
 
     #audio-buttons-container {
+        display: block !important;
         position: relative;
         max-width: 60rem;
     }
@@ -60,7 +61,7 @@
         /* Match SVG container's max width */
         height: 100%;
         /* Adjust height to match SVG's aspect ratio if necessary */
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         /* max-height: 66vh; */
@@ -83,7 +84,7 @@
         /* Ensure buttons can be interacted with */
         position: absolute;
         /* Position buttons absolutely within their container */
-        z-index: 12;
+        z-index: 15;
         line-height: 1;
         display: flex;
         justify-content: center;
@@ -93,6 +94,53 @@
 
     .audio-button {
         transition: all 0.3s ease;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes shake {
+        0% {
+            transform: translate(0, 0) rotate(0);
+        }
+
+        10% {
+            transform: translate(-5px, 0) rotate(-5deg);
+        }
+
+        20% {
+            transform: translate(5px, 0) rotate(5deg);
+        }
+
+        30% {
+            transform: translate(-5px, 0) rotate(-5deg);
+        }
+
+        40% {
+            transform: translate(5px, 0) rotate(5deg);
+        }
+
+        50% {
+            transform: translate(-5px, 0) rotate(-5deg);
+        }
+
+        60% {
+            transform: translate(5px, 0) rotate(5deg);
+        }
+
+        70% {
+            transform: translate(-5px, 0) rotate(-5deg);
+        }
+
+        80% {
+            transform: translate(5px, 0) rotate(5deg);
+        }
+
+        90% {
+            transform: translate(-5px, 0) rotate(-5deg);
+        }
+
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
     }
 
     .content-container {
@@ -101,32 +149,54 @@
         max-height: fit-content;
     }
 
+    .audio-intro-container {
+        position: absolute;
+        bottom: 0;
+        pointer-events: auto !important;
+    }
 
-    /* svg path {
-        opacity: 1 !important;
-    } */
+    #menu {
+        position: fixed;
+        right: 1em;
+        width: fit-content;
+    }
 
-    /* svg opacity */
+    /* 
+    SVG colours and opacity 
+    */
     .cls-1,
     .cls-2,
     .cls-3 {
         opacity: 1 !important;
     }
 
+    svg path,
+    svg polyline {
+        fill: var(--cc-olive);
+        stroke: var(--cc-olive) !important;
+    }
+
+
+
+
 
     .cls-3 {
         fill: var(--cc-orange) !important;
+
     }
 
-    .cls-2 {
+    svg path.cls-2 {
         fill: var(--cc-olive-highlight) !important;
+        fill: var(--cc-olive-light) !important;
+        opacity: 0.8 !important;
     }
 
     .cls-1 {
         /* fill: var(--cc-purple-highlight) !important; */
         /* opacity: 0.2; */
 
-        stroke: var(--cc-blue) !important;
+        stroke: var(--cc-olive) !important;
+        /* stroke: var(--cc-purple-highlight) !important; */
     }
 </style>
 
@@ -138,7 +208,11 @@
 
 <main class="content-container">
 
-    <div id="svg-container" class="logo-container desktop">
+    <div class="homepage__dates">
+        <span>April</span>
+        <span>26–28</span>
+    </div>
+    <div id="svg-container" class="logo-container desktop" style="display: none;">
         <?php
         $logoFiles = $site->files()->template('ae_logo');
         $index = 0;
@@ -151,10 +225,9 @@
             $index++;
         endforeach;
         ?>
-
     </div>
 
-    <div id="audio-buttons-container">
+    <div id="audio-buttons-container" style="display: none;">
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_custom') as $audio) : ?>
             <button class="audio-button circle-button audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>">
@@ -166,14 +239,15 @@
         <?php endforeach; ?>
     </div>
 
-    <div class="intro-container">
+    <div class="audio-intro-container">
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_intro') as $intro_audio) : ?>
-            <button class="audio-intro-button circle-button audio-intro-btn-<?= $index ?>" data-audio="<?= $intro_audio->url() ?>">
 
-            </button>
             <?= kt($site->audio_intro_text()) ?>
-            <audio id="audio-intro-<?= $index ?>" src="<?= $intro_audio->url() ?>" controls></audio>
+            <button class="audio-intro-button circle-button audio-intro-btn-<?= $index ?>" data-audio="audio-intro-<?= $index ?>" onclick="playPauseIntro(this)">
+            </button>
+
+            <audio id="audio-intro-<?= $index ?>" class="audio-intro" src="<?= $intro_audio->url() ?>" controls></audio>
 
             <?php $index++; ?>
         <?php endforeach; ?>

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="content-container">
+<main class="content-container index">
 
     <section class="description">
         <div>

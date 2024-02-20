@@ -125,34 +125,67 @@ columns:
       eventSchedule:
         label: Event Schedule
         type: structure
+        columns:
+          description:
+            width: 3/5
+          scheduleType:
+            width: 1/5
+          
         fields:
-          eventType:
-            label: Event Type
-            type: tags
+          description:
+            label: Artist / Schedule Title
+            type: writer
             width: 1/2
-            max: 1
+
+          location:
+            label: Specific Location
+            type: text
+            width: 1/2
+
+          scheduleType:
+            type: toggles
+            label: Event Type
             options:
-              type: query
-              query: site.children.template('event').children.pluck('eventType', ',', true)
+              - "set time"
+              - "multi-day event"
+
+          
+          # eventType:
+          #   label: Event Type
+          #   type: tags
+          #   width: 1/2
+          #   max: 1
+          #   options:
+          #     type: query
+          #     query: site.children.template('event').children.pluck('eventType', ',', true)
+
+          setTime:
+            label: Set Time
+            type: time
+            width: 1/4
+            display: HH:mm
+            time: true
+            width: 1/2
+            when:
+              scheduleType: set time
 
           startDate:
             label: Start Date and Time
             type: date
             time: true
             width: 1/2
+            when:
+              scheduleType: multi-day event
+
           endDate:
             label: End Date and Time
             type: date
             time: true
             width: 1/2
-          description:
-            label: Description
-            type: writer
-            width: 1/2
-          location:
-            label: Specific Location
-            type: text
-            width: 1/2
+            when:
+              scheduleType: multi-day event
+          
+          
 
       accessibility:
         label: {{ page.title }} Accessibility

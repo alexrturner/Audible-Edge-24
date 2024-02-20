@@ -51,11 +51,15 @@ function formatEventTime($startTime, $endTime)
     return '';
 }
 ?>
-<?php if ($start_date) : ?>
-    <ul class="dates items">
-        <li class="date">
-            <?= $start_date ?>
-            <span class="time"><?= formatEventTime($start_time, $end_time); ?></span>
-        </li>
-    </ul>
-<?php endif; ?>
+<div class="dates-container">
+    <?php if ($start_date) : ?>
+        <h2 class="dates-header">Upcoming Dates</h2>
+        <ul class="dates items">
+            <li class="date">
+                <?= $start_date ?>
+                <span class="time"><?= formatEventTime($start_time, $end_time); ?></span>
+            </li>
+        </ul>
+
+    <?php endif; ?>
+</div>

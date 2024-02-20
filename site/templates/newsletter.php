@@ -3,10 +3,10 @@
 <main>
     <section class="text">
         <div class="signup">
-            <a href="<?= $page->emailSignupLink()->url() ?>">Sign up for our Email Newsletter</a>
+            <a href="<?= $page->link_email()->url() ?>">Sign up for our Email Newsletter</a>
         </div>
         <div class="signup">
-            <a href="<?= $page->smsSignupLink()->url() ?>">Sign up for our SMS Newsletter</a>
+            <a href="<?= $page->link_sms()->url() ?>">Sign up for our SMS Newsletter</a>
         </div>
     </section>
 </main>

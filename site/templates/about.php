@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <main class="main">
-    <div class="content-container">
+    <div class="content-container index">
         <section class="description">
 
             <?= kt($page->Description()) ?>
@@ -10,6 +10,13 @@
 
         <section class="contact">
 
+            <div class="signup">
+                <!-- Sign up for our -->
+                <a href="<?= $page->link_email()->url() ?>" class="button__link" aria-label="Visit Email Newsletter sign up" aria-type="link">Email Newsletter</a>
+            </div>
+            <div class="signup">
+                <a href="<?= $page->link_sms()->url() ?>" class="button__link" aria-label="Visit SMS Newsletter sign up" aria-type="link">SMS Newsletter</a>
+            </div>
             <span class="contact-details"></span>
         </section>
     </div>
