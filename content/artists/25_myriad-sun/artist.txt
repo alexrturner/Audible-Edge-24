@@ -1,0 +1,48 @@
+Title: Myriad Sun
+
+----
+
+Display-title:
+
+- 
+  name: Myriad Sun
+  place: ""
+  context: >
+    in the Block Universe (Audible Edge
+    Commission)
+
+----
+
+Bio-short: <p>An experimental electronic rap group. They combine immersive visuals, effected saxophone, glitched-out beats and high energy lyricism.</p>
+
+----
+
+Bio-long: <p>Hailing from the creative bubble of Fremantle Western Australia, MYRIAD SUN are pushing the boundaries of experimental electronic rap music in the vein of Flying Lotus, JPEG Mafia and DJ Rashad. Having supported the likes of POND, Genesis Owusu and Oddisee(USA), Myriad Sun are no strangers to the live stage. Their live show is an immersive multi sensory experience, illuminated by psychedelic sci fi projections, glitched out sonics, saxophone wails and quick fire raps.</p>
+
+----
+
+Links: 
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: BuJ8adOfInzSxzPs

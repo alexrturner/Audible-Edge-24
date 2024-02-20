@@ -1,0 +1,42 @@
+Title: Monica Brooks & Sage Pbbbt
+
+----
+
+Display-title:
+
+- 
+  name: Monica Brooks
+  place: Katoomba
+  context: ""
+- 
+  name: '& Sage Pbbbt'
+  place: ""
+  context: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://lf10Vs8tywjmdWWL
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: dNE102Ur0H8N9wTl

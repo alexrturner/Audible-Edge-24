@@ -1,0 +1,46 @@
+Title: Patrick Gunasekera
+
+----
+
+Display-title:
+
+- 
+  name: Patrick Gunasekera
+  place: ""
+  context: presents "After Lili"
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://vWaWcT5UVw0x4wR6
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: b7kpI78nErcKy2ZZ

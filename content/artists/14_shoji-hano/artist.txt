@@ -1,0 +1,41 @@
+Title: Shoji Hano
+
+----
+
+Display-title:
+
+- 
+  name: Shoji Hano
+  place: Kyoto
+  context: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events:
+
+- page://pFoWn8THXmxCWzvE
+- page://KIY4FmuZdXo7Dbx8
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: rIH7f9meLnRjcNt3

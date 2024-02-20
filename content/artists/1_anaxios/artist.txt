@@ -1,0 +1,53 @@
+Title: Anaxios
+
+----
+
+Display-title:
+
+- 
+  name: Anaxios
+  place: ""
+  context: ""
+
+----
+
+Bio-short: <p>Improvised melodic ambience with violin, guitar, organ, sampler and electronics.</p>
+
+----
+
+Bio-long: <p>Anaxios is a trio, sometimes quartet, from Boorloo. We play improvised long-form melodic ambience and drone using violin, guitar, organ, sampler and electronics. We've been playing for around 7 years. Our music is peaceful, oppressive, dream-like, harsh, and light. The individual members are involved in some other interesting projects - Cohen Bourgault (violin) is a composer and psych-folk artist, Tim Loughman (electronics/sampler) has a long running electronic music project, Basic Mind, and is a fabulous DJ, Louis Hooper (organ) played in the art-rock group Wind Waker and David West (guitar/organ/electronics) has been in underground bands like Rat Columns, Lace Curtain, Burning Sensation, Scythe, to name a few.</p>
+
+----
+
+Links:
+
+- 
+  url: >
+    https://davidwestmusic.bandcamp.com/album/anaxios-collected-recordings
+  text: ""
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://02b4POBpZFqmCA7g
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: ko3QAx0YrEneFeyD

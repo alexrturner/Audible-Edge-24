@@ -1,0 +1,46 @@
+Title: Simon Charles & John Kinsella
+
+----
+
+Display-title:
+
+- 
+  name: 'Simon Charles & John Kinsella'
+  place: York
+  context: 'with Jameson Feakes, Jon Heilbron & Rebecca Lane'
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://vWaWcT5UVw0x4wR6
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: WKogJO5qUkkDUicz

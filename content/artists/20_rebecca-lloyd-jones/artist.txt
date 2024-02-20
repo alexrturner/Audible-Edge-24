@@ -1,0 +1,39 @@
+Title: Rebecca Lloyd-Jones
+
+----
+
+Display-title:
+
+- 
+  name: Rebecca Lloyd-Jones
+  place: Meanjin
+  context: |
+    plays Sarah Hennies' "Thought Sectors"
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: iYTK2wPn7bvgZ142

@@ -1,0 +1,52 @@
+Title: Sookie
+
+----
+
+Display-title:
+
+- 
+  name: Sookie
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: https://***REMOVED***/
+  text: ""
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://Yaupu5Nsy8aTuUmk
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: NoI8Fa6FElOsovig

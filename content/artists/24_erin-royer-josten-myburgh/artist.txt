@@ -1,0 +1,47 @@
+Title: Josten Myburgh & Erin Royer
+
+----
+
+Display-title:
+
+- 
+  name: 'Josten Myburgh & Erin Royer'
+  place: ""
+  context: |
+    play Philip Glass' "Music in Fifths" and Josten Myburgh's "alpine translocations"
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://KIY4FmuZdXo7Dbx8
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: Bne7mfALvoc7e9WW

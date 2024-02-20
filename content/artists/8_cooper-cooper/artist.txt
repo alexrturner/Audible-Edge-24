@@ -1,0 +1,38 @@
+Title: Cooper Cooper
+
+----
+
+Display-title:
+
+- 
+  name: Cooper Cooper
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://gMX7Mt2CsjepeydY
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: W9E2s5yQXwSQmaSG

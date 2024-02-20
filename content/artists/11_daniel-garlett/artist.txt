@@ -1,0 +1,38 @@
+Title: Daniel Garlett
+
+----
+
+Display-title:
+
+- 
+  name: Daniel Garlett
+  place: ""
+  context: Welcome to Country
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Uuid: rI53E5ZS78jQIzkS

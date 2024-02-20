@@ -1,8 +1,8 @@
-Title: Experimental pres, part one
+Title: Experimental pres, part two
 
 ----
 
-Artist-link: - page://OsXZ61VVeTRK73me
+Artist-link: - page://W9E2s5yQXwSQmaSG
 
 ----
 
@@ -10,7 +10,7 @@ Subtitle:
 
 ----
 
-Description: <p><strong>Flaming Galah<br></strong>DJ Wet Puddls</p>
+Description: <p><strong>Astral Weeks<br></strong>5pm - 8pm DJ (Cooper Cooper/Nafta)</p>
 
 ----
 
@@ -38,11 +38,11 @@ Location:
 
 ----
 
-Venue-text: <p>Flaming Galah</p>
+Venue-text: <p>Astral Weeks</p>
 
 ----
 
-Start-date: 2024-04-26
+Start-date: 2024-04-27
 
 ----
 
@@ -50,7 +50,7 @@ Start-time: 17:00:00
 
 ----
 
-End-date: 2024-04-26
+End-date: 2024-04-27
 
 ----
 
@@ -70,4 +70,4 @@ Tags:
 
 ----
 
-Uuid: 7Nkhg2W0tlrbmJ3T
+Uuid: gMX7Mt2CsjepeydY

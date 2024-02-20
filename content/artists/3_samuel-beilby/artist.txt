@@ -1,0 +1,46 @@
+Title: Samuel Beilby
+
+----
+
+Display-title:
+
+- 
+  name: Samuel Beilby
+  place: ""
+  context: installation
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://n6DI6gpWXjZEjOqT
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: 4yewidDeU6VNtEkc

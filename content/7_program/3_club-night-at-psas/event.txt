@@ -4,18 +4,19 @@ Title: Something about the body
 
 Artist-link:
 
-- page://zsvM8szFexoJZj20
-- page://irD1DMGsexL0PEvA
+- page://rI53E5ZS78jQIzkS
+- page://iYTK2wPn7bvgZ142
+- page://DS8D2o7whS2nK6YU
+- page://BuJ8adOfInzSxzPs
+- page://JCMcpuyS4AVE81ur
 - page://akTW6TyxxjiA8rxi
+- page://irD1DMGsexL0PEvA
 - page://xsiu2UOqTDN4pfyC
+- page://zsvM8szFexoJZj20
 
 ----
 
 Subtitle: 
-
-----
-
-Event-type: program
 
 ----
 
@@ -51,11 +52,11 @@ Venue-text:
 
 ----
 
-Start-date: 2024-04-27
+Start-date: 2024-04-26
 
 ----
 
-Start-time: 23:00:00
+Start-time: 19:30:00
 
 ----
 
@@ -72,6 +73,10 @@ Eventschedule:
 ----
 
 Accessibility: 
+
+----
+
+Event-type: program
 
 ----
 

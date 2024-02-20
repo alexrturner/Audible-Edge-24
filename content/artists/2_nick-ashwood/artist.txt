@@ -1,0 +1,47 @@
+Title: Nick Ashwood
+
+----
+
+Display-title:
+
+- 
+  name: Nick Ashwood
+  place: Naarm
+  context: ""
+  styled: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://BgSNi9YVPoLB5AoJ
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Place: Naarm
+
+----
+
+Homepage-title: 
+
+----
+
+Uuid: Lz3wSFJrE1c65UZP

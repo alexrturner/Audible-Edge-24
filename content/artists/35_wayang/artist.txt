@@ -1,0 +1,45 @@
+Title: Wayang
+
+----
+
+Display-title:
+
+- 
+  name: Wayang
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits:
+
+- 
+  other_name: ""
+  sort_name: ""
+  group: ""
+  group_page: [ ]
+  url: ""
+
+----
+
+Support: 
+
+----
+
+Uuid: JCMcpuyS4AVE81ur
