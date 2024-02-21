@@ -44,6 +44,7 @@
   --cc-secondary: var(--cc-orange-light);
 
   --cc-bg: #f5f5f5;
+  --cc-scrollbar: var(--cc-blue-light);
 
   --ff-primary: "Work Sans", sans-serif;
   --ff-serif: "Herbik", serif;
@@ -110,8 +111,6 @@ button {
 
   /* responsive font sizing */
   font-size: var(--fs-fluid-title);
-
-  letter-spacing: -0.02em;
   letter-spacing: -0.06em;
 
   font-weight: normal;
@@ -242,6 +241,11 @@ dot2dot
   left: 0;
   width: 100%;
   height: 100%;
+}
+@media (min-width: 769px) {
+  #lineCanvas {
+    display: block !important;
+  }
 }
 
 #lineCanvas path {
@@ -434,6 +438,11 @@ main {
     right: 0;
     margin-right: 0;
   }
+  /* .content-container section:not(#col3) {
+    max-height: 80vh;
+    align-self: end;
+    height: 100%;
+  } */
 }
 /* mobile layout */
 @media (max-width: 768px) {
@@ -483,7 +492,7 @@ menu/description, events, artists
 */
 @media (max-width: 768px) {
   .all-listings #menu,
-  .all-listings #description,
+  .all-listings .section.description,
   .all-listings #events,
   .all-listings #artists {
     order: 1;
@@ -508,20 +517,19 @@ events, artists, description/menu
   #events {
     grid-column: 1 / span 2;
   }
+  /* program */
   .all-listings #artists {
     grid-column: 3 / span 4;
-  }
-  #artists.filtered {
-    grid-column: 3 / span 2;
   }
   .all-listings #menu {
     grid-column: 7;
   }
-  #description {
-    grid-column: 5 / span 3;
+  /* nightschool */
+  #artists.filtered {
+    grid-column: 3 / span 2;
   }
   .section {
-    overflow-y: auto; /* Scrollable? */
+    overflow-y: auto;
   }
 }
 
@@ -638,14 +646,12 @@ Event and Artist pages
   #col3 {
     grid-column: 5 / span 3;
   }
-  /* #col4 {
-    grid-column: 7;
-  } */
+
   .section {
     overflow-y: auto;
     scrollbar-color: var(--cc-olive-highlight) var(--cc-primary);
     scrollbar-color: var(--cc-primary) var(--cc-purple-highlight);
-    scrollbar-color: var(--cc-blue-light) var(--cc-primary);
+    scrollbar-color: var(--cc-scrollbar) var(--cc-primary);
     scrollbar-width: thin;
   }
 }
@@ -717,8 +723,13 @@ SCROLL UNDER
   }
   #col1,
   #col2,
-  #col3 > :first-child {
+  #col3 > :first-child,
+  .content-container .section:not(#col3):not(#menu) {
     margin-top: 33vh;
+  }
+  .content-container .section#col3,
+  .content-container .section#menu {
+    margin-top: unset;
   }
   .header-container {
     position: fixed;
@@ -753,8 +764,10 @@ SCROLL UNDER
 }
 
 /* todo revise */
-.menu-item.first-item {
-  text-align: end;
+@media screen and (min-width: 768px) {
+  .menu-item.first-item {
+    /* text-align: end; */
+  }
 }
 #col3 {
   /* prevent content from touching bottom */

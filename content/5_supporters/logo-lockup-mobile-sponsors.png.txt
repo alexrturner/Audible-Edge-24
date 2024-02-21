@@ -1,0 +1,13 @@
+Sort: 6
+
+----
+
+Caption: 
+
+----
+
+Uuid: QtqhARkey4CriOcx
+
+----
+
+Template: supporter_logo

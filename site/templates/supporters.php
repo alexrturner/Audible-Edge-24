@@ -9,35 +9,40 @@
     </section>
 
     <section class="logos">
-        <?php
-        // Funding Support
-        $fundingLogos = $page->fundingSupport()->toFiles();
-        if ($fundingLogos->isNotEmpty()) : ?>
-            <h2>Funding Support</h2>
-            <?php foreach ($fundingLogos as $logo) : ?>
-                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-            <?php endforeach; ?>
-        <?php endif ?>
 
         <?php
-        // Commissioning Partners
-        $commissioningLogos = $page->commissioningPartners()->toFiles();
-        if ($commissioningLogos->isNotEmpty()) : ?>
-            <h2>Commissioning Partners</h2>
-            <?php foreach ($commissioningLogos as $logo) : ?>
-                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-            <?php endforeach; ?>
-        <?php endif ?>
+        // display full logos after Program Launch
+        date_default_timezone_set('Australia/Perth');
+        $currentDate = new DateTime();
+        $cutoffDate = new DateTime('2024-03-12');
 
-        <?php
-        // Presenting Partners
-        $presentingLogos = $page->presentingPartners()->toFiles();
-        if ($presentingLogos->isNotEmpty()) : ?>
-            <h2>Presenting Partners</h2>
-            <?php foreach ($presentingLogos as $logo) : ?>
-                <?php snippet('supporter-logo', ['logo' => $logo]) ?>
-            <?php endforeach; ?>
-        <?php endif ?>
+        if ($currentDate < $cutoffDate) : ?>
+            <div class="logos-partial">
+                <?php foreach ($page->partialLogos()->toFiles() as $logo) : ?>
+                    <img style="max-width: 100%;" src="<?= $logo->url() ?>" alt="<?= $logo->alt()->escape() ?>">
+                <?php endforeach; ?>
+            </div>
+
+        <?php else : ?>
+            <div class="logos-small">
+                <?php foreach ($page->smallLogos()->toFiles() as $logo) : ?>
+                    <img style="max-width: 100%;" src="<?= $logo->url() ?>" alt="<?= $logo->alt()->escape() ?>">
+                <?php endforeach; ?>
+            </div>
+
+            <div class="logos-medium">
+                <?php foreach ($page->mediumLogos()->toFiles() as $logo) : ?>
+                    <img style="max-width: 100%;" src="<?= $logo->url() ?>" alt="<?= $logo->alt()->escape() ?>">
+                <?php endforeach; ?>
+            </div>
+
+            <div class="logos-large">
+                <?php foreach ($page->largeLogos()->toFiles() as $logo) : ?>
+                    <img style="max-width: 100%;" src="<?= $logo->url() ?>" alt="<?= $logo->alt()->escape() ?>">
+                <?php endforeach; ?>
+            </div>
+        <?php endif; ?>
+
     </section>
     </div>
 </main>

@@ -43,6 +43,12 @@
         height: auto;
     }
 
+    @media screen and (max-width: 768px) {
+        .gallery-images figure img {
+            max-height: 100%;
+        }
+
+    }
 
     /* //todo revise 
         */
@@ -76,7 +82,7 @@
         <div class="gallery-images">
             <?php foreach ($images as $index => $image) : ?>
                 <figure class="<?= $index === 0 ? 'active' : '' ?>">
-                    <img src="<?= $image->resize(500)->url() ?>" alt="<?= $image->alt()->or($page->title() . ' image') ?>" loading="lazy">
+                    <img style="max-width: 100%;" src="<?= $image->resize(500)->url() ?>" alt="<?= $image->alt()->or($page->title() . ' image') ?>" loading="lazy">
                     <figcaption><?= $image->caption()->or('') ?></figcaption>
                 </figure>
             <?php endforeach; ?>

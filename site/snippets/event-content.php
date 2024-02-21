@@ -6,6 +6,8 @@
         </li>
     </ul>
 
+    <?php snippet('pagination-event') ?>
+
     <?php
     // tickets
     if ($page->ticketed()->toBool()) : ?>

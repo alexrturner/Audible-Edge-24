@@ -61,23 +61,30 @@ function initSections() {
     const sectionId = button.getAttribute("aria-controls");
     const sectionItems = document.getElementById(sectionId);
 
-    if (isMobile) {
-      // collapse section items & set aria-expanded to false on mobile
-      sectionItems.style.display = "none";
-      button.setAttribute("aria-expanded", "false");
+    // if (isMobile) {
+    //   // collapse section items & set aria-expanded to false on mobile
+    //   sectionItems.style.display = "none";
+    //   button.setAttribute("aria-expanded", "false");
 
-      // style collapsed sections
-      const parent = button.closest("li.first-item");
-      if (parent) {
-        parent.classList.add("list-style-circle");
-      }
-    } else {
-      // style collapsed sections for desktop
-      const isExpanded = button.getAttribute("aria-expanded") === "true";
-      const parent = button.closest("li.first-item");
-      if (parent) {
-        parent.classList.toggle("list-style-circle", !isExpanded);
-      }
+    //   // style collapsed sections
+    //   const parent = button.closest("li.first-item");
+    //   if (parent) {
+    //     parent.classList.add("list-style-circle");
+    //   }
+    // } else {
+    //   // style collapsed sections for desktop
+    //   const isExpanded = button.getAttribute("aria-expanded") === "true";
+    //   const parent = button.closest("li.first-item");
+    //   if (parent) {
+    //     parent.classList.toggle("list-style-circle", !isExpanded);
+    //   }
+    // }
+
+    // style collapsed sections for desktop
+    const isExpanded = button.getAttribute("aria-expanded") === "true";
+    const parent = button.closest("li.first-item");
+    if (parent) {
+      parent.classList.toggle("list-style-circle", !isExpanded);
     }
   });
 }

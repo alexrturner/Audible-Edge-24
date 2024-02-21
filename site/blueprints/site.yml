@@ -75,6 +75,11 @@ tabs:
         type: files
         template: ae_logo
 
+      ae_logo_home:
+        label: AE home logos
+        type: files
+        template: ae_logo_home
+
       audio_intro:
         type: files
         label: Audio Introduction

@@ -3,6 +3,7 @@ let noiseIntensity = 80;
 let subdivisionFactor = 3;
 
 // squig controls
+// document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("toggleSquig").addEventListener("click", function () {
   const svgContainer = document.getElementById("lineCanvas");
   const button = document.getElementById("toggleSquig");
@@ -247,3 +248,4 @@ function setupHoverInteractions(data) {
       svg.selectAll("path").remove();
     });
 }
+// });

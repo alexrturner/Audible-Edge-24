@@ -34,7 +34,7 @@
 
   <script src="https://d3js.org/d3.v7.js"></script>
 
-  <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
+  <?php if ($page->isHomePage()) : ?>
     <?= js('assets/js/countdown.js') ?>
   <?php else : ?>
     <?= js('assets/js/menu-overlay.js') ?>
@@ -45,8 +45,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="description" content="<?= $site->metaDescription() ?> ">
-  <meta name="keywords" content="<?= $site->metaKeywords() ?>">
+  <meta name="description" content="<?= $site->metaDescription()->esc() ?> ">
+  <meta name="keywords" content="<?= $site->metaKeywords()->esc() ?>">
   <meta name="author" content="Tone List">
 </head>
 
@@ -54,16 +54,27 @@
 
   <div class="header-container">
     <header class="header">
-      <a class="ae-title" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
-        <h1>
+      <?php if ($page->isHomePage()) : ?>
+
+        <h1 class="ae-title pseudo-list-item">
           <?php if ($page->uid() === 'nightschool' || ($page->parent() && $page->parent()->uid() === 'nightschool')) : ?>
             Night School
           <?php else : ?>
             <?= $site->titleDisplay() ?>
           <?php endif ?>
         </h1>
-      </a>
-
+        </a>
+      <?php else : ?>
+        <a class="ae-title" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
+          <h1>
+            <?php if ($page->uid() === 'nightschool' || ($page->parent() && $page->parent()->uid() === 'nightschool')) : ?>
+              Night School
+            <?php else : ?>
+              <?= $site->titleDisplay() ?>
+            <?php endif ?>
+          </h1>
+        </a>
+      <?php endif ?>
       <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
         <h2 class="ae-subtitle"><?= $site->subtitle() ?></h2>
         <?php if ($page->isHomePage()) : ?>
@@ -77,7 +88,6 @@
         </div>
       <?php endif ?>
       <button id="togglePlainTextView" class="pseudo-list-item" style="position: absolute; top: 0.5rem; right: 1.5rem;">Plain Text View</button>
-
       <?php
       if ($page->isHomePage()) : ?>
         <?php // snippet('dates-global') 

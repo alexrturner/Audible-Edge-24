@@ -20,22 +20,49 @@ columns:
         label: Current Supporters
         numbered: false
 
-      fundingSupport:
-        label: Funding Support
+      # fundingSupport:
+      #   label: Funding Support
+      #   type: files
+      #   query: page.images
+      #   multiple: true
+      #   uploads: false
+
+      # commissioningPartners:
+      #   label: Commissioning Partners
+      #   type: files
+      #   query: page.images
+      #   multiple: true
+      #   uploads: false
+
+      # presentingPartners:
+      #   label: Presenting Partners
+      #   type: files
+      #   query: page.images
+      #   multiple: true
+      #   uploads: false
+      partialLogos:
+        label: Pre-Program Launch Logos
         type: files
         query: page.images
         multiple: true
         uploads: false
 
-      commissioningPartners:
-        label: Commissioning Partners
+      smallLogos:
+        label: Small Screen Logos
         type: files
         query: page.images
         multiple: true
         uploads: false
-
-      presentingPartners:
-        label: Presenting Partners
+      
+      mediumLogos:
+        label: Medium Screen Logos
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+      
+      largeLogos:
+        label: Large Screen Logos
         type: files
         query: page.images
         multiple: true

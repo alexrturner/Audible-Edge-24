@@ -20,8 +20,5 @@
 
 </main>
 
-<svg id="lineCanvas">
-    <!-- squig -->
-</svg>
 <?php snippet('settings') ?>
 <?php snippet('footer') ?>

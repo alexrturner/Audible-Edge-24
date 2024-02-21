@@ -58,14 +58,7 @@ End-time: 13:30:00
 
 ----
 
-Eventschedule:
-
-- 
-  eventtype: ""
-  startdate: ""
-  enddate: ""
-  description: ""
-  location: ""
+Eventschedule: 
 
 ----
 

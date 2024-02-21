@@ -1,0 +1,13 @@
+Sort: 6
+
+----
+
+Caption: 
+
+----
+
+Uuid: I7XriKta7v9CNYz9
+
+----
+
+Template: supporter_logo

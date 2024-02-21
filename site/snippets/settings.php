@@ -1,3 +1,7 @@
+<svg id="lineCanvas" style="display: none;">
+    <!-- squig -->
+</svg>
+
 <button id="settingsButton" style="visibility:hidden;">settings</button>
 <div id="settingsContainer" class="hidden" style="visibility:hidden;">
     <div><label for="noiseIntensity">Noise Intensity: </label><span id="noiseIntensityValue">80</span></div>

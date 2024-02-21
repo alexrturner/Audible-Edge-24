@@ -31,7 +31,19 @@
         margin: 0;
     }
 
-
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+        height: auto;
+        width: 100vw;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 60rem;
+        top: 0;
+    }
 
 
 
@@ -64,20 +76,12 @@
     .logo-container {
         position: relative;
         width: 100%;
+        max-width: 60rem;
         height: 100%;
         display: flex !important;
         justify-content: center;
         align-items: center;
     }
-
-    /* .logo-container {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        max-width: 100vw;
-        top: 0;
-    } */
-
 
     @media screen and (max-width: 768px) {
         .logo-container {
@@ -99,6 +103,7 @@
     .audio-button,
     .audio-intro-button {
         pointer-events: auto;
+        /* Ensure buttons can be interacted with */
         position: absolute;
         z-index: 15;
         line-height: 1;
@@ -218,34 +223,21 @@
             fill: var(--cc-olive-highlight);
         }
     }
-
-    /* overrides circle-button width & height */
-    .audio-button {
-        width: 1rem;
-        height: 1rem;
-        background-color: var(--cc-primary);
-    }
-
-    .audio-button-text {
-        position: absolute;
-        transform: translateY(0.5em);
-    }
 </style>
 
 
 
 
-<div class="homepage__dates">
-    <span class="hidden">Festival Dates:</span>
-    <span>April</span>
-    <span>26–28</span>
-</div>
 
-<?php snippet('menu') ?>
+
 
 <main class="content-container">
 
-
+    <div class="homepage__dates">
+        <span class="hidden">Festival Dates:</span>
+        <span>April</span>
+        <span>26–28</span>
+    </div>
     <div id="svg-container" class="logo-container desktop" style="display: none;">
         <?php
         $logoFiles = $site->files()->template('ae_logo');
@@ -265,7 +257,7 @@
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_custom') as $audio) : ?>
             <button class="audio-button circle-button audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>">
-                <span class="audio-button-text"><?= $audio->audio_category() ?></span>
+                <?= $audio->audio_category() ?>
                 <audio id="audio-<?= $index ?>" src="<?= $audio->url() ?>"></audio>
             </button>
 
@@ -285,11 +277,12 @@
 
             <?php $index++; ?>
         <?php endforeach; ?>
+
     </div>
 
-
-
-
+    <div class="content-container all-listings">
+        <?php snippet('menu') ?>
+    </div>
 
 </main>
 

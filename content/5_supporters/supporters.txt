@@ -6,6 +6,25 @@ Description: <p>Audible Edge is proudly supported by the Western Australian gove
 
 ----
 
+Partiallogos: - file://I7XriKta7v9CNYz9
+
+----
+
+Smalllogos:
+
+- file://4G7kYMzsWdOgJ44o
+- file://QtqhARkey4CriOcx
+
+----
+
+Mediumlogos: - file://Qw4uJQ069QLXGS7D
+
+----
+
+Largelogos: - file://1CeBD2gQYH8aXLBG
+
+----
+
 Fundingsupport: - file://442hFuYdz0zFAObB
 
 ----
