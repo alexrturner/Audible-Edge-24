@@ -6,4 +6,4 @@ Uuid: UC1CVuds0HDhFNEL
 
 ----
 
-Template: ae_logo
+Template: ae_logo_combined

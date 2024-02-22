@@ -18,11 +18,6 @@ tabs:
         create: default
         image: icon
 
-  # program:
-  #   label: Program
-  #   sections:
-  #     events: sections/events
-
   # settings tab
   settings:
     label: Settings
@@ -75,10 +70,16 @@ tabs:
         type: files
         template: ae_logo
 
-      ae_logo_home:
-        label: AE home logos
+      ae_dot_svg:
+        label: AE homepage dots
         type: files
-        template: ae_logo_home
+        template: ae_homepage_dot_svg
+        help: SVG file of dots for the homepage.
+
+      ae_logo_combined:
+        label: AE logos (combined version)
+        type: files
+        template: ae_logo_combined
 
       audio_intro:
         type: files
@@ -94,6 +95,14 @@ tabs:
             label: Audio Introduction Text
             type: writer
             help: Text to accompany the audio introduction.
+
+      audio_intro_transcription:
+        type: fields
+        fields:
+          audio_intro_transcription:
+            label: Audio Introduction Transcription
+            type: writer
+            help: Displayed in Plain Text View.
 
       audio_custom:
         label: Custom Audio (letter sounds)

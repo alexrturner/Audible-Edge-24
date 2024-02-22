@@ -6,4 +6,4 @@ Uuid: gGFyT5RNPzQeMRt9
 
 ----
 
-Template: ae_logo
+Template: ae_logo_combined
