@@ -1,4 +1,4 @@
-Title: Michael Terren with Paul Boyé, Sage J Harlow & Sze Tsang
+Title: Michael Terren with Paul Boyé, Skot McDonald & Sze Tsang
 
 ----
 
@@ -7,7 +7,7 @@ Display-title:
 - 
   name: Michael Terren
   place: ""
-  context: 'with Paul Boyé, Sage J Harlow & Sze Tsang'
+  context: 'with Paul Boyé, Skot McDonald & Sze Tsang'
 
 ----
 
