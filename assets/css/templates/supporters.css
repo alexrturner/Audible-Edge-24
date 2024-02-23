@@ -3,15 +3,12 @@
 Layout
 ================
  */
-.description {
+#col1 {
   grid-column: span 2;
-  /* max-height: 66vh; */
-  /* overflow-y: auto;  */
+  overflow-y: auto;
 }
-.logos {
+#col2 {
   grid-column: span 5;
-  /* max-height: 66vh; */
-  /* overflow-y: auto;  */
   padding-right: 1.5em;
 }
 
@@ -33,33 +30,41 @@ Layout
   }
 }
 
-/* Hide medium and large logos on small screens */
+/*
+================
+Logo responsiveness
+================
+*/
+
+/* 
+small screens
+*/
 .logos-medium,
 .logos-large {
   display: none;
 }
 
-/* Medium screens */
+/* 
+medium screens 
+*/
 @media (min-width: 768px) {
-  /* Hide small and large logos */
   .logos-small,
   .logos-large {
     display: none;
   }
-  /* Show medium logos */
   .logos-medium {
     display: block;
   }
 }
 
-/* Large screens */
+/* 
+large screens 
+*/
 @media (min-width: 1024px) {
-  /* Hide small and medium logos */
   .logos-small,
   .logos-medium {
     display: none;
   }
-  /* Show large logos */
   .logos-large {
     display: block;
   }

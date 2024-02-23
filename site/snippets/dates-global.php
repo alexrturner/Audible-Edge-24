@@ -21,7 +21,7 @@ ksort($dates);
 ?>
 
 <div class="dates-container">
-    <h2 class="dates-header">All Dates</h2>
+    <span class="mobile__section-subtitle">Dates:</span>
     <div id="dates-event-times"></div>
     <ul class="dates items">
         <?php foreach ($dates as $date) : ?>

@@ -4,10 +4,6 @@
   </svg>
 </div>
 
-
-
-
-
 <?php
 // load relations SVG on home page and nightschool index
 if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "nightschool") : ?>
@@ -41,86 +37,16 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
   ]) ?>
 <?php endif ?>
 
-<?php if ($page->intendedTemplate("event")) : ?>
-  <script>
-    let noiseIntensity = 80;
-    let subdivisionFactor = 3;
+<?php //if ($page->uid() === "program" || $page->uid() === "nightschool") : 
+?>
+<?php $parent = $page->parent();
 
-    function addNoiseToLine(points, noiseIntensity = 2, subdivisionFactor = 5) {
-      let noisyPoints = [];
-
-      points.forEach((point, i) => {
-        // add original point
-        noisyPoints.push(point);
-        // for each segment, add midpoints with noise
-        if (i < points.length - 1) {
-          const nextPoint = points[i + 1];
-          // subdivide segment and add noise
-          for (let j = 1; j <= subdivisionFactor; j++) {
-            const t = j / (subdivisionFactor + 1);
-            const midX = point.x + (nextPoint.x - point.x) * t;
-            const midY = point.y + (nextPoint.y - point.y) * t;
-            const noisyMidPoint = addRandomness({
-                x: midX,
-                y: midY
-              },
-              noiseIntensity
-            );
-            noisyPoints.push(noisyMidPoint);
-          }
-        }
-      });
-
-      return noisyPoints;
-    }
-
-    function addRandomness(point, intensity = 100) {
-      // add random displacement to x and y, controlled by intensity
-      return {
-        x: point.x + (Math.random() - 0.5) * intensity,
-        y: point.y + (Math.random() - 0.5) * intensity,
-      };
-    }
-
-    function getElementPosition(element) {
-      const rect = element.getBoundingClientRect();
-      return {
-        x: rect.left + window.scrollX,
-        y: rect.top + window.scrollY
-      };
-    }
-    const lineGenerator = d3
-      .line()
-      .x((d) => d.x)
-      .y((d) => d.y)
-      // apply smooth curve
-      // alpha controls the tension
-      .curve(d3.curveCatmullRom.alpha(0.5));
-
-    const svg = d3.select("#lineCanvas");
-    const eventItem = document.querySelector('.events-item');
-    const anchorItem = document.querySelector('.anchor-point');
-    const dateItem = document.querySelector('.date');
-    document.addEventListener("DOMContentLoaded", function() {
-      const eventPosition = getElementPosition(eventItem);
-      const anchorPosition = getElementPosition(anchorItem);
-      const datePosition = getElementPosition(dateItem);
-
-      let points = [eventPosition, anchorPosition, datePosition];
-
-      // add noise
-      let pointsWithNoise = addNoiseToLine(points, noiseIntensity, subdivisionFactor);
-
-      // gen path
-      const pathData = lineGenerator(pointsWithNoise);
-
-      svg.append("path")
-        .attr("d", pathData)
-        .style("stroke", "var(--cc-squig-colour)")
-        .style("stroke-width", 6)
-        .style("fill", "none");
-    });
-  </script>
+// Check if the parent UID matches one of the specific pages
+// and if the current page's template matches one of the specified templates
+if ($parent && in_array($parent->uid(), ['program', 'satellite', 'nightschool'])) : ?>
+  <?= js([
+    'assets/js/event-svg.js'
+  ]) ?>
 <?php endif; ?>
 
 <div class="overlay" style="display: none;">
@@ -130,7 +56,7 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
     $index = 0;
     foreach ($logoFiles as $file) :
     ?>
-      <div class="logo" id="logo-menu-<?= $index ?>" style="<?= $index > 0 ? 'display: none;' : '' ?>">
+      <div class="logo-menu" id="logo-menu-<?= $index ?>" style="<?= $index > 0 ? 'display: none;' : '' ?>">
         <?= $file->read() ?>
       </div>
     <?php

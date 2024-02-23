@@ -1,20 +1,16 @@
 <?php snippet('header') ?>
 
-<style>
-
-</style>
-
 <main class="main content-container index">
 
-    <section class="intro" style="max-width: 60ch;">
+    <section id="col1" class="intro" style="max-width: 60ch;">
         <?= kt($page->intro()) ?>
     </section>
 
-    <section class="description" style="max-width: 60ch;">
+    <section id="col2" class="description" style="max-width: 60ch;">
         <?= kt($page->description()) ?>
     </section>
 
-    <section class="form" style="max-width: 60ch;">
+    <section id="col3" class="form" style="max-width: 60ch;">
 
         <?= kt($page->form()) ?>
 

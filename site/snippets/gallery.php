@@ -12,8 +12,6 @@
     .gallery-images figure {
         display: none;
         text-align: center;
-        height: var(--gallery-height);
-        justify-content: center;
         align-items: center;
     }
 
@@ -39,7 +37,7 @@
     }
 
     .gallery-images figure img {
-        /* max-height: var(--gallery-height); */
+        max-height: 50vh;
         height: auto;
     }
 
@@ -48,6 +46,11 @@
             max-height: 100%;
         }
 
+        .gallery-images figure {
+            justify-content: center;
+
+            height: auto;
+        }
     }
 
     /* //todo revise 

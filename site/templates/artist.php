@@ -8,7 +8,14 @@
         <?php if ($events->isNotEmpty()) : ?>
 
             <ul class="associated-events">
+
+                <?php if ($events->count() > 1) : ?>
+                    <span class="mobile__section-subtitle">Associated Events:</span>
+                <?php else : ?>
+                    <span class="mobile__section-subtitle">Associated Event:</span>
+                <?php endif; ?>
                 <?php foreach ($events as $event) : ?>
+
                     <li>
                         <a href="<?= $event->url() ?>">
                             <?= $event->title()->html() ?>
@@ -38,8 +45,11 @@
     </section>
 
     <!-- artists, images -->
+
     <section class="section" id="col2">
         <ul class="artists" id="events-items">
+            <span class="mobile__section-subtitle">Artist:</span>
+
             <li class="artists-item" data-type="artists" data-id="<?= $page->id() ?>">
                 <h2 class="section-title">
                     <?= $page->title()->html() ?>

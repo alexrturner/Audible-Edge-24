@@ -1,5 +1,5 @@
-#donate {
-  grid-column: span 5;
+#col1 {
+  grid-column: span 4;
   /* max-height: 66vh; */
   overflow-y: auto; /* enable vertical scrolling */
 }

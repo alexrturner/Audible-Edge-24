@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!audioSample.paused) {
         audioSample.pause();
         audioSample.currentTime = 0;
-        this.classList.remove("clicked");
+        this.classList.remove("active");
       } else {
         // pause other playing audio
         document
@@ -24,18 +24,18 @@ document.addEventListener("DOMContentLoaded", function () {
         document
           .querySelectorAll(".play-audio-button")
           .forEach(function (otherButton) {
-            otherButton.classList.remove("clicked");
+            otherButton.classList.remove("active");
           });
 
         // play sound
         audioSample.play();
-        this.classList.add("clicked");
+        this.classList.add("active");
       }
     });
 
     // reset when audio finished
     audioSample.onended = function () {
-      button.classList.remove("clicked");
+      button.classList.remove("active");
     };
   });
 

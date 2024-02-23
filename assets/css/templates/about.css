@@ -12,6 +12,9 @@
   scrollbar-color: var(--cc-scrollbar) var(--cc-primary);
   scrollbar-width: thin;
 }
-#col2.contact {
+#col1.contact {
   grid-column: span 3;
+}
+#col1.contact div {
+  margin-bottom: 1em;
 }

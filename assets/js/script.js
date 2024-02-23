@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // function to toggle styles
   const togglePlainText = document.getElementById("togglePlainTextView");
+  const settingsButton = document.getElementById("settingsButton");
 
   togglePlainText.addEventListener("click", function () {
     const isDisabled = localStorage.getItem("stylesDisabled") === "true";
@@ -10,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // Save the new state in localStorage
     localStorage.setItem("stylesDisabled", !isDisabled);
+    settingsButton.style.display = !isDisabled
+      ? "block !important"
+      : "none !important";
   });
 
   // function to toggle visibility of sections

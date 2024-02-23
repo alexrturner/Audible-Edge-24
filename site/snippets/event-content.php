@@ -1,4 +1,6 @@
 <!-- title, subtitle, date time, venue, location -->
+<span class="mobile__section-subtitle">Event:</span>
+
 <section class="section" id="col1">
     <ul class="events" id="events-items">
         <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
@@ -69,8 +71,8 @@
 </section>
 
 <!-- artists, image -->
+<span class="mobile__section-subtitle">Lineup:</span>
 <section class="section" id="col2">
-    <h3 class="hidden">Lineup:</h3>
     <ul class="artists" id="artists-items">
         <?php
         $artists =  $page->artist_link()->toPages();

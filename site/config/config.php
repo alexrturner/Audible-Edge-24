@@ -76,7 +76,7 @@ function generateRelationsJson()
  * all config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'debug' => true,
+    'debug' => false,
     'panel' => [
         'install' => true
     ],
@@ -94,15 +94,6 @@ return [
         ]
     ],
     'routes' => [
-        // [
-        //     'pattern' => 'program',
-        //     'action'  => function () {
-        //         // Check user role or other conditions
-        //         if (!kirby()->user() || !kirby()->user()->hasRole('admin', 'editor')) {
-        //             return go('/');
-        //         }
-        //     }
-        // ],
         [
             'pattern' => 'artists',
             'action'  => function () {

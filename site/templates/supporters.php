@@ -2,14 +2,13 @@
 
 <main class="content-container index">
 
-    <section class="description">
+    <section id="col1" class="description">
         <div>
             <?= kt($page->description()) ?>
         </div>
     </section>
 
-    <section class="logos">
-
+    <section id="col2" class="logos">
         <?php
         // display full logos after Program Launch
         date_default_timezone_set('Australia/Perth');

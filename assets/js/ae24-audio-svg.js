@@ -1,53 +1,84 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Assuming an SVG container with id="lineCanvas" exists in your HTML
+  let noiseIntensity = 160;
+  let subdivisionFactor = 6;
+
+  document.getElementById("noiseIntensity").value = noiseIntensity;
+  document.getElementById("subdivisionFactor").value = subdivisionFactor;
+
+  document.getElementById("noiseIntensityValue").textContent = noiseIntensity;
+  document.getElementById("subdivisionFactorValue").textContent =
+    subdivisionFactor;
+
   const svg = d3.select("#lineCanvas");
 
-  // Helper functions (addNoiseToLine, addRandomness) from your template can be reused here
-
-  // Function to draw lines between buttons
   function drawLinesFromButton(clickedButton) {
     const clickedButtonPosition = clickedButton.getBoundingClientRect();
-    const otherButtons = document.querySelectorAll(
-      ".audio-button:not(#" + clickedButton.id + ")"
-    );
 
-    otherButtons.forEach((otherButton) => {
-      const otherButtonPosition = otherButton.getBoundingClientRect();
+    let points = [
+      {
+        x: clickedButtonPosition.left + clickedButtonPosition.width / 2,
+        y: clickedButtonPosition.top + clickedButtonPosition.height / 2,
+      },
+    ];
+    function determineOrder() {
+      const today = new Date();
+      if (today.getDay() % 2 === 0) {
+        // even day order
+        return [".ae-title", ".homepage__dates", ".homepage__tag"];
+      } else {
+        // odd day order
+        return [".homepage__dates", ".homepage__tag", ".ae-title"];
+      }
+    }
 
-      // Calculate start and end points for the line
-      let points = [
-        {
-          x: clickedButtonPosition.left + clickedButtonPosition.width / 2,
-          y: clickedButtonPosition.top + clickedButtonPosition.height / 2,
-        },
-        {
-          x: otherButtonPosition.left + otherButtonPosition.width / 2,
-          y: otherButtonPosition.top + otherButtonPosition.height / 2,
-        },
-      ];
+    function shuffleOrder(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
 
-      // Optionally add noise and subdivision to the line
-      let pointsWithNoise = addNoiseToLine(
-        points,
-        noiseIntensity,
-        subdivisionFactor
-      );
-      const pathData = lineGenerator(pointsWithNoise);
+    const targetSelectors = [".ae-title", ".homepage__dates", ".homepage__tag"];
+    // todo: for determined selectors, use the following line instead
+    // const targetSelectors = determineOrder();
 
-      // Draw the line
-      svg
-        .append("path")
-        .attr("d", pathData)
-        .style("stroke", "black") // Customize stroke color as needed
-        .style("stroke-width", 2) // Customize stroke width as needed
-        .style("fill", "none");
+    const targetSelectorsOrdered = shuffleOrder(targetSelectors.slice());
+
+    // add center point to the points array
+    targetSelectorsOrdered.forEach((selector) => {
+      const targetElements = document.querySelectorAll(selector);
+
+      targetElements.forEach((targetElement) => {
+        const targetPosition = targetElement.getBoundingClientRect();
+
+        points.push({
+          x: targetPosition.left + targetPosition.width / 2,
+          y: targetPosition.top + targetPosition.height / 2,
+        });
+      });
     });
+
+    let pointsWithNoise = addNoiseToLine(
+      points,
+      noiseIntensity,
+      subdivisionFactor
+    );
+    const pathData = lineGenerator(pointsWithNoise);
+
+    // single path
+    svg
+      .append("path")
+      .attr("d", pathData)
+      .style("stroke", "var(--cc-squig-colour)")
+      .style("stroke-width", 6)
+      .style("fill", "none");
   }
 
-  // Attach click event listener to all audio buttons
+  // draw on audio button click
   document.querySelectorAll(".audio-button").forEach((button) => {
     button.addEventListener("click", function () {
-      // Clear existing paths before drawing new ones
+      // clear existing paths
       svg.selectAll("path").remove();
       drawLinesFromButton(this);
     });

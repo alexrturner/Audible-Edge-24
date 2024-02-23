@@ -27,6 +27,7 @@ Layout
 
   .form {
     grid-column: auto;
+    margin-bottom: 2em;
   }
 
   .description {

@@ -73,6 +73,18 @@ document.addEventListener("DOMContentLoaded", function () {
         .getElementById("svg-container")
         .getBoundingClientRect();
 
+      // var leftPixels =
+      //   svgRect.left +
+      //   cx * (svgRect.width / svgElement.viewBox.baseVal.width) -
+      //   button.offsetWidth / 2 -
+      //   containerRect.left;
+
+      // var topPixels =
+      //   svgRect.top +
+      //   cy * (svgRect.height / svgElement.viewBox.baseVal.height) -
+      //   button.offsetHeight / 2 -
+      //   containerRect.top;
+
       var leftPercent =
         ((svgRect.left +
           cx * (svgRect.width / svgElement.viewBox.baseVal.width) -
@@ -89,6 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
       button.style.position = "absolute";
       button.style.left = `${leftPercent}%`;
       button.style.top = `${topPercent}%`;
+      // button.style.left = `${leftPixels}px`;
+      // button.style.top = `${topPixels}px`;
     }
 
     if (screenWidth < 769) {
@@ -109,14 +123,6 @@ document.addEventListener("DOMContentLoaded", function () {
         let overlap = Array.from(audioButtons).some((otherButton) => {
           return otherButton !== button && isOverlapping(button, otherButton);
         });
-
-        // if (!overlap) {
-        //   const audioButtonTexts =
-        //     document.querySelectorAll(".audio-button-text");
-        //   overlap = Array.from(audioButtonTexts).some((span) => {
-        //     return isOverlapping(button, span);
-        //   });
-        // }
 
         if (!overlap) {
           placed = true; // found a non-overlapping position
@@ -147,10 +153,10 @@ function playPauseIntro(button) {
   const introAudio = document.getElementById(introAudioId);
   if (introAudio.paused) {
     introAudio.play();
-    button.style.backgroundColor = "var(--cc-primary)";
+    button.classList.toggle("active");
   } else {
     introAudio.pause();
-    button.style.backgroundColor = "var(--cc-bg)";
+    button.classList.toggle("active");
   }
 
   // stop other intro audio & reset button bg colour

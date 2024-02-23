@@ -85,6 +85,10 @@ html {
   /* font-size: 16px; */
   font-size: 12px;
   font-family: var(--ff-primary);
+  scrollbar-color: var(--cc-olive-highlight) var(--cc-primary);
+  scrollbar-color: var(--cc-primary) var(--cc-purple-highlight);
+  scrollbar-color: var(--cc-scrollbar) var(--cc-primary);
+  scrollbar-width: thin;
 }
 *::selection {
   background-color: var(--cc-olive-light);
@@ -134,16 +138,16 @@ a {
   text-decoration: none;
   pointer-events: auto !important;
 }
-
+#col1.contact a::before,
 #col3 a::before {
   /* unicode filled dot */
   content: "\25cf\0000a0";
 
   height: 0px;
-  /* display: list-item; */
-  /* background-color: currentColor; */
-  /* vertical-align: middle; */
+  font-family: var(--ff-primary);
 }
+#col1.contact li a::before,
+#col1.contact li a:hover::before,
 #col3 li a::before,
 #col3 li a:hover::before {
   /* unicode filled dot */
@@ -154,6 +158,7 @@ a {
   /* background-color: currentColor; */
   /* vertical-align: middle; */
 }
+#col1.contact a:hover::before,
 #col3 a:hover::before {
   /* unicode hollow dot */
   content: "\25cb\0000a0";
@@ -339,7 +344,7 @@ dot2dot
   display: flex;
   flex-direction: column;
   background-color: var(--cc-bg);
-  border: 1px solid var(--cc-primary);
+  border: 2px solid var(--cc-primary);
   padding: 0.5rem;
   z-index: 100;
   margin-top: 0.5em;
@@ -438,6 +443,18 @@ header desktop
   z-index: -1;
   pointer-events: none;
 }
+
+.mobile__section-subtitle {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  /* margin-left: 2em; */
+  margin-left: 1em;
+  padding: 0 !important;
+}
+.dates-container .mobile__section-subtitle {
+  margin-left: 2em;
+}
+
 @media (min-width: 769px) {
   .overlay {
     display: flex;
@@ -487,9 +504,10 @@ header desktop
     flex-direction: column;
     justify-content: center;
     align-items: end;
+    margin-right: 1em;
   }
 
-  .dates-header {
+  .mobile__section-subtitle {
     display: none;
   }
   .dates li {
@@ -518,6 +536,9 @@ header mobile
 */
 
 @media (max-width: 768px) {
+  .svg-banner {
+    top: 2em;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -530,14 +551,39 @@ header mobile
   .menu-header-container {
     position: fixed;
     top: 0.5rem;
-    left: 0.3rem;
+    right: 1em;
   }
   .menu-header-container button,
   #togglePlainTextView {
-    background: var(--cc-purple);
-    color: var(--cc-olive-highlight);
+    --cc-button-bg: var(--cc-purple);
+
+    --cc-button-text: var(--cc-orange-light);
+    --cc-button-text: var(--cc-olive);
+    --cc-button-bg: var(--cc-olive-light);
+    --cc-button-bg: var(--cc-blue-light);
+    background: var(--cc-button-bg);
+    color: var(--cc-button-text);
     padding: 0 1rem;
     z-index: 10000;
+  }
+  #togglePlainTextView {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 0.3rem;
+    /* left: 0.3rem; */
+    left: 1em;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 2em);
+    /* right: 50%; */
+  }
+  .plain-text-container {
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -696,6 +742,9 @@ ul.items li:hover {
   #artists-items {
     padding: 0;
   }
+  .dates.items {
+    margin-top: 0;
+  }
 }
 button.toggle {
   border: none;
@@ -725,12 +774,13 @@ audio items
   /* background-color: transparent; */
   background-color: var(--cc-bg);
 }
-.circle-button:hover {
-  background-color: #efefef;
-}
 
-.circle-button.clicked {
+.circle-button:hover {
   background-color: var(--cc-primary);
+}
+.circle-button.active {
+  background-color: var(--cc-secondary);
+  border-color: var(--cc-secondary);
 }
 
 .audio-intro {
@@ -738,7 +788,8 @@ audio items
 }
 .audio-intro-button {
   top: 0;
-  left: 50%;
+  /* left: 50%; */
+  left: -1.5em;
 }
 
 /* 
@@ -783,18 +834,11 @@ layout
     padding: 0 1rem;
   }
 
-  /* reset order */
-  /* .section {
-    order: 1;
+  .section,
+  .header-container,
+  .ae-title {
+    margin-bottom: 2em;
   }
-
-  #col2 {
-    order: 2;
-  }
-
-  #col3 {
-    order: 3;
-  } */
 }
 
 /* 
@@ -843,11 +887,11 @@ img {
   width: max-content;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .menu-items {
     margin-top: 50%;
   }
-}
+} */
 
 /* listing display text */
 .artists-item .artist-place {
@@ -917,8 +961,8 @@ SCROLL UNDER
     top: 0;
     left: 0;
     right: 0;
-    padding-left: 1.5rem;
     pointer-events: none;
+    padding-left: 1.5rem;
   }
 }
 
@@ -947,9 +991,6 @@ SCROLL UNDER
 #col3 {
   /* prevent content from touching bottom */
   padding-bottom: 1em;
-}
-#subtitles .full-transcription {
-  display: none;
 }
 
 /* 

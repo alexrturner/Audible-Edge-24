@@ -8,16 +8,18 @@
 
         </section>
 
-        <section id="col2" class="contact">
+        <section id="col1" class="contact">
 
             <div class="signup">
                 <!-- Sign up for our -->
                 <a href="<?= $page->link_email()->url() ?>" class="button__link" aria-label="Visit Email Newsletter sign up" aria-type="link">Email Newsletter</a>
             </div>
-            <div class="signup">
-                <a href="<?= $page->link_sms()->url() ?>" class="button__link" aria-label="Visit SMS Newsletter sign up" aria-type="link">SMS Newsletter</a>
+            <!-- <div class="signup">
+                <a href="signup" class="button__link" aria-label="Visit SMS Newsletter sign up" aria-type="link">SMS Newsletter</a>
+            </div> -->
+            <div class="contact-container">
+                <span class="contact-details"></span>
             </div>
-            <span class="contact-details"></span>
         </section>
     </div>
 </main>
@@ -25,7 +27,7 @@
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
         var email = "<?= $site->email()->esc() ?>";
-        var mailLink = "<a href='mailto:" + email + "'>" + email + "</a>";
+        var mailLink = "<a class='pseudo-list-item' href='mailto:" + email + "'>" + email + "</a>";
 
         var mailBox = document.querySelector('.contact-details');
         if (mailBox) {

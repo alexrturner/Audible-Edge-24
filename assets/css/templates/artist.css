@@ -1,3 +1,13 @@
+.artist-sounds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+
+  align-items: center;
+  /* margin: 0 -15px; */
+}
+
 .audio-sample {
   display: none;
 }
@@ -10,4 +20,22 @@
 
 .bio-long.expanded {
   max-height: 1000px;
+}
+/* mobile layout order */
+@media (max-width: 768px) {
+  /* reset order */
+  .section {
+    order: 1;
+  }
+
+  #col2 {
+    order: 1;
+  }
+  #col1 {
+    order: 2;
+  }
+
+  #col3 {
+    order: 3;
+  }
 }

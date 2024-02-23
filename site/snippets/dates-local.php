@@ -53,7 +53,7 @@ function formatEventTime($startTime, $endTime)
 ?>
 <div class="dates-container">
     <?php if ($start_date) : ?>
-        <h2 class="dates-header">Date</h2>
+        <span class="mobile__section-subtitle">Date:</span>
         <ul class="dates items">
             <li id="date" class="date">
                 <?= $start_date ?>

@@ -1,9 +1,14 @@
 <?php snippet('header') ?>
 
 <style>
+    :root {
+        /* --fs-big: 5rem; */
+    }
+
     body {
         overflow-y: hidden;
     }
+
 
     .ae-title {
         display: flex;
@@ -12,14 +17,13 @@
 
         width: min-content;
         white-space: initial;
-        position: fixed;
-        bottom: 33%;
-        left: 20%;
         z-index: 100;
-        font-size: var(--fs-big);
-        letter-spacing: -0.06em;
         font-weight: normal;
     }
+
+
+
+
 
     .content-container {
         display: flex;
@@ -110,7 +114,6 @@
         display: flex !important;
         justify-content: center;
         align-content: center;
-
     }
 
     .audio-button {
@@ -239,6 +242,18 @@
         position: absolute;
         display: flex;
         flex-direction: column;
+        z-index: 1;
+    }
+
+    .ae-title {
+        position: fixed;
+        /* bottom: 25%; */
+        top: 10%;
+        left: 20%;
+
+        font-size: var(--fs-big);
+        line-height: 0.85;
+        letter-spacing: -0.06em;
     }
 
     .homepage__dates {
@@ -248,18 +263,197 @@
         font-size: 1.5rem;
         color: var(--cc-olive);
         align-items: end;
+        font-size: var(--fs-big);
+        line-height: 0.85;
+        letter-spacing: -0.06em;
     }
 
     .homepage__tag {
         bottom: 10%;
-        right: 2%;
+        right: 15%;
+
         padding: 1rem;
         font-size: 1.5rem;
         color: var(--cc-olive);
+        /* color: var(--cc-olive-light);
+        color: var(--cc-purple-highlight); */
+        font-size: var(--fs-big);
+        line-height: 0.85;
+        letter-spacing: -0.06em;
+    }
+
+    .countdown-container {
+        position: absolute !important;
+        /* left: 40.3em !important; */
+        /* top: 9em !important; */
+        /* top: 20%;
+        right: 20%; */
+        top: 2em;
+        right: 1.5em;
+        font-family: var(--ff-serif);
+        font-style: italic;
+        color: var(--cc-olive-light);
+        /* color: var(--cc-blue-light); */
+        opacity: 0.75;
+    }
+
+    .plain-text-container {
+        position: fixed !important;
+        /* right: 0.3em !important;
+         */
+        top: unset !important;
+        left: 1em !important;
+        bottom: 0.5em !important;
     }
 
     .pseudo-list-item {
         padding: 0;
+    }
+
+    #subtitles {
+        background-color: var(--cc-olive-highlight);
+        z-index: 10000;
+    }
+
+    #subtitles .full-transcription {
+        display: none;
+    }
+
+    #subtitles,
+    .audio-intro-container {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .audio-intro-container {
+        bottom: 1rem;
+    }
+
+    .audio-intro-text {
+        font-size: var(--fs-med);
+        font-family: var(--ff-serif);
+        font-style: italic;
+        margin-left: 1em;
+    }
+
+    #subtitles {
+        bottom: 3rem;
+        left: 25%;
+        width: 50%;
+        z-index: 10000;
+        font-family: var(--ff-serif);
+        padding: 0.25em 1.5em;
+    }
+
+    @media (max-width: 769px) {
+
+        /* // todo: fun with long mobile */
+        /* 
+        #lineCanvas {
+            display: block !important;
+            position: relative;
+        }
+
+        #lineCanvas {
+            height: 500em;
+        } */
+
+        .plain-text-container {
+            left: 0.3em !important;
+        }
+
+        .homepage__dates,
+        #svg-container,
+        #lineCanvas,
+        #lineCanvas-container {
+            position: fixed;
+        }
+
+        .audio-intro-container {
+            bottom: 4rem;
+        }
+
+        .audio-intro-text {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+
+        .homepage__tag {
+            top: 33%;
+            top: 28%;
+            bottom: unset;
+            right: 1rem;
+            font-size: 2.5rem;
+        }
+
+        #lineCanvas-container,
+        #dots,
+        #audio-buttons-container {
+            height: 200vh;
+            /* max-width: 80%; */
+            /* left: 20%; */
+        }
+
+        body {
+            overflow-y: visible;
+        }
+
+
+        .ae-title {
+            position: fixed;
+
+            top: 20%;
+            left: 1rem;
+            pointer-events: none;
+        }
+
+        .homepage__dates {
+            top: 10%;
+            right: 1rem;
+            pointer-events: none;
+        }
+
+        #subtitles {
+            width: calc(100% - 5em);
+            bottom: 8rem;
+            left: 1em;
+        }
+    }
+
+    .countdown-container {
+        top: 0.5rem;
+        width: 100%;
+        text-align: center;
+        right: unset;
+        pointer-events: auto;
+        /* max-width: 20ch; */
+    }
+
+    @media (min-width: 768px) {
+        #settingsContainer {
+            position: absolute;
+            bottom: 0.25rem;
+            left: 6em;
+            width: max-content;
+            width: 200px;
+            height: max-content;
+            z-index: 0;
+
+        }
+
+        #dragHandle {
+            width: 20px;
+            pointer-events: auto;
+            height: 20px;
+            background-color: darkgrey;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            cursor: grab;
+            z-index: 100;
+        }
     }
 </style>
 
@@ -288,7 +482,7 @@
     </ul>
 </div>
 
-<div class="homepage__tag pseudo-list-item serif">
+<div class="homepage__tag pseudo-list-item">
     <span>a Festival of </span>
     <span>Exploratory Music</span>
     <span>presented by</span>
@@ -299,7 +493,7 @@
 
 <div class="homepage__dates">
     <span class="hidden">Festival Dates:</span>
-    <span class="pseudo-list-item">April</span><span>26–28</span>
+    <span class="pseudo-list-item">April </span><span>26–28</span>
 </div>
 
 <main class="content-container">
@@ -343,10 +537,15 @@
     </div>
 
     <div class="audio-intro-container">
+        <div class="audio-intro-text">
+            <?php // kt($site->audio_intro_text()) 
+            ?>
+            <span>If you’d prefer to listen, </span><span>we recorded our welcome:</span>
+        </div>
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_intro') as $intro_audio) : ?>
 
-            <?= kt($site->audio_intro_text()) ?>
+
             <button class="audio-intro-button circle-button audio-intro-btn-<?= $index ?>" data-audio="audio-intro-<?= $index ?>" onclick="playPauseIntro(this)" style="display: none;">
             </button>
 
@@ -355,7 +554,7 @@
             <?php $index++; ?>
         <?php endforeach; ?>
     </div>
-    <div id="subtitles">
+    <div id="subtitles" class="hidden">
         <div class="full-transcription">
             <?= kt($site->audio_intro_transcription()) ?>
         </div>

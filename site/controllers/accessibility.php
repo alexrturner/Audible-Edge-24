@@ -44,7 +44,8 @@ return function ($kirby, $pages, $page) {
             try {
                 $kirby->email([
                     'template' => 'email',
-                    'from'     => 'yourcontactform@yourcompany.com',
+                    // 'from'     => 'yourcontactform@yourcompany.com',
+                    'from'    => '***REMOVED***',
                     'replyTo'  => $data['email'],
                     // 'to'       => '***REMOVED***',
                     'to'       => 'alexturnermusic@gmail.com',

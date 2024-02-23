@@ -2,7 +2,7 @@
 <main class="content">
 
     <div class="content-container index">
-        <section id="donate">
+        <section id="col1">
             <?= $page->description() ?>
         </section>
     </div>
