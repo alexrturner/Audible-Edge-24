@@ -378,6 +378,7 @@
             flex-direction: column;
             width: 100%;
             align-items: center;
+            margin-left: 0em;
         }
 
         .homepage__tag {

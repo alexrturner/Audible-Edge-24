@@ -733,6 +733,7 @@ ul li.first-item button {
 ul.items li:hover {
   list-style: circle;
 }
+
 /* mobile layout */
 @media (max-width: 768px) {
   ul.items:not(.dates) {
@@ -744,6 +745,12 @@ ul.items li:hover {
   }
   .dates.items {
     margin-top: 0;
+  }
+  .pagination {
+    text-align: end;
+  }
+  .menu-header-container .menu-toggle {
+    float: right;
   }
 }
 button.toggle {
