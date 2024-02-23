@@ -22,11 +22,12 @@ if ($currentEventIndex !== false) {
 <?php if ($currentEventIndex !== false) : ?>
     <nav class="pagination">
         <?php if ($prevEvent) : ?>
-            <a href="<?= $prevEvent->url() ?>" title="<?= $prevEvent->title() ?>" rel="prev">&larr; Previous Event</a>
+            <a class="pseudo-list-item" href="<?= $prevEvent->url() ?>" title="<?= $prevEvent->title() ?>" rel="prev">&larr;<span class="hidden"> Previous Event</span></a>
         <?php endif; ?>
+        <br>
 
         <?php if ($nextEvent) : ?>
-            <a href="<?= $nextEvent->url() ?>" title="<?= $nextEvent->title() ?>" rel="next">Next. Event &rarr;</a>
+            <a class="pseudo-list-item" href="<?= $nextEvent->url() ?>" title="<?= $nextEvent->title() ?>" rel="next"><span class="hidden">Next Event </span>&rarr;</a>
         <?php endif; ?>
     </nav>
 <?php endif; ?>

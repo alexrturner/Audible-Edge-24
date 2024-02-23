@@ -1,7 +1,3 @@
-.subtitle {
-  list-style: disc;
-}
-
 ul.menu-container {
   margin: revert;
 }
@@ -29,29 +25,6 @@ mobile layout
 
   .all-listings .artists {
     order: 3;
-  }
-}
-
-/* 
-Desktop layout:
-events, artists, menu
-*/
-@media (min-width: 769px) {
-  .all-listings #events {
-    grid-column: 1 / span 2;
-  }
-
-  .all-listings #artists {
-    grid-column: 3 / span 4;
-  }
-
-  .all-listings #menu {
-    grid-column: 7;
-  }
-
-  .section {
-    overflow-y: auto;
-    /* Scrollable? */
   }
 }
 
@@ -84,5 +57,21 @@ events, artists, menu
     /* Firefox */
     column-count: 1;
     /* Standard syntax */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul.items:not(.dates) {
+    padding: 0 0 0 2.3rem;
+  }
+  #artists-items {
+    padding: 0 0 0 2.3rem;
+  }
+
+  .section > :first-child,
+  section > :first-child,
+  .section > div > :first-child,
+  section > div > :first-child {
+    padding: 0;
   }
 }

@@ -10,7 +10,11 @@ Layout
 .description {
   grid-column: span 2;
   max-height: 66vh;
-  overflow-y: auto; /* enable vertical scrolling */
+  overflow-y: auto;
+  scrollbar-color: var(--cc-olive-highlight) var(--cc-primary);
+  scrollbar-color: var(--cc-primary) var(--cc-purple-highlight);
+  scrollbar-color: var(--cc-scrollbar) var(--cc-primary);
+  scrollbar-width: thin;
 }
 
 /* mobile */

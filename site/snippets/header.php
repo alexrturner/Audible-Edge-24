@@ -55,15 +55,10 @@
   <div class="header-container">
     <header class="header">
       <?php if ($page->isHomePage()) : ?>
-
         <h1 class="ae-title pseudo-list-item">
-          <?php if ($page->uid() === 'nightschool' || ($page->parent() && $page->parent()->uid() === 'nightschool')) : ?>
-            Night School
-          <?php else : ?>
-            <?= $site->titleDisplay() ?>
-          <?php endif ?>
+          <?= $site->titleDisplay() ?>
         </h1>
-        </a>
+
       <?php else : ?>
         <a class="ae-title" href="<?= $site->url() ?>" title="<?= $site->title() ?>" aria-label="<?= $site->title() ?> Homepage">
           <h1>
@@ -73,21 +68,24 @@
               <?= $site->titleDisplay() ?>
             <?php endif ?>
           </h1>
+          <div class="svg-banner" style="display: none;">
+            <?= svg('assets/img/banner/AE24-banner-01.svg') ?>
+          </div>
         </a>
+        <div class="anchor-point"></div>
       <?php endif ?>
+
+
       <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
-        <h2 class="ae-subtitle"><?= $site->subtitle() ?></h2>
         <?php if ($page->isHomePage()) : ?>
           <div class="countdown-container">
             Full program announced in <span id="countdown"></span>
           </div>
         <?php endif ?>
       <?php else : ?>
-        <div class="ae-subtitle">
-          <?php snippet('menu', ['expanded' => 'false']) ?>
-        </div>
+
       <?php endif ?>
-      <button id="togglePlainTextView" class="pseudo-list-item" style="position: absolute; top: 0.5rem; right: 1.5rem;">Plain Text View</button>
+
       <?php
       if ($page->isHomePage()) : ?>
         <?php // snippet('dates-global') 
@@ -102,4 +100,42 @@
         <?php snippet('dates-local') ?>
       <?php endif ?>
     </header>
+    <?php if (!$page->isHomePage()) : ?>
+
+      <div class="menu-header-container">
+        <?php
+        // arguments: expanded (true/false)
+        $expanded = "false";
+        ?>
+        <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
+        <br><br>
+
+        <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
+          <li class="menu-item">
+            <a href="/satellite/program-launch" class="menu-link">
+              Program Launch
+            </a>
+          </li>
+          <?php foreach ($site->children()->listed() as $p) : ?>
+            <li class="menu-item">
+              <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
+                <?= $p->title()->esc() ?>
+              </a>
+            </li>
+          <?php endforeach ?>
+
+        </ul>
+
+        <?php if ($page->parent()) : ?>
+          <?php snippet('pagination-event') ?>
+        <?php endif ?>
+      </div>
+    <?php endif ?>
+    <div class="plain-text-container" style="position: fixed; top: 0.5rem; right: 0.3rem;">
+      <button id="togglePlainTextView" class="pseudo-list-item">Plain Text</button>
+
+      <?php if ($page->uid() === 'nightschool' || $page->slug('program')) : ?>
+        <?php snippet('settings') ?>
+      <?php endif ?>
+    </div>
   </div>

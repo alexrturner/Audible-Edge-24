@@ -1,13 +1,17 @@
-main.main {
+/* main.main {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-}
+} */
 
-.description {
+#col3.description {
   grid-column: span 4;
-  max-height: 66vh;
+  /* max-height: 66vh; */
   overflow-y: auto; /* enable vertical scrolling */
+  scrollbar-color: var(--cc-olive-highlight) var(--cc-primary);
+  scrollbar-color: var(--cc-primary) var(--cc-purple-highlight);
+  scrollbar-color: var(--cc-scrollbar) var(--cc-primary);
+  scrollbar-width: thin;
 }
-.intro {
+#col2.contact {
   grid-column: span 3;
 }

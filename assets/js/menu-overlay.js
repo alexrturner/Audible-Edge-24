@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const isOpen = overlay.style.visibility === "visible";
     overlay.style.opacity = isOpen ? "0" : "1";
     overlay.style.visibility = isOpen ? "hidden" : "visible";
-    menu.classList.toggle("hidden__visibility");
+    menu.classList.toggle("hidden");
   });
 });

@@ -2,10 +2,9 @@
 <main class="content">
 
     <div class="content-container index">
-        <section class="text">
+        <section id="donate">
             <?= $page->description() ?>
         </section>
-
     </div>
 </main>
 <?php snippet('footer') ?>

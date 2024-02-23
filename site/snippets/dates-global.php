@@ -21,7 +21,8 @@ ksort($dates);
 ?>
 
 <div class="dates-container">
-    <h2 class="dates-header">Upcoming Dates</h2>
+    <h2 class="dates-header">All Dates</h2>
+    <div id="dates-event-times"></div>
     <ul class="dates items">
         <?php foreach ($dates as $date) : ?>
             <li data-type="date" data-id="<?= htmlspecialchars($date['data'] ?? '', ENT_QUOTES, 'UTF-8') ?>">

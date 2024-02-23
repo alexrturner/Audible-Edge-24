@@ -1,14 +1,14 @@
 <?php snippet('header') ?>
 
 <main class="main">
-    <div class="content-container index">
-        <section class="description">
+    <div class="content-container ">
+        <section id="col3" class="description">
 
             <?= kt($page->Description()) ?>
 
         </section>
 
-        <section class="contact">
+        <section id="col2" class="contact">
 
             <div class="signup">
                 <!-- Sign up for our -->

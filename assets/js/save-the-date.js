@@ -39,8 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   // select the SVG, dots and audio buttons
-  var svgElement = document.querySelector("#logo-0 svg");
-  var cls3Elements = svgElement.querySelectorAll(".cls-3");
+  // var svgElement = document.querySelector("#logo-0 svg");
+  // var cls3Elements = svgElement.querySelectorAll(".cls-3");
+  var svgElement = document.querySelector("#dots svg");
+  // var cls3Elements = svgElement.querySelectorAll(".st0");
+  var cls3Elements = svgElement.querySelectorAll("#dots path");
   var audioButtons = document.querySelectorAll(".audio-button");
 
   function isOverlapping(elem1, elem2) {
@@ -107,6 +110,14 @@ document.addEventListener("DOMContentLoaded", function () {
           return otherButton !== button && isOverlapping(button, otherButton);
         });
 
+        // if (!overlap) {
+        //   const audioButtonTexts =
+        //     document.querySelectorAll(".audio-button-text");
+        //   overlap = Array.from(audioButtonTexts).some((span) => {
+        //     return isOverlapping(button, span);
+        //   });
+        // }
+
         if (!overlap) {
           placed = true; // found a non-overlapping position
         } else {
@@ -125,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var audioID = d3.select(this).select("audio").attr("id");
     var audioElement = document.getElementById(audioID);
     if (audioElement) {
-      audioElement.play().catch((e) => console.log("Error playing audio:", e));
+      audioElement.play().catch((e) => console.log("Error playing audio!", e));
     }
   });
 });
@@ -134,7 +145,6 @@ document.addEventListener("DOMContentLoaded", function () {
 function playPauseIntro(button) {
   const introAudioId = button.getAttribute("data-audio");
   const introAudio = document.getElementById(introAudioId);
-  console.log(introAudio);
   if (introAudio.paused) {
     introAudio.play();
     button.style.backgroundColor = "var(--cc-primary)";

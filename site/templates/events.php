@@ -2,8 +2,6 @@
 
 <main>
     <div class="content-container all-listings">
-        <?php snippet('menu') ?>
-
         <div class="section events" id="events">
             <ul class="events-container">
                 <li class="events-item first-item">
@@ -28,7 +26,5 @@
     </div>
 
 </main>
-
-<?php snippet('settings') ?>
 
 <?php snippet('footer') ?>

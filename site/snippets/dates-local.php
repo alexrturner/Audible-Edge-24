@@ -53,9 +53,9 @@ function formatEventTime($startTime, $endTime)
 ?>
 <div class="dates-container">
     <?php if ($start_date) : ?>
-        <h2 class="dates-header">Upcoming Dates</h2>
+        <h2 class="dates-header">Date</h2>
         <ul class="dates items">
-            <li class="date">
+            <li id="date" class="date">
                 <?= $start_date ?>
                 <span class="time"><?= formatEventTime($start_time, $end_time); ?></span>
             </li>

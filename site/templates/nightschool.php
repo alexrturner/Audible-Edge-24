@@ -20,5 +20,4 @@
 
 </main>
 
-<?php snippet('settings') ?>
 <?php snippet('footer') ?>

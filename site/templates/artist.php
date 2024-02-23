@@ -93,22 +93,22 @@
             <ul class="artist-links">
                 <?php foreach ($links as $link) : ?>
                     <li>
-                        <a href="<?= $link->url() ?>" <?= $link->popup()->toBool() ? 'target="_blank"' : '' ?>>
+                        [
+                        <a class="serif italic" href="<?= $link->url() ?>" <?= $link->popup()->toBool() ? 'target="_blank"' : '' ?>>
 
                             <?= $link->text()->html() ?>
-                            (<?php
-                                // Construct the SVG file path based on the link type
-                                $type = $link->type()->value();
-                                $svgFilePath = 'assets/imgs/icons/' . $type . '.svg';
+                            <?php
+                            // Construct the SVG file path based on the link type
+                            $type = $link->type()->value();
+                            $svgFilePath = 'assets/imgs/icons/' . $type . '.svg';
 
-                                if (file_exists($svgFilePath)) {
-                                    svg($svgFilePath);
-                                } else {
-                                    // fallback text
-                                    echo htmlspecialchars($type);
-                                }
-                                ?>)
-                        </a>
+                            if (file_exists($svgFilePath)) {
+                                svg($svgFilePath);
+                            } else {
+                                // fallback text
+                                echo htmlspecialchars($type);
+                            }
+                            ?></a> ]
                     </li>
                 <?php endforeach; ?>
             </ul>
@@ -120,10 +120,6 @@
     </section>
 
 
-    <!-- <section class="section" id="col4">
-
-
-    </section> -->
 </main>
 
 <?= js([

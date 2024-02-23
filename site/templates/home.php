@@ -7,8 +7,8 @@
 
     .ae-title {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
 
         width: min-content;
         white-space: initial;
@@ -32,7 +32,12 @@
     }
 
 
-
+    .homepage__menu-header-container {
+        position: fixed;
+        top: 50%;
+        left: 1em;
+        z-index: 100;
+    }
 
 
     svg {
@@ -40,7 +45,8 @@
         height: 100%;
     }
 
-    .logo {
+    .logo,
+    .svg-dots {
         height: auto;
         width: 100%;
     }
@@ -48,7 +54,7 @@
     #audio-buttons-container {
         display: block !important;
         position: relative;
-        max-width: 60rem;
+        /* max-width: 60rem; */
     }
 
     .audio-button audio {
@@ -81,9 +87,8 @@
 
     @media screen and (max-width: 768px) {
         .logo-container {
-            position: absolute;
+            /* position: absolute; */
             display: block !important;
-            top: -10vh;
         }
     }
 
@@ -160,15 +165,11 @@
         opacity: 1 !important;
     }
 
-    svg path,
-    svg polyline {
+    svg#lineCanvas path,
+    svg#lineCanvas polyline {
         fill: var(--cc-olive);
-        stroke: var(--cc-olive) !important;
+        stroke: var(--cc-squig-colour) !important;
     }
-
-
-
-
 
     .cls-3 {
         fill: var(--cc-orange) !important;
@@ -181,12 +182,9 @@
         animation: fill 12s linear infinite;
     }
 
-
-
     .cls-1 {
         /* fill: var(--cc-purple-highlight) !important; */
         /* opacity: 0.2; */
-
         stroke: var(--cc-olive) !important;
         /* stroke: var(--cc-purple-highlight) !important; */
     }
@@ -230,23 +228,92 @@
         position: absolute;
         transform: translateY(0.5em);
     }
+
+    .svg-dots {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .homepage__tag,
+    .homepage__dates {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage__dates {
+        top: 20%;
+        right: 20%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: var(--cc-olive);
+        align-items: end;
+    }
+
+    .homepage__tag {
+        bottom: 10%;
+        right: 2%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: var(--cc-olive);
+    }
+
+    .pseudo-list-item {
+        padding: 0;
+    }
 </style>
 
+<div class="homepage__menu-header-container">
+    <?php
+    // arguments: expanded (true/false)
+    $expanded = "true";
+    ?>
+    <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
+    <br><br>
 
+    <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
+        <li class="menu-item">
+            <a href="/satellite/program-launch" class="menu-link">
+                Program Launch
+            </a>
+        </li>
+        <?php foreach ($site->children()->listed() as $p) : ?>
+            <li class="menu-item">
+                <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
+                    <?= $p->title()->esc() ?>
+                </a>
+            </li>
+        <?php endforeach ?>
 
+    </ul>
+</div>
+
+<div class="homepage__tag pseudo-list-item serif">
+    <span>a Festival of </span>
+    <span>Exploratory Music</span>
+    <span>presented by</span>
+    <span>Tone List on</span>
+    <span>Whadjuk Noongar</span>
+    <span>Boodja</span>
+</div>
 
 <div class="homepage__dates">
     <span class="hidden">Festival Dates:</span>
-    <span>April</span>
-    <span>26–28</span>
+    <span class="pseudo-list-item">April</span><span>26–28</span>
 </div>
-
-<?php snippet('menu') ?>
 
 <main class="content-container">
 
 
     <div id="svg-container" class="logo-container desktop" style="display: none;">
+
+        <div id="dots" class="svg-dots">
+            <?php $dots = $site->files()->template('ae_homepage_dot_svg');
+            foreach ($dots as $dot) : ?>
+                <?= $dot->read() ?>
+            <?php endforeach; ?>
+        </div>
+
         <?php
         $logoFiles = $site->files()->template('ae_logo');
         $index = 0;
@@ -262,15 +329,17 @@
     </div>
 
     <div id="audio-buttons-container" style="display: none;">
+        <!-- <div id="audio-buttons-container-relative" style="position: relative; height:100%; width:100%;"> -->
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_custom') as $audio) : ?>
-            <button class="audio-button circle-button audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>">
+            <button class="audio-button circle-button" id="audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>">
                 <span class="audio-button-text"><?= $audio->audio_category() ?></span>
                 <audio id="audio-<?= $index ?>" src="<?= $audio->url() ?>"></audio>
             </button>
 
             <?php $index++; ?>
         <?php endforeach; ?>
+        <!-- </div> -->
     </div>
 
     <div class="audio-intro-container">
@@ -286,6 +355,11 @@
             <?php $index++; ?>
         <?php endforeach; ?>
     </div>
+    <div id="subtitles">
+        <div class="full-transcription">
+            <?= kt($site->audio_intro_transcription()) ?>
+        </div>
+    </div>
 
 
 
@@ -294,5 +368,7 @@
 </main>
 
 <?= js('assets/js/save-the-date.js') ?>
+<?= js('assets/js/ae24-audio-svg.js') ?>
+<?= js('assets/js/subtitles.js') ?>
 
 <?php snippet('footer') ?>

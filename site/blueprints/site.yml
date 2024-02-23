@@ -76,6 +76,11 @@ tabs:
         template: ae_homepage_dot_svg
         help: SVG file of dots for the homepage.
 
+      ae_logo_menu:
+        label: AE logos (menu version)
+        type: files
+        template: ae_logo_menu
+
       ae_logo_combined:
         label: AE logos (combined version)
         type: files

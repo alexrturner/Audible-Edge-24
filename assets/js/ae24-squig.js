@@ -10,11 +10,11 @@ document.getElementById("toggleSquig").addEventListener("click", function () {
 
   if (svgContainer.style.display !== "none") {
     svgContainer.style.display = "none";
-    button.innerHTML = "off";
+    // button.innerHTML = "off";
     button.classList.toggle("inactive");
   } else {
     svgContainer.style.display = "block";
-    button.innerHTML = "on";
+    // button.innerHTML = "on";
     button.classList.toggle("inactive");
   }
 });
@@ -239,7 +239,7 @@ function setupHoverInteractions(data) {
       svg
         .append("path")
         .attr("d", pathData)
-        .style("stroke", "var(--cc-secondary)")
+        .style("stroke", "var(--cc-squig-colour)")
         .style("stroke-width", 6)
         .style("fill", "none");
     })
