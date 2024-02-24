@@ -1,0 +1,73 @@
+Title: Betweens
+
+----
+
+Artist-link: - page://W9E2s5yQXwSQmaSG
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><strong>Astral Weeks<br></strong>5pm - 8pm DJ (Cooper Cooper/Nafta)</p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: <p>Astral Weeks</p>
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 17:00:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 20:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Tags: 
+
+----
+
+Uuid: gMX7Mt2CsjepeydY

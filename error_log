@@ -328,3 +328,33 @@ Stack trace:
 #7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
 #8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
+[24-Feb-2024 00:48:36 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#3 [internal function]: Kirby\Cms\App->{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#11 {main}
+[24-Feb-2024 01:31:57 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/User.php:741
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(522): Kirby\Cms\User->validatePassword()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#3 [internal function]: Kirby\Cms\Api->{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#8 [internal function]: Kirby\Http\Route->{closure}()
+#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#11 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#12 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#13 {main}

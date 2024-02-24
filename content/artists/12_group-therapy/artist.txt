@@ -6,15 +6,21 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Dance music for entangled marionettes.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Group Therapy is a meeting of keen minds in free jazz: Djuna Lee's precise bass playing grounds the angular and virtuosic interactions of woodwinds, brass and drums, played by Simon Charles, Jessica Carlton and Pete Evans, threading complex melodies and rhythms together.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: http://www.djunalee.com/
+  text: Website
+  popup: 'true'
+  type: link
 
 ----
 
@@ -27,6 +33,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

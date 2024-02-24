@@ -46,7 +46,7 @@
             "uuid": "artists\/simon-charles-john-kinsella",
             "title": "Simon Charles & John Kinsella",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/closing-event"
             ]
         },
         "artists\/cooper-cooper": {
@@ -74,7 +74,7 @@
             "uuid": "artists\/daniel-garlett",
             "title": "Daniel Garlett",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/group-therapy": {
@@ -88,15 +88,14 @@
             "uuid": "artists\/patrick-gunasekera",
             "title": "Patrick Gunasekera",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/closing-event"
             ]
         },
         "artists\/shoji-hano": {
             "uuid": "artists\/shoji-hano",
             "title": "Shoji Hano",
             "events": [
-                "nightschool\/breathing-rhythm-sensitivity",
-                "satellite\/goolugatup-sounds-18"
+                "nightschool\/breathing-rhythm-sensitivity"
             ]
         },
         "artists\/jon-heilbron-rebecca-lane": {
@@ -110,21 +109,21 @@
             "uuid": "artists\/jenny-hickinbotham",
             "title": "Jenny Hickinbotham with Chris Cobilis & Lana Rothnie",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/closing-event"
             ]
         },
         "artists\/joeeii": {
             "uuid": "artists\/joeeii",
             "title": "joeeii",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/jxnior": {
             "uuid": "artists\/jxnior",
             "title": "Jxnior",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/siva-kumar-alex-reid": {
@@ -138,7 +137,7 @@
             "uuid": "artists\/rebecca-lloyd-jones",
             "title": "Rebecca Lloyd-Jones",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/sally-ann-mcintyre": {
@@ -152,7 +151,7 @@
             "uuid": "artists\/miss-phoria",
             "title": "Miss Phoria",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/emilie-monty": {
@@ -171,7 +170,7 @@
             "uuid": "artists\/myriad-sun",
             "title": "Myriad Sun",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/mystery-wonder-records": {
@@ -192,14 +191,14 @@
             "uuid": "artists\/bobbi-russell",
             "title": "Bobbi Russell",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/lia-t": {
             "uuid": "artists\/lia-t",
             "title": "Lia T & Rok Riley",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/sookie": {
@@ -225,11 +224,11 @@
             "uuid": "artists\/ten-forward",
             "title": "tenforward",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/closing-event"
             ]
         },
-        "artists\/michael-terren-with-paul-boye-skot-mcdonald-sze-tsang": {
-            "uuid": "artists\/michael-terren-with-paul-boye-skot-mcdonald-sze-tsang",
+        "artists\/michael-terren": {
+            "uuid": "artists\/michael-terren",
             "title": "Michael Terren with Paul Boy\u00e9, Skot McDonald & Sze Tsang",
             "events": [
                 "nightschool\/book-launch"
@@ -239,14 +238,14 @@
             "uuid": "artists\/wayang",
             "title": "Wayang",
             "events": [
-                "program\/club-night-at-psas"
+                "program\/body-the-body"
             ]
         },
         "artists\/we-puddls": {
             "uuid": "artists\/we-puddls",
             "title": "wetpuddlss",
             "events": [
-                "program\/falming-galah-interstitial-hang"
+                "program\/befores"
             ]
         }
     },
@@ -311,9 +310,9 @@
                 "nightschool"
             ]
         },
-        "program\/moon-returns-at-sullivan": {
-            "uuid": "program\/moon-returns-at-sullivan",
-            "title": "Moon returns",
+        "program\/closing-event": {
+            "uuid": "program\/closing-event",
+            "title": "I make big noise and make small sound, I am in the air and on the ground, I'm out of sight and can be found. What am I?",
             "date": "2024-04-28",
             "artists": [
                 "artists\/simon-charles-john-kinsella",
@@ -336,9 +335,9 @@
                 "program"
             ]
         },
-        "program\/club-night-at-psas": {
-            "uuid": "program\/club-night-at-psas",
-            "title": "Something about the body",
+        "program\/body-the-body": {
+            "uuid": "program\/body-the-body",
+            "title": "Body the body",
             "date": "2024-04-26",
             "artists": [
                 "artists\/daniel-garlett",
@@ -378,27 +377,26 @@
                 "nightschool"
             ]
         },
-        "satellite\/goolugatup-sounds-18": {
-            "uuid": "satellite\/goolugatup-sounds-18",
-            "title": "Goolugatup Sounds 18",
-            "date": "2024-04-20",
-            "artists": [
-                "artists\/shoji-hano",
-                "artists\/erin-royer-josten-myburgh"
-            ],
-            "event_type": [
-                "satellite"
-            ]
-        },
         "nightschool\/critical-writing": {
             "uuid": "nightschool\/critical-writing",
-            "title": "Critical Writing for Experimental Music",
+            "title": "Notes within a small radius of attentive listening: Writing as\/and experimental sonic cultural  practice",
             "date": "2024-04-07",
             "artists": [
                 "artists\/sally-ann-mcintyre"
             ],
             "event_type": [
                 "nightschool"
+            ]
+        },
+        "satellite\/goolugatup-sounds-18": {
+            "uuid": "satellite\/goolugatup-sounds-18",
+            "title": "Goolugatup Sounds 18",
+            "date": "2024-04-20",
+            "artists": [
+                "artists\/erin-royer-josten-myburgh"
+            ],
+            "event_type": [
+                "satellite"
             ]
         },
         "nightschool\/hand-made-music-albums": {
@@ -439,15 +437,15 @@
             "title": "Book Launch: Creative Tools and the Softwarization of Cultural Production",
             "date": "2024-04-11",
             "artists": [
-                "artists\/michael-terren-with-paul-boye-skot-mcdonald-sze-tsang"
+                "artists\/michael-terren"
             ],
             "event_type": [
                 "nightschool"
             ]
         },
-        "program\/falming-galah-interstitial-hang": {
-            "uuid": "program\/falming-galah-interstitial-hang",
-            "title": "Experimental pres, part one",
+        "program\/befores": {
+            "uuid": "program\/befores",
+            "title": "Befores",
             "date": "2024-04-26",
             "artists": [
                 "artists\/we-puddls"
@@ -483,11 +481,11 @@
         "2024-04-28": {
             "events": [
                 "program\/arvo-at-psas",
-                "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan",
+                "program\/closing-event",
+                "program\/closing-event",
                 "program\/arvo-at-psas",
-                "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan"
+                "program\/closing-event",
+                "program\/closing-event"
             ],
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
@@ -508,17 +506,17 @@
         },
         "2024-04-26": {
             "events": [
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/body-the-body",
                 "program\/sun-returns",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/club-night-at-psas",
-                "program\/falming-galah-interstitial-hang"
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/body-the-body",
+                "program\/befores"
             ],
             "artists": [
                 "artists\/daniel-garlett",
@@ -552,22 +550,20 @@
                 "artists\/shoji-hano"
             ]
         },
-        "2024-04-20": {
-            "events": [
-                "satellite\/goolugatup-sounds-18",
-                "satellite\/goolugatup-sounds-18"
-            ],
-            "artists": [
-                "artists\/shoji-hano",
-                "artists\/erin-royer-josten-myburgh"
-            ]
-        },
         "2024-04-07": {
             "events": [
                 "nightschool\/critical-writing"
             ],
             "artists": [
                 "artists\/sally-ann-mcintyre"
+            ]
+        },
+        "2024-04-20": {
+            "events": [
+                "satellite\/goolugatup-sounds-18"
+            ],
+            "artists": [
+                "artists\/erin-royer-josten-myburgh"
             ]
         },
         "2024-03-24": {
@@ -591,7 +587,7 @@
                 "nightschool\/book-launch"
             ],
             "artists": [
-                "artists\/michael-terren-with-paul-boye-skot-mcdonald-sze-tsang"
+                "artists\/michael-terren"
             ]
         }
     }

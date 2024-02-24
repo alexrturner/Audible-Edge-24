@@ -1,4 +1,4 @@
-Title: Critical Writing for Experimental Music
+Title: Notes within a small radius of attentive listening: Writing as/and experimental sonic cultural  practice
 
 ----
 
@@ -10,15 +10,15 @@ Subtitle:
 
 ----
 
-Description: <p>Sally Ann Macintyre — critical writing (online)<br><br>+ Simon Miraudo/Tristan Fidler?</p>
+Description: <p>This participatory workshop focusses on experimental and critical writing practices, techniques and histories in their alignment with experimental art and music cultures. It's an invitation to discover the role and possibility of writing in our underground music community. Any experience levels are welcome. </p><p>﻿﻿We will explore how writing (including the adjacent areas of art writing, artists’ writing, and art criticism) aligns itself with the affective dimensions of music and listening practices. ﻿These are practices that might require capabilities of being attentive, playful, experimental, interrogative, porous, open, site-responsive, and reflective. We will also consider the changing role of critical writing, reading and self-publishing within contemporary audio art and experimental music cultures and other collaborative artistic spaces that exist in a critical relation to the commodity form.</p><p>Participants will engage in practice-based reading and writing tasks, and collaborate in addressing a set of questions, including: how can writing support the political economy of DIY cultural practice, working to hold open the indeterminacies of artistic process, and registering critical and creative zones of refusal and dissent? How can writing practices be part of a tactical toolkit to support a localised scale of community in such spaces? How can it facilitate experimental artistic cultures and practices’ ability to find and retain critical autonomy, self-determination and self-reflexivity? Can we collectively model an ethics of peer-to-peer transmission and localised distribution of art and work within the wholesale capitalist co-option of the digital social commons?</p>
 
 ----
 
-Ticketed: false
+Ticketed: true
 
 ----
 
-Ticket-link: 
+Ticket-link: https://events.humanitix.com/audible-edge-night-school-art-writing-for-experimental-music
 
 ----
 
@@ -26,7 +26,7 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: 
+Ticket-price-text: Free, optional donation, registration required
 
 ----
 
@@ -49,7 +49,7 @@ Start-date: 2024-04-07
 
 ----
 
-Start-time: 14:00:00
+Start-time: 11:00:00
 
 ----
 
@@ -57,7 +57,7 @@ End-date: 2024-04-07
 
 ----
 
-End-time: 17:00:00
+End-time: 13:30:00
 
 ----
 
@@ -65,7 +65,11 @@ Eventschedule:
 
 ----
 
-Accessibility: 
+Accessibility:
+
+Sally will deliver this workshop online via Jitsi, from Naarm. Participants are encouraged to attend in-person for post-workshop reflections, but can also attend purely online.
+
+The State Library of Western Australia Geographe Room is a wheelchair accessible venue. It is located on the ground floor. There are numerous wheelchair accessible, all-gender bathrooms located throughout the library.  The event is alcohol-free and all-ages. The room will be brightly and clearly lit. Live captioning can be arranged for the workshop. The workshop will use shared tools: hand sanitiser will be available. The venue is enclosed with no windows that can be opened. It will not be overcrowded, but depending on in-person attendance numbers, it may not have spare for more than 1.5m physical distancing.
 
 ----
 

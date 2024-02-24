@@ -26,7 +26,7 @@ Metakeywords: <p>Audible Edge Festival Sound Music Art Experimental Perth Boorlo
 
 ----
 
-Audio-intro-text: <p>If you’d prefer to listen, we recorded our welcome:</p>
+Audio-intro-text: <p>Click for an audio introduction to this website.</p>
 
 ----
 

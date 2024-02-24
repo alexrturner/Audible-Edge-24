@@ -1,0 +1,52 @@
+Title: Michael Terren with Paul Boyé, Skot McDonald & Sze Tsang
+
+----
+
+Display-title:
+
+- 
+  name: Michael Terren
+  place: ""
+  context: 'with Paul Boyé, Skot McDonald & Sze Tsang'
+
+----
+
+Bio-short: <p>Michael Terren makes music under his birth name and in the band Pale Ribbons Tossed into the Dark. He is also a casual academic who teaches composition, production, history, and aesthetics, and researches the political economy of the tools of cultural and artistic production.</p>
+
+----
+
+Bio-long: <p>W. Sze Tsang (they/them) is a published researcher, performer, composer and audio-visual artist residing in Boorloo/Perth, Western Australia. Sze's practice and research focuses on the relationships between self and place through audio-visual works, and their experience as a practitioner-researcher. Their practice involves incorporating audio and visual elements of place into compositions, as a form of emotional catharsis.</p><p>Paul Boyé is a writer and researcher based in Boorloo. They were the inaugural un projects Extended Editor-in-Residence in 2022, and after that, continued as the Managing Editor of un Extended. They completed their PhD, "The Figure of Inhumanism: Contemporary Speculative Philosophy in the Posthuman Condition", at the University of Western Australia in 2023. They are a board member of artist-run initiative Cool Change Contemporary.</p><p></p>
+
+----
+
+Links:
+
+- 
+  url: https://buttondown.email/michaelterren
+  text: ""
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://dUUCj1skZQyzUiFO
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: - file://2vKCAp0BH0zwRhwR
+
+----
+
+Sounds: - file://lldgY1VRXnqT8fLn
+
+----
+
+Uuid: GqHio8YMKUicktfD

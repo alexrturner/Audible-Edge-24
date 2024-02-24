@@ -1,0 +1,76 @@
+Title: Our inner beings complete the missing links
+
+----
+
+Artist-link:
+
+- page://dNE102Ur0H8N9wTl
+- page://4TEVCHk4V8dSNIGt
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><strong>PSAS<br></strong>Sage Pbbbt &amp; Monica Brooks<br><br>John &amp; Bec (Cat Lamb)<br></p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-28
+
+----
+
+Start-time: 12:00:00
+
+----
+
+End-date: 2024-04-28
+
+----
+
+End-time: 14:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: 
+
+----
+
+Tags: 
+
+----
+
+Uuid: lf10Vs8tywjmdWWL

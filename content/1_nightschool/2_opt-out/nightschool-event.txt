@@ -26,7 +26,7 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: Pay-what-you-can (suggested $15/$10)
+Ticket-price-text: Free, optional donation, registration required
 
 ----
 
@@ -65,7 +65,11 @@ Eventschedule:
 
 ----
 
-Accessibility: 
+Accessibility:
+
+Ben will deliver this workshop online via Jitsi, from Helsinki. Participants are encouraged to attend in-person for post-workshop reflections, but can also attend purely online.
+
+The State Library of Western Australia Geographe Room is a wheelchair accessible venue. It is located on the ground floor. There are numerous wheelchair accessible, all-gender bathrooms located throughout the library.  The event is alcohol-free and all-ages. The room will be brightly and clearly lit. Live captioning can be arranged for the workshop. The venue is enclosed with no windows that can be opened. It will not be overcrowded, but depending on in-person attendance numbers, it may not have spare for more than 1.5m physical distancing.
 
 ----
 

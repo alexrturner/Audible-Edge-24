@@ -11,22 +11,25 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>A legendary free jazz drummer from Fukuoka, Japan.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Shoji Hano was born March 1, 1955 in Kokura, Fukuoka prefecture, Japan. His first drumming experience was at the age of four, when he played a traditional Japanese drum at the Kokura Festival. He began playing the western drum set at 15. It was around this time that he also started listening to jazz and studying the drumming of jazz masters such as Max Roach, Art Blakey and "Philly" Joe Jones.</p><p>Hano moved to Kyoto in 1974, and started playing avant-garde jazz with the late pianist Yoshito Osawa in 1975. Around that time Hano met trumpeter Toshinori Kondo, who introduced him to the martial art Shintaido. Since that time, the philosophical concepts of Shintaido have influenced Hano's music. In 1976 Hano, Kondo and Osawa formed a trio, and in 1977 they performed around western Japan on Hano's first tour.</p><p>For a six-month period in 1978 and '79, Hano gave a monthly solo drum concert at the Kyoto jazz club Zabo. In 1980 he formed the band Odowara, and organized a monthly concert series at Kyoto University which continued for a year. In 1981 he formed the Easy Music Band with Kondo, guitarist Haruhiko Gotsu, and electric bass player Tetsu Yamauchi. They disbanded in 1982, and in late '82 Hano joined Kondo's Tibetan Blue Air Liquid Band.</p><p>At this point in his career, Hano had played with such Japanese musicians as the late alto sax player Kaoru Abe, sax player Mototeru Takagi, and trombonist Masahiko Kono; and non-Japanese musicians like guitarists Henry Kaiser, Eugene Chadbourne and Hans Reichel, reed player Peter Bro"tzmann, and cellist Tristan Honzingar. But Hano felt frustrated with the direction of his career, and stopped playing music for two years.</p><p>When Hano returned to the music scene in 1985 he began to develop his own style, based on the concepts of Shintaido. With Yamauchi and Gotsu he formed the band OPE, which was active from 1986 to 1989, and in '88-'89 he played solo and with dancers in a bimonthly concert series he had organized called Shintaido Performance and Drums. Hano recorded his solo performances from the 1988 series, and these recordings were released the following year as a tape called KI-Improvisation. In May 1990 Hano left Japan for the first time, to play in Europe. From June to August he toured through Switzerland, Austria and Germany with Reichel and guitarist Wadi Gysi. During that period he also played at the Moers New Jazz Festival as a member of both Reichel's orchestra, Hit and Miss, and small band, Sonic Renegades; as well as at the FMP Workshop in a trio with Bro"tzmann and guitarist Nicky Skopelitis.</p><p>Almost every year since 1991, Hano has traveled to Europe or the U.S. to play in concerts with local musicians--in addition to performing with non-Japanese musicians whom he has invited to Japan. Each year from '91 to '94, for example, he and Bro"tzmann did concert tours in Japan and Germany. They also did a Japan tour in '98. Hano toured in Japan and the U.S. with Chadbourne in '91, and with Keshavan Maslak in '92. With trombonist Johannes Bauer he toured in Germany in '92 and '94, and in Japan in '94 and '95. In '97 Hano, Bro"zmann and Bauer toured as a trio in Germany and Japan. In Switzerland he played with sax player Hans Koch in 1992, and in a trio with sax player Werner Lu"di (with whom he toured around Japan in '96 and '99) and bassist William Parker in 1995. In '95 Hano also had gigs with reed player Dror Feiler in both Sweden and Japan (and in Japan in '97), and toured with violinist Billy Bang in Japan. In addition, he visited Russia in '94, and Russia and Lithuania in '95, where he played with Russian and Lithuanian musicians including reed players Vladimir Rezitsky and Vladimir Chekasin.</p><p>In 1992, Hano launched an ambitious improvised music project with the formation of his group Kamadoma-Poly Breath Percussion Orchestra. (Later, when the band's membership changed, the name was changed to Poly Breath Percussion Band.) At first the instruments were two drum sets, a shime-daiko and a taiko (two types of traditional Japanese drums), and a nohkan (a type of traditional Japanese flute). Among the musicians who have been members of the band, which continued until 1997, are nohkan player Yukihiro Isso, reed player Keizo Inoue, pianist Takeshi Shibuya, and sax player Hiroaki Katayama. The final members were, in addition to Hano, wa-daiko player Megumu Nishino (wa-daiko is a type of traditional Japanese drum) and electric bass player Tetsu Yamauchi. In the fall of '95 the band toured in Russia and Lithuania, including an appearance at the Vilnius Jazz Festival.</p><p>In 1997 Hano was a member of the rock-oriented trio Joichiza, with Hananojo Ichikawa (vocal and guitar) and Masaharu Shoji (sax), which played that year in the Kansai area. In the same year, he launched a new project: a free jazz band called Dai So-on Gakudan (meaning "very noisy band"). The original members were Hano and four sax players, and pianist Takeshi Shibuya later joined the group. The sax players are Hiroaki Katayama (tenor), Keizo Nobori (tenor), Masaharu Shoji (alto) and Kunihiro Izumi (alto). In 1998 Hano joined the psychedelic rock band High Rise; the other members are Munehiro Narita (guitar) and Asahito Nanjo (bass, vocal). The band (including Hano) toured in the U.S., England and France in October and November, '98.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: http://shojihano.com/en/
+  text: Website
+  popup: 'true'
+  type: link
 
 ----
 
-Events:
-
-- page://pFoWn8THXmxCWzvE
-- page://KIY4FmuZdXo7Dbx8
+Events: - page://pFoWn8THXmxCWzvE
 
 ----
 
@@ -35,6 +38,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 
