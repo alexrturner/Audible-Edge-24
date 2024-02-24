@@ -29,17 +29,17 @@
                 </div>
                 <div class="field-group">
                     <div class="field half">
-                        <input type="text" id="name" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" placeholder="Name" required>
+                        <input type="text" id="name" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" placeholder="Name">
                         <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
                     </div>
                     <div class="field half">
-                        <input type="text" id="pronouns" name="pronouns" value="<?= esc($data['pronouns'] ?? '', 'attr') ?>" placeholder="Pronouns" required>
+                        <input type="text" id="pronouns" name="pronouns" value="<?= esc($data['pronouns'] ?? '', 'attr') ?>" placeholder="Pronouns">
                         <?= isset($alert['pronouns']) ? '<span class="alert error">' . esc($alert['pronouns']) . '</span>' : '' ?>
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field half">
-                        <input type="email" id="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" placeholder="eMail" required>
+                        <input type="email" id="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" placeholder="eMail">
                         <?= isset($alert['email']) ? '<span class="alert error">' . esc($alert['email']) . '</span>' : '' ?>
                     </div>
                     <div class="field half">
@@ -48,9 +48,7 @@
                     </div>
                 </div>
                 <div class="field">
-                    <textarea id="text" name="text" placeholder="Request" required>
-                        <?= esc($data['text'] ?? '') ?>
-                    </textarea>
+                    <textarea id="text" name="text" placeholder="Request" required><?= esc($data['text'] ?? '') ?></textarea>
 
                     <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
                 </div>

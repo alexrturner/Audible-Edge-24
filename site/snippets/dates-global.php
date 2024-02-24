@@ -25,7 +25,7 @@ ksort($dates);
     <div id="dates-event-times"></div>
     <ul class="dates items">
         <?php foreach ($dates as $date) : ?>
-            <li data-type="date" data-id="<?= htmlspecialchars($date['data'] ?? '', ENT_QUOTES, 'UTF-8') ?>">
+            <li class="pseudo-list-item" data-type="date" data-id="<?= htmlspecialchars($date['data'] ?? '', ENT_QUOTES, 'UTF-8') ?>">
                 <?= htmlspecialchars($date['display']) ?>
             </li>
         <?php endforeach; ?>

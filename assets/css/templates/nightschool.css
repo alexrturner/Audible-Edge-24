@@ -8,3 +8,45 @@
   opacity: 1;
   stroke: var(--cc-squig-colour);
 }
+
+/* 
+banner
+*/
+
+/* banner text outline*/
+.svg-banner .cls-1 {
+  stroke: var(--cc-blue-highlight);
+  /* stroke: lightgrey; */
+  /* stroke: var(--cc-orange-highlight); */
+}
+
+/* banner dots outline */
+.svg-banner .cls-2 {
+  fill: none;
+  stroke: var(--cc-blue-highlight);
+  stroke: lightgrey;
+}
+
+.svg-banner .cls-4 {
+  fill: var(--cc-purple-highlight);
+  /* fill: var(--cc-purple-light); */
+  opacity: 0.9;
+}
+
+.svg-banner .cls-5 {
+  fill: var(--cc-primary);
+}
+
+/* 
+menu 
+*/
+.overlay svg path.cls-2,
+.overlay svg path.cls-3 {
+  fill: var(--cc-primary) !important;
+  stroke: var(--cc-squig-colour) !important;
+}
+
+/* other inverted elements */
+.button__link {
+  background-color: var(--cc-primary-highlight);
+}

@@ -1,14 +1,32 @@
 <?php snippet('header') ?>
 
 <style>
-    :root {
-        /* --fs-big: 5rem; */
+    .homepage__dates .pseudo-list-item::before,
+    .homepage__tag.pseudo-list-item::before,
+    .header .pseudo-list-item::before {
+        color: var(--cc-orange-highlight);
+        color: lightgrey;
+        /* color: var(--cc-blue-light); */
+        /* color: transparent; */
+        opacity: 0.7;
     }
 
     body {
         overflow-y: hidden;
     }
 
+    .audio-intro-container button {
+        border: none;
+    }
+
+    .audio-intro-container:hover #visual-aid:not(.active) {
+        background-color: var(--cc-primary);
+    }
+
+    .audio-intro-container #visual-aid {
+        width: 1rem;
+        height: 1rem;
+    }
 
     .ae-title {
         display: flex;
@@ -333,7 +351,7 @@
         font-size: var(--fs-med);
         font-family: var(--ff-serif);
         font-style: italic;
-        margin-left: 1em;
+        /* margin-left: 1em; */
     }
 
     #subtitles {
@@ -376,23 +394,28 @@
         .audio-intro-text {
             display: flex;
             flex-direction: column;
-            width: 100%;
             align-items: center;
+            width: 100%;
             margin-left: 0em;
         }
 
+
         .homepage__tag {
             top: 33%;
-            top: 28%;
+            /* top: 28%; */
             bottom: unset;
             right: 1rem;
             font-size: 2.5rem;
+            font-size: var(--fs-med);
+            letter-spacing: 0;
+            line-height: 0.95;
         }
 
         #lineCanvas-container,
         #dots,
         #audio-buttons-container {
-            height: 200vh;
+            height: 300vh;
+            height: clamp(3000px, 300vh, 6000px);
             /* max-width: 80%; */
             /* left: 20%; */
         }
@@ -483,7 +506,7 @@
     </ul>
 </div>
 
-<div class="homepage__tag pseudo-list-item">
+<div class="homepage__tag pseudo-list-item section__subtitle">
     <span>a Festival of </span>
     <span>Exploratory Music</span>
     <span>presented by</span>
@@ -524,33 +547,36 @@
     </div>
 
     <div id="audio-buttons-container" style="display: none;">
-        <!-- <div id="audio-buttons-container-relative" style="position: relative; height:100%; width:100%;"> -->
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_custom') as $audio) : ?>
-            <button class="audio-button circle-button" id="audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>">
+            <button class="audio-button circle-button" id="audio-btn-<?= $index ?>" data-audio="<?= $audio->url() ?>" aria-controls="audio-<?= $index ?>" aria-label="Play '<?= htmlspecialchars($audio->audio_category()) ?>' sound">
                 <span class="audio-button-text"><?= $audio->audio_category() ?></span>
                 <audio id="audio-<?= $index ?>" src="<?= $audio->url() ?>"></audio>
             </button>
 
             <?php $index++; ?>
         <?php endforeach; ?>
-        <!-- </div> -->
     </div>
 
     <div class="audio-intro-container">
-        <div class="audio-intro-text">
-            <?php // kt($site->audio_intro_text()) 
-            ?>
-            <span>If you’d prefer to listen, </span><span>we recorded our welcome:</span>
-        </div>
+
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_intro') as $intro_audio) : ?>
 
+            <?php
+            // kt($site->audio_intro_text()) 
+            ?>
 
-            <button class="audio-intro-button circle-button audio-intro-btn-<?= $index ?>" data-audio="audio-intro-<?= $index ?>" onclick="playPauseIntro(this)" style="display: none;">
+
+            <button onclick="playPauseIntro(this)" data-audio="audio-intro-<?= $index ?>" aria-label="Play introduction audio" aria-controls="audio-intro-<?= $index ?>">
+                <div id="visual-aid" class="audio-intro-button circle-button" data-audio="audio-intro-<?= $index ?>"></div>
+                <div class="audio-intro-text">
+                    <span> Click for an audio introduction</span><span> to this website.</span>
+                </div>
             </button>
 
-            <audio id="audio-intro-<?= $index ?>" class="audio-intro" src="<?= $intro_audio->url() ?>" controls></audio>
+            <audio style="display: block;" id="audio-intro-<?= $index ?>" class="audio-intro" src="<?= $intro_audio->url() ?>" controls></audio>
+
 
             <?php $index++; ?>
         <?php endforeach; ?>
@@ -560,11 +586,6 @@
             <?= kt($site->audio_intro_transcription()) ?>
         </div>
     </div>
-
-
-
-
-
 </main>
 
 <?= js('assets/js/save-the-date.js') ?>
