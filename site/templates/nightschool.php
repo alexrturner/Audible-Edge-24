@@ -5,7 +5,7 @@
     <div class="section filtered" id="events">
         <ul class="events-container">
             <li class="nightschool-item first-item">
-                <button class="events-toggle toggle" aria-expanded="true" aria-controls="events-items">
+                <button class="events-toggle toggle" aria-expanded="true" aria-controls="events-items" aria-label="Toggle night school program listings">
                     <h2 class="section-title">Program</h2>
                 </button>
                 <br><br>

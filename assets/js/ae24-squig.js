@@ -7,14 +7,15 @@ let subdivisionFactor = 3;
 document.getElementById("toggleSquig").addEventListener("click", function () {
   const svgContainer = document.getElementById("lineCanvas");
   const button = document.getElementById("toggleSquig");
+  const buttonText = document.getElementById("setting__button-text");
 
   if (svgContainer.style.display !== "none") {
     svgContainer.style.display = "none";
-    // button.innerHTML = "off";
+    buttonText.innerHTML = "off";
     button.classList.toggle("inactive");
   } else {
     svgContainer.style.display = "block";
-    // button.innerHTML = "on";
+    buttonText.innerHTML = "on";
     button.classList.toggle("inactive");
   }
 });

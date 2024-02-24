@@ -32,11 +32,12 @@
         if ($sounds->isNotEmpty()) : ?>
             <div class="artist-sounds">
                 <?php foreach ($sounds as $sound) : ?>
-                    <audio id="audioSample<?= $counter ?>" class="audio-sample" controls>
+                    <audio id="audioSample<?= $counter ?>" class="audio-sample" controls aria-labelledby="playAudioButtonLabel<?= $counter ?>">
                         <source src="<?= $sound->url() ?>" type="<?= $sound->mime() ?>">
                         Your browser does not support the audio element.
                     </audio>
-                    <button id="playAudioButton<?= $counter ?>" class="circle-button play-audio-button"></button>
+                    <button id="playAudioButton<?= $counter ?>" class="circle-button play-audio-button" aria-label="Play <?= $page->title()->html() ?> audio sample <?= $counter ?>"></button>
+                    <span id="playAudioButtonLabel<?= $counter ?>" hidden>Play audio sample <?= $counter ?></span>
                     <?php $counter++; ?>
                 <?php endforeach; ?>
             </div>

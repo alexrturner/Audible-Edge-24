@@ -3,6 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const togglePlainText = document.getElementById("togglePlainTextView");
   const settingsButton = document.getElementById("settingsButton");
 
+  // update button text based on the new state
+  const isDisabledStyles = localStorage.getItem("stylesDisabled") === "true";
+  togglePlainText.textContent = !isDisabledStyles
+    ? "Plain Text View"
+    : "Styled Text View";
+
   togglePlainText.addEventListener("click", function () {
     const isDisabled = localStorage.getItem("stylesDisabled") === "true";
     // Toggle the disabled state based on the opposite of the current state
@@ -11,9 +17,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // Save the new state in localStorage
     localStorage.setItem("stylesDisabled", !isDisabled);
-    settingsButton.style.display = !isDisabled
-      ? "block !important"
-      : "none !important";
+
+    if (settingsButton) {
+      settingsButton.style.display = !isDisabled
+        ? "block !important"
+        : "none !important";
+    }
+    // update button text based on the new state
+    togglePlainText.textContent = isDisabled
+      ? "Plain Text View"
+      : "Styled Text View";
   });
 
   // function to toggle visibility of sections

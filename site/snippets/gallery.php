@@ -72,13 +72,13 @@
 </style>
 
 <?php if ($images->isNotEmpty()) : ?>
-    <div class="gallery-container">
+    <div class="gallery-container" aria-label="Image Gallery">
         <?php
         $count = $images->count();
         if ($count > 1) : ?>
-            <button class="gallery-prev">←</button>
-            <button class="gallery-next">→</button>
-            <div class="gallery-count">
+            <button aria-label="Previous Image" class="gallery-prev">←</button>
+            <button aria-label="Next Image" class="gallery-next">→</button>
+            <div class="gallery-count" aria-live="polite">
                 <span class="current">1</span><span class="total"> / <?= $count ?></span>
             </div>
         <?php endif; ?>

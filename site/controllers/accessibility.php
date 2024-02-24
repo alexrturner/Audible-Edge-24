@@ -20,11 +20,11 @@ return function ($kirby, $pages, $page) {
         ];
 
         $rules = [
-            'name'  => ['required', 'minLength' => 3],
-            'pronouns' => ['minLength' => 3],
-            'email' => ['required', 'email'],
-            'phone' => ['minLength' => 3, 'phone'],
-            'text'  => ['required', 'minLength' => 3, 'maxLength' => 3000],
+            'name'  => [],
+            'pronouns' => [],
+            'email' => ['email'],
+            'phone' => ['phone'],
+            'text'  => ['minLength' => 3, 'maxLength' => 3000],
         ];
 
         $messages = [
@@ -35,20 +35,18 @@ return function ($kirby, $pages, $page) {
             'text'  => 'Please enter your accessibility request'
         ];
 
-        // some of the data is invalid
+        // ivalid data
         if ($invalid = invalid($data, $rules, $messages)) {
             $alert = $invalid;
 
-            // the data is fine, send the email
+            // valid data, send email
         } else {
             try {
                 $kirby->email([
                     'template' => 'email',
-                    // 'from'     => 'yourcontactform@yourcompany.com',
                     'from'    => '***REMOVED***',
                     'replyTo'  => $data['email'],
-                    // 'to'       => '***REMOVED***',
-                    'to'       => 'alexturnermusic@gmail.com',
+                    'to'       => '***REMOVED***',
                     'subject'  => esc($data['name']) . ' (' . esc($data['pronouns']) . ') sent you an accessibility request via the AE website.',
                     'data'     => [
                         'text'   => esc($data['text']),

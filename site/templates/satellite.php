@@ -5,7 +5,7 @@
     <div class="section satellite" id="events">
         <ul class="satellite-container">
             <li class="satellite-item first-item">
-                <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items">
+                <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items" aria-label="Toggle satellite program listings">
                     <h2 class="section-title">Program</h2>
                 </button>
                 <br><br>

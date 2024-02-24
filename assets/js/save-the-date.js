@@ -151,12 +151,13 @@ document.addEventListener("DOMContentLoaded", function () {
 function playPauseIntro(button) {
   const introAudioId = button.getAttribute("data-audio");
   const introAudio = document.getElementById(introAudioId);
+  const visualAid = document.getElementById("visual-aid");
   if (introAudio.paused) {
     introAudio.play();
-    button.classList.toggle("active");
+    visualAid.classList.toggle("active");
   } else {
     introAudio.pause();
-    button.classList.toggle("active");
+    visualAid.classList.toggle("active");
   }
 
   // stop other intro audio & reset button bg colour
