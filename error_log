@@ -358,3 +358,17 @@ Stack trace:
 #11 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
 #12 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #13 {main}
+[24-Feb-2024 02:45:24 UTC] Whoops\Exception\ErrorException: include(/home/***REMOVED***/public_html/Audible-Edge/site/config/db.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:33
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(33): Whoops\Run->handleError()
+#1 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(33): include()
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#11 {main}

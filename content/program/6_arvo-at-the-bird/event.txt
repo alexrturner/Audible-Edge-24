@@ -1,0 +1,77 @@
+Title: All the clouds go to school
+
+----
+
+Artist-link:
+
+- page://0V9lSxjVNf4GpUC8
+- page://ko3QAx0YrEneFeyD
+- page://Y2WX6PEbjCIhuEtw
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p><u><strong>The Bird</strong></u><strong><br></strong><br>2 doors<br><br>2:30 Luka &amp; Ben Buchanan<br><br>3:20 Anaxios<br><br>4:10 The Definitives<br><br>5pm end<br></p>
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: 
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 14:00:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 16:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility: The Bird is a wheelchair accessible venue at street level from the pavement, the stage area and courtyard are ramp accessible. It has one gender-neutral, wheelchair accessible bathroom in the courtyard. The music will have moments where it is loud, repetitive, percussive or highly stimulating. Alcohol will be served at the venue. The venue is large, and the front and rear door will be kept open for the duration of the performance. Music is broadcast to the courtyard and can be listened to from there if preferred. The centre of the area, and the bar, may be very crowded at times. Projections and lights will be used which may be bright at times (no flashing lights or strobes will be used; performers using projections have been briefed on access considerations for photosensitive epilepsy). There is no dedicated check-out space booked for the space.
+
+----
+
+Tags: 
+
+----
+
+Uuid: 02b4POBpZFqmCA7g

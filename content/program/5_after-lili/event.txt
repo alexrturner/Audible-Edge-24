@@ -1,0 +1,73 @@
+Title: After Lili
+
+----
+
+Artist-link: - page://b7kpI78nErcKy2ZZ
+
+----
+
+Subtitle: 
+
+----
+
+Description: 
+
+----
+
+Ticketed: false
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: 
+
+----
+
+Venues: - page://YgU1Cd9MUyKU7xNo
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 10:00:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 16:00:00
+
+----
+
+Eventschedule: 
+
+----
+
+Accessibility:
+
+The music will consist of acoustic grand piano and sound from loudspeakers (not loud). The performance is very long, with allocated intermission times for breaks, and permission to come and go at any time.
+
+The State Library of Western Australia Theatrette is a wheelchair accessible venue, with space for wheelchairs in the front row accessible via even carpet. There are numerous wheelchair accessible, all-gender bathrooms located throughout the library.  The event is alcohol-free and all-ages. It can be attended online via Jitsi, and will be live-captioned using Jitsi’s in-built captioning service. This or another live-captioning service will be available to view via projection in the venue. The venue is indoors with no windows, but it is spacious and there will be room to sit socially distanced. The stage will be warmly lit and fairly bright, whilst the audience seating ranks will be dimly lit. There is no dedicated check-out space booked for this session.
+
+----
+
+Uuid: DyhQJAf6ROgZ9XI7

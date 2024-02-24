@@ -1,0 +1,46 @@
+Title: Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song & suzueri
+
+----
+
+Display-title:
+
+- 
+  name: 'Samuel Beilby, Chi Po Hao, Chloe Lin, Sarah Song & suzueri'
+  place: 'Boorloo, Helsinki, Tainan, Taipei & Tokyo'
+  context: installation
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://0iLzEE6uk2RdJfet
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: 4yewidDeU6VNtEkc

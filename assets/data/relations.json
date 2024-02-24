@@ -14,11 +14,18 @@
                 "program\/live-at-local-aesthetic"
             ]
         },
-        "artists\/samuel-beilby": {
-            "uuid": "artists\/samuel-beilby",
-            "title": "Samuel Beilby",
+        "artists\/put-em-in-a-box": {
+            "uuid": "artists\/put-em-in-a-box",
+            "title": "Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song & suzueri",
             "events": [
-                "program\/exhibition-opening"
+                "program\/put-em-in-a-box"
+            ]
+        },
+        "artists\/monica-brooks-katoomba-sage-pbbbt": {
+            "uuid": "artists\/monica-brooks-katoomba-sage-pbbbt",
+            "title": "Monica Brooks & Sage Pbbbt",
+            "events": [
+                "program\/arvo-at-psas"
             ]
         },
         "artists\/ben-luka-buchanan": {
@@ -28,11 +35,11 @@
                 "program\/arvo-at-the-bird"
             ]
         },
-        "artists\/monica-brooks-katoomba-sage-pbbbt": {
-            "uuid": "artists\/monica-brooks-katoomba-sage-pbbbt",
-            "title": "Monica Brooks & Sage Pbbbt",
+        "artists\/ayo-busari": {
+            "uuid": "artists\/ayo-busari",
+            "title": "Ayo Busari",
             "events": [
-                "program\/arvo-at-psas"
+                "program\/moon-returns-at-sullivan"
             ]
         },
         "artists\/ben-byrne": {
@@ -46,7 +53,7 @@
             "uuid": "artists\/simon-charles-john-kinsella",
             "title": "Simon Charles & John Kinsella",
             "events": [
-                "program\/closing-event"
+                "program\/moon-returns-at-sullivan"
             ]
         },
         "artists\/cooper-cooper": {
@@ -88,7 +95,7 @@
             "uuid": "artists\/patrick-gunasekera",
             "title": "Patrick Gunasekera",
             "events": [
-                "program\/closing-event"
+                "program\/moon-returns-at-sullivan"
             ]
         },
         "artists\/shoji-hano": {
@@ -109,7 +116,7 @@
             "uuid": "artists\/jenny-hickinbotham",
             "title": "Jenny Hickinbotham with Chris Cobilis & Lana Rothnie",
             "events": [
-                "program\/closing-event"
+                "program\/moon-returns-at-sullivan"
             ]
         },
         "artists\/joeeii": {
@@ -157,7 +164,9 @@
         "artists\/emilie-monty": {
             "uuid": "artists\/emilie-monty",
             "title": "Emilie Monty",
-            "events": []
+            "events": [
+                "program\/moon-returns-at-sullivan"
+            ]
         },
         "artists\/erin-royer-josten-myburgh": {
             "uuid": "artists\/erin-royer-josten-myburgh",
@@ -218,13 +227,15 @@
         "artists\/desmond-tan": {
             "uuid": "artists\/desmond-tan",
             "title": "Desmond Tan",
-            "events": []
+            "events": [
+                "program\/body-the-body"
+            ]
         },
         "artists\/ten-forward": {
             "uuid": "artists\/ten-forward",
             "title": "tenforward",
             "events": [
-                "program\/closing-event"
+                "program\/moon-returns-at-sullivan"
             ]
         },
         "artists\/michael-terren": {
@@ -245,14 +256,14 @@
             "uuid": "artists\/we-puddls",
             "title": "wetpuddlss",
             "events": [
-                "program\/befores"
+                "program\/falming-galah-interstitial-hang"
             ]
         }
     },
     "events": {
         "program\/arvo-at-the-bird": {
             "uuid": "program\/arvo-at-the-bird",
-            "title": "If it feels good, do it, if it don't, don't",
+            "title": "All the clouds go to school",
             "date": "2024-04-27",
             "artists": [
                 "artists\/anaxios",
@@ -276,12 +287,12 @@
                 "program"
             ]
         },
-        "program\/exhibition-opening": {
-            "uuid": "program\/exhibition-opening",
-            "title": "Exhibition opening",
+        "program\/put-em-in-a-box": {
+            "uuid": "program\/put-em-in-a-box",
+            "title": "Put 'em in a box",
             "date": "2024-04-27",
             "artists": [
-                "artists\/samuel-beilby"
+                "artists\/put-em-in-a-box"
             ],
             "event_type": [
                 "program"
@@ -289,11 +300,27 @@
         },
         "program\/arvo-at-psas": {
             "uuid": "program\/arvo-at-psas",
-            "title": "I change the infinite",
+            "title": "Our inner beings complete the missing links",
             "date": "2024-04-28",
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
                 "artists\/jon-heilbron-rebecca-lane"
+            ],
+            "event_type": [
+                "program"
+            ]
+        },
+        "program\/moon-returns-at-sullivan": {
+            "uuid": "program\/moon-returns-at-sullivan",
+            "title": "I make big noise and make small sound, I am in the air and on the ground, I'm out of sight and can be found. What am I?",
+            "date": "2024-04-28",
+            "artists": [
+                "artists\/ayo-busari",
+                "artists\/simon-charles-john-kinsella",
+                "artists\/patrick-gunasekera",
+                "artists\/jenny-hickinbotham",
+                "artists\/emilie-monty",
+                "artists\/ten-forward"
             ],
             "event_type": [
                 "program"
@@ -310,23 +337,9 @@
                 "nightschool"
             ]
         },
-        "program\/closing-event": {
-            "uuid": "program\/closing-event",
-            "title": "I make big noise and make small sound, I am in the air and on the ground, I'm out of sight and can be found. What am I?",
-            "date": "2024-04-28",
-            "artists": [
-                "artists\/simon-charles-john-kinsella",
-                "artists\/patrick-gunasekera",
-                "artists\/jenny-hickinbotham",
-                "artists\/ten-forward"
-            ],
-            "event_type": [
-                "program"
-            ]
-        },
         "program\/astral-weeks-interstitial-hang": {
             "uuid": "program\/astral-weeks-interstitial-hang",
-            "title": "Experimental pres, part two",
+            "title": "Betweens",
             "date": "2024-04-27",
             "artists": [
                 "artists\/cooper-cooper"
@@ -348,6 +361,7 @@
                 "artists\/myriad-sun",
                 "artists\/bobbi-russell",
                 "artists\/lia-t",
+                "artists\/desmond-tan",
                 "artists\/wayang"
             ],
             "event_type": [
@@ -368,7 +382,7 @@
         },
         "nightschool\/breathing-rhythm-sensitivity": {
             "uuid": "nightschool\/breathing-rhythm-sensitivity",
-            "title": "Breathing, Rhythm & Sensitivity",
+            "title": "Breathing, Rhythm, Sensitivity",
             "date": "2024-04-21",
             "artists": [
                 "artists\/shoji-hano"
@@ -412,7 +426,7 @@
         },
         "program\/sun-returns": {
             "uuid": "program\/sun-returns",
-            "title": "Sun Returns",
+            "title": "Sun returns",
             "date": "2024-04-26",
             "artists": [
                 "artists\/matt-rosner"
@@ -443,8 +457,8 @@
                 "nightschool"
             ]
         },
-        "program\/befores": {
-            "uuid": "program\/befores",
+        "program\/falming-galah-interstitial-hang": {
+            "uuid": "program\/falming-galah-interstitial-hang",
             "title": "Befores",
             "date": "2024-04-26",
             "artists": [
@@ -460,7 +474,7 @@
             "events": [
                 "program\/arvo-at-the-bird",
                 "program\/live-at-local-aesthetic",
-                "program\/exhibition-opening",
+                "program\/put-em-in-a-box",
                 "program\/arvo-at-the-bird",
                 "program\/astral-weeks-interstitial-hang",
                 "program\/arvo-at-the-bird",
@@ -470,7 +484,7 @@
             "artists": [
                 "artists\/anaxios",
                 "artists\/nick-ashwood",
-                "artists\/samuel-beilby",
+                "artists\/put-em-in-a-box",
                 "artists\/ben-luka-buchanan",
                 "artists\/cooper-cooper",
                 "artists\/the-definitives",
@@ -481,18 +495,22 @@
         "2024-04-28": {
             "events": [
                 "program\/arvo-at-psas",
-                "program\/closing-event",
-                "program\/closing-event",
+                "program\/moon-returns-at-sullivan",
+                "program\/moon-returns-at-sullivan",
+                "program\/moon-returns-at-sullivan",
                 "program\/arvo-at-psas",
-                "program\/closing-event",
-                "program\/closing-event"
+                "program\/moon-returns-at-sullivan",
+                "program\/moon-returns-at-sullivan",
+                "program\/moon-returns-at-sullivan"
             ],
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
+                "artists\/ayo-busari",
                 "artists\/simon-charles-john-kinsella",
                 "artists\/patrick-gunasekera",
                 "artists\/jon-heilbron-rebecca-lane",
                 "artists\/jenny-hickinbotham",
+                "artists\/emilie-monty",
                 "artists\/ten-forward"
             ]
         },
@@ -516,7 +534,8 @@
                 "program\/body-the-body",
                 "program\/body-the-body",
                 "program\/body-the-body",
-                "program\/befores"
+                "program\/body-the-body",
+                "program\/falming-galah-interstitial-hang"
             ],
             "artists": [
                 "artists\/daniel-garlett",
@@ -528,6 +547,7 @@
                 "artists\/matt-rosner",
                 "artists\/bobbi-russell",
                 "artists\/lia-t",
+                "artists\/desmond-tan",
                 "artists\/wayang",
                 "artists\/we-puddls"
             ]
