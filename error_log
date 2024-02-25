@@ -372,3 +372,17 @@ Stack trace:
 #9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
 #10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
+[24-Feb-2024 10:12:06 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#3 [internal function]: Kirby\Cms\App->{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#11 {main}

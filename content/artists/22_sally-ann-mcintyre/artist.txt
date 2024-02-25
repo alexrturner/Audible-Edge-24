@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: - file://ZoShXCV3MSz3bNRd
+Images: 
 
 ----
 
