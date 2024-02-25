@@ -31,21 +31,30 @@
 <main class="main content-container index">
 
     <section id="col1" class="intro" style="max-width: 60ch;">
-
+        <p>
+            Sign up to our very special, very weird SMS
+            newsletter. Intimate and candid connections with the quirky festival cohort, sent straight from the Audible Edge burner phone. No spam - just the occasional bit of mail art in your messaging app, especially around gig time. You can unsubscribe any time.
+        </p>
     </section>
 
     <section id="col2" class="description" style="max-width: 60ch;">
-
+        <details>
+            <summary>&#128274;</summary>
+            All data collected will be stored on a private SQL server for the duration of the festival and will not be shared with third parties.
+        </details>
     </section>
 
-    <section id="col3" class="form" style="max-width: 60ch;">
+    <section id="col3" class="form">
         <div class="sms_form">
             <form method="post" action="<?= $page->url() ?>">
-                <label for="name">Preferred Name</label>
-                <input type="text" id="name" name="name" required>
+                <div class="field-group">
 
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" required>
+                    <label for="name">Preferred Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field-group">
+                    <label for="number">Phone</label><br> <input type="tel" id="number" name="number" required>
+                </div>
 
 
                 <?php
@@ -58,44 +67,46 @@
                 <button type="submit">Submit</button>
             </form>
             <?php
-            $name = ($_POST["name"]);
-            $number = ($_POST["number"]);
-            $dateAdded = date('Y-m-d H:i:s');
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $name = ($_POST["name"]);
+                $number = ($_POST["number"]);
+                $dateAdded = date('Y-m-d H:i:s');
 
-            // Database connection parameters
-            $host = 'localhost';
-            $username = '***REMOVED***_ae24';
-            $password = 'kk6aGGh7GrRdmCU';
-            $database = '***REMOVED***_audible_edge_2024';
-            $usertable = "users";
+                // Database connection parameters
+                $host = 'localhost';
+                $username = '***REMOVED***_ae24';
+                $password = 'kk6aGGh7GrRdmCU';
+                $database = '***REMOVED***_audible_edge_2024';
+                $usertable = "users";
 
-            $conn = mysqli_connect($host, $username, $password, $database);
+                $conn = mysqli_connect($host, $username, $password, $database);
 
-            // Check connection
-            if ($conn === false) {
-                die("Error: could not connect. " . mysqli_connect_error());
+                // Check connection
+                if ($conn === false) {
+                    die("Error: could not connect. " . mysqli_connect_error());
+                }
+
+                $sql = "INSERT INTO $usertable (name, phone, date_added) VALUES ('$name', '$number', '$dateAdded');";
+
+                if (mysqli_query($conn, $sql)) {
+                    echo '<div class="form-container"><p class="form-text">Records successfully added! Welcome to the Audible Edge text line.</p></div>';
+                } else {
+                    echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
+                }
+
+                mysqli_close($conn);
+
+                // $config = include kirby()->root('config') . '/db.php';
+                //// Create a connection
+                // $conn = new mysqli($config['host'], $config['username'], $config['password'], $config['database']);
+
+                // $conn = new mysqli($host, $username, $password, $database);
+
+                //// Check connection
+                // if ($conn->connect_error) {
+                //     die("Connection failed: " . $conn->connect_error);
+                // } 
             }
-
-            $sql = "INSERT INTO $usertable (name, phone, date_added) VALUES ('$name', '$number', '$dateAdded');";
-
-            if (mysqli_query($conn, $sql)) {
-                echo '<div class="form-container"><p class="form-text"> Records successfully added! Welcome to the Audible Edge 2022 text line.</p></div>';
-            } else {
-                echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
-            }
-
-            mysqli_close($conn);
-
-            // $config = include kirby()->root('config') . '/db.php';
-            //// Create a connection
-            // $conn = new mysqli($config['host'], $config['username'], $config['password'], $config['database']);
-
-            // $conn = new mysqli($host, $username, $password, $database);
-
-            //// Check connection
-            // if ($conn->connect_error) {
-            //     die("Connection failed: " . $conn->connect_error);
-            // } 
             ?>
             <?php
 
