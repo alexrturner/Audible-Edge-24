@@ -56,9 +56,9 @@
                 //honeypot_field(); 
                 ?>
 
-                <!-- <button type="submit">Submit</button> -->
-                <div class="pseudo-list-item">
-                    <input class="button__link" type="submit" name="submit" value="Submit">
+
+                <div>
+                    <button class="button__link button__submit" type="submit">Submit</button>
                 </div>
             </form>
             <?php

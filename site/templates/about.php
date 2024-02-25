@@ -14,9 +14,9 @@
                 <!-- Sign up for our -->
                 <a href="<?= $page->link_email()->url() ?>" class="button__link" aria-label="Visit Email Newsletter sign up" aria-type="link">Email Newsletter</a>
             </div>
-            <!-- <div class="signup">
+            <div class="signup">
                 <a href="signup" class="button__link" aria-label="Visit SMS Newsletter sign up" aria-type="link">SMS Newsletter</a>
-            </div> -->
+            </div>
             <div class="contact-container">
                 <span class="contact-details"></span>
             </div>

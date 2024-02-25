@@ -69,7 +69,11 @@
             <?php endif ?>
           </h1>
           <div class="svg-banner" style="display: none;">
-            <?= svg('assets/img/banner/AE24-banner-01.svg') ?>
+            <?php if ($page->uid() === 'nightschool' || ($page->parent() && $page->parent()->uid() === 'nightschool')) : ?>
+              <?= svg('assets/img/banner/AE24-banner-05.svg') ?>
+            <?php else : ?>
+              <?= svg('assets/img/banner/AE24-banner-01.svg') ?>
+            <?php endif ?>
           </div>
         </a>
         <div class="anchor-point"></div>

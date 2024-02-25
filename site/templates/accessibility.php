@@ -52,8 +52,9 @@
 
                     <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
                 </div>
-                <div class="pseudo-list-item">
-                    <input type="submit" name="submit" value="Get in Touch">
+                <div>
+                    <button class="button__link button__submit" type="submit">Get in Touch</button>
+                    <!-- <input type="submit" name="submit" value="Get in Touch"> -->
                 </div>
             </form>
         <?php endif ?>

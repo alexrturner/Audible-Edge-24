@@ -6,31 +6,25 @@
 }
 
 /* 
-banner
+banner 05
 */
 
-/* banner text outline*/
-.svg-banner .cls-1 {
-  stroke: var(--cc-blue-highlight);
+/* banner text fill and outline */
+.svg-banner svg .cls-1 {
   /* stroke: lightgrey; */
-  /* stroke: var(--cc-orange-highlight); */
+  stroke: var(--cc-blue-highlight);
+  fill: var(--cc-purple-highlight) !important;
 }
 
-/* banner dots outline */
+/* banner lines outline */
 .svg-banner .cls-2 {
-  fill: none;
   stroke: var(--cc-blue-highlight);
   stroke: lightgrey;
 }
-
-.svg-banner .cls-4 {
-  fill: var(--cc-purple-highlight);
-  /* fill: var(--cc-purple-light); */
-  opacity: 0.9;
-}
-
-.svg-banner .cls-5 {
-  fill: var(--cc-primary);
+/* numbers */
+.svg-banner .cls-6 {
+  fill: lightgrey;
+  opacity: 0.5;
 }
 
 /* 

@@ -238,6 +238,7 @@ li:has(> a):hover::marker {
 .pagination .pseudo-list-item {
   padding-left: 0;
 }
+button.button__link.button__submit::before,
 .pseudo-list-item::before {
   /* unicode filled dot */
   content: "\25cf";
@@ -252,7 +253,7 @@ li:has(> a):hover::marker {
   /* background-color: currentColor; */
   /* vertical-align: middle; */
 }
-
+button.button__link.button__submit:hover::before,
 .pseudo-list-item:not(.section__subtitle):hover::before {
   /* unicode hollow dot */
   content: "\25cb";
@@ -284,7 +285,7 @@ button {
 
 .button__link {
   display: inline-block;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.5em;
   text-align: center;
   text-decoration: none;
   border-radius: 0.25em;
