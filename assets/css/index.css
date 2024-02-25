@@ -290,8 +290,8 @@ button {
   border-radius: 0.25em;
   background-color: var(--cc-primary-light);
   color: var(--cc-bg);
-  transition: background-color 0.1s ease-in-out, color 0.5s;
   font-family: var(--ff-serif);
+  /* transition: background-color 0.1s ease-in-out, color 0.5s; */
   /* border: var(--cc-primary-light) 2px solid; */
   /* background-color: var(--cc-blue); */
 }

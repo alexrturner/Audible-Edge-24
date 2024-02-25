@@ -1,32 +1,4 @@
 <?php snippet('header') ?>
-<style>
-    .form-container {
-        padding: 8% 0 0;
-        margin: auto;
-        background-color: var(--cc-bg);
-
-        max-width: 525px;
-        min-height: 300px;
-        margin-top: 100px;
-        position: relative;
-        border: 2px solid var(--cc-primary);
-    }
-
-    .form-text {
-        max-width: 300px;
-        position: relative;
-        margin: auto;
-
-        width: 100%;
-        margin-bottom: 10px;
-        background: rgba(0, 0, 0, 0.3);
-        border: none;
-        outline: none;
-        color: #fff;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-        /* border: 1px solid rgba(0, 0, 0, 0.3); */
-    }
-</style>
 
 <main class="main content-container index">
 
@@ -35,12 +7,28 @@
             Sign up to our very special, very weird SMS
             newsletter. Intimate and candid connections with the quirky festival cohort, sent straight from the Audible Edge burner phone. No spam - just the occasional bit of mail art in your messaging app, especially around gig time. You can unsubscribe any time.
         </p>
+
+
     </section>
 
     <section id="col2" class="description" style="max-width: 60ch;">
         <details>
-            <summary>&#128274;</summary>
-            All data collected will be stored on a private SQL server for the duration of the festival and will not be shared with third parties.
+            <summary>Privacy and Data Protection</summary>
+            <p>
+                Tone List respects your privacy and is committed to protecting your personal data. The personal information you submit here, including your preferred name and phone number, will only be used for sending you our SMS newsletter and related communications about the Audible Edge festival.
+            </p>
+            <p>
+                Your data will be securely stored on a private SQL server and retained only for the duration necessary to fulfill these purposes, not exceeding the conclusion of the Audible Edge festival. We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk.
+            </p>
+            <p>
+                We will not share your personal data with any third parties without your explicit consent, except as required by law. You have the right to access, correct, or delete your personal data, and to restrict or object to its processing. You also have the right to data portability.
+            </p>
+            <p>
+                If you wish to exercise any of these rights or have any questions about our privacy practices, please contact us at [your contact information]. You have the right to lodge a complaint with a supervisory authority if you believe we have not complied with the requirements of the GDPR or other data protection laws.
+            </p>
+            <p>
+                By submitting your personal information, you acknowledge that you have read and understood this privacy statement and agree to the use of your data as outlined above.
+            </p>
         </details>
     </section>
 
@@ -48,12 +36,16 @@
         <div class="sms_form">
             <form method="post" action="<?= $page->url() ?>">
                 <div class="field-group">
-
-                    <label for="name">Preferred Name</label><br>
-                    <input type="text" id="name" name="name" required>
+                    <div class="field">
+                        <!-- <label for="name">Preferred Name</label><br> -->
+                        <input type="text" id="name" name="name" required placeholder="Preferred Name">
+                    </div>
                 </div>
                 <div class="field-group">
-                    <label for="number">Phone</label><br> <input type="tel" id="number" name="number" required>
+                    <!-- <label for="number">Phone</label><br>  -->
+                    <div class="field">
+                        <input type="tel" id="number" name="number" required placeholder="Phone">
+                    </div>
                 </div>
 
 
@@ -64,7 +56,10 @@
                 //honeypot_field(); 
                 ?>
 
-                <button type="submit">Submit</button>
+                <!-- <button type="submit">Submit</button> -->
+                <div class="pseudo-list-item">
+                    <input class="button__link" type="submit" name="submit" value="Submit">
+                </div>
             </form>
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -89,7 +84,7 @@
                 $sql = "INSERT INTO $usertable (name, phone, date_added) VALUES ('$name', '$number', '$dateAdded');";
 
                 if (mysqli_query($conn, $sql)) {
-                    echo '<div class="form-container"><p class="form-text">Records successfully added! Welcome to the Audible Edge text line.</p></div>';
+                    echo '<div class="form-container"><p class="form-text">Records successfully added!</p><p class="form-text">Welcome to the Audible Edge text line.</p></div>';
                 } else {
                     echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
                 }
