@@ -43,7 +43,7 @@
                         <?= isset($alert['email']) ? '<span class="alert error">' . esc($alert['email']) . '</span>' : '' ?>
                     </div>
                     <div class="field half">
-                        <input type="email" id="phone" name="phone" value="<?= esc($data['phone'] ?? '', 'attr') ?>" placeholder="Phone">
+                        <input type="tel" id="phone" name="phone" value="<?= esc($data['phone'] ?? '', 'attr') ?>" placeholder="Phone">
                         <?= isset($alert['phone']) ? '<span class="alert error">' . esc($alert['phone']) . '</span>' : '' ?>
                     </div>
                 </div>

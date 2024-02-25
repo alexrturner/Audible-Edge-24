@@ -15,11 +15,7 @@ columns:
         label: {{ page.title }} Description
         type: writer
     
-      currentSupporters:
-        type: headline
-        label: Current Supporters
-        numbered: false
-
+  
       # fundingSupport:
       #   label: Funding Support
       #   type: files
@@ -42,10 +38,34 @@ columns:
       #   uploads: false
       partialLogos:
         label: Pre-Program Launch Logos
+        type: headline
+        
+      smallLogos_partial:
+        label: Small Screen Logos (partial)
         type: files
         query: page.images
         multiple: true
         uploads: false
+      
+      mediumLogos_partial:
+        label: Medium Screen Logos (partial)
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+      
+      largeLogos_partial:
+        label: Large Screen Logos (partial)
+        type: files
+        query: page.images
+        multiple: true
+        uploads: false
+
+
+      fullLogos:
+        type: headline
+        label: Full Supporter Logos
+        numbered: false
 
       smallLogos:
         label: Small Screen Logos

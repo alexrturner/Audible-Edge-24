@@ -265,9 +265,11 @@
 
     .ae-title {
         position: fixed;
-        /* bottom: 25%; */
         top: 10%;
-        left: 20%;
+        /* left: 19%; */
+        /* top: 8%; */
+        left: 14%;
+        left: 23%;
 
         font-size: var(--fs-big);
         line-height: 0.85;
@@ -276,7 +278,8 @@
 
     .homepage__dates {
         top: 20%;
-        right: 20%;
+        /* right: 20%; */
+        right: 23%;
         padding: 1rem;
         font-size: 1.5rem;
         color: var(--cc-olive);
