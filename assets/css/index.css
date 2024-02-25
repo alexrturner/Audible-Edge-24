@@ -415,6 +415,13 @@ menu overlay
   justify-content: end;
   align-items: end;
 }
+@media (max-width: 768px) {
+  .overlay {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
 .overlay,
 .overlay * {
   pointer-events: none !important;
