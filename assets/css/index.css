@@ -224,9 +224,6 @@ li:has(> a):hover::marker {
   margin: 0;
   padding: 0 !important;
   line-height: 1.5;
-  /* color: var(--cc-primary-light); */
-  /* font-family: var(--ff-serif); */
-  /* margin-bottom: 0.5em; */
 }
 
 .pseudo-list-item {
@@ -538,6 +535,7 @@ header desktop
   }
   .dates li .time {
     display: block;
+    text-align: end;
   }
   .ae-subtitle {
     grid-column: 1 / -1;

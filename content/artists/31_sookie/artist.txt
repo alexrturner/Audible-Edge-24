@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://***REMOVED***/
-  text: ""
+  text: Website
   popup: 'true'
   type: link
 

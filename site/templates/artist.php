@@ -126,7 +126,7 @@
         <?php endif; ?>
 
         <?php if ($page->support()->isNotEmpty()) : ?>
-            <p class="support"><?= html($page->support()) ?></p>
+            <p class="support"><span>Supported by: </span><?= html($page->support()) ?></p>
         <?php endif; ?>
     </section>
 

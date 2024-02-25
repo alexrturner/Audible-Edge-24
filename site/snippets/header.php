@@ -10,7 +10,7 @@
   <?php if ($page->isHomePage()) : ?>
     <title><?= $site->title()->esc() ?></title>
   <?php else : ?>
-    <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
+    <title>Audible Edge &#x25cf; <?= $page->title()->esc() ?></title>
   <?php endif ?>
 
   <script>
@@ -45,9 +45,11 @@
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="description" content="<?= $site->metaDescription()->esc() ?> ">
-  <meta name="keywords" content="<?= $site->metaKeywords()->esc() ?>">
+
+  <meta name="description" content="<?= strip_tags($site->metaDescription()->value()) ?>">
+  <meta name="keywords" content="<?= strip_tags($site->metaKeywords()->value()) ?>">
   <meta name="author" content="Tone List">
+  <meta property="og:image" content="<?= url('/assets/AudibleEdge24.jpg') ?>">
 </head>
 
 <body>

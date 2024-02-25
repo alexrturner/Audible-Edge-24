@@ -354,7 +354,6 @@
         font-size: var(--fs-med);
         font-family: var(--ff-serif);
         font-style: italic;
-        /* margin-left: 1em; */
     }
 
     #subtitles {
@@ -364,6 +363,14 @@
         z-index: 10000;
         font-family: var(--ff-serif);
         padding: 0.25em 1.5em;
+        padding-left: 3em;
+    }
+
+    #subtitles .current-speaker {
+        font-style: italic;
+        color: var(--cc-olive-light);
+        position: absolute;
+        left: 1em;
     }
 
     @media (max-width: 769px) {
