@@ -49,7 +49,7 @@
   <meta name="description" content="<?= strip_tags($site->metaDescription()->value()) ?>">
   <meta name="keywords" content="<?= strip_tags($site->metaKeywords()->value()) ?>">
   <meta name="author" content="Tone List">
-  <meta property="og:image" content="<?= url('/assets/AudibleEdge24.jpg') ?>">
+  <meta property="og:image" content="<?= url('/assets/img/AudibleEdge24.jpg') ?>">
 </head>
 
 <body>
