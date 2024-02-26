@@ -41,6 +41,37 @@ return function ($kirby, $pages, $page) {
 
             // valid data, send email
         } else {
+            $host = 'localhost';
+            $username = '***REMOVED***_ae24';
+            $password = 'kk6aGGh7GrRdmCU';
+            $database = '***REMOVED***_audible_edge_2024';
+            $table = "accessibility_requests";
+
+            $conn = mysqli_connect($host, $username, $password, $database);
+
+            // Check connection
+            if ($conn === false) {
+                die("Error: could not connect. " . mysqli_connect_error());
+            }
+
+
+            // Prepare and bind
+            $stmt = $conn->prepare("INSERT INTO $table (name, pronouns, email, phone, text) VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssss", $data['name'], $data['pronouns'], $data['email'], $data['phone'], $data['text']);
+
+
+            // $sql = "INSERT INTO $table (name, phone, date_added) VALUES ('$name', '$number', '$dateAdded');";
+
+            // if (mysqli_query($conn, $sql)) {
+            //     echo '<div class="form-container"><p class="form-text">Records successfully added!</p><p class="form-text">Welcome to the Audible Edge text line.</p></div>';
+            // } else {
+            //     echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
+            // }
+
+            // $stmt->close();
+            // $conn->close();
+            mysqli_close($conn);
+
             try {
                 $kirby->email([
                     'template' => 'email',
