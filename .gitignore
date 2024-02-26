@@ -58,3 +58,5 @@ Icon
 /zzz/*
 /assets/font/Herbik
 /site/config/db.php
+# /site/templates/z_test.php
+# /content/z_test

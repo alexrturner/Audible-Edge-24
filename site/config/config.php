@@ -76,13 +76,24 @@ function generateRelationsJson()
  * all config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    // 'debug' => true,
-    'debug' => false,
+    'debug' => true,
+    // 'debug' => false,
     'panel' => [
         'install' => true
     ],
     'api' => [
         'basicAuth' => true
+    ],
+    'email' => [
+        'transport' => [
+            'type' => 'smtp',
+            //'host' => 'smtp.company.com',
+            'host' => 'cp-wc01.per01.ds.network',
+            'port' => 465,
+            'security' => true,
+            'username' => '***REMOVED***',
+            'password' => "Dn;in'}47CAd,pk"
+        ]
     ],
     'languages' => true,
     'thumbs' => [

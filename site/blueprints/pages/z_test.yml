@@ -1,0 +1,6 @@
+title: TEST
+
+fields:
+  description:
+    label: Description
+    type: textarea
