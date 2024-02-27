@@ -120,3 +120,26 @@ textarea:focus {
     gap: 0;
   }
 }
+
+.form-container {
+  padding: 2em;
+  margin: auto;
+  background-color: var(--cc-bg);
+
+  margin-top: 1em;
+  position: relative;
+  border: 2px solid var(--cc-primary);
+}
+
+.form-text {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+  outline: none;
+}

@@ -78,7 +78,7 @@
         $sql = "INSERT INTO $usertable (name, pronouns, email, phone, text, submitted_at) VALUES ('$name', '$pronouns', '$email', '$phone', '$text', '$submitted_at');";
 
         if (mysqli_query($conn, $sql)) {
-            echo '<div class="form-container"><p class="form-text">Records successfully added!</p><p class="form-text">Welcome to the Audible Edge text line.</p></div>';
+            echo '<div class="form-container"><p class="form-text">Your message has been sent, thank you.</p><p class="form-text">The Tone List team will get back to you soon.</p></div>';
         } else {
             echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
         }
