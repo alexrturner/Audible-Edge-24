@@ -51,10 +51,14 @@
     </section>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+        date_default_timezone_set('Australia/Perth');
+
         $name = ($_POST["name"]);
         $pronouns = ($_POST["pronouns"]);
         $phone = ($_POST["phone"]);
         $email = ($_POST["email"]);
+        $text = ($_POST["text"]);
         $submitted_at = date('Y-m-d H:i:s');
 
         // Database connection parameters
