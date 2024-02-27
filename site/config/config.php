@@ -76,8 +76,8 @@ function generateRelationsJson()
  * all config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'debug' => true,
-    // 'debug' => false,
+    // 'debug' => true,
+    'debug' => false,
     'panel' => [
         'install' => true
     ],
@@ -87,10 +87,11 @@ return [
     'email' => [
         'transport' => [
             'type' => 'smtp',
-            //'host' => 'smtp.company.com',
+            // 'host' => 'smtp.company.com',
             'host' => 'cp-wc01.per01.ds.network',
             'port' => 465,
             'security' => true,
+            'auth' => true,
             'username' => '***REMOVED***',
             'password' => "Dn;in'}47CAd,pk"
         ]

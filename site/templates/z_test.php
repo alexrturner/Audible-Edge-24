@@ -59,7 +59,39 @@
             </form>
         <?php endif ?>
     </section>
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = ($_POST["name"]);
+        $pronouns = ($_POST["pronouns"]);
+        $phone = ($_POST["phone"]);
+        $email = ($_POST["email"]);
+        $submitted_at = date('Y-m-d H:i:s');
 
+        // Database connection parameters
+        $host = 'localhost';
+        $username = '***REMOVED***_ae24';
+        $password = 'kk6aGGh7GrRdmCU';
+        $database = '***REMOVED***_audible_edge_2024';
+        $usertable = "users";
+
+        $conn = mysqli_connect($host, $username, $password, $database);
+
+        // Check connection
+        if ($conn === false) {
+            die("Error: could not connect. " . mysqli_connect_error());
+        }
+
+        $sql = "INSERT INTO $usertable (name, pronouns, email, phone, text, submitted_at) VALUES ('$name', '$pronouns', '$email', '$phone', '$text', '$submitted_at');";
+
+        if (mysqli_query($conn, $sql)) {
+            echo '<div class="form-container"><p class="form-text">Records successfully added!</p><p class="form-text">Welcome to the Audible Edge text line.</p></div>';
+        } else {
+            echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
+        }
+
+        mysqli_close($conn);
+    }
+    ?>
 </main>
 
 
