@@ -84,7 +84,7 @@
 
       <?php if ($page->isHomePage() || $page->uid() === 'program') : ?>
         <?php if ($page->isHomePage()) : ?>
-          <div class="countdown-container">
+          <div class="countdown-container" id="countdown-container">
             Full program announced in <span id="countdown"></span>
           </div>
         <?php endif ?>

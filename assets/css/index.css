@@ -131,6 +131,7 @@ button {
 h2.section-title {
   font-size: var(--fs-med);
   font-weight: var(--fw-primary);
+  display: inline;
 }
 
 a {
@@ -195,18 +196,26 @@ ul {
   --gutter: 0.75em;
   /* padding: 0 0 0 var(--icon-size); */
   padding: 0 0 0 0.75em;
+  padding: 0;
 }
 ul li {
-  padding-left: var(--gutter);
+  /* padding-left: var(--gutter); */
 }
 
-ul li::marker {
+ul li {
+  list-style: none;
+}
+ul li::before {
   /* unicode filled dot */
   content: "\25cf";
   font-size: var(--icon-size);
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 8px;
+  /* spacing between the bullet and text */
 }
 
-li:has(> a):hover::marker {
+li:has(> a):hover::before {
   /* unicode hollow dot */
   content: "\25cb";
 }
@@ -580,8 +589,16 @@ header mobile
 
   .menu-header-container {
     position: fixed;
-    top: 0.5rem;
-    right: 1em;
+    top: 0rem;
+    /* right: 1em; */
+    left: 0;
+    right: 0;
+  }
+  .menu-toggle.toggle.pseudo-list-item {
+    width: 100%;
+    margin: 0;
+    height: 1.5em;
+    padding: 0;
   }
   .menu-header-container button,
   #togglePlainTextView {
@@ -591,6 +608,7 @@ header mobile
     --cc-button-text: var(--cc-olive);
     --cc-button-bg: var(--cc-olive-light);
     --cc-button-bg: var(--cc-blue-light);
+    --cc-button-bg: var(--cc-bg);
     background: var(--cc-button-bg);
     color: var(--cc-button-text);
     padding: 0 1rem;
@@ -598,16 +616,22 @@ header mobile
   }
   #togglePlainTextView {
     position: fixed;
-    bottom: 1.5rem;
-    right: 0.3rem;
+    /* bottom: 1.5rem; */
+    /* right: 0.3rem; */
     /* left: 0.3rem; */
-    left: 1em;
+    /* left: 1em; */
+    width: calc(100% - 2em);
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1.5em;
+    text-align: left;
+    width: 100%;
     z-index: 10000;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% - 2em);
-    /* right: 50%; */
   }
   .plain-text-container {
     z-index: 10000;
@@ -853,8 +877,10 @@ layout
 @media (max-width: 768px) {
   .content-container {
     max-height: unset;
+    margin: 0;
     margin-bottom: 1em;
   }
+
   .ae-title {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -862,14 +888,18 @@ layout
   ul {
     /* --gutter: 1rem; */
     --gutter: 0.75em;
-    padding: 0 0 0 var(--icon-size);
+    /* padding: 0 0 0 var(--icon-size); */
   }
+
   #col1 > *:not(ul),
   #col2 > *:not(ul),
   #col3 > *:not(ul) {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    margin-right: 1rem;
   }
-
+  .mobile__section-subtitle {
+    margin-left: 1.75em;
+  }
   .section,
   .header-container,
   .ae-title {
@@ -922,12 +952,26 @@ img {
 .menu-items li {
   width: max-content;
 }
-
-/* @media (max-width: 768px) {
+.menu-items {
+  margin-left: 0;
+}
+.menu-items li {
+  padding: 0;
+}
+ul li::before {
+  margin-right: 8px;
+}
+@media (max-width: 768px) {
   .menu-items {
-    margin-top: 50%;
+    margin-left: 0;
   }
-} */
+  .menu-items li {
+    padding: 0;
+  }
+  ul li::before {
+    margin-right: 8px;
+  }
+}
 
 /* listing display text */
 .artists-item .artist-place {
@@ -1071,7 +1115,7 @@ input[type="range"]:hover::-moz-range-thumb {
 
 input[type="range"]::-webkit-slider-runnable-track,
 input[type="range"]::-moz-range-track {
-  /* background: var(--cc-primary-light); */
+  background: var(--cc-primary-light);
 }
 /* slider track when focused */
 input[type="range"]:focus::-webkit-slider-runnable-track,
