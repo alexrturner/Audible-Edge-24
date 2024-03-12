@@ -6,15 +6,22 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Sibling duo exploring poetic relationships in music, using cello &amp; spoken word to convey complex emotional landscapes</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Luka &amp; Ben Buchanan are a sibling duo exploring poetic relationships in music, using cello &amp; spoken word to convey complex emotional landscapes. Their sound is informed by a passion for improvisation and DIY methods. Luka Buchanan (they/them) is a visual artist and poet from Boorloo. Luka’s practice involves painting, drawing, collage, performance, and spoken word. Their approach is speculative, often emotional, and investigates love, trauma, &amp; (un)gendered bodyhood. Ben Buchanan (he/him) is a cellist and emerging musician studying composition at WAAPA.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: >
+    https://lukabuchanan.bandcamp.com/album/jar
+  text: Luka Buchanan Bandcamp
+  popup: 'true'
+  type: link
 
 ----
 
@@ -27,6 +34,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

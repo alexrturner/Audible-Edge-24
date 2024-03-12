@@ -24,7 +24,7 @@ Links:
 - 
   url: >
     https://davidwestmusic.bandcamp.com/album/anaxios-collected-recordings
-  text: ""
+  text: Anaxios Bandcamp
   popup: 'true'
   type: link
 

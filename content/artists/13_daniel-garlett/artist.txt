@@ -1,0 +1,53 @@
+Title: Daniel Garlett
+
+----
+
+Display-title:
+
+- 
+  name: Daniel Garlett
+  place: ""
+  context: Welcome to Country
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: <p>CEO at Dadajaal all things cultural</p>
+
+----
+
+Links:
+
+- 
+  url: >
+    https://www.linkedin.com/in/daniel-garlett-a9212089/
+  text: Daniel Garlett LinkedIn
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: rI53E5ZS78jQIzkS

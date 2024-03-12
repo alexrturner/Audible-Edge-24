@@ -1,0 +1,47 @@
+Title: The Definitives
+
+----
+
+Display-title: 
+
+----
+
+Bio-short: <p>Incantatory spoken-word and experimental sounds from the margins.</p>
+
+----
+
+Bio-long: <p>The Definitives are the resident band at DADAA Midland. This motley crew of poets and visual artists draw on their lived experience of mental illness to create whimsical vignettes propelled by freewheeling rhythms. The group works intuitively with lap steel guitar, bass, and synthesisers. Their spirited performances consist of stories being told and then pulled apart in a wild chorus of sounds, voices, and occasionally, laughter.</p><p>The Definitives are Rodney Stone, Kieth Hayton, Lorraine Walker, Shaun Swift, Nick Pratt and Eduardo Cossio.</p>
+
+----
+
+Links:
+
+- 
+  url: https://the-definitives.bandcamp.com
+  text: The Definitives Bandcamp
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://02b4POBpZFqmCA7g
+
+----
+
+Credits: 
+
+----
+
+Support: DADAA
+
+----
+
+Images: 
+
+----
+
+Sounds: - file://HRkdPcOUjy5jPyuE
+
+----
+
+Uuid: Y2WX6PEbjCIhuEtw

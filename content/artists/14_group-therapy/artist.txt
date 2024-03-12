@@ -1,0 +1,73 @@
+Title: Group Therapy
+
+----
+
+Display-title: 
+
+----
+
+Bio-short: <p>Dance music for entangled marionettes.</p>
+
+----
+
+Bio-long: <p>Group Therapy is a meeting of keen minds in free jazz: Djuna Lee's precise bass playing grounds the angular and virtuosic interactions of woodwinds, brass and drums, played by Simon Charles, Jessica Carlton and Pete Evans, threading complex melodies and rhythms together.</p>
+
+----
+
+Links:
+
+- 
+  url: http://www.djunalee.com/
+  text: Djuna Lee Website
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://Yaupu5Nsy8aTuUmk
+
+----
+
+Credits:
+
+- 
+  other_name: Jessica
+  sort_name: Carlton
+  group: ""
+  group_page: [ ]
+  url: https://www.jessicacarltonmusic.com
+- 
+  other_name: Pete
+  sort_name: Evans
+  group: ""
+  group_page: [ ]
+  url: >
+    https://peterevans1987.bandcamp.com/album/peter-evans-group
+- 
+  other_name: Djuna
+  sort_name: Lee
+  group: ""
+  group_page: [ ]
+  url: 'https://djunalee.com/#'
+- 
+  other_name: Simon
+  sort_name: Charles
+  group: ""
+  group_page: [ ]
+  url: https://www.sibercha.com
+
+----
+
+Support: 
+
+----
+
+Images: - file://zvFcENdGYYgAMbC8
+
+----
+
+Sounds: 
+
+----
+
+Uuid: tk6EV0QEXMeHj1Mg

@@ -386,3 +386,69 @@ Stack trace:
 #9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
 #10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
+[25-Feb-2024 05:24:52 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#3 [internal function]: Kirby\Cms\App->{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#11 {main}
+[25-Feb-2024 05:26:52 UTC] Whoops\Exception\ErrorException: Undefined array key "name" in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:61
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(61): Whoops\Run->handleError()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#10 {main}
+[27-Feb-2024 01:35:43 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:17
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#10 {main}
+[27-Feb-2024 01:36:10 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:17
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#10 {main}
+[27-Feb-2024 01:45:45 UTC] Whoops\Exception\ErrorException: Undefined variable $text in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:74
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(74): Whoops\Run->handleError()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#10 {main}

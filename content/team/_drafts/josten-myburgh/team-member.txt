@@ -2,7 +2,11 @@ Title: Josten Myburgh
 
 ----
 
-Things: 
+Roles: Co-curator
+
+----
+
+Website: 
 
 ----
 
@@ -11,6 +15,14 @@ Phone:
 ----
 
 Email: 
+
+----
+
+Bio-short: 
+
+----
+
+Things: 
 
 ----
 

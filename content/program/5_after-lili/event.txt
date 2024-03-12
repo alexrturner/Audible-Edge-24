@@ -10,7 +10,7 @@ Subtitle:
 
 ----
 
-Description: 
+Description: <p>After Lili is a homely crossover of a solo piano concert, crip hangout space, and 6-hour durational performance art. It explores disabled cultural histories and everyday self-advocacy, in recognition of the French composer Lili Boulanger (1893 - 1918). Boulanger wrote contemplative and expressive music, with ambitious structures that embedded her own crip time living with chronic illnesses. She is remembered for her professional achievements whilst challenging reductive perceptions of women composers, and passed away when she was 24.</p><p>In his last month of being 24, Patrick Gunasekera will perform Boulanger’s 1911 piano work “Prelude in Db” 24 times in After Lili. Each repeat of this cycle starts with a piano improvisation in Gunasekera’s voice at an age represented by the repeat number. This performance is intertwined with pre-recorded conversations between young disabled artists, reflecting on young adulthood and how they relate to disabled forerunners in the arts.</p>
 
 ----
 
@@ -58,15 +58,86 @@ End-time: 16:00:00
 
 ----
 
-Eventschedule: 
+Eventschedule:
+
+- 
+  description: '<p>Introduction</p>'
+  location: ""
+  scheduletype: set time
+  settime: 10:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Cycles 1 – 6</p>'
+  location: ""
+  scheduletype: set time
+  settime: 10:05:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Intermission</p>'
+  location: ""
+  scheduletype: set time
+  settime: 11:10:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Cycles 7 – 12</p>'
+  location: ""
+  scheduletype: set time
+  settime: 11:35:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Intermission</p>'
+  location: ""
+  scheduletype: set time
+  settime: 12:40:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Cycles 13 – 18</p>'
+  location: ""
+  scheduletype: set time
+  settime: 13:05:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Intermission</p>'
+  location: ""
+  scheduletype: set time
+  settime: 14:10:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Cycles 19 – 24</p>'
+  location: ""
+  scheduletype: set time
+  settime: 14:35:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Ending</p>'
+  location: ""
+  scheduletype: set time
+  settime: 15:40:00
+  startdate: ""
+  enddate: ""
 
 ----
 
 Accessibility:
 
-The music will consist of acoustic grand piano and sound from loudspeakers (not loud). The performance is very long, with allocated intermission times for breaks, and permission to come and go at any time.
+The State Library of Western Australia Theatrette is a wheelchair accessible venue, with space for wheelchairs in the front row accessible via even carpet. Below the venue, the State Library of WA carpark has 5 ACROD parking bays on the ground level and 2 on the basement level. There are numerous wheelchair accessible, all-gender bathrooms located throughout the library.  The event is alcohol-free and all-ages. It can be attended online via YouTube, with the chat moderated by an usher. The venue is indoors with no windows, but it is spacious and there will be room to sit socially distanced. There is no dedicated check-out space booked for this session.
 
-The State Library of Western Australia Theatrette is a wheelchair accessible venue, with space for wheelchairs in the front row accessible via even carpet. There are numerous wheelchair accessible, all-gender bathrooms located throughout the library.  The event is alcohol-free and all-ages. It can be attended online via Jitsi, and will be live-captioned using Jitsi’s in-built captioning service. This or another live-captioning service will be available to view via projection in the venue. The venue is indoors with no windows, but it is spacious and there will be room to sit socially distanced. The stage will be warmly lit and fairly bright, whilst the audience seating ranks will be dimly lit. There is no dedicated check-out space booked for this session.
+The performance is 6 hours long, with allocated intermission times for breaks, and permission to come and go at any time. Seating will include upright theatre chairs accessed both by a staircase and on ground level. There will be (blankets, cushions, and beanbags) to lie down on closer to the stage.
+
+After Lili is a relaxed performance with low sensory input. Lighting will be gentle but bright enough to move around in. The music will be slow, swelling and comforting.
+Pre-recorded voices in the work will be captioned and projected above the piano.
+
+3 people with lived experience of disability will be ushering the event.
+
+After Lili contains some discussions about (advocacy fatigue, disabled mental health), and is created to be a comfortable experience for audiences. If you are planning to attend the full 6-hour performance, we recommend you bring your own food to eat outside during intermissions. There are water fountains inside the venue, and the nearest café is Epoch at WA Museum Boola Bardip.
 
 ----
 

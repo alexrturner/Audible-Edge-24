@@ -11,15 +11,21 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Afro Remixes, Dancehall, House, Hip-Hop &amp; RnB from Boorloo(Perth)-Based, Nigerian-Born award-winning Producer, DJ, Percussionist, and Creator.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Ayo Busari (TAB Family) is a Boorloo(Perth)-Based and Nigerian-Born award-winning Producer, DJ, Percussionist, and Creator. He is signed to his own Indie Label &amp; Management Agency, "Mobus Entertainment''. He's also a member of the Creative Collective and Sound System "TAB Family," which he founded in 2019. His DJ sets include him playing live percussions, bringing out the riches in the Afro Sound.</p><p>He plays Afro Remixes, Dancehall, House, Hip-Hop &amp; RnB. He recently released a joint EP with his collective TAB Family called ‘With Love, From TAB’, which is already gaining lots of audiences and radio plays, especially with fan favourites 'Party Starter Energy' and 'Slow Down'. He released his first-ever solo track in November 2023, which has been a favourite on the public playlists and radio.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://linktr.ee/ayobusari
+  text: Ayo Busari Website
+  popup: 'true'
+  type: link
 
 ----
 

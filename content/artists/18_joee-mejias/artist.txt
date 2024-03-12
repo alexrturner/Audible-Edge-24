@@ -1,0 +1,57 @@
+Title: Joee Mejias
+
+----
+
+Display-title:
+
+- 
+  name: Joee Mejias
+  place: Manila
+  context: ""
+
+----
+
+Bio-short: <p>Joee &amp; I is a vivacious avant-pop electronica solo project of Joee Mejias, a musician and video artist from Manila.</p>
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: https://iandjoee.bandcamp.com
+  text: 'Joee & I Bandcamp'
+  popup: 'true'
+  type: link
+- 
+  url: https://soundcloud.com/joee-mejias
+  text: Joee Mejias Soundcloud
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: DS8D2o7whS2nK6YU

@@ -1,0 +1,57 @@
+Title: Sookie
+
+----
+
+Display-title:
+
+- 
+  name: Sookie
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: https://***REMOVED***/
+  text: Alexander Turner Website
+  popup: 'true'
+  type: link
+- 
+  url: https://soundcloud.com/alexanderrturner
+  text: Alexander Turner Soundcloud
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://Yaupu5Nsy8aTuUmk
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: - file://jMyNdw5qocw47Ddk
+
+----
+
+Sounds: 
+
+----
+
+Uuid: NoI8Fa6FElOsovig

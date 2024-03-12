@@ -11,15 +11,21 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Spoken-word, music concrete and ensemble speaking to York's suspension bridge.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Simon Charles’ compositional practise is compelled by an ethic of relational listening, representing an aesthetics of contingency, fragility and reciprocity. Often incorporating electro-acoustic media and audio scores, his work explores radical approaches to musical composition that incorporate field recording, collagist approaches, themes of place, and Just Intonation, to explore the tactility of sonic materials. He has performed at the Make It Club (Melbourne), Audible Edge Festival (Perth), Outcome Unknown (Perth), and The Wulf (Los Angeles).</p><p>Simon is a core member of Phonetic Orchestra, who have presented ‘sleep concerts’ in Milan, Porto and Melbourne, and a 24-hour live stream event ‘Silent Towns’, which received an APRA Art Music Award in 2022. He has composed music for the Melbourne Symphony Orchestra, Ensemble Offspring, Speak Percussion, WAAPA Listener Ensemble, and has received several awards including the Zavod Jazz/Classical Fusion Award, and the Marion Isabel Thomas prize. He has collaborated with notable artists Jim Denley, Manfred Werder, Ros Bandt and Aviva Endean, and in an interdisciplinary capacity with Katie West, John Kinsella, Jessica Wilkinson, Josh Pether, and Alisdair MacIndoe.</p><p>John Kinsella is the author of over seventy books of poetry, fiction, criticism, plays, edited works (such as The Penguin Book of Australian Poetry), and collaborative works. The three volumes of his collected poems are The Ascension of Sheep (UWAP, 2022), Harsh Hakea (UWAP, 2023) and Spirals (UWAP, 2024). A frequent collaborator with other poets, writers, artist, musicians, and thinkers, he lives on Ballardong Noongar land at ‘Jam Tree Gully’ in the Western Australian wheatbelt (north of Toodyay). In 2007 he received the Christopher Brennan Award for Lifetime Achievement in Poetry.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: http://sibercha.com
+  text: Simon Charles Website
+  popup: 'true'
+  type: link
 
 ----
 
@@ -39,7 +45,7 @@ Images:
 
 ----
 
-Sounds: 
+Sounds: - file://WbTODkHW2lkdgd9Q
 
 ----
 

@@ -10,7 +10,7 @@ Subtitle: <p>curated by Shih Ya Tien</p>
 
 ----
 
-Description: 
+Description: <p>Our pals at Cool Change Contemporary host the opening of “Put ‘em in a box”, an exhibition of a creative process coordinated by Taiwanese curator Shih Ya Tien. As well as this opening event, the Cool Change gallery is also open to the public between 11am and 4pm on Thursdays and Fridays.</p><p><em>A city is like a vast container, encompassing the chirps of birds, barks of dogs, human chatters, as well as the noises of traffic and construction sites. Activities happening in nature or facilitated by humans never cease to occur and to generate sounds. These sounds, which permeate our daily lives, come together to form delicate fragments of a place’s past and present. They quietly accumulate beyond the bounds of language and shape our understanding of a city. In order to capture, replicate, represent, and play these audio fragments, various devices for sound production and reproduction have been invented. These devices themselves, too, act as containers which facilitate the reception and circulation of intricate, mundane secrets.</em></p><p><em>Put ’em in a Box invites 5 artists residing in different cities—Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, suzueri (Elico Suzuki)—to share their unique perspectives on sounds through their artistic practices, and, furthermore, to exchange materials such as field recordings capturing the sounds of their local environments. This project experiments with conversions between visual and audio interfaces, while also exploring how sounds are captured, interpreted, and expressed. Through the artists’ layered reception and interpretation of sounds at the locations where they listen, in video call windows on screens, in chats, in mailed cardboard boxes, and, ultimately, within white cubes, the multifaceted attributes of Taipei, Tainan, Tokyo, Perth, and Helsinki are beautifully illustrated.</em></p>
 
 ----
 
@@ -30,7 +30,7 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues: - page://AUZNOGKuJXBtyn4a
 
 ----
 

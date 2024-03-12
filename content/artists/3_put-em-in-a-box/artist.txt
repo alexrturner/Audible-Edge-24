@@ -1,4 +1,4 @@
-Title: Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song & suzueri
+Title: Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, Shi Ya Tien & suzueri
 
 ----
 
@@ -7,19 +7,25 @@ Display-title:
 - 
   name: 'Samuel Beilby, Chi Po Hao, Chloe Lin, Sarah Song & suzueri'
   place: 'Boorloo, Helsinki, Tainan, Taipei & Tokyo'
-  context: installation
+  context: installation curated by Shih Ya Tien
 
 ----
 
-Bio-short: 
+Bio-short: <p>Put’ Em in a Box is an ongoing sonic writing research project curated by Shih Ya Tien that brings together a diverse group artists, musicians and researchers who work with sound.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Put ’ Em in a Box invites 5 artists residing in different cities—Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, suzueri (Elico Suzuki)—to share their unique perspectives on sounds through their artistic practices, and, furthermore, to exchange materials such as field recordings capturing the sounds of their local environments. This project experiments with conversions between visual and audio interfaces, while also exploring how sounds are captured, interpreted, and expressed. Through the artists’ layered reception and interpretation of sounds at the locations where they listen, in video call windows on screens, in chats, in mailed cardboard boxes, and, ultimately, within white cubes, the multifaceted attributes of Taipei, Tainan, Tokyo, Perth, and Helsinki are beautifully illustrated. The first iteration of the ongoing collaborative project was been exhibited at Sonic Sensory Lab in Taipei (Taiwan) in October, 2023. The group will exhibit a second iteration at Waley Art in Taipei (Taiwan) in July, 2024.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://soundboxes.net/en
+  text: ' Soundboxes Website'
+  popup: 'true'
+  type: link
 
 ----
 

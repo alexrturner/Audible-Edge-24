@@ -1,0 +1,59 @@
+Title: Wayang
+
+----
+
+Display-title:
+
+- 
+  name: Wayang
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: <p>Organiser, label head and DJ/radio host based in Boorloo/Perth.</p>
+
+----
+
+Bio-long: <p>DJ Wayang (formerly Tran Scended), is an organiser, label head and DJ/radio host based in Boorloo/Perth. They are one half of the independent label and event series Pneumatic that has facilitated, alongside friends and visiting artists, a space to explore and experiment with sound in dance music. They also present regularly on RTRfms 'Rhythm Trippin' and continue to host club-focussed nights with the party series Mutual Affection.</p>
+
+----
+
+Links:
+
+- 
+  url: 'https://soundcloud.com/tran_scended/sets/tran-scended-mixes?si=396acef278fa426491679f03218a1041&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+  text: DJ Wayang Soundcloud
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits:
+
+- 
+  other_name: ""
+  sort_name: ""
+  group: ""
+  group_page: [ ]
+  url: ""
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: JCMcpuyS4AVE81ur

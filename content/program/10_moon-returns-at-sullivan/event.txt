@@ -8,6 +8,7 @@ Artist-link:
 - page://269KVyobk1oB2LjO
 - page://bedbBH9umPCyyl8o
 - page://n9csnfWuPc2yym2n
+- page://Ly4Vsjn3YLTPjazF
 
 ----
 
@@ -15,7 +16,7 @@ Subtitle:
 
 ----
 
-Description: <p><strong>Goolugatup / Sullivan<br><br></strong>Ten Forward<br><br>Patrick Gunasekera<br><br>John Kinsella &amp; Simon Charles with Jameson Feakes, Rebecca Lane &amp; Jon Heilbron<br><br>Jenny Hickinbotham with Chris Cobilis &amp; Lana Rothnie<br><br><strong>(Alcohol Free)<br><br></strong><em>"Moon Returns? 8:37PM<br>Craig &amp; Eamon"</em></p>
+Description: <p>The last hurrah! </p><p><em>I make big noise </em>… is a relaxed late arvo concert celebrating the close of the festival. Expansive sound collage, poetic reflections, and nuanced folk provide a soft final landing place for those at the end of a big festival weekend; or a perfect Sunday outing for homebodies! This all-ages, families-welcome gig is set up with catering by Teeter and Manna, interactive activities, outdoor space and room to stretch out, and no alcohol (but cups of tea and yummy drinks by Strangelove).</p><p>This concert is also an album launch for Tone List’s 40th release by Jenny Hickinbotham. Jenny’s songs and poetry are cheeky and singular. They are joyous creative outbursts that often reflect her day-to-day life, idiosyncratic worldly observations, and her lived experience of hearing voices. Jenny will perform live in collaboration with local enigmas Chris Cobilis and Lana Rothnie. As a never-before-heard trio they are bound to cause a ruckus in the best way. </p><p>Composer Simon Charles and John Kinsella, one of this continent’s foremost poets, debut a new collaboration. Using field recordings, analogue tape, musical notation and poetry, Simon and John have made tender traces of the suspension bridge in York, on Ballardong boodja. Their work attends to the bridge and how it relates to its surroundings, unravelling multiple meanings and connections. The piece will be performed by the two artists accompanied by long-time collaborators Jameson Feakes, Rebecca Lane &amp; Jon Heilbron.</p><p>At the top of the show is the debut of tenforward, the duo of Lyndon Blue (Heathcote Blue, Leafy Suburbs) and Jessyca Hutchens (Jane Harris). Both wordsmiths, folk stars and gentle weirdos in their own right, their two unique sensibilities combine to make tender-hearted ditties.</p><p>Good vibes supplied in-between sets by DJ Ayo Busari, who plays tunes from the orbit of dancehall, house, hip-hop, RnB and Afro remix culture, augmented with live percussion.</p><p>At any point during the gig, get stuck into Emilie Monty’s Sonic Scavenger Hunt, from which this gig takes its name. This is a self-directed activity set amongst the eucalyptus, galahs and red bricks surrounding Sullivan Hall, for kids of all ages. Put on your thinking hats, silly hats and sun smart hats and join in to discover and delight in hidden treats.</p>
 
 ----
 
@@ -35,7 +36,7 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues: - page://PP97yUGOdrjCjEel
 
 ----
 
@@ -51,7 +52,7 @@ Start-date: 2024-04-28
 
 ----
 
-Start-time: 17:00:00
+Start-time: 15:00:00
 
 ----
 
@@ -59,11 +60,47 @@ End-date: 2024-04-28
 
 ----
 
-End-time: 20:00:00
+End-time: 19:00:00
 
 ----
 
-Eventschedule: 
+Eventschedule:
+
+- 
+  description: '<p>Emilie Monty (Sonic Scavenger Hunt)</p>'
+  location: ""
+  scheduletype: set time
+  settime: 15:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Ayo Busari (DJ)</p>'
+  location: ""
+  scheduletype: set time
+  settime: 15:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>tenforward</p>'
+  location: ""
+  scheduletype: set time
+  settime: 15:45:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Jenny Hickinbotham</p>'
+  location: ""
+  scheduletype: set time
+  settime: 16:45:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Simon Charles &amp; John Kinsella</p>'
+  location: ""
+  scheduletype: set time
+  settime: 17:30:00
+  startdate: ""
+  enddate: ""
 
 ----
 

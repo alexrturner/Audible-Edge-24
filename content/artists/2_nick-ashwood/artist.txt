@@ -12,15 +12,26 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Exploring the possibilities of the acoustic guitar, Buchla, pump organs and pipes by means of preparations, just intonation and bowing.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Nick Ashwood ​is an Australian artist Nipaluna/Tasmanian now based in Naarm/Melbourne working in the field of experimental music both improvised and composed. His main focuses have been exploring and utilizing the possibilities of the acoustic guitar, Buchla, pump organs and pipes by means of preparations, just intonation and bowing. Nick has toured throughout Australia and New Zealand, performed at large festivals across Australia, Dark Mofo, The Now now, Soundout, Mona Foma and has collaborated with many Australian and International artists that include; Laura Altman, Jim Denley, Aviva Endean, Robbie Avenaim, Annette Krebs, Amanda Stewart, Splinter Orchestra and Chris Abrahams.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://nickashwood1.bandcamp.com
+  text: Nick Ashwood Bandcamp
+  popup: 'true'
+  type: link
+- 
+  url: https://soundcloud.com/nick-ashwood
+  text: Nick Ashwood Soundcloud
+  popup: 'true'
+  type: link
 
 ----
 
@@ -33,6 +44,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

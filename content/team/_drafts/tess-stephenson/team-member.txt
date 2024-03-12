@@ -2,7 +2,11 @@ Title: Tess Stephenson
 
 ----
 
-Things: 
+Roles: Front of House Lead
+
+----
+
+Website: 
 
 ----
 
@@ -11,6 +15,14 @@ Phone:
 ----
 
 Email: 
+
+----
+
+Bio-short: 
+
+----
+
+Things: 
 
 ----
 

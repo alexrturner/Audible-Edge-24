@@ -21,7 +21,7 @@ Subtitle:
 
 ----
 
-Description: <p>11PM - 12:30AM Lia T B2B Rok Riley<br><br>12:30 Miss Phoria<br>12:35 Bobbi Russell<br>12:40 Jxnior<br><br>12:30AM - 2AM DJ Wayang B2B ?? </p>
+Description: <p>Audible Edge’s grand opening is Body the body, a wild experiment in permission, possibility and play. Somewhere between the exploratory music concert and the club, it celebrates the full spectrum of what Audible Edge hopes to be: a safe place for all to experience joy and get silly at the edge of what’s sonically possible. Starting with a Welcome to Country and concert-style performances, the night gradually gives way to dancing, communion and experimental physical performance. </p><p>The centrepiece of the show is our Audible Edge commission for this year, Myriad Sun in the Block Universe. A four-sided screen made of cold fog allows a gaze into a parallel-universe-Walyalup manifested by wildcard visual designer Tom Rogers. Inside the Block, the band performs new, recent and improvised material which references noise music, rap and footwork. </p><p>Before that, Daniel Garlett will welcome us to Country with one of his powerful didgeridoo performances. Crash hot percussionist Rebecca Lloyd-Jones, visiting from Meanjin, plays new composition “Thought Sectors” by Sarah Hennies. Committed to minimalism and repetition, Hennies’ work explores queer &amp; trans identity, psychoacoustics and the neurology of creativity. Manila-based Joee Mejias works at the edge of pop music, making oozy, amorphous songs and ambient experiments.</p><p>The rest of the night is soundtracked by Wayang, Lia T &amp; Rok Riley, experienced DJs well-known in the underground club scene. At midnight, physical performances by drag and movement artists Bobby Russell, Jxnior and Miss Phoria explore mental health and queer embodiment with playful and experimental sound tracks. </p><p>This is hosted within a world of fabric and light designed by Desmond Tan and Adelaide Harney.   Softening the industrial surrounds of PS, they’ll gently hold our embodied explorations together.</p>
 
 ----
 
@@ -41,7 +41,7 @@ Ticket-price-text:
 
 ----
 
-Venues: 
+Venues: - page://iCzTirTUV8bjHns6
 
 ----
 
@@ -69,7 +69,64 @@ End-time: 02:00:00
 
 ----
 
-Eventschedule: 
+Eventschedule:
+
+- 
+  description: '<p>Welcome to Country</p>'
+  location: ""
+  scheduletype: set time
+  settime: 20:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Rebecca Lloyd-Jones</p>'
+  location: ""
+  scheduletype: set time
+  settime: 20:10:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Joee Mejias</p>'
+  location: ""
+  scheduletype: set time
+  settime: 21:20:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Myriad Sun</p>'
+  location: ""
+  scheduletype: set time
+  settime: 22:15:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Wayang (DJ)</p>'
+  location: ""
+  scheduletype: set time
+  settime: 23:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Miss Phoria, Bobby Russell &amp; Jxnior</p>'
+  location: ""
+  scheduletype: set time
+  settime: 00:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Lia T &amp; Rok Riley (DJ)</p>'
+  location: ""
+  scheduletype: set time
+  settime: 00:25:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Close</p>'
+  location: ""
+  scheduletype: set time
+  settime: 02:00:00
+  startdate: ""
+  enddate: ""
 
 ----
 

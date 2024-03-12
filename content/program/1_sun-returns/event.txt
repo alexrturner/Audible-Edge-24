@@ -10,11 +10,7 @@ Subtitle:
 
 ----
 
-Event-type: program
-
-----
-
-Description: <p>Boola Bardip</p>
+Description: <p>Set your alarm clock for a meditative sunrise listening session with Matt Rösner.</p><p>In partnership with Tone List, WA Museum Boola Bardip presents an experimental concert series set against the backdrop of the sunrise, perched in the highest reaches of our eastern terrace.</p><p>We invite you to start your day early, sit with a coffee and take a moment to reflect in peace while watching Boorloo’s east metropolitan area light up from the base of the hills to the steps of the Museum, scored by WA Musician, Matt Rösner.</p><p>The level 3 terrace nook (indoors, warm and undercover) transforms into a serene performance space for the artist to take you on a journey over one and a half hours of sunrise.</p><p>As the first event in Audible Edge, we invite you to rise early and get right into the Audible Edge mood in an unforgettable context. Have a nap later on — or even during — and meet us later in the evening for Body the body.</p>
 
 ----
 
@@ -62,11 +58,30 @@ End-time: 08:00:00
 
 ----
 
-Eventschedule: 
+Eventschedule:
+
+- 
+  description: '<p>Matt Rösner</p>'
+  location: ""
+  scheduletype: set time
+  settime: 06:30:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>End</p>'
+  location: ""
+  scheduletype: set time
+  settime: 08:00:00
+  startdate: ""
+  enddate: ""
 
 ----
 
-Accessibility: 
+Accessibility: WA Museum Boola Bardip is wheelchair accessible, with multiple gender-neutral wheelchair accessible bathrooms located throughout the building. No alcohol will be served, but coffee will be available. The room is large and high-ceilinged, but no windows will be open to facilitate further ventilation. The room will be lit entirely by natural light from a large window behind the performers, besides a few dim lights to assist with visibility on walkways prior to the performance. There is no dedicated check-out space booked for this session, but comfortable seating is available throughout the museum around the corner from the performance.
+
+----
+
+Event-type: program
 
 ----
 

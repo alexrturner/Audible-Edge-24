@@ -16,11 +16,22 @@ Bio-short:
 
 ----
 
-Bio-long: 
+Bio-long: <p>Australian-born percussionist Rebecca Lloyd-Jones is a multiform musician passionate about performance, research, and education. Praised as "captivating" (San Diego Union-Tribune), Rebecca has performed professionally across Asia, Europe, North America, and Oceania, presented at the Percussive Arts Society International Convention, and held residences at the Banff Centre for Arts and Creativity, Canada.</p><p>Active across many genres, Rebecca has performed on the Walt Disney Concert Hall stage with the Los Angeles Philharmonic's Noon to Midnight festival, with the PARTCH ensemble, ensemble Red Fish Blue Fish, and Hong Kong based percussion quintet Up:Strike Project. Rebecca performed in the soundSCAPE composition and performance exchange (Italy) and was a guest artist at the VI Semana Internacional de Improvisación (Mexico).</p><p>The Artistic producer of the Transplanted Roots Percussion Research Symposium (2022) and creative development grant recipient from the American Australian Arts Fund, Rebecca's research focuses on the archival and performance process of percussion works composed by female composers during the late 20th Century. Rebecca graduated from the Victorian College of the Arts, holds a Doctorate from the University of California San Diego, and is currently a Lecturer and Coordinator of Percussion at Queensland Conservatorium, Griffith University and the Artistic Director of Synergy Percussion.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://rebeccalloydjones.org
+  text: Rebecca Lloyd-Jones
+  popup: 'true'
+  type: link
+- 
+  url: https://rebeccalloydjones.bandcamp.com
+  text: Rebecca Lloyd-Jones Bandcamp
+  popup: 'true'
+  type: link
 
 ----
 
@@ -33,6 +44,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

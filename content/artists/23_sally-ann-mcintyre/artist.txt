@@ -1,0 +1,52 @@
+Title: Sally Ann McIntyre
+
+----
+
+Display-title:
+
+- 
+  name: Sally Ann McIntyre
+  place: Naarm
+  context: ""
+
+----
+
+Bio-short: <p>A sound artist exploring transmission, memory, sound, silence and extinction.</p>
+
+----
+
+Bio-long: <p>Sally Ann McIntyre is an Australian-New Zealand experimental sound and radio artist who lives and works in Naarm Melbourne. She has worked in independent radio programming since 1996, and with experimental radio art in live performance since 2008 as the operator of the small-radius micro radio station radio cegeste. In radio cegeste’s transmissions, the use of hand-made radio transmitters to create live narrowcast fields of electromagnetic interference is augmented by the use of archival and pre-electrical sound technologies. Sally’s recent work has focused on themes of transmission, memory, sound, silence and extinction, locating acts of ecocide and sonic erasure within particular sites, scoring species extinction as echo, noise and silence within the contemporary landscape, the museum and the archive. Her projects link the methods and materials of expanded-field radio ecology, the anarcheaological fossils of media cultures, the exploitative extraction economies of colonial science, and the poetics and politics of listening.</p>
+
+----
+
+Links:
+
+- 
+  url: https://radiocegeste.blogspot.com/
+  text: Sally Ann McIntyre Website
+  popup: 'false'
+  type: link
+
+----
+
+Events: - page://vX2bqqaSJhZiKPtf
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: xQIDZamcSeUiK0Ku

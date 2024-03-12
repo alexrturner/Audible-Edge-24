@@ -1,0 +1,90 @@
+Title: The Long Form
+
+----
+
+Display-title:
+
+- 
+  name: The Long Form
+  place: Berlin
+  context: |
+    play Catherine Lamb's "Muto infinitas"
+
+----
+
+Bio-short: <p>Two instrumentalists at the forefront of microtonal and Just Intonation music.</p>
+
+----
+
+Bio-long: <p>The Long Form is the duo project of Berlin-based Australian musicians Rebecca Lane (quarter-tone flutes) and Jon Heilbron (double bass and organ), two instrumentalists at the forefront of microtonal and Just Intonation music renowned for their “precision, concentration and sympathy” (Gramophone). Their recording of Catherine Lamb’s Muto Infinitas (Another Timbre, 2021) was named as one of WIRE Magazine’s “Top Ten Contemporary Classical Albums”, and the duo has premiered new works for their unusual instrumentation at festivals and venues across Australia and Europe. Recent and current collaborators include Rohan Drape, Catherine Lamb, Thomas Nicholson, Alyssa Aska, and Cenk Ergun. Lane and Heilbron are in demand composer-performers within the fields of contemporary and experimental music and are both members of the Berlin-based Harmonic Space Orchestra, a performance and research collective focusing on extended Just Intonation.</p>
+
+----
+
+Links:
+
+- 
+  url: >
+    https://www.sacredrealism.org/artists/rebecca-lane/projects/?project=duo-heilbron
+  text: Website The Long Form
+  popup: 'true'
+  type: link
+- 
+  url: 'https://jonheilbron.bandcamp.com/   '
+  text: Jon Heilbron Bandcamp
+  popup: 'true'
+  type: link
+- 
+  url: https://www.jonheilbronmusic.com/
+  text: Jon Heilbron Website
+  popup: 'true'
+  type: link
+- 
+  url: >
+    https://www.sacredrealism.org/artists/rebecca-lane/
+  text: Rebecca Lane Website
+  popup: 'true'
+  type: link
+- 
+  url: >
+    https://umlandeditions-q-o2.bandcamp.com/album/oscillation-o-tempo-iv
+  text: Rebecca Lane Bandcamp
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://lf10Vs8tywjmdWWL
+
+----
+
+Credits:
+
+- 
+  other_name: Jon
+  sort_name: Heilbron
+  group: ""
+  group_page: [ ]
+  url: http://www.jonheilbronmusic.com
+- 
+  other_name: Rebecca
+  sort_name: Lane
+  group: ""
+  group_page: [ ]
+  url: >
+    https://www.sacredrealism.org/artists/rebecca-lane/
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: - file://M5APjsMeSWeEVlPD
+
+----
+
+Uuid: 4TEVCHk4V8dSNIGt

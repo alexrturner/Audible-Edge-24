@@ -1,0 +1,52 @@
+Title: wetpuddlss
+
+----
+
+Display-title:
+
+- 
+  name: wetpuddlss
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links:
+
+- 
+  url: 'https://soundcloud.com/user-456645916?ref=clipboard&p=i&c=1&si=7E3AE7C174C241B4991F33AAA9F3C2BD&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+  text: wepuddlss Soundcloud
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://7Nkhg2W0tlrbmJ3T
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: OsXZ61VVeTRK73me

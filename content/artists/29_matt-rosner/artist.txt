@@ -1,0 +1,52 @@
+Title: Matt Rösner
+
+----
+
+Display-title:
+
+- 
+  name: Matt Rösner
+  place: Myalup
+  context: ""
+
+----
+
+Bio-short: <p>Matt Rösner is a sound artist from Wadandi Boodja, Western Australia. The opens spaces around Rösner's home infuses his work with an organic sense of space and time constructed using various instruments, custom build software patches and detailed field recording studies.</p>
+
+----
+
+Bio-long: <p>Matt Rösner is a sound artist from Wadandi Boodja, Western Australia. The opens spaces around Rösner's home infuses his work with an organic sense of space and time constructed using various instruments, custom build software patches and detailed field recording studies. Drawing inspiration and influence from the colours, seasonal shifts and sounds of his surroundings, Matt Rösner aims to produce an immersive listening space, compositions for reflection and quiet mediation. In a recording career spanning 20 years, Rösner has released records on room40, 12k, Hidden Shoal, Apestaartje, Miatera/12x50 and Meupe, alongside various compilation releases on Australian and international labels. Matt is one half of the Perth experimental duo, Glided with Adam Trainer and has collaborated with Dr Cameron Webb, aka Seaworthy, to produce three records documenting at risk environments in southern New South Wales. “Australian sound artist Matt Rösner offers some of the most unique evocative music you could ever hope to hear. He seems to effortlessly tap into or perhaps evoke the Australian landscape. I’m not necessarily sure if that’s what he’s trying to do, but in his music I hear a great expanse with plenty of space, a shimmering heat that you can see, horizon lines that blur and sizzle in the distance. “ – Bob Baker Fish, Cyclic Defrost – June 2023 <br></p>
+
+----
+
+Links:
+
+- 
+  url: https://mattrosner.bandcamp.com/
+  text: Matt Rösner Bandcamp
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://sofCvcexl3vZSrx9
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: LOSr6V5um0TQxqh8

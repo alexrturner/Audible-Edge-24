@@ -15,7 +15,7 @@ Bio-short: <p>Listener, organiser, and teacher employing critical listening prac
 
 ----
 
-Bio-long: <p>Listener, organiser, and teacher employing critical listening practices to develop creative, ethical, and sustainable ways of being at a time of technological pressure and ecological crisis. Program Manager and Senior Lecturer, Bachelor of Design (Digital Media) at RMIT University, Melbourne, Australia. Currently teaching the course 'Curating, Producing and Exhibiting the Digital.' Director of Avantwhatever. Past curatorial projects include the Melbourne Design Week 2023 Avantwhatever Commissions Launch and Listening Party, Melbourne Music Week's 'MESS Through the Roof', RMIT Digital Media's Extremely Online in 2021, Avantwhatever Festival 2016-2020, the wrong biennale 2019-2020, ABC Radio National program Soundproof's Live Proof in 2015, Seven Thousand Oaks Festival of Art and Sustainability's 'Touch at a Distance' at Heide Museum of Modern Art in 2010, University of Technology Sydney Music.Sound.Design, and Liquid Architecture Festival of Sound Arts Sydney 2005-2007. Recently published writing includes Embodied audiovisual experience: The role of sound in contemporary screen and digital media (2022) co-authored with Darrin Verhagen for the book Materialising Digital Futures and Directing Listening: Sound Design Methods from Film to Site-Responsive Sonic Art (2021) published in The Bloomsbury Handbook of Sonic Methodologies. New audio work 'Soda' (2023) published on SNOsound.</p>
+Bio-long: <p>Listener, organiser, and teacher employing critical listening practices to develop creative, ethical, and sustainable ways of being at a time of technological pressure and ecological crisis.</p><p>Program Manager and Senior Lecturer, Bachelor of Design (Digital Media) at RMIT University, Melbourne, Australia. Currently teaching the course 'Curating, Producing and Exhibiting the Digital.' </p><p>Director of Avantwhatever.</p><p>Past curatorial projects include the Melbourne Design Week 2023 Avantwhatever Commissions Launch and Listening Party, Melbourne Music Week's 'MESS Through the Roof', RMIT Digital Media's Extremely Online in 2021, Avantwhatever Festival 2016-2020, the wrong biennale 2019-2020, ABC Radio National program Soundproof's Live Proof in 2015, Seven Thousand Oaks Festival of Art and Sustainability's 'Touch at a Distance' at Heide Museum of Modern Art in 2010, University of Technology Sydney Music.Sound.Design, and Liquid Architecture Festival of Sound Arts Sydney 2005-2007.</p><p>Recently published writing includes Embodied audiovisual experience: The role of sound in contemporary screen and digital media (2022) co-authored with Darrin Verhagen for the book Materialising Digital Futures and Directing Listening: Sound Design Methods from Film to Site-Responsive Sonic Art (2021) published in The Bloomsbury Handbook of Sonic Methodologies. New audio work 'Soda' (2023) published on SNOsound.</p>
 
 ----
 
@@ -23,17 +23,17 @@ Links:
 
 - 
   url: https://www.benbyrne.com.au/
-  text: ""
+  text: Ben Byrne Website
   popup: 'true'
   type: link
 - 
   url: https://avantwhatever.com
-  text: ""
+  text: Avant Whatever Website
   popup: 'true'
   type: link
 - 
   url: https://www.instagram.com/avantwhatever/
-  text: ""
+  text: Avant Whatever Instagram
   popup: 'true'
   type: link
 
@@ -55,7 +55,7 @@ Images: - file://bYFc8ioPzHBhCjfU
 
 ----
 
-Sounds: 
+Sounds: - file://PsbF220sAcWBiSxS
 
 ----
 

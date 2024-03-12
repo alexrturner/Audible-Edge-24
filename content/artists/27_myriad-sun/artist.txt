@@ -1,0 +1,92 @@
+Title: Myriad Sun
+
+----
+
+Display-title:
+
+- 
+  name: Myriad Sun
+  place: ""
+  context: >
+    in the Block Universe (Audible Edge
+    Commission)
+
+----
+
+Bio-short: <p>An experimental electronic rap group. They combine immersive visuals, effected saxophone, glitched-out beats and high energy lyricism.</p>
+
+----
+
+Bio-long: <p>Hailing from the creative bubble of Fremantle Western Australia, MYRIAD SUN are pushing the boundaries of experimental electronic rap music in the vein of Flying Lotus, JPEG Mafia and DJ Rashad. Having supported the likes of POND, Genesis Owusu and Oddisee(USA), Myriad Sun are no strangers to the live stage. Their live show is an immersive multi sensory experience, illuminated by psychedelic sci fi projections, glitched out sonics, saxophone wails and quick fire raps.</p>
+
+----
+
+Links:
+
+- 
+  url: >
+    https://myriadsun.bandcamp.com/track/hazard-waste
+  text: Myriad Sun Bandcamp
+  popup: 'true'
+  type: link
+- 
+  url: >
+    https://open.spotify.com/artist/7sExFe3ZXtYzGkboe9m8Sy?si=HDfzrd1xQPqsor8Os_ypkA
+  text: Myriad Sun Spotify
+  popup: 'true'
+  type: link
+- 
+  url: 'https://m.youtube.com/watch?v=ZtfjiPbSv2g&pp=ygUKTXlyaWFkIHN1bg%3D%3D'
+  text: Myriad Sun Video Clip
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits:
+
+- 
+  other_name: Nelson
+  sort_name: Mondlane
+  group: ""
+  group_page: [ ]
+  url: ""
+- 
+  other_name: Ben
+  sort_name: Aguero
+  group: ""
+  group_page: [ ]
+  url: >
+    https://benaguero.bandcamp.com/album/tried-to-cook-but-i-burnt-down-my-house-no-input-4-u
+- 
+  other_name: Kaprou
+  sort_name: Lea
+  group: ""
+  group_page: [ ]
+  url: ""
+- 
+  other_name: Tom
+  sort_name: Rogers
+  group: ""
+  group_page: [ ]
+  url: ""
+
+----
+
+Support: 
+
+----
+
+Images: - file://kpYKIzgSvnoEGkpw
+
+----
+
+Sounds: - file://QIsWZLQfz8QO2qst
+
+----
+
+Uuid: BuJ8adOfInzSxzPs

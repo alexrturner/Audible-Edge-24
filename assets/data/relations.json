@@ -11,12 +11,12 @@
             "uuid": "artists\/nick-ashwood",
             "title": "Nick Ashwood",
             "events": [
-                "program\/live-at-local-aesthetic"
+                "program\/three-flutters"
             ]
         },
         "artists\/put-em-in-a-box": {
             "uuid": "artists\/put-em-in-a-box",
-            "title": "Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song & suzueri",
+            "title": "Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, Shi Ya Tien & suzueri",
             "events": [
                 "program\/put-em-in-a-box"
             ]
@@ -60,8 +60,13 @@
             "uuid": "artists\/cooper-cooper",
             "title": "Cooper Cooper",
             "events": [
-                "program\/astral-weeks-interstitial-hang"
+                "program\/betweens"
             ]
+        },
+        "artists\/curlisu": {
+            "uuid": "artists\/curlisu",
+            "title": "Curlisu",
+            "events": []
         },
         "artists\/the-definitives": {
             "uuid": "artists\/the-definitives",
@@ -74,7 +79,7 @@
             "uuid": "artists\/sophia-hansen-knarhoi",
             "title": "Liam Downey & Sophia Hansen-Knarhoi",
             "events": [
-                "program\/live-at-local-aesthetic"
+                "program\/three-flutters"
             ]
         },
         "artists\/daniel-garlett": {
@@ -95,7 +100,7 @@
             "uuid": "artists\/patrick-gunasekera",
             "title": "Patrick Gunasekera",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/after-lili"
             ]
         },
         "artists\/shoji-hano": {
@@ -105,13 +110,6 @@
                 "nightschool\/breathing-rhythm-sensitivity"
             ]
         },
-        "artists\/jon-heilbron-rebecca-lane": {
-            "uuid": "artists\/jon-heilbron-rebecca-lane",
-            "title": "Jon Heilbron & Rebecca Lane",
-            "events": [
-                "program\/arvo-at-psas"
-            ]
-        },
         "artists\/jenny-hickinbotham": {
             "uuid": "artists\/jenny-hickinbotham",
             "title": "Jenny Hickinbotham with Chris Cobilis & Lana Rothnie",
@@ -119,9 +117,9 @@
                 "program\/moon-returns-at-sullivan"
             ]
         },
-        "artists\/joeeii": {
-            "uuid": "artists\/joeeii",
-            "title": "joeeii",
+        "artists\/joee-mejias": {
+            "uuid": "artists\/joee-mejias",
+            "title": "Joee Mejias",
             "events": [
                 "program\/body-the-body"
             ]
@@ -137,7 +135,7 @@
             "uuid": "artists\/siva-kumar-alex-reid",
             "title": "Siva Kumar & Alex Reid",
             "events": [
-                "program\/live-at-local-aesthetic"
+                "program\/three-flutters"
             ]
         },
         "artists\/rebecca-lloyd-jones": {
@@ -145,6 +143,13 @@
             "title": "Rebecca Lloyd-Jones",
             "events": [
                 "program\/body-the-body"
+            ]
+        },
+        "artists\/the-long-form": {
+            "uuid": "artists\/the-long-form",
+            "title": "The Long Form",
+            "events": [
+                "program\/arvo-at-psas"
             ]
         },
         "artists\/sally-ann-mcintyre": {
@@ -196,9 +201,9 @@
                 "program\/sun-returns"
             ]
         },
-        "artists\/bobbi-russell": {
-            "uuid": "artists\/bobbi-russell",
-            "title": "Bobbi Russell",
+        "artists\/bobby-russell": {
+            "uuid": "artists\/bobby-russell",
+            "title": "Bobby Russell",
             "events": [
                 "program\/body-the-body"
             ]
@@ -274,9 +279,9 @@
                 "program"
             ]
         },
-        "program\/live-at-local-aesthetic": {
-            "uuid": "program\/live-at-local-aesthetic",
-            "title": "Three snacks",
+        "program\/three-flutters": {
+            "uuid": "program\/three-flutters",
+            "title": "Three flutters",
             "date": "2024-04-27",
             "artists": [
                 "artists\/nick-ashwood",
@@ -304,7 +309,7 @@
             "date": "2024-04-28",
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
-                "artists\/jon-heilbron-rebecca-lane"
+                "artists\/the-long-form"
             ],
             "event_type": [
                 "program"
@@ -317,7 +322,6 @@
             "artists": [
                 "artists\/ayo-busari",
                 "artists\/simon-charles-john-kinsella",
-                "artists\/patrick-gunasekera",
                 "artists\/jenny-hickinbotham",
                 "artists\/emilie-monty",
                 "artists\/ten-forward"
@@ -337,8 +341,8 @@
                 "nightschool"
             ]
         },
-        "program\/astral-weeks-interstitial-hang": {
-            "uuid": "program\/astral-weeks-interstitial-hang",
+        "program\/betweens": {
+            "uuid": "program\/betweens",
             "title": "Betweens",
             "date": "2024-04-27",
             "artists": [
@@ -354,12 +358,12 @@
             "date": "2024-04-26",
             "artists": [
                 "artists\/daniel-garlett",
-                "artists\/joeeii",
+                "artists\/joee-mejias",
                 "artists\/jxnior",
                 "artists\/rebecca-lloyd-jones",
                 "artists\/miss-phoria",
                 "artists\/myriad-sun",
-                "artists\/bobbi-russell",
+                "artists\/bobby-russell",
                 "artists\/lia-t",
                 "artists\/desmond-tan",
                 "artists\/wayang"
@@ -378,6 +382,17 @@
             ],
             "event_type": [
                 "satellite"
+            ]
+        },
+        "program\/after-lili": {
+            "uuid": "program\/after-lili",
+            "title": "After Lili",
+            "date": "2024-04-27",
+            "artists": [
+                "artists\/patrick-gunasekera"
+            ],
+            "event_type": [
+                "program"
             ]
         },
         "nightschool\/breathing-rhythm-sensitivity": {
@@ -473,13 +488,14 @@
         "2024-04-27": {
             "events": [
                 "program\/arvo-at-the-bird",
-                "program\/live-at-local-aesthetic",
+                "program\/three-flutters",
                 "program\/put-em-in-a-box",
                 "program\/arvo-at-the-bird",
-                "program\/astral-weeks-interstitial-hang",
+                "program\/betweens",
                 "program\/arvo-at-the-bird",
-                "program\/live-at-local-aesthetic",
-                "program\/live-at-local-aesthetic"
+                "program\/three-flutters",
+                "program\/after-lili",
+                "program\/three-flutters"
             ],
             "artists": [
                 "artists\/anaxios",
@@ -489,6 +505,7 @@
                 "artists\/cooper-cooper",
                 "artists\/the-definitives",
                 "artists\/sophia-hansen-knarhoi",
+                "artists\/patrick-gunasekera",
                 "artists\/siva-kumar-alex-reid"
             ]
         },
@@ -500,16 +517,14 @@
                 "program\/moon-returns-at-sullivan",
                 "program\/arvo-at-psas",
                 "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan",
                 "program\/moon-returns-at-sullivan"
             ],
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
                 "artists\/ayo-busari",
                 "artists\/simon-charles-john-kinsella",
-                "artists\/patrick-gunasekera",
-                "artists\/jon-heilbron-rebecca-lane",
                 "artists\/jenny-hickinbotham",
+                "artists\/the-long-form",
                 "artists\/emilie-monty",
                 "artists\/ten-forward"
             ]
@@ -539,13 +554,13 @@
             ],
             "artists": [
                 "artists\/daniel-garlett",
-                "artists\/joeeii",
+                "artists\/joee-mejias",
                 "artists\/jxnior",
                 "artists\/rebecca-lloyd-jones",
                 "artists\/miss-phoria",
                 "artists\/myriad-sun",
                 "artists\/matt-rosner",
-                "artists\/bobbi-russell",
+                "artists\/bobby-russell",
                 "artists\/lia-t",
                 "artists\/desmond-tan",
                 "artists\/wayang",

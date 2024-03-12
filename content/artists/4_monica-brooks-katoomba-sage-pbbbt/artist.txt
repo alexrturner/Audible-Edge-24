@@ -15,15 +15,21 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>A pianist, composer, improviser, and sound artist meets a ritual vocalist, writer, composer, and improvising performer.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Monica Brooks is a composer, improviser, and sound artist hailing from the Blue Mountains (NSW). Over the last twenty years she has developed her connection to improvisation as a compositional methodology. Her artistic interests are occupied by landscapes and conservation; maps, and the idea of ‘Hjemfalden’, or, as can be brashly reconceived as belonging, landscapes, loss and love. Brooks has been involved with projects such as Great Waitress with Magda Mayas and Laura Altman, West Head Project with Jim Denley and Dale Gorfinkel, composition for choirs in Sydney, and scores for short films. Her current projects rely on solo piano for compositions, and reduced form folk harmonies in drone music using accordion. Brooks enjoys playing in churches and carparks as reverberant community spaces.</p><p>Sage Pbbbt is a ritual vocalist exploring ritual magick, meditation and improvisation. She is influenced by Tuvan and Mongolian throat singing, Inuit and Chukchi throat singing as well as an ongoing exploration of extra-normal voice. She completed a PhD exploring improvised ritual with voice in 2019. She has played at in Perth at Audible Edge Festival, Inland Festival, Perth International Arts Festival, Perth International Poetry Festival and the Totally Huge New Music Festival. In Sydney at the Make It Up Club, SuperSense Festival and the Tilde~ New Music Festival. In Sydney at the NOWnow and Liveworks Festival. She has numerous releases on Tone List as well as Edition Wandelweiser, Frustration Jazz, Fair Play and संस्कार Rites.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: http://sagepbbbt.com/
+  text: Sage Pbbbt Website
+  popup: 'true'
+  type: link
 
 ----
 

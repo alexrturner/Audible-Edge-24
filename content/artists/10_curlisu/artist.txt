@@ -1,0 +1,46 @@
+Title: Curlisu
+
+----
+
+Display-title:
+
+- 
+  name: Curlisu
+  place: ""
+  context: DJ
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: 
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: BB0DpE4vPG25VaZv

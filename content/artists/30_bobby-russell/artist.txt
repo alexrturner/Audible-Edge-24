@@ -1,0 +1,46 @@
+Title: Bobby Russell
+
+----
+
+Display-title:
+
+- 
+  name: Bobby Russell
+  place: ""
+  context: ""
+
+----
+
+Bio-short: 
+
+----
+
+Bio-long: 
+
+----
+
+Links: 
+
+----
+
+Events: - page://2E8bwdPXejVSzAia
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: akTW6TyxxjiA8rxi

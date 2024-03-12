@@ -1,0 +1,52 @@
+Title: Lily Tait
+
+----
+
+Display-title:
+
+- 
+  name: Lily Tait
+  place: Naarm
+  context: ""
+
+----
+
+Bio-short: <p>Exploratory approaches to violin and vocal techniques towards embodying one indeterminate, almost inscrutable sound source.</p>
+
+----
+
+Bio-long: <p>A settler on unceded Wadawurrung Country, Lily’s music comprises an exploratory approach to violin and vocal techniques, focusing on how they can move together to embody one indeterminate, almost inscrutable sound source. This practice - combined with fixed track collaging - forms fabled ecosystems influenced by the patterns and textures of acoustic ecology; inviting contributions from chanced upon objects, bioacoustic GPS and found sounds.</p>
+
+----
+
+Links:
+
+- 
+  url: https://www.instagram.com/hogmelodics/
+  text: Lily Tait Instagram
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://tiofuThVnEcNxwFP
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: zYHw8cFZvTXLNJxW

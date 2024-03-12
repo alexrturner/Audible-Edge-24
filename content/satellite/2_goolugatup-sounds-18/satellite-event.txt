@@ -6,6 +6,7 @@ Artist-link:
 
 - page://rIH7f9meLnRjcNt3
 - page://Bne7mfALvoc7e9WW
+- page://BB0DpE4vPG25VaZv
 
 ----
 
@@ -13,7 +14,7 @@ Subtitle: <p>presented by Goolugatup Heathcote</p>
 
 ----
 
-Description: 
+Description: <p>One week prior to the festival, get amped with a collaboration between Goolugatup Sounds and Audible Edge.</p><p>More details to come shortly!</p>
 
 ----
 

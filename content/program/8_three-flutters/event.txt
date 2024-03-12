@@ -1,0 +1,99 @@
+Title: Three flutters
+
+----
+
+Artist-link:
+
+- page://MH3AAdZ3iLW4DK2C
+- page://Lz3wSFJrE1c65UZP
+- page://2Xajqxg5tmD6WtMN
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Three Flutters explores the vibrations of attention, frequency and rhythm in the cosy settings of one our favourite meeting places, Local and Aesthetic. Lit by Adelaide Harney and with a bespoke menu of snacks, this is a cute environment to meet with the lush and vibrant end of experimental sound.</p><p>Sophia Hansen-Knarhoi and Liam Downey are young musicians invested in new possibilities in pop music. Working with cello, digital synthesis and voice, their new work for Audible Edge explores the tension between overstimulation and reflection. It ebbs between collage and ambient forms, and minimalist and hyperpop aesthetics.</p><p>Naarm-based improviser Nick Ashwood is a prolific, committed maker, working variously with organs, steel-string guitar, and synthesizers. His Audible Edge performance sees him play live in quadrophonic surround sound on his Buchla 200e synthesizer. A classic analogue instrument, Nick’s approach is assuredly contemporary, informed by detailed experiments with tuning systems and timbral blends. It is unashamedly gorgeous and beautiful.</p><p>Sivakumar Balakrishnan and Alex Reid are frontrunning Boorloo percussionists who are serious shredders. Working on tabla and drum kit respectively, this performance sees them explore their friendship and diverse musical backgrounds through rhythm and improvisation. A rare collaboration between two artists that commonly work together as teacher and student, Boorloo percussion doesn’t go much harder than this.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: 
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Pay-what-you-can (suggested $25/$20)
+
+----
+
+Venues: - page://fKLwaA2meaUpVdSp
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-27
+
+----
+
+Start-time: 19:00:00
+
+----
+
+End-date: 2024-04-27
+
+----
+
+End-time: 22:30:00
+
+----
+
+Eventschedule:
+
+- 
+  description: '<p>Sophia Hansen-Knarhoi &amp; Liam Downey</p>'
+  location: ""
+  scheduletype: set time
+  settime: 20:00:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Nick Ashwood</p>'
+  location: ""
+  scheduletype: set time
+  settime: 20:50:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Sivakumar Balakrishnan &amp; Alex Reid</p>'
+  location: ""
+  scheduletype: set time
+  settime: 21:40:00
+  startdate: ""
+  enddate: ""
+
+----
+
+Accessibility: Local & Aesthetic is a wheelchair accessible venue. Entry will be via the ramp on the right hand side of the building, rather than the front doors. It has one gender-neutral, wheelchair accessible bathroom towards the rear of the venue. The music will have moments where it is loud, repetitive, percussive or overwhelming. Alcohol and food will be served at the venue. The venue is large. Doors and windows to the venue will be open during the breaks, but closed during the music performances. The space may feel crowded at times. Lighting will not involve fast flashing lights or strobes, and will shift and change in colour and tone throughout the performance. There is no dedicated check-out space booked for the space.
+
+----
+
+Tags: 
+
+----
+
+Uuid: BgSNi9YVPoLB5AoJ

@@ -1,0 +1,52 @@
+Title: Emilie Monty
+
+----
+
+Display-title:
+
+- 
+  name: Emilie Monty
+  place: ""
+  context: sonic scavenger hunt
+
+----
+
+Bio-short: <p>A multidisciplinary artist who seeks to transform the subtle nuances of sensory experiences into creative settings.</p>
+
+----
+
+Bio-long: <p>Monty is a multidisciplinary artist whose work is characterised by seeking to transform the subtle nuances of sensory experiences into creative settings through playful experimentation and collaborative research. They have a background in sound installation and more recently created the ephemeral body of work "The Longest Echo" which has accumulated into an ever growing sound piece, lived on through secret voice note offerings by participants. Exchange is a large part of their practice which is also integrated into their work as a resident teaching artist in schools. They are always coming up with new ways to facilitate feeling empowered through creativity and play, and broaden the idea of what art-making can be.</p>
+
+----
+
+Links:
+
+- 
+  url: https://www.instagram.com/emiliemonty_/
+  text: Emilie Monty Instagram
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://vWaWcT5UVw0x4wR6
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: n9csnfWuPc2yym2n

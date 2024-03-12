@@ -13,11 +13,11 @@ Subtitle:
 
 ----
 
-Description: <p><strong>PSAS<br></strong>Sage Pbbbt &amp; Monica Brooks<br><br>John &amp; Bec (Cat Lamb)<br></p>
+Description: <p>This morning double bill of acoustic music may seem gentle and unassuming — and it is! But it’s also quietly one of the most psychedelic, mind-bending experiences in the festival. Read on.</p><p>Berlin-based duo The Long Form have committed themselves to the study and performance of music in the tuning system called “extended just intonation”. Playing on microtonal bass flute and double bass, these performers are deeply attuned to the nuances of vibration. They will perform a 21st century masterpiece by committed composer Catherine Lamb, <em>Muto Infinitas. </em>In this piece, the sound of the two instruments intertwines to form an ever-expanding sequence of harmonies, from which a melody ever-so-gradually unfurls. Immersing oneself in a world so attentive to resonance in space can have skin- and spine-tingling effects.</p><p>Performing just once at the NOW now festival in Sydney, the unlikely duo of Blue Mountains-based accordionist Monica Brooks and local singer Sage Pbbbt is the stuff of mythology. Circling around each other with whispery tones and fragile utterances, they improvise with grace and focus.</p>
 
 ----
 
-Ticketed: false
+Ticketed: true
 
 ----
 
@@ -29,11 +29,11 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: 
+Ticket-price-text: Pay-what-you-can (suggested $25/$20)
 
 ----
 
-Venues: 
+Venues: - page://iCzTirTUV8bjHns6
 
 ----
 
@@ -49,7 +49,7 @@ Start-date: 2024-04-28
 
 ----
 
-Start-time: 12:00:00
+Start-time: 11:00:00
 
 ----
 
@@ -57,11 +57,26 @@ End-date: 2024-04-28
 
 ----
 
-End-time: 14:00:00
+End-time: 13:00:00
 
 ----
 
-Eventschedule: 
+Eventschedule:
+
+- 
+  description: '<p>The Long Form</p>'
+  location: ""
+  scheduletype: set time
+  settime: 11:15:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Monica Brooks &amp; Sage Pbbbt</p>'
+  location: ""
+  scheduletype: set time
+  settime: 12:15:00
+  startdate: ""
+  enddate: ""
 
 ----
 

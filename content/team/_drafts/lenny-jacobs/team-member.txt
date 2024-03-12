@@ -2,7 +2,11 @@ Title: Lenny Jacobs
 
 ----
 
-Things: 
+Roles: Merchandise Adviser
+
+----
+
+Website: 
 
 ----
 
@@ -11,6 +15,14 @@ Phone:
 ----
 
 Email: 
+
+----
+
+Bio-short: 
+
+----
+
+Things: 
 
 ----
 

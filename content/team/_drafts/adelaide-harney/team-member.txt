@@ -2,7 +2,11 @@ Title: Adelaide Harney
 
 ----
 
-Things: 
+Roles: Lighting Designer
+
+----
+
+Website: 
 
 ----
 
@@ -11,6 +15,14 @@ Phone:
 ----
 
 Email: 
+
+----
+
+Bio-short: 
+
+----
+
+Things: 
 
 ----
 

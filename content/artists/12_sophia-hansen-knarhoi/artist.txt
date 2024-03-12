@@ -1,0 +1,48 @@
+Title: Liam Downey & Sophia Hansen-Knarhoi
+
+----
+
+Display-title: 
+
+----
+
+Bio-short: <p>A duo exploring sustained and corrupted sound through electronics and cello.</p>
+
+----
+
+Bio-long: <p>Sophia Hansen-Knarhoi is a composer/sound artist/singer-songwriter based in Perth, Western Australia signed with Ba Da Bing Records. She creates understated reflective works combining textural layering, drones, poetry, and field recordings. She uses her skills as vocalist/cellist/guitarist to produce minimal, intimate ambient music, with a focus on experimental and improvisational approaches to composition. She is driven to authentically capture the essence of stories, whether they be others stories or her own.</p><p>Liam Downey is a composer, producer and sound engineer based in Perth, Western Australia, currently focusing on the creation and performance of electronic music. His work often explores themes surrounding online life, such as dissociation, (in)sincerity, distraction, and connection in fast-moving digital environments. These are evoked through maximalist productions that excavate the line between digital and acoustic sound.</p>
+
+----
+
+Links:
+
+- 
+  url: >
+    https://sophiahansen-knarhoi.bandcamp.com
+  text: Sophia Hansen-Knarhoi Bandcamp
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://BgSNi9YVPoLB5AoJ
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: MH3AAdZ3iLW4DK2C

@@ -1,0 +1,63 @@
+Title: Josten Myburgh & Erin Royer
+
+----
+
+Display-title:
+
+- 
+  name: 'Josten Myburgh & Erin Royer'
+  place: ""
+  context: |
+    play Philip Glass' "Music in Fifths" and Josten Myburgh's "alpine translocations"
+
+----
+
+Bio-short: <p>A composer &amp; saxophonist working in and as the sounds of the environment.</p>
+
+----
+
+Bio-long: <p>Josten Myburgh is a musician based on Whadjuk Noongar boodja in Boorloo. They are interested in musicking in-and-as-place (in Linda Russo's sense of 'inhabitory' making, or Jim Denley's concept of playing 'with weather'), and in the way that places are expressed and translocated through culture &amp; community. Their music works with materials that hover in ambiguous spaces on the spectra of melody-harmony-timbre and pitch-rhythm. These interests and material fascinations are expressed through a practice which combines location sound recording, writing, improvisation, notated composition, and an experimental approach to saxophone, drums &amp; electro-acoustic instruments.</p><p>Erin is a classically trained saxophonist, but prefers the term cross-genre saxophonist as she can be seen performing in all genres of music on all saxophones. In 2010 Erin received a Bachelor of Music (Classical Performance) at the Western Australian Academy of Performing Arts (WAAPA). In 2011 Erin completed an honours research degree with first class honours, which focused on career pathways for the twenty-first century classical tenor saxophonist. In 2013/14 Erin completed a Masters of Performance degree with a first at The Royal Northern College of Music, under the guidance of Rob Buckland and Andy Scott. During her Masters Erin was selected to perform in a series of concerts with the prestigious Netherlands Blazers Ensemble (NBE).</p>
+
+----
+
+Links:
+
+- 
+  url: http://josten-myburgh.weebly.com
+  text: Josten Myburgh Website
+  popup: 'true'
+  type: link
+- 
+  url: https://jostenmyburgh.bandcamp.com
+  text: Josten Myburgh Bandcamp
+  popup: 'true'
+  type: link
+- 
+  url: https://erinroyer.com
+  text: Erin Royer Website
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://KIY4FmuZdXo7Dbx8
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: Bne7mfALvoc7e9WW

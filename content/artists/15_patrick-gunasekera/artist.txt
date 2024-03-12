@@ -1,0 +1,52 @@
+Title: Patrick Gunasekera
+
+----
+
+Display-title:
+
+- 
+  name: Patrick Gunasekera
+  place: ""
+  context: presents "After Lili"
+
+----
+
+Bio-short: <p>An interdisciplinary, community-based performance-maker and producer with a western classical music background.</p>
+
+----
+
+Bio-long: <p>Patrick Gunasekera is an independent artist and community-based producer of Sri Lankan migrant heritage, living on Whadjuk Noongar Boodjar. His interdisciplinary theatre, dance, music, and award-winging written works explore care and agency from marginalised positions, and how cycles of violence are both normalised and resisted in unequal societies. As a pianist, singer, actor and dancer, his performance practices seek to understand the embodied knowledge of marginalised people, and restore emotional integrity in policed bodies. His composing practice is inspired by the ways queer, disabled and brown composers across history have used creative expression to navigate their own survival, pride and progress. He grew up studying western classical music.</p><p>From 2016 to 2017 Patrick studied a Certificate IV in Visual Arts at North Metropolitan TAFE, where he further developed his interest in performance art through a gallery context. As an amateur performance artist he has worked with the forms of action art ("Hard Art" 2018, "Head or Tails" 2018), participatory one-on-one theatre ("House of Joys" 2018 prod. KAN Collective, "yourseven" 2018 prod. WAYTCo), and ritual dance performances ("Freight" 2019 prod. The Blue Room Theatre 600 SECONDS, "On Silence (After John Cage)" 2023 prod. Outcome Unknown). "After Lili" is his first work of durational performance art.</p><p>Patrick developed and facilitated the workshop Autobiographical Storytelling for Deaf and Disabled Artists in residence at PICA in 2023, and currently co-ordinates Mobility Aid-Using Dance Jams through a 2024 Space Grant at STRUT Dance. He has worked in arts journalism since 2019, exclusively writing about disabled, migrant, queer and young artists' work. He is also a cultural safety mentor, and has been collaborating with Audible Edge Festival 2024 to support their access and inclusion practices to grow in intentionality, accountability and understanding.</p>
+
+----
+
+Links:
+
+- 
+  url: http://patrickgunasekera.bandcamp.com/
+  text: Patrick Gunasekera Bandcamp
+  popup: 'true'
+  type: link
+
+----
+
+Events: - page://DyhQJAf6ROgZ9XI7
+
+----
+
+Credits: 
+
+----
+
+Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
+
+----
+
+Uuid: b7kpI78nErcKy2ZZ
