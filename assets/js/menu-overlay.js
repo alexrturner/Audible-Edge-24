@@ -10,10 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.style.visibility = isOpen ? "hidden" : "visible";
     menu.classList.toggle("hidden");
     // toggle body scroll
-    if (isOpen) {
-      document.body.style.overflowY = "scroll";
-    } else {
-      document.body.style.overflowY = "hidden";
+
+    if (window.innerWidth <= 768) {
+      if (!isOpen) {
+        document.body.style.overflowY = "hidden";
+      } else {
+        document.body.style.overflowY = "scroll";
+      }
     }
   });
 });
