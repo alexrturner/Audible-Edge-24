@@ -194,6 +194,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (parent) {
       parent.classList.toggle("list-style-circle", isExpanded);
     }
+    if (button.classList.contains("menu-toggle")) {
+      button.classList.toggle("list-style-circle", isExpanded);
+    }
   }
 
   // attach event listeners to all toggle buttons

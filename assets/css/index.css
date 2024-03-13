@@ -783,6 +783,11 @@ button.toggle {
   /* unicode hollow dot */
   content: "\25cb";
 }
+.menu-toggle.list-style-circle.pseudo-list-item::before {
+  /* list-style: circle; */
+  /* unicode hollow dot */
+  content: "\25cb";
+}
 
 /* ------------------ 
 audio items 
