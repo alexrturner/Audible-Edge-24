@@ -21,3 +21,11 @@
 ul li p {
   display: inline;
 }
+@media screen and (max-width: 768px) {
+  main {
+    margin: 0;
+  }
+  section.contact {
+    margin-bottom: 2em;
+  }
+}

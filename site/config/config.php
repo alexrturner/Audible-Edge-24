@@ -76,8 +76,8 @@ function generateRelationsJson()
  * all config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    // 'debug' => true,
-    'debug' => false,
+    'debug' => true,
+    // 'debug' => false,
     'panel' => [
         'install' => true
     ],

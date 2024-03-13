@@ -44,3 +44,9 @@ menu
 .button__link {
   background-color: var(--cc-primary-highlight);
 }
+
+/* items */
+ul.items:not(.dates),
+#artists-items {
+  padding: 0 0 0 2.3rem;
+}

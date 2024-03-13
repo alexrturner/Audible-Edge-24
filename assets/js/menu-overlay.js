@@ -12,10 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // toggle body scroll
 
     if (window.innerWidth <= 768) {
-      if (!isOpen) {
-        document.body.style.overflowY = "hidden";
-      } else {
-        document.body.style.overflowY = "scroll";
+      if (!document.body.classList.contains("plain-text")) {
+        if (!isOpen) {
+          document.body.style.overflowY = "hidden";
+        } else {
+          document.body.style.overflowY = "scroll";
+        }
       }
     }
   });

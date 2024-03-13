@@ -17,9 +17,12 @@
             <div class="signup">
                 <a href="signup" class="button__link" aria-label="Visit SMS Newsletter sign up" aria-type="link">SMS Newsletter</a>
             </div>
-            <div class="contact-container">
-                <span class="contact-details"></span>
+            <div class="signup contact-container">
+
             </div>
+            <!-- <div class="contact-container">
+                <span class="contact-details"></span>
+            </div> -->
         </section>
     </div>
 </main>
@@ -27,9 +30,9 @@
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
         var email = "<?= $site->email()->esc() ?>";
-        var mailLink = "<a class='pseudo-list-item' href='mailto:" + email + "'>" + email + "</a>";
+        var mailLink = "<a class='button__link' href='mailto:" + email + "'>" + email + "</a>";
 
-        var mailBox = document.querySelector('.contact-details');
+        var mailBox = document.querySelector('.contact-container');
         if (mailBox) {
             mailBox.innerHTML = mailLink;
         }
