@@ -20,11 +20,11 @@ Description: <p>The last hurrah! </p><p><em>I make big noise </em>… is a rela
 
 ----
 
-Ticketed: false
+Ticketed: true
 
 ----
 
-Ticket-link: 
+Ticket-link: https://events.humanitix.com/audible-edge-24-i-make-big-noise-and-make-small-sound-i-am-in-the-air-and-on-the-ground-i-m-out-of-sight-and-can-be-found-what-am-i
 
 ----
 
@@ -32,7 +32,7 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: 
+Ticket-price-text: Pay-what-you-can (suggested $25/$20)
 
 ----
 

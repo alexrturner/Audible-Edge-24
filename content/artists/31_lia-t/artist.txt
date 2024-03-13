@@ -11,11 +11,11 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>An iconic local DJ duo playing underground and experimental club sounds.</p>
 
 ----
 
-Bio-long: <p>Lia T is a producer and DJ currently based in Boorloo/Perth. With releases on Music Company, Theory Therapy, radio.syg.ma and Companion among others, her music output spans personal releases to club settings and radio formats.</p><p>A long term fixture on the RTRFM air-waves, Perth’s ambassador of underground dance music and pure positivity, the one and only Rok Riley has been holding down Friday’s “Full Frequency” show solo since 2009 with a weekly transmission of loving connection of deeply soulful music, both electronic and organic, implied and XXX-plicit. Starting out as part of an all femme DJ collective the Milk Crate Crew – Riley has represented behind the bar, behind the decks, behind the record store counter, behind the artwork for posters and record labels, behind the animation for film clips and deep in the dance - such is her deep love of music and its potential to create positive connection and energy. <br></p>
+Bio-long: <p>A long term fixture on the RTRFM air-waves, Perth’s ambassador of underground dance music and pure positivity, the one and only Rok Riley has been holding down Friday’s “Full Frequency” show solo since 2009 with a weekly transmission of loving connection of deeply soulful music, both electronic and organic, implied and XXX-plicit. Starting out as part of an all femme DJ collective the Milk Crate Crew – Riley has represented behind the bar, behind the decks, behind the record store counter, behind the artwork for posters and record labels, behind the animation for film clips and deep in the dance - such is her deep love of music and its potential to create positive connection and energy. </p><p>Lia T is a producer and DJ currently based in Boorloo/Perth. With releases on Music Company, Theory Therapy, radio.syg.ma and Companion among others, her music output spans personal releases to club settings and radio formats.</p>
 
 ----
 
@@ -46,7 +46,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://mTAyuHmcHM5xx9iO
 
 ----
 

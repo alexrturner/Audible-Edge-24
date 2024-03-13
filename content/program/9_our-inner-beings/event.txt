@@ -1,0 +1,91 @@
+Title: Our inner beings complete the missing links
+
+----
+
+Artist-link:
+
+- page://dNE102Ur0H8N9wTl
+- page://4TEVCHk4V8dSNIGt
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>This morning double bill of acoustic music may seem gentle and unassuming — and it is! But it’s also quietly one of the most psychedelic, mind-bending experiences in the festival. Read on.</p><p>Berlin-based duo The Long Form have committed themselves to the study and performance of music in the tuning system called “extended just intonation”. Playing on microtonal bass flute and double bass, these performers are deeply attuned to the nuances of vibration. They will perform a 21st century masterpiece by committed composer Catherine Lamb, <em>Muto Infinitas. </em>In this piece, the sound of the two instruments intertwines to form an ever-expanding sequence of harmonies, from which a melody ever-so-gradually unfurls. Immersing oneself in a world so attentive to resonance in space can have skin- and spine-tingling effects.</p><p>Second up is the unlikely duo of Blue Mountains-based accordionist Monica Brooks and local singer Sage Pbbbt. Performing just once at the NOW now festival in Sydney, their collaboration is the stuff of mythology. Sage Pbbbt is a ritual vocalist exploring ritual magick, meditation and improvisation. Monica Brooks’ various artistic interests are occupied by landscapes and conservation; maps, and the idea of ‘Hjemfalden’, or, as can be brashly reconceived as belonging, landscapes, loss and love. As an improvising duo, they circle around each other with whispery tones and fragile utterances, performing with grace and focus.</p>
+
+----
+
+Ticketed: true
+
+----
+
+Ticket-link: https://events.humanitix.com/audible-edge-24-our-inner-beings-complete-the-missing-links
+
+----
+
+Ticket-price: 
+
+----
+
+Ticket-price-text: Pay-what-you-can (suggested $25/$20)
+
+----
+
+Venues: - page://iCzTirTUV8bjHns6
+
+----
+
+Location: 
+
+----
+
+Venue-text: 
+
+----
+
+Start-date: 2024-04-28
+
+----
+
+Start-time: 11:00:00
+
+----
+
+End-date: 2024-04-28
+
+----
+
+End-time: 13:00:00
+
+----
+
+Eventschedule:
+
+- 
+  description: '<p>The Long Form</p>'
+  location: ""
+  scheduletype: set time
+  settime: 11:15:00
+  startdate: ""
+  enddate: ""
+- 
+  description: '<p>Monica Brooks &amp; Sage Pbbbt</p>'
+  location: ""
+  scheduletype: set time
+  settime: 12:15:00
+  startdate: ""
+  enddate: ""
+
+----
+
+Accessibility: PS Art Space is a wheelchair accessible venue at street level from the pavement. It has one women’s bathroom and one gender-neutral, wheelchair accessible bathroom located on the ground floor. The music will be acoustic, it will at times be very soft. The venue is large with adequate space for social distancing. The front door will be kept open prior to the performance, but largely closed during the show. There are no windows for ventilation in the main gallery. Lighting will be simple warm washes, the space may be a little dark at times. There is no dedicated check-out space booked for the space currently.
+
+----
+
+Tags: 
+
+----
+
+Uuid: lf10Vs8tywjmdWWL

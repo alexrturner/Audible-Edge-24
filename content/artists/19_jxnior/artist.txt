@@ -6,11 +6,11 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Jxnior is a DJ, organiser and drag performer. They are a pillar in Boorloo’s dance music scene, equipped with radiant energy and a passion for fostering inclusive and safe spaces.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Jxnior is also the head honcho of community-driven art sharing space Nda Wonye, where their penchant for bringing people together to celebrate the beauty of bla(c)k music has created supportive spaces for Queer/P.O.C/Trans artists to break new ground in safe and encouraging environments.</p>
 
 ----
 
@@ -27,6 +27,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

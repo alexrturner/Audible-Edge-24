@@ -12,7 +12,7 @@ Display-title:
 
 ----
 
-Bio-short: <p>Two instrumentalists at the forefront of microtonal and Just Intonation music.</p>
+Bio-short: <p>A double bass and flute duo at the forefront of microtonal and Just Intonation music.</p>
 
 ----
 
@@ -25,29 +25,29 @@ Links:
 - 
   url: >
     https://www.sacredrealism.org/artists/rebecca-lane/projects/?project=duo-heilbron
-  text: Website The Long Form
+  text: Website
   popup: 'true'
   type: link
 - 
   url: 'https://jonheilbron.bandcamp.com/   '
-  text: Jon Heilbron Bandcamp
+  text: "Jon Heilbron's Bandcamp"
   popup: 'true'
   type: link
 - 
   url: https://www.jonheilbronmusic.com/
-  text: Jon Heilbron Website
+  text: "Jon Heilbron's Website"
   popup: 'true'
   type: link
 - 
   url: >
     https://www.sacredrealism.org/artists/rebecca-lane/
-  text: Rebecca Lane Website
+  text: "Rebecca Lane's Website"
   popup: 'true'
   type: link
 - 
   url: >
     https://umlandeditions-q-o2.bandcamp.com/album/oscillation-o-tempo-iv
-  text: Rebecca Lane Bandcamp
+  text: "Rebecca Lane's Bandcamp"
   popup: 'true'
   type: link
 
@@ -79,7 +79,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://ncNnYRx1BTKBd6QJ
 
 ----
 

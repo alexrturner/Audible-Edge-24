@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://www.instagram.com/emiliemonty_/
-  text: Emilie Monty Instagram
+  text: Instagram
   popup: 'true'
   type: link
 
@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://IjD3GR3ovXaFSArl
 
 ----
 

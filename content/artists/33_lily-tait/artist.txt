@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://www.instagram.com/hogmelodics/
-  text: Lily Tait Instagram
+  text: Instagram
   popup: 'true'
   type: link
 
@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://ScyMI6ubLvaK2uE5
 
 ----
 

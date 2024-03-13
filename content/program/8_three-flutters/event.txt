@@ -22,7 +22,7 @@ Ticketed: true
 
 ----
 
-Ticket-link: 
+Ticket-link: https://events.humanitix.com/audible-edge-24-three-flutters
 
 ----
 

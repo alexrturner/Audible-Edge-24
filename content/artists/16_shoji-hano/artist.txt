@@ -23,7 +23,7 @@ Links:
 
 - 
   url: http://shojihano.com/en/
-  text: Shoji Hano Website
+  text: Website
   popup: 'true'
   type: link
 

@@ -1,11 +1,15 @@
-Title: Siva Kumar & Alex Reid
+Title: Sivakumar Balakrishnan & Alex Reid
 
 ----
 
 Display-title:
 
 - 
-  name: 'Sivakumar Balakrishnan & Alex Reid'
+  name: Sivakumar Balakrishnan
+  place: ""
+  context: ""
+- 
+  name: '& Alex Reid'
   place: ""
   context: ""
 
@@ -15,7 +19,7 @@ Bio-short: <p>Collaborative tabla, drum kit and percussion, exploring relationsh
 
 ----
 
-Bio-long: <p>Sivakumar Balakrishnan and Alex Reid present a collaborative performance of tabla, drum kit and percussion, exploring their relationship and diverse musical backgrounds through rhythm and improvisation.</p><p>Sivakumar Balakrishnan is a virtuoso tabla player whose rhythmic prowess has mesmerised audiences since the age of four. Sivakumar has embraced a diverse range of musical genres, seamlessly blending the traditional rhythms of Indian classical music with the experimental sounds of world fusion, jazz, and Western classical music. Apart from his mastery of the tabla, Sivakumar also commands proficiency in various other Indian percussion instruments, enriching his musical palette and expanding the horizons of his sonic explorations. His expertise extends beyond performance, as he dedicates himself to imparting his knowledge and skills to aspiring musicians through his role as a tabla teacher at Saraswati Mahavidhyalaya. Sivakumar has helmed numerous ensembles, orchestrating captivating performances that showcase the beauty and complexity of Indian music. His collaborations often feature a myriad of Indian instruments, creating transcendent musical experiences.</p><p>Alex Reid is a drummer, tabla player, composer and educator from Boorloo (Perth), Western Australia. He is a National Jazz Award Finalist and 4x WAM nominated drummer. Alex’s main musical output is concentrated into his award winning original projects Grievous Bodily Calm, dance music duo Bad Whip and his jazz trio. In addition to his own projects, Alex works consistently as a sideman and studies the Tabla and Hindustani music. He has performed around the world including the United States, China and Japan, and at prestigious events such as Norouz at the Metropolitan Museum of Art in NYC, the Kanazawa Jazz Festival and the Sydney Opera House.</p>
+Bio-long: <p>Sivakumar Balakrishnan is a virtuoso tabla player whose rhythmic prowess has mesmerised audiences since the age of four. Sivakumar has embraced a diverse range of musical genres, seamlessly blending the traditional rhythms of Indian classical music with the experimental sounds of world fusion, jazz, and Western classical music. Apart from his mastery of the tabla, Sivakumar also commands proficiency in various other Indian percussion instruments, enriching his musical palette and expanding the horizons of his sonic explorations. His expertise extends beyond performance, as he dedicates himself to imparting his knowledge and skills to aspiring musicians through his role as a tabla teacher at Saraswati Mahavidhyalaya. Sivakumar has helmed numerous ensembles, orchestrating captivating performances that showcase the beauty and complexity of Indian music. His collaborations often feature a myriad of Indian instruments, creating transcendent musical experiences.</p><p>Alex Reid is a drummer, tabla player, composer and educator from Boorloo (Perth), Western Australia. He is a National Jazz Award Finalist and 4x WAM nominated drummer. Alex’s main musical output is concentrated into his award winning original projects Grievous Bodily Calm, dance music duo Bad Whip and his jazz trio. In addition to his own projects, Alex works consistently as a sideman and studies the Tabla and Hindustani music. He has performed around the world including the United States, China and Japan, and at prestigious events such as Norouz at the Metropolitan Museum of Art in NYC, the Kanazawa Jazz Festival and the Sydney Opera House.</p>
 
 ----
 
@@ -23,12 +27,12 @@ Links:
 
 - 
   url: https://www.instagram.com/___alexreid/
-  text: Alex Reid Instagram
+  text: "Alex Reid's Instagram"
   popup: 'true'
   type: link
 - 
   url: https://www.instagram.com/sivkumar7434/
-  text: Siva Kumar Instagram
+  text: "Sivakumar Balakrishnan's Instagram"
   popup: 'true'
   type: link
 

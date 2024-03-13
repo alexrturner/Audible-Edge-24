@@ -23,7 +23,7 @@ Links:
 
 - 
   url: 'https://soundcloud.com/tran_scended/sets/tran-scended-mixes?si=396acef278fa426491679f03218a1041&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
-  text: DJ Wayang Soundcloud
+  text: Soundcloud
   popup: 'true'
   type: link
 
@@ -48,7 +48,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://VfRatrD7hjV8ORcT
 
 ----
 

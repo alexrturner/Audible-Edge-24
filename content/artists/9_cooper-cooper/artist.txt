@@ -11,15 +11,27 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Genre-spanning after-hours hype girl.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Cooper Cooper is a Boorloo based queer DJ, artist and producer with a passion for all things eclectic. Their current passion is about music that establishes Australian landscapes sonically. In the same way that Italo house conveys the Mediterranean, what music quintessentially describes our vast plains.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://soundcloud.com/coopercooperdj
+  text: Cooper Cooper Soundcloud
+  popup: 'true'
+  type: link
+- 
+  url: >
+    https://www.instagram.com/coopersreallysilly
+  text: Cooper Cooper Instagram
+  popup: 'true'
+  type: link
 
 ----
 
@@ -32,6 +44,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

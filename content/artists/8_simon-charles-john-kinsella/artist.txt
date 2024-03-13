@@ -23,7 +23,7 @@ Links:
 
 - 
   url: http://sibercha.com
-  text: Simon Charles Website
+  text: "Simon Charles' Website"
   popup: 'true'
   type: link
 
@@ -41,7 +41,10 @@ Support:
 
 ----
 
-Images: 
+Images:
+
+- file://kKYzdyty79CCvsWe
+- file://UYilPmAxykbyJpga
 
 ----
 

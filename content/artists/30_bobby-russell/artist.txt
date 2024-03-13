@@ -11,7 +11,7 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Experimental drag artist, contemporary dancer, choreographer, designer and performer.</p>
 
 ----
 
@@ -19,7 +19,13 @@ Bio-long:
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://www.instagram.com/bobby_knox__/
+  text: Instagram
+  popup: 'true'
+  type: link
 
 ----
 

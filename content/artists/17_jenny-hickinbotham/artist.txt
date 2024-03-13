@@ -23,17 +23,17 @@ Links:
 
 - 
   url: https://jennyhickinbotham.info
-  text: Jenny Hickinbotham Website
+  text: "Jenny Hickinbotham's Website"
   popup: 'true'
   type: link
 - 
   url: http://www.chriscobilis.com/
-  text: Chris Cobilis Website
+  text: "Chris Cobilis' Website"
   popup: 'true'
   type: link
 - 
   url: https://lanarothnie.bandcamp.com
-  text: Lana Rothnie Bandcamp
+  text: "Lana Rothnie's Bandcamp"
   popup: 'true'
   type: link
 
@@ -51,7 +51,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://ckyqsZN8sNXCE0JL
 
 ----
 

@@ -11,19 +11,26 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>A Boorloo-based DJ and dancer with a passion for the relationship between movement and music.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Meg Scheffers (Curlisu) first found her love for music and dance in Eora before heading to Boorloo. Through fusing different genres, Megs passion lies in the intertwined relationship between movement and music. Highlights include playing for events such as Club Jewelz, Ndawonye, Common Ground and Grit, as well as co-founding movement and event collective TriplOcate DMC.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: >
+    https://www.instagram.com/everythingsfinemeg/
+  text: Instagram
+  popup: 'true'
+  type: link
 
 ----
 
-Events: 
+Events: - page://KIY4FmuZdXo7Dbx8
 
 ----
 

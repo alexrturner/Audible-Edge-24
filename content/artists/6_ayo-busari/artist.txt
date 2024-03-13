@@ -11,7 +11,7 @@ Display-title:
 
 ----
 
-Bio-short: <p>Afro Remixes, Dancehall, House, Hip-Hop &amp; RnB from Boorloo(Perth)-Based, Nigerian-Born award-winning Producer, DJ, Percussionist, and Creator.</p>
+Bio-short: <p>Afro remixes, dancehall, house, hip-hop &amp; RnB from Boorloo-based, Nigerian-Born award-winning producer, DJ and percussionist.</p>
 
 ----
 
@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://linktr.ee/ayobusari
-  text: Ayo Busari Website
+  text: Website
   popup: 'true'
   type: link
 

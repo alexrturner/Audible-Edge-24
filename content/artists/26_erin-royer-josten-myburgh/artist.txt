@@ -12,7 +12,7 @@ Display-title:
 
 ----
 
-Bio-short: <p>A composer &amp; saxophonist working in and as the sounds of the environment.</p>
+Bio-short: <p>A duo of saxophonists extending what's possible on the instrument in Boorloo.</p>
 
 ----
 
@@ -23,18 +23,13 @@ Bio-long: <p>Josten Myburgh is a musician based on Whadjuk Noongar boodja in Boo
 Links:
 
 - 
-  url: http://josten-myburgh.weebly.com
-  text: Josten Myburgh Website
-  popup: 'true'
-  type: link
-- 
-  url: https://jostenmyburgh.bandcamp.com
-  text: Josten Myburgh Bandcamp
+  url: http://jostenmyburgh.com/
+  text: "Josten Myburgh's Website"
   popup: 'true'
   type: link
 - 
   url: https://erinroyer.com
-  text: Erin Royer Website
+  text: "Erin Royer's Website"
   popup: 'true'
   type: link
 

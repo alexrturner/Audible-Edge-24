@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://mattrosner.bandcamp.com/
-  text: Matt Rösner Bandcamp
+  text: Bandcamp
   popup: 'true'
   type: link
 
@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://pVUqq2FKSM7vwHhD
 
 ----
 

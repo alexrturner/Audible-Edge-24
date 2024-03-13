@@ -4,7 +4,7 @@
             "uuid": "artists\/anaxios",
             "title": "Anaxios",
             "events": [
-                "program\/arvo-at-the-bird"
+                "program\/all-the-clouds"
             ]
         },
         "artists\/nick-ashwood": {
@@ -16,7 +16,7 @@
         },
         "artists\/put-em-in-a-box": {
             "uuid": "artists\/put-em-in-a-box",
-            "title": "Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, Shi Ya Tien & suzueri",
+            "title": "Chi Po Hao, Chloe Lin, Samuel Beilby, Sarah Song, Shih Ya Tien & suzueri",
             "events": [
                 "program\/put-em-in-a-box"
             ]
@@ -25,21 +25,21 @@
             "uuid": "artists\/monica-brooks-katoomba-sage-pbbbt",
             "title": "Monica Brooks & Sage Pbbbt",
             "events": [
-                "program\/arvo-at-psas"
+                "program\/our-inner-beings"
             ]
         },
         "artists\/ben-luka-buchanan": {
             "uuid": "artists\/ben-luka-buchanan",
             "title": "Ben & Luka Buchanan",
             "events": [
-                "program\/arvo-at-the-bird"
+                "program\/all-the-clouds"
             ]
         },
         "artists\/ayo-busari": {
             "uuid": "artists\/ayo-busari",
             "title": "Ayo Busari",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/i-make-big-noise"
             ]
         },
         "artists\/ben-byrne": {
@@ -53,7 +53,7 @@
             "uuid": "artists\/simon-charles-john-kinsella",
             "title": "Simon Charles & John Kinsella",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/i-make-big-noise"
             ]
         },
         "artists\/cooper-cooper": {
@@ -66,13 +66,15 @@
         "artists\/curlisu": {
             "uuid": "artists\/curlisu",
             "title": "Curlisu",
-            "events": []
+            "events": [
+                "satellite\/goolugatup-sounds-18"
+            ]
         },
         "artists\/the-definitives": {
             "uuid": "artists\/the-definitives",
             "title": "The Definitives",
             "events": [
-                "program\/arvo-at-the-bird"
+                "program\/all-the-clouds"
             ]
         },
         "artists\/sophia-hansen-knarhoi": {
@@ -114,7 +116,7 @@
             "uuid": "artists\/jenny-hickinbotham",
             "title": "Jenny Hickinbotham with Chris Cobilis & Lana Rothnie",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/i-make-big-noise"
             ]
         },
         "artists\/joee-mejias": {
@@ -133,7 +135,7 @@
         },
         "artists\/siva-kumar-alex-reid": {
             "uuid": "artists\/siva-kumar-alex-reid",
-            "title": "Siva Kumar & Alex Reid",
+            "title": "Sivakumar Balakrishnan & Alex Reid",
             "events": [
                 "program\/three-flutters"
             ]
@@ -149,7 +151,7 @@
             "uuid": "artists\/the-long-form",
             "title": "The Long Form",
             "events": [
-                "program\/arvo-at-psas"
+                "program\/our-inner-beings"
             ]
         },
         "artists\/sally-ann-mcintyre": {
@@ -170,7 +172,7 @@
             "uuid": "artists\/emilie-monty",
             "title": "Emilie Monty",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/i-make-big-noise"
             ]
         },
         "artists\/erin-royer-josten-myburgh": {
@@ -240,7 +242,7 @@
             "uuid": "artists\/ten-forward",
             "title": "tenforward",
             "events": [
-                "program\/moon-returns-at-sullivan"
+                "program\/i-make-big-noise"
             ]
         },
         "artists\/michael-terren": {
@@ -266,8 +268,8 @@
         }
     },
     "events": {
-        "program\/arvo-at-the-bird": {
-            "uuid": "program\/arvo-at-the-bird",
+        "program\/all-the-clouds": {
+            "uuid": "program\/all-the-clouds",
             "title": "All the clouds go to school",
             "date": "2024-04-27",
             "artists": [
@@ -303,8 +305,8 @@
                 "program"
             ]
         },
-        "program\/arvo-at-psas": {
-            "uuid": "program\/arvo-at-psas",
+        "program\/our-inner-beings": {
+            "uuid": "program\/our-inner-beings",
             "title": "Our inner beings complete the missing links",
             "date": "2024-04-28",
             "artists": [
@@ -315,8 +317,8 @@
                 "program"
             ]
         },
-        "program\/moon-returns-at-sullivan": {
-            "uuid": "program\/moon-returns-at-sullivan",
+        "program\/i-make-big-noise": {
+            "uuid": "program\/i-make-big-noise",
             "title": "I make big noise and make small sound, I am in the air and on the ground, I'm out of sight and can be found. What am I?",
             "date": "2024-04-28",
             "artists": [
@@ -350,6 +352,18 @@
             ],
             "event_type": [
                 "program"
+            ]
+        },
+        "satellite\/goolugatup-sounds-18": {
+            "uuid": "satellite\/goolugatup-sounds-18",
+            "title": "Goolugatup Sounds 18",
+            "date": "2024-04-20",
+            "artists": [
+                "artists\/curlisu",
+                "artists\/erin-royer-josten-myburgh"
+            ],
+            "event_type": [
+                "satellite"
             ]
         },
         "program\/body-the-body": {
@@ -417,17 +431,6 @@
                 "nightschool"
             ]
         },
-        "satellite\/goolugatup-sounds-18": {
-            "uuid": "satellite\/goolugatup-sounds-18",
-            "title": "Goolugatup Sounds 18",
-            "date": "2024-04-20",
-            "artists": [
-                "artists\/erin-royer-josten-myburgh"
-            ],
-            "event_type": [
-                "satellite"
-            ]
-        },
         "nightschool\/hand-made-music-albums": {
             "uuid": "nightschool\/hand-made-music-albums",
             "title": "Hand-made music albums: a hands-on workshop",
@@ -487,12 +490,12 @@
     "dates": {
         "2024-04-27": {
             "events": [
-                "program\/arvo-at-the-bird",
+                "program\/all-the-clouds",
                 "program\/three-flutters",
                 "program\/put-em-in-a-box",
-                "program\/arvo-at-the-bird",
+                "program\/all-the-clouds",
                 "program\/betweens",
-                "program\/arvo-at-the-bird",
+                "program\/all-the-clouds",
                 "program\/three-flutters",
                 "program\/after-lili",
                 "program\/three-flutters"
@@ -511,13 +514,13 @@
         },
         "2024-04-28": {
             "events": [
-                "program\/arvo-at-psas",
-                "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan",
-                "program\/arvo-at-psas",
-                "program\/moon-returns-at-sullivan",
-                "program\/moon-returns-at-sullivan"
+                "program\/our-inner-beings",
+                "program\/i-make-big-noise",
+                "program\/i-make-big-noise",
+                "program\/i-make-big-noise",
+                "program\/our-inner-beings",
+                "program\/i-make-big-noise",
+                "program\/i-make-big-noise"
             ],
             "artists": [
                 "artists\/monica-brooks-katoomba-sage-pbbbt",
@@ -535,6 +538,16 @@
             ],
             "artists": [
                 "artists\/ben-byrne"
+            ]
+        },
+        "2024-04-20": {
+            "events": [
+                "satellite\/goolugatup-sounds-18",
+                "satellite\/goolugatup-sounds-18"
+            ],
+            "artists": [
+                "artists\/curlisu",
+                "artists\/erin-royer-josten-myburgh"
             ]
         },
         "2024-04-26": {
@@ -591,14 +604,6 @@
             ],
             "artists": [
                 "artists\/sally-ann-mcintyre"
-            ]
-        },
-        "2024-04-20": {
-            "events": [
-                "satellite\/goolugatup-sounds-18"
-            ],
-            "artists": [
-                "artists\/erin-royer-josten-myburgh"
             ]
         },
         "2024-03-24": {

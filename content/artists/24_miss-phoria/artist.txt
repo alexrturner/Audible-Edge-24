@@ -6,15 +6,21 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Miss Phoria is the drag performance alias of MJ Hyde. They are an advocate for Queer &amp; Aboriginal lives as well as safe spaces, mental health, neurodivergence and people with disabilities.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Miss Phoria expresess their activism through performance as a trans-nonbinary, queer &amp; Aboriginal creator.</p><p>Going into the darkest corners of their mind &amp; the world to create art out of it.</p><p>Mixing sexy with strange, pride with shame and love with hate.</p>
 
 ----
 
-Links: 
+Links:
+
+- 
+  url: https://linktr.ee/missphoria_
+  text: LinkTree
+  popup: 'true'
+  type: link
 
 ----
 
@@ -27,6 +33,14 @@ Credits:
 ----
 
 Support: 
+
+----
+
+Images: 
+
+----
+
+Sounds: 
 
 ----
 

@@ -12,7 +12,7 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>A committed percussionist and researcher focussing on recent and late 20th century works by female composers.</p>
 
 ----
 
@@ -24,12 +24,12 @@ Links:
 
 - 
   url: https://rebeccalloydjones.org
-  text: Rebecca Lloyd-Jones
+  text: Website
   popup: 'true'
   type: link
 - 
   url: https://rebeccalloydjones.bandcamp.com
-  text: Rebecca Lloyd-Jones Bandcamp
+  text: Bandcamp
   popup: 'true'
   type: link
 
@@ -47,7 +47,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://YcWr1c692YNAemMy
 
 ----
 

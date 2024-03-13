@@ -23,17 +23,17 @@ Links:
 
 - 
   url: https://www.benbyrne.com.au/
-  text: Ben Byrne Website
+  text: Artist Website
   popup: 'true'
   type: link
 - 
   url: https://avantwhatever.com
-  text: Avant Whatever Website
+  text: Avantwhatever Website
   popup: 'true'
   type: link
 - 
   url: https://www.instagram.com/avantwhatever/
-  text: Avant Whatever Instagram
+  text: Avantwhatever Instagram
   popup: 'true'
   type: link
 

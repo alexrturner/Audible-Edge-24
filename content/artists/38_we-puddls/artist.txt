@@ -11,7 +11,7 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Music that makes you feel like you're being embodied by a giant wave without crashing (the biggest puddle in the world).</p>
 
 ----
 
@@ -23,7 +23,12 @@ Links:
 
 - 
   url: 'https://soundcloud.com/user-456645916?ref=clipboard&p=i&c=1&si=7E3AE7C174C241B4991F33AAA9F3C2BD&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
-  text: wepuddlss Soundcloud
+  text: Soundcloud
+  popup: 'true'
+  type: link
+- 
+  url: https://www.instagram.com/wetpuddlss_dj/
+  text: Instagram
   popup: 'true'
   type: link
 

@@ -27,7 +27,12 @@ Links:
 
 - 
   url: http://sagepbbbt.com/
-  text: Sage Pbbbt Website
+  text: "Sage Pbbbt's Website"
+  popup: 'true'
+  type: link
+- 
+  url: https://greatwaitress.bandcamp.com/
+  text: "Great Waitress' Website"
   popup: 'true'
   type: link
 
@@ -45,7 +50,10 @@ Support:
 
 ----
 
-Images: - file://s7B4dozL8pnKgoPK
+Images:
+
+- file://s7B4dozL8pnKgoPK
+- file://GlA21wdkgupRiakv
 
 ----
 

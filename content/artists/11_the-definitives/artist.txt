@@ -18,7 +18,7 @@ Links:
 
 - 
   url: https://the-definitives.bandcamp.com
-  text: The Definitives Bandcamp
+  text: Bandcamp
   popup: 'true'
   type: link
 
@@ -36,7 +36,7 @@ Support: DADAA
 
 ----
 
-Images: 
+Images: - file://LTtDZPTIPdqSq1YY
 
 ----
 

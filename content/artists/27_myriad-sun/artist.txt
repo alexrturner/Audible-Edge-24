@@ -26,18 +26,18 @@ Links:
 - 
   url: >
     https://myriadsun.bandcamp.com/track/hazard-waste
-  text: Myriad Sun Bandcamp
+  text: Bandcamp
   popup: 'true'
   type: link
 - 
   url: >
     https://open.spotify.com/artist/7sExFe3ZXtYzGkboe9m8Sy?si=HDfzrd1xQPqsor8Os_ypkA
-  text: Myriad Sun Spotify
+  text: Spotify
   popup: 'true'
   type: link
 - 
   url: 'https://m.youtube.com/watch?v=ZtfjiPbSv2g&pp=ygUKTXlyaWFkIHN1bg%3D%3D'
-  text: Myriad Sun Video Clip
+  text: Hazard Waste Video
   popup: 'true'
   type: link
 

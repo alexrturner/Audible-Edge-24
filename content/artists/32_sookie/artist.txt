@@ -11,7 +11,7 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>Audible Edge's own website designer combining vinyl DJing, found sounds, YouTube videos and lo-fi collage.</p>
 
 ----
 
@@ -23,12 +23,12 @@ Links:
 
 - 
   url: https://***REMOVED***/
-  text: Alexander Turner Website
+  text: Website
   popup: 'true'
   type: link
 - 
   url: https://soundcloud.com/alexanderrturner
-  text: Alexander Turner Soundcloud
+  text: Soundcloud
   popup: 'true'
   type: link
 

@@ -18,11 +18,11 @@ Description: <p>All the clouds go to school<em> </em>is a curve-ball afternoon g
 
 ----
 
-Ticketed: false
+Ticketed: true
 
 ----
 
-Ticket-link: 
+Ticket-link: https://events.humanitix.com/audible-edge-24-all-the-clouds-go-to-school
 
 ----
 
@@ -30,7 +30,7 @@ Ticket-price:
 
 ----
 
-Ticket-price-text: 
+Ticket-price-text: Pay-what-you-can (suggested $20/$15)
 
 ----
 

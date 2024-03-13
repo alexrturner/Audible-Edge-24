@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://radiocegeste.blogspot.com/
-  text: Sally Ann McIntyre Website
+  text: Website
   popup: 'false'
   type: link
 
@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://klMrwiEcyuyli76C
 
 ----
 

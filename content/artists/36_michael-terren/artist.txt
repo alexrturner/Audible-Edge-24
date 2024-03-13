@@ -23,7 +23,7 @@ Links:
 
 - 
   url: https://buttondown.email/michaelterren
-  text: ""
+  text: Newsletter
   popup: 'true'
   type: link
 
@@ -41,7 +41,10 @@ Support:
 
 ----
 
-Images: - file://2vKCAp0BH0zwRhwR
+Images:
+
+- file://2vKCAp0BH0zwRhwR
+- file://P84YRAbhYmgYqsPB
 
 ----
 

@@ -23,12 +23,12 @@ Links:
 
 - 
   url: https://iandjoee.bandcamp.com
-  text: 'Joee & I Bandcamp'
+  text: Bandcamp
   popup: 'true'
   type: link
 - 
   url: https://soundcloud.com/joee-mejias
-  text: Joee Mejias Soundcloud
+  text: Soundcloud
   popup: 'true'
   type: link
 

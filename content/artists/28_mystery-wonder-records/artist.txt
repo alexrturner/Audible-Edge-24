@@ -18,17 +18,17 @@ Links:
 
 - 
   url: https://mwrecs.com/
-  text: 'Mystery & Wonder Website'
+  text: Website
   popup: 'true'
   type: link
 - 
   url: https://mwrecs.bandcamp.com/
-  text: 'Mystery & Wonder Bandcamp'
+  text: Bandcamp
   popup: 'true'
   type: link
 - 
   url: http://eepurl.com/cMOzLr
-  text: 'Mystery & Wonder Newsletter sign-up'
+  text: Newsletter sign-up
   popup: 'true'
   type: link
 

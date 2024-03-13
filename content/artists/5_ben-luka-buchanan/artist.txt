@@ -6,7 +6,7 @@ Display-title:
 
 ----
 
-Bio-short: <p>Sibling duo exploring poetic relationships in music, using cello &amp; spoken word to convey complex emotional landscapes</p>
+Bio-short: <p>Sibling duo exploring poetic relationships in music, using cello &amp; spoken word to convey complex emotional landscapes.</p>
 
 ----
 
@@ -19,7 +19,7 @@ Links:
 - 
   url: >
     https://lukabuchanan.bandcamp.com/album/jar
-  text: Luka Buchanan Bandcamp
+  text: "Luka Buchanan's Bandcamp"
   popup: 'true'
   type: link
 
@@ -37,7 +37,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://2JH7iOGNpm2CdYnE
 
 ----
 

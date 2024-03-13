@@ -23,7 +23,7 @@ Links:
 
 - 
   url: http://patrickgunasekera.bandcamp.com/
-  text: Patrick Gunasekera Bandcamp
+  text: Bandcamp
   popup: 'true'
   type: link
 
@@ -41,7 +41,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://JXdMG69WAqKFiLK1
 
 ----
 

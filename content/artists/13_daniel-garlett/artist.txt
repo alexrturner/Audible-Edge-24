@@ -11,11 +11,11 @@ Display-title:
 
 ----
 
-Bio-short: 
+Bio-short: <p>A Ballardong, Whadjuk and Yued Noongar elder and didgeridoo player.</p>
 
 ----
 
-Bio-long: <p>CEO at Dadajaal all things cultural</p>
+Bio-long: <p>Daniel Garlett is a Noongar man from Ballardong, Whadjuk and Yued heartlands with cultural connections to all 14 clans of the Noongar nation. He covers WA and the NT as a cultural advisor for his family and as a spokesperson on cultural knowledge and caring for country.</p><p><br>Self-employed for 35 years as cultural performer and manager of his own company, Daniel speaks nationally and internationally on dreaming tracks, cultural heritage and the history of Aboriginal social issues. He is a strong advocate of education through cultural awareness and knowledge of country. He runs school-based programs with the Education Department through Aboriginal and Noongar dance workshops, programs on caring for country and programs on natural resources management. He worked with Native Title as Regional Development Manager (6 years) throughout Noongar Boodja, promoting cultural awareness and knowledge from remote areas to the cities.</p>
 
 ----
 
@@ -24,7 +24,7 @@ Links:
 - 
   url: >
     https://www.linkedin.com/in/daniel-garlett-a9212089/
-  text: Daniel Garlett LinkedIn
+  text: LinkedIn
   popup: 'true'
   type: link
 
