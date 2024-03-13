@@ -1,12 +1,19 @@
+<?php
+$sectionSubtitle = $sectionSubtitle ?? '';
+?>
 <!-- title, subtitle, date time, venue, location -->
-<span class="mobile__section-subtitle">Event:</span>
-
 <section class="section" id="col1">
+
     <ul class="events" id="events-items">
+        <h2 class="section-header mobile__section-subtitle"><?= $sectionSubtitle ?> Event</h2>
         <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
             <h2 class="section-title"><?= $page->title()->html() ?></h2>
         </li>
     </ul>
+
+
+
+
 
     <?php
     // tickets
@@ -71,9 +78,11 @@
 </section>
 
 <!-- artists, image -->
-<span class="mobile__section-subtitle">Lineup:</span>
+<!-- <span class="mobile__section-subtitle">Lineup:</span> -->
 <section class="section" id="col2">
+
     <ul class="artists" id="artists-items">
+        <h2 class="section-header mobile__section-subtitle">Artists</h2>
         <?php
         $artists =  $page->artist_link()->toPages();
         foreach ($artists as $artist) : ?>
@@ -142,7 +151,7 @@
     <?php
     // event accessibility
     if ($accessibility = kt($page->accessibility())) : ?>
-        <h3 class="section__subtitle pseudo-list-item">Accessibility</h3>
+        <h3 class="section__subtitle pseudo-list-item">Accessibility:</h3>
         <div class="accessibility-info" style="max-width: 60ch;"><?= $accessibility ?></div>
     <?php endif; ?>
 
@@ -161,6 +170,6 @@
 </section>
 
 <?= js([
-    'assets/js/gallery.js',
-    'assets/js/scroll.js',
+    'assets/js/gallery.js'
+    // 'assets/js/scroll.js',
 ]) ?>

@@ -1,13 +1,143 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const handleTouchStart = function (e) {
+    this.touchStartY = e.touches[0].clientY;
+  };
+
+  const touchContext = { touchStartY: 0 };
+
+  const handleTouchMove = function (e) {
+    e.preventDefault();
+    const touchEndY = e.touches[0].clientY;
+    const deltaY = this.touchStartY - touchEndY;
+    const col3 = document.getElementById("col3");
+    col3.scrollTop += deltaY;
+    this.touchStartY = touchEndY;
+  }.bind(touchContext);
+
+  const handleWheel = function (e) {
+    e.preventDefault();
+    const col3 = document.getElementById("col3");
+    col3.scrollTop += e.deltaY;
+  };
+
+  let customScrollHandlingAdded = false;
+
+  // add custom scroll handling
+  function addCustomScrollHandling() {
+    // early exit
+    if (customScrollHandlingAdded) return;
+
+    window.addEventListener("touchstart", handleTouchStart.bind(touchContext), {
+      passive: false,
+    });
+    window.addEventListener("touchmove", handleTouchMove, { passive: false });
+    window.addEventListener("wheel", handleWheel, { passive: false });
+
+    customScrollHandlingAdded = true;
+  }
+
+  function removeCustomScrollHandling() {
+    if (!customScrollHandlingAdded) return;
+
+    window.removeEventListener(
+      "touchstart",
+      handleTouchStart.bind(touchContext),
+      { passive: false }
+    );
+    window.removeEventListener("touchmove", handleTouchMove, {
+      passive: false,
+    });
+    window.removeEventListener("wheel", handleWheel, { passive: false });
+
+    customScrollHandlingAdded = false;
+  }
+
+  // desktop check
+  if (window.innerWidth >= 768) {
+    addCustomScrollHandling();
+  }
+
+  // handle window resizing
+  window.addEventListener("resize", function () {
+    if (window.innerWidth >= 768 && !customScrollHandlingAdded) {
+      addCustomScrollHandling();
+    } else if (window.innerWidth < 768 && customScrollHandlingAdded) {
+      removeCustomScrollHandling();
+    }
+  });
+
   // function to toggle styles
   const togglePlainText = document.getElementById("togglePlainTextView");
   const settingsButton = document.getElementById("settingsButton");
+  const settingsContainer = document.getElementById("settingsContainer");
+
+  const body = document.body;
+  const menuHeaderContainer = document.querySelector(
+    ".menu-header-container-global"
+  );
+  const menuToggleButton = document.querySelector(".menu-toggle");
+  const menuItems = document.getElementById("menu-items");
+  const ulElements = document.querySelectorAll("ul");
 
   // update button text based on the new state
   const isDisabledStyles = localStorage.getItem("stylesDisabled") === "true";
   togglePlainText.textContent = !isDisabledStyles
     ? "Plain Text View"
     : "Styled Text View";
+
+  function applyPlainTextStyles(enable) {
+    if (enable) {
+      body.classList.add("plain-text");
+      body.style.maxWidth = "60em";
+      if (menuHeaderContainer) {
+        menuHeaderContainer.style.position = "fixed";
+        menuHeaderContainer.style.right = "0.3rem";
+        menuHeaderContainer.style.top = "2em";
+      }
+
+      // if (menuToggleButton.attributes.expanded) {
+      if (!body.classList.contains("home") && menuToggleButton) {
+        menuToggleButton.setAttribute("expanded", "false");
+        menuItems.style.visibility = "hidden";
+        menuItems.style.opacity = "0";
+        menuItems.style.pointerEvents = "none";
+      }
+      if (settingsContainer) {
+        settingsButton.style.display = "none";
+        settingsContainer.style.display = "none";
+      }
+
+      ulElements.forEach((ul) => {
+        ul.style.margin = "0";
+        ul.style.padding = "0";
+      });
+
+      // Remove custom scroll handling in plain text mode
+      removeCustomScrollHandling();
+    } else {
+      body.classList.remove("plain-text");
+      body.style.maxWidth = "";
+      if (menuHeaderContainer) {
+        menuHeaderContainer.style.position = "";
+        menuHeaderContainer.style.right = "";
+        menuHeaderContainer.style.top = "";
+      }
+      if (settingsContainer) {
+        settingsButton.style.display = "block";
+        settingsContainer.style.display = "flex";
+      }
+      ulElements.forEach((ul) => {
+        ul.style.margin = "";
+        ul.style.padding = "";
+      });
+      // add custom scroll handling in styled text mode
+      addCustomScrollHandling();
+    }
+  }
+
+  if (isDisabledStyles) {
+    applyPlainTextStyles(true);
+  }
 
   togglePlainText.addEventListener("click", function () {
     const isDisabled = localStorage.getItem("stylesDisabled") === "true";
@@ -17,6 +147,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // Save the new state in localStorage
     localStorage.setItem("stylesDisabled", !isDisabled);
+
+    // Apply or remove plain text styles
+    applyPlainTextStyles(!isDisabled);
 
     if (settingsButton) {
       settingsButton.style.display = !isDisabled
@@ -77,25 +210,6 @@ function initSections() {
   sections.forEach((button) => {
     const sectionId = button.getAttribute("aria-controls");
     const sectionItems = document.getElementById(sectionId);
-
-    // if (isMobile) {
-    //   // collapse section items & set aria-expanded to false on mobile
-    //   sectionItems.style.display = "none";
-    //   button.setAttribute("aria-expanded", "false");
-
-    //   // style collapsed sections
-    //   const parent = button.closest("li.first-item");
-    //   if (parent) {
-    //     parent.classList.add("list-style-circle");
-    //   }
-    // } else {
-    //   // style collapsed sections for desktop
-    //   const isExpanded = button.getAttribute("aria-expanded") === "true";
-    //   const parent = button.closest("li.first-item");
-    //   if (parent) {
-    //     parent.classList.toggle("list-style-circle", !isExpanded);
-    //   }
-    // }
 
     // style collapsed sections for desktop
     const isExpanded = button.getAttribute("aria-expanded") === "true";

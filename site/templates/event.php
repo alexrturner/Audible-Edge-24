@@ -5,4 +5,5 @@
     <?php snippet('event-content') ?>
 
 </main>
+
 <?php snippet('footer') ?>

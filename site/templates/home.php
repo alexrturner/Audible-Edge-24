@@ -6,8 +6,6 @@
     .header .pseudo-list-item::before {
         color: var(--cc-orange-highlight);
         color: lightgrey;
-        /* color: var(--cc-blue-light); */
-        /* color: transparent; */
         opacity: 0.7;
     }
 
@@ -430,6 +428,11 @@
             /* left: 20%; */
         }
 
+        #audio-buttons-container {
+            left: 20%;
+            width: 80%;
+        }
+
         body {
             overflow-y: visible;
         }
@@ -491,7 +494,7 @@
     }
 </style>
 
-<div class="homepage__menu-header-container">
+<div class="homepage__menu-header-container menu-header-container-global">
     <?php
     // arguments: expanded (true/false)
     $expanded = "true";

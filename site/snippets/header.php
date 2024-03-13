@@ -50,9 +50,11 @@
   <meta name="keywords" content="<?= strip_tags($site->metaKeywords()->value()) ?>">
   <meta name="author" content="Tone List">
   <meta property="og:image" content="<?= url('/assets/img/AudibleEdge24.jpg') ?>">
+
+
 </head>
 
-<body>
+<body class="<?= e($page->isHomePage(), "home", ""); ?>">
 
   <div class="header-container">
     <header class="header">
@@ -108,21 +110,44 @@
     </header>
     <?php if (!$page->isHomePage()) : ?>
 
-      <div class="menu-header-container">
+      <div class="menu-header-container menu-header-container-global">
         <?php
         // arguments: expanded (true/false)
         $expanded = "false";
         ?>
         <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
-        <br><br>
+
+        <?php if ($page->uid() === 'program') : ?>
+          <div class="desktop__section fixed">
+            <ul>
+              <li>
+                <a href="/satellite" id="page__satellite">
+                  Satellite
+                </a>
+              </li>
+              <li>
+                <a href="/nightschool" id="page__nightschool">
+                  Night School
+                </a>
+              </li>
+            </ul>
+          </div>
+        <?php else : ?>
+          <br>
+          <br>
+        <?php endif ?>
+
+
 
         <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
-          <li class="menu-item">
+
+          <li class="menu-item" id="page__satellite">
             <a href="/satellite/program-launch" class="menu-link">
               Program Launch
             </a>
           </li>
           <?php foreach ($site->children()->listed() as $p) : ?>
+
             <li class="menu-item">
               <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
                 <?= $p->title()->esc() ?>

@@ -124,7 +124,10 @@ function setupHoverInteractions(data) {
   const svg = d3.select("#lineCanvas");
   const liOffset = 14;
 
-  d3.selectAll(".dates li, .events-container li, .artists-container li")
+  // d3.selectAll(".dates li, .events-container li, .artists-container li")
+  d3.selectAll(
+    ".dates li:not(.first-item), .events-container li:not(.first-item), .artists-container li:not(.first-item)"
+  )
     .on("mouseover", function (event, d) {
       const element = d3.select(this);
       const elementId = element.attr("data-id");
@@ -174,23 +177,45 @@ function setupHoverInteractions(data) {
         });
 
         data.artists[elementId].events.forEach((eventId) => {
-          const eventElement = document
-            .querySelector(`[data-id="${eventId}"][data-type="events"]`)
-            .getBoundingClientRect();
-          points.push({
-            x: eventElement.left - liOffset,
-            y: eventElement.top + liOffset,
-          });
+          const eventElement = document.querySelector(
+            `[data-id="${eventId}"][data-type="events"]`
+          );
 
-          const dateId = data.events[eventId].date;
-          const dateElement = document
-            .querySelector(`[data-id="${dateId}"][data-type="date"]`)
-            .getBoundingClientRect();
-
-          points.push({
-            x: dateElement.left - liOffset,
-            y: dateElement.top + liOffset,
-          });
+          if (eventElement) {
+            const rect = eventElement.getBoundingClientRect();
+            points.push({
+              x: rect.left - liOffset,
+              y: rect.top + liOffset,
+            });
+            const dateId = data.events[eventId].date;
+            const dateElement = document
+              .querySelector(`[data-id="${dateId}"][data-type="date"]`)
+              .getBoundingClientRect();
+            points.push({
+              x: dateElement.left - liOffset,
+              y: dateElement.top + liOffset,
+            });
+          } else {
+            // Handle the case where the event is not on the current page
+            // Determine if the event belongs to 'satellite' or 'nightschool' by checking the eventId
+            if (eventId.startsWith("satellite")) {
+              const satelliteElement = document
+                .getElementById("page__satellite")
+                .getBoundingClientRect();
+              points.push({
+                x: satelliteElement.left - liOffset,
+                y: satelliteElement.top + liOffset,
+              });
+            } else if (eventId.startsWith("nightschool")) {
+              const nightschoolElement = document
+                .getElementById("page__nightschool")
+                .getBoundingClientRect();
+              points.push({
+                x: nightschoolElement.left - liOffset,
+                y: nightschoolElement.top + liOffset,
+              });
+            }
+          }
         });
       } else if (elementType === "date") {
         // fetch related events, draw line from date to each event, then to event's artists

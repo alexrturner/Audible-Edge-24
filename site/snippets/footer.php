@@ -14,15 +14,18 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const eventItems = document.querySelectorAll('.events-item');
+      // not .events-item.first-item
+      const eventItems = document.querySelectorAll('.events-item:not(.first-item)');
       const timesContainer = document.getElementById('dates-event-times');
-
       eventItems.forEach(function(item) {
         item.addEventListener('mouseover', function() {
           const startTime = this.getAttribute('data-start-time');
           const endTime = this.getAttribute('data-end-time');
-          timesContainer.textContent = `Start: ${startTime}, End: ${endTime}`;
+          if (startTime && endTime) {
+            timesContainer.textContent = `Start: ${startTime}, End: ${endTime}`;
+          }
         });
+
 
         item.addEventListener('mouseout', function() {
           timesContainer.textContent = '';
@@ -36,6 +39,7 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
     '@auto',
   ]) ?>
 <?php endif ?>
+
 
 <?php //if ($page->uid() === "program" || $page->uid() === "nightschool") : 
 ?>

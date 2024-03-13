@@ -10,8 +10,13 @@ if ($className === 'nightschool') {
 
 if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->hasChildren()) : ?>
     <ul class="items" id="<?= $className ?>-items">
-        <?php foreach ($parentPage->children()->listed() as $child) : ?>
-            <li tabindex="0" class="<?= $className ?>-item" data-type="<?= $className ?>" data-id="<?= $child->id() ?>" data-start-time="<?= $child->start_time()->value() ?>" data-end-time="<?= $child->end_time()->value() ?>">
+        <?php foreach ($parentPage->children()->listed() as $child) :
+
+            $startTime = $child->start_time();
+            $endTime = $child->end_time();
+            $formattedStartTime = $startTime->toDate('H:i');
+            $formattedEndTime = $endTime->toDate('H:i'); ?>
+            <li tabindex="0" class="<?= $className ?>-item" data-type="<?= $className ?>" data-id="<?= $child->id() ?>" data-start-time="<?= $formattedStartTime ?>" data-end-time="<?= $formattedEndTime ?>">
                 <a href="<?= $child->url() ?>" class="<?= $className ?>-link">
                     <?php if ($child->display_title()->isNotEmpty()) : ?>
 

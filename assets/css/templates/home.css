@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .menu-toggle.toggle.pseudo-list-item {
+    padding-left: 30px;
+    width: auto;
+  }
+}
