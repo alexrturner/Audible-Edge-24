@@ -3,13 +3,13 @@
 <main class="content-container index">
 
     <div class="section satellite" id="events">
-        <ul class="satellite-container">
+        <ul class="events-container">
             <li class="satellite-item first-item">
                 <button class="satellite-toggle toggle" aria-expanded="true" aria-controls="satellite-items" aria-label="Toggle satellite program listings">
                     <h2 class="section-title">Program</h2>
                 </button>
                 <br><br>
-                <?php snippet('listings', ['parentPageSlug' => 'satellite', 'className' => 'satellite']); ?>
+                <?php snippet('listings', ['parentPageSlug' => 'satellite', 'className' => 'events']); ?>
             </li>
         </ul>
     </div>

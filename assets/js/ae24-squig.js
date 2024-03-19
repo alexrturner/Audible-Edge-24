@@ -122,7 +122,8 @@ const lineGenerator = d3
 
 function setupHoverInteractions(data) {
   const svg = d3.select("#lineCanvas");
-  const liOffset = 14;
+  const liOffsetX = 0;
+  const liOffsetY = 10;
 
   // d3.selectAll(".dates li, .events-container li, .artists-container li")
   d3.selectAll(
@@ -135,13 +136,14 @@ function setupHoverInteractions(data) {
 
       // path points
       let points = [];
+      // console.log(elementType, elementId);
 
       if (elementType === "events") {
         const eventElement = this.getBoundingClientRect();
         // start path at event
         points.push({
-          x: eventElement.left - liOffset,
-          y: eventElement.top + liOffset,
+          x: eventElement.left - liOffsetX,
+          y: eventElement.top + liOffsetY,
         });
 
         // line from event to date
@@ -150,8 +152,8 @@ function setupHoverInteractions(data) {
           .querySelector(`[data-id="${dateId}"][data-type="date"]`)
           .getBoundingClientRect();
         points.push({
-          x: dateElement.left - liOffset,
-          y: dateElement.top + liOffset,
+          x: dateElement.left - liOffsetX,
+          y: dateElement.top + liOffsetY,
         });
 
         // lines from event to each artist
@@ -160,20 +162,20 @@ function setupHoverInteractions(data) {
             .querySelector(`[data-id="${artistId}"][data-type="artists"]`)
             .getBoundingClientRect();
           points.push({
-            x: eventElement.left - liOffset,
-            y: eventElement.top + liOffset,
+            x: eventElement.left - liOffsetX,
+            y: eventElement.top + liOffsetY,
           });
           points.push({
-            x: artistElement.left - liOffset,
-            y: artistElement.top + liOffset,
+            x: artistElement.left - liOffsetX,
+            y: artistElement.top + liOffsetY,
           });
         });
       } else if (elementType === "artists") {
         // fetch related events, draw line from artist to each event, then to event's date
         const artistElement = this.getBoundingClientRect();
         points.push({
-          x: artistElement.left - liOffset,
-          y: artistElement.top + liOffset,
+          x: artistElement.left - liOffsetX,
+          y: artistElement.top + liOffsetY,
         });
 
         data.artists[elementId].events.forEach((eventId) => {
@@ -184,16 +186,16 @@ function setupHoverInteractions(data) {
           if (eventElement) {
             const rect = eventElement.getBoundingClientRect();
             points.push({
-              x: rect.left - liOffset,
-              y: rect.top + liOffset,
+              x: rect.left - liOffsetX,
+              y: rect.top + liOffsetY,
             });
             const dateId = data.events[eventId].date;
             const dateElement = document
               .querySelector(`[data-id="${dateId}"][data-type="date"]`)
               .getBoundingClientRect();
             points.push({
-              x: dateElement.left - liOffset,
-              y: dateElement.top + liOffset,
+              x: dateElement.left - liOffsetX,
+              y: dateElement.top + liOffsetY,
             });
           } else {
             // Handle the case where the event is not on the current page
@@ -203,16 +205,16 @@ function setupHoverInteractions(data) {
                 .getElementById("page__satellite")
                 .getBoundingClientRect();
               points.push({
-                x: satelliteElement.left - liOffset,
-                y: satelliteElement.top + liOffset,
+                x: satelliteElement.left - liOffsetX,
+                y: satelliteElement.top + liOffsetY,
               });
             } else if (eventId.startsWith("nightschool")) {
               const nightschoolElement = document
                 .getElementById("page__nightschool")
                 .getBoundingClientRect();
               points.push({
-                x: nightschoolElement.left - liOffset,
-                y: nightschoolElement.top + liOffset,
+                x: nightschoolElement.left - liOffsetX,
+                y: nightschoolElement.top + liOffsetY,
               });
             }
           }
@@ -221,8 +223,8 @@ function setupHoverInteractions(data) {
         // fetch related events, draw line from date to each event, then to event's artists
         const dateElement = this.getBoundingClientRect();
         points.push({
-          x: dateElement.left - liOffset,
-          y: dateElement.top + liOffset,
+          x: dateElement.left - liOffsetX,
+          y: dateElement.top + liOffsetY,
         });
 
         data.dates[elementId].events.forEach((eventId) => {
@@ -231,8 +233,8 @@ function setupHoverInteractions(data) {
             .getBoundingClientRect();
           // line to event
           points.push({
-            x: eventElement.left - liOffset,
-            y: eventElement.top + liOffset,
+            x: eventElement.left - liOffsetX,
+            y: eventElement.top + liOffsetY,
           });
 
           // for each event, draw lines to its artists
@@ -242,8 +244,8 @@ function setupHoverInteractions(data) {
               .getBoundingClientRect();
             // move to event first, then draw line to artist
             points.push({
-              x: artistElement.left - liOffset,
-              y: artistElement.top + liOffset,
+              x: artistElement.left - liOffsetX,
+              y: artistElement.top + liOffsetY,
             });
           });
         });

@@ -6,7 +6,7 @@
 
 <?php
 // load relations SVG on home page and nightschool index
-if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "nightschool") : ?>
+if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "nightschool" || $page->uid() === "satellite") : ?>
   <?= js([
     'assets/js/ae24-squig.js',
     '@auto',
@@ -40,9 +40,6 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
   ]) ?>
 <?php endif ?>
 
-
-<?php //if ($page->uid() === "program" || $page->uid() === "nightschool") : 
-?>
 <?php $parent = $page->parent();
 
 // Check if the parent UID matches one of the specific pages
@@ -69,6 +66,7 @@ if ($parent && in_array($parent->uid(), ['program', 'satellite', 'nightschool'])
     ?>
   </div>
 </div>
+
 </body>
 
 </html>

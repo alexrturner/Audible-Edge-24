@@ -195,9 +195,11 @@ document.addEventListener("DOMContentLoaded", function () {
       parent.classList.toggle("list-style-circle", isExpanded);
     }
     var desktopMenu = document.getElementById("desktop-menu");
-    if (button.classList.contains("menu-toggle")) {
-      button.classList.toggle("list-style-circle");
-      desktopMenu.classList.toggle("hidden");
+    if (desktopMenu) {
+      if (button.classList.contains("menu-toggle")) {
+        button.classList.toggle("list-style-circle");
+        desktopMenu.classList.toggle("hidden");
+      }
     }
   }
 

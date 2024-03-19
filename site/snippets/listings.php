@@ -7,6 +7,10 @@ $eventFilter = $eventFilter ?? null;
 if ($className === 'nightschool') {
     $className = 'events';
 }
+if ($className === 'satellite') {
+    $className = 'events';
+}
+
 
 if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->hasChildren()) : ?>
     <ul class="items" id="<?= $className ?>-items">
