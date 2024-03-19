@@ -65,6 +65,11 @@ tabs:
   media:
     label: files
     sections:
+      ae_program:
+        label: AE Program
+        type: files
+        template: ae_program
+
       ae_logo:
         label: AE logos
         type: files

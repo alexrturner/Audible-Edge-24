@@ -1,4 +1,6 @@
-console.log("event-svg.js loaded");
+const liOffsetX = 3;
+const liOffsetY = 10;
+
 let noiseIntensity2 = 80;
 let subdivisionFactor2 = 3;
 
@@ -42,8 +44,8 @@ function addRandomness(point, intensity = 100) {
 function getElementPosition(element) {
   const rect = element.getBoundingClientRect();
   return {
-    x: rect.left + window.scrollX,
-    y: rect.top + window.scrollY,
+    x: rect.left + window.scrollX + liOffsetX,
+    y: rect.top + window.scrollY + liOffsetY,
   };
 }
 const lineGenerator2 = d3
@@ -75,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // gen path
   const pathData = lineGenerator2(pointsWithNoise);
-  console.log(pathData);
+  // console.log(pathData);
   svg
     .append("path")
     .attr("d", pathData)

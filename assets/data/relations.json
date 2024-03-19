@@ -175,18 +175,18 @@
                 "program\/i-make-big-noise"
             ]
         },
-        "artists\/erin-royer-josten-myburgh": {
-            "uuid": "artists\/erin-royer-josten-myburgh",
-            "title": "Josten Myburgh & Erin Royer",
-            "events": [
-                "satellite\/goolugatup-sounds-18"
-            ]
-        },
         "artists\/myriad-sun": {
             "uuid": "artists\/myriad-sun",
             "title": "Myriad Sun",
             "events": [
                 "program\/body-the-body"
+            ]
+        },
+        "artists\/erin-royer-josten-myburgh": {
+            "uuid": "artists\/erin-royer-josten-myburgh",
+            "title": "Josten Myburgh & Erin Royer",
+            "events": [
+                "satellite\/goolugatup-sounds-18"
             ]
         },
         "artists\/mystery-wonder-records": {

@@ -158,8 +158,11 @@
     <div class="plain-text-container" style="position: fixed; top: 0.5rem; right: 0.3rem;">
       <button id="togglePlainTextView" class="pseudo-list-item">Plain Text View</button>
 
-      <?php if ($page->isHomePage() || $page->uid() === 'nightschool' || $page->uid() === 'program' || $page->uid() === "satellite") : ?>
+      <?php
+      // settings
+      if ($page->isHomePage() || in_array($page->uid(), ['program', 'satellite', 'nightschool'])) : ?>
         <?php snippet('settings') ?>
       <?php endif ?>
+
     </div>
   </div>
