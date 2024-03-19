@@ -11,11 +11,11 @@ Display-title:
 
 ----
 
-Bio-short: <p>Joee &amp; I is a vivacious avant-pop electronica solo project of Joee Mejias, a musician and video artist from Manila.</p>
+Bio-short: <p>A projection designer, composer, video and music producer and performing artist from Antipolo, Philippines.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>Joee Mejias is a projection designer, composer, video and music producer and performing artist from Antipolo, Philippines. Incorporating a variety of creative forms such as projections, production design, movement, music and sound to produce multisensory experiences for exploring ideas on embodiment, interactions with space, and connectedness. </p><p>Their work thrives on the magic of improvisation and fostering a space for personal and creative exploration. Joee blends multiple rhythms and contrasting sounds and harmonies using various instruments, electronics, and voice to form music that echoes the surprising harmony found in nature’s seemingly random compositions. </p><p>She performs as joee mejias/ jōeeii (solo), dj mangocurry, Sister Joyce, and Joee &amp; I, a collaborative avant-pop music project where she creates participatory site-specific musical performances. </p><p>Joee has contributed music to films such as "Medusae" and "Bari-Bari" and has toured across Southeast Asia, Canada, Japan, Taiwan, and the Philippines. She is co-founder and organiser for HERESY, a Manila-based female-curated art platform that pushes for a more gender-inclusive new media arts community and increased visibility of women who work with various forms of creative technology.</p>
 
 ----
 
@@ -46,11 +46,11 @@ Support:
 
 ----
 
-Images: 
+Images: - file://7bmD1o0TR5hxYAsO
 
 ----
 
-Sounds: 
+Sounds: - file://VHRvpQ76h0T3QJUp
 
 ----
 

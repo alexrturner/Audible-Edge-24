@@ -6,11 +6,11 @@ Display-title:
 
 ----
 
-Bio-short: <p>New and inventive duo of local outsider folk legends Lyndon Blue and Jessyca Hutchens.</p>
+Bio-short: <p>The hushed-and-heartsick-phone-voice-memo to left-field-RnB pipeline.</p>
 
 ----
 
-Bio-long: 
+Bio-long: <p>tenforward is the duo project of Jessyca Hutchens (Jane Harris, S.A.D.) and Lyndon Blue (Spice World, Leafy Suburbs etc).</p>
 
 ----
 
@@ -34,7 +34,7 @@ Images:
 
 ----
 
-Sounds: 
+Sounds: - file://JAKdudrYXsZnV3ea
 
 ----
 

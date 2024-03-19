@@ -263,7 +263,7 @@
             "uuid": "artists\/we-puddls",
             "title": "wetpuddlss",
             "events": [
-                "program\/falming-galah-interstitial-hang"
+                "program\/befores"
             ]
         }
     },
@@ -475,8 +475,8 @@
                 "nightschool"
             ]
         },
-        "program\/falming-galah-interstitial-hang": {
-            "uuid": "program\/falming-galah-interstitial-hang",
+        "program\/befores": {
+            "uuid": "program\/befores",
             "title": "Befores",
             "date": "2024-04-26",
             "artists": [
@@ -563,7 +563,7 @@
                 "program\/body-the-body",
                 "program\/body-the-body",
                 "program\/body-the-body",
-                "program\/falming-galah-interstitial-hang"
+                "program\/befores"
             ],
             "artists": [
                 "artists\/daniel-garlett",

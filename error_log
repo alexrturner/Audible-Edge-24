@@ -452,3 +452,16 @@ Stack trace:
 #8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
 #9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}
+[15-Mar-2024 05:10:26 UTC] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Brien', '0437544791', '2024-03-15 05:10:26')' at line 1 in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:86
+Stack trace:
+#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(86): mysqli_query()
+#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
+#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#10 {main}

@@ -15,7 +15,7 @@ Bio-short: <p>Hickinbotham inhabits multiple voices, perspectives and temporalit
 
 ----
 
-Bio-long: <p>Jenny Hickinbotham’s work encompasses writing, video, sculpture, and songs. Hickinbotham inhabits multiple voices, perspectives and temporalities as she explores the epigenetic impacts of trauma, and the narratives of individuals swept up by the forces of history, institutions, and the places in which they live. Laced with humour, pathos, searing critique, and a powerful imagistic capacity, the songs are profoundly informed by the artist’s own childhood experiences, which resulted in diagnoses of developmental trauma, complex post traumatic stress culminating in the schizophrenia label in early adulthood. Jenny has ‘heard voices’ for most of her life and her work explores her ongoing struggle to challenge the institutional pathologising of these experiences. Understanding these internal voices, listening, giving meaning to them, singing them, and considering their relation to the ghosts of the past and present, is a preoccupation of Hickinbotham’s work.</p><p>Lana Rothnie...</p><p>Chris Cobilis is an Australian musician/composer/sound artist. Since 1997 Cobilis' ad-hoc practice has included improvisation, playing in bands &amp; installation together with composing original music for feature film, dance and theatre. A mammal interacting with objects for acceptance.</p>
+Bio-long: <p>Jenny Hickinbotham’s work encompasses writing, video, sculpture, and songs. Hickinbotham inhabits multiple voices, perspectives and temporalities as she explores the epigenetic impacts of trauma, and the narratives of individuals swept up by the forces of history, institutions, and the places in which they live. Laced with humour, pathos, searing critique, and a powerful imagistic capacity, the songs are profoundly informed by the artist’s own childhood experiences, which resulted in diagnoses of developmental trauma, complex post traumatic stress culminating in the schizophrenia label in early adulthood. Jenny has ‘heard voices’ for most of her life and her work explores her ongoing struggle to challenge the institutional pathologising of these experiences. Understanding these internal voices, listening, giving meaning to them, singing them, and considering their relation to the ghosts of the past and present, is a preoccupation of Hickinbotham’s work.</p><p>Lana Rothnie is a Boorloo-based artist who improvises using synthesisers and voice.</p><p>Chris Cobilis is an Australian musician/composer/sound artist. Since 1997 Cobilis' ad-hoc practice has included improvisation, playing in bands &amp; installation together with composing original music for feature film, dance and theatre. A mammal interacting with objects for acceptance.</p>
 
 ----
 
@@ -34,6 +34,11 @@ Links:
 - 
   url: https://lanarothnie.bandcamp.com
   text: "Lana Rothnie's Bandcamp"
+  popup: 'true'
+  type: link
+- 
+  url: https://www.instagram.com/lanarothnie/
+  text: Lana Rothnie Instagram
   popup: 'true'
   type: link
 
@@ -55,7 +60,7 @@ Images: - file://ckyqsZN8sNXCE0JL
 
 ----
 
-Sounds: 
+Sounds: - file://9HJ1TcK12A9Eq7zN
 
 ----
 
