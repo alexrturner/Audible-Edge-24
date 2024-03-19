@@ -503,11 +503,6 @@
     <br><br>
 
     <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
-        <li class="menu-item">
-            <a href="/satellite/program-launch" class="menu-link">
-                Program Launch
-            </a>
-        </li>
         <?php foreach ($site->children()->listed() as $p) : ?>
             <li class="menu-item">
                 <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
