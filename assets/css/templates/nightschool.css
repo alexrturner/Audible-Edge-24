@@ -46,7 +46,9 @@ menu
 }
 
 /* items */
-ul.items:not(.dates),
-#artists-items {
-  padding: 0 0 0 2.3rem;
+@media screen and (max-width: 768px) {
+  ul.items:not(.dates),
+  #artists-items {
+    padding: 0 0 0 2.3rem;
+  }
 }

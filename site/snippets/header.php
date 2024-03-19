@@ -118,7 +118,7 @@
         <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
 
         <?php if ($page->uid() === 'program') : ?>
-          <div class="desktop__section fixed">
+          <div class="desktop__section fixed" id="desktop-menu">
             <ul>
               <li>
                 <a href="/satellite" id="page__satellite">
@@ -133,21 +133,14 @@
             </ul>
           </div>
         <?php else : ?>
-          <br>
-          <br>
+
         <?php endif ?>
 
 
 
         <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
 
-          <li class="menu-item" id="page__satellite">
-            <a href="/satellite/program-launch" class="menu-link">
-              Program Launch
-            </a>
-          </li>
           <?php foreach ($site->children()->listed() as $p) : ?>
-
             <li class="menu-item">
               <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
                 <?= $p->title()->esc() ?>

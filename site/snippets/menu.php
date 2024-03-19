@@ -10,11 +10,6 @@ $expanded = $expanded ?? "true";
             <br><br>
 
             <ul class="items <?php e($expanded === "true", "", "hidden__visibility"); ?>" id="menu-items">
-                <li class="menu-item">
-                    <a href="/satellite/program-launch" class="menu-link">
-                        Program Launch
-                    </a>
-                </li>
                 <?php foreach ($site->children()->listed() as $p) : ?>
                     <li class="menu-item">
                         <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">

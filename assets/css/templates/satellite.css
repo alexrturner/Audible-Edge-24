@@ -1,5 +1,10 @@
 /* items */
-#artists-items,
-ul.items:not(.dates) {
-  padding: 0 0 0 2.3rem;
+@media screen and (max-width: 768px) {
+  #artists-items,
+  ul.items:not(.dates) {
+    padding: 0 0 0 2.3rem;
+  }
+}
+.content-container.index {
+  top: 0;
 }

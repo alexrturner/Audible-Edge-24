@@ -13,6 +13,8 @@
         display: none;
         text-align: center;
         align-items: center;
+        justify-content: center;
+
     }
 
     .gallery-images figure.active {
@@ -37,7 +39,7 @@
     }
 
     .gallery-images figure img {
-        max-height: 50vh;
+        max-height: var(--gallery-height);
         height: auto;
     }
 
@@ -47,8 +49,6 @@
         }
 
         .gallery-images figure {
-            justify-content: center;
-
             height: auto;
         }
     }
