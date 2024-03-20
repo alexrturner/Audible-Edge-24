@@ -164,5 +164,20 @@
         <?php snippet('settings') ?>
       <?php endif ?>
 
+      <?php if ($page->uid() === 'program') : ?>
+
+
+        <?php if ($site->ae_program()) : // Check if ae_program exists 
+          $ae_programs = $site->files()->template('ae_program');
+
+        ?>
+          <div class="ae-program-links">
+            <?php foreach ($ae_programs as $ae_program) : ?>
+              <a class="pseudo-list-item" href="<?= $ae_program->url() ?>"><?= $ae_program->filename() ?></a>
+            <?php endforeach ?>
+          </div>
+
+        <?php endif ?>
+      <?php endif ?>
     </div>
   </div>
