@@ -6,7 +6,7 @@ Display-title:
 
 ----
 
-Bio-short: <p>The hushed-and-heartsick-phone-voice-memo to left-field-RnB pipeline.</p>
+Bio-short: <p>The hushed-and-heartsick-phone-voice-memo to left-of-field-RnB pipeline.</p>
 
 ----
 
@@ -30,7 +30,7 @@ Support:
 
 ----
 
-Images: 
+Images: - file://TMeDEtJPGkAgVe65
 
 ----
 
