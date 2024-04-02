@@ -1,3 +1,6 @@
+// - touch and scroll handling, specific to the col3 element
+// - plain text view toggle functionality
+
 document.addEventListener("DOMContentLoaded", function () {
   const handleTouchStart = function (e) {
     this.touchStartY = e.touches[0].clientY;
@@ -17,7 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const handleWheel = function (e) {
     e.preventDefault();
     const col3 = document.getElementById("col3");
-    col3.scrollTop += e.deltaY;
+    if (col3) {
+      col3.scrollTop += e.deltaY;
+    }
   };
 
   let customScrollHandlingAdded = false;
@@ -70,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const togglePlainText = document.getElementById("togglePlainTextView");
   const settingsButton = document.getElementById("settingsButton");
   const settingsContainer = document.getElementById("settingsContainer");
+  const plainTextContainer = document.getElementById("plainTextContainer");
 
   const body = document.body;
   const menuHeaderContainer = document.querySelector(
@@ -88,11 +94,19 @@ document.addEventListener("DOMContentLoaded", function () {
   function applyPlainTextStyles(enable) {
     if (enable) {
       body.classList.add("plain-text");
+      // limit body width for ease of reading on large screens
       body.style.maxWidth = "60em";
+
+      // add fixed position to menu header and plain text button
       if (menuHeaderContainer) {
         menuHeaderContainer.style.position = "fixed";
         menuHeaderContainer.style.right = "0.3rem";
         menuHeaderContainer.style.top = "2em";
+      }
+      if (plainTextContainer) {
+        plainTextContainer.style.position = "fixed";
+        plainTextContainer.style.right = "0.3rem";
+        plainTextContainer.style.top = "0.5rem";
       }
 
       // if (menuToggleButton.attributes.expanded) {
@@ -112,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ul.style.padding = "0";
       });
 
-      // Remove custom scroll handling in plain text mode
+      // remove custom scroll handling in plain text mode
       removeCustomScrollHandling();
     } else {
       body.classList.remove("plain-text");
@@ -209,24 +223,24 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleSection(this);
     });
   });
-});
-function initSections() {
-  const isMobile = window.innerWidth <= 768;
-  const sections = document.querySelectorAll("[aria-controls]");
 
-  sections.forEach((button) => {
-    const sectionId = button.getAttribute("aria-controls");
-    const sectionItems = document.getElementById(sectionId);
+  // function to init sections
+  function initSections() {
+    const isMobile = window.innerWidth <= 768;
+    const sections = document.querySelectorAll("[aria-controls]");
 
-    // style collapsed sections for desktop
-    const isExpanded = button.getAttribute("aria-expanded") === "true";
-    const parent = button.closest("li.first-item");
-    if (parent) {
-      parent.classList.toggle("list-style-circle", !isExpanded);
-    }
-  });
-}
+    sections.forEach((button) => {
+      const sectionId = button.getAttribute("aria-controls");
+      const sectionItems = document.getElementById(sectionId);
 
-document.addEventListener("DOMContentLoaded", function () {
+      // style collapsed sections for desktop
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+      const parent = button.closest("li.first-item");
+      if (parent) {
+        parent.classList.toggle("list-style-circle", !isExpanded);
+      }
+    });
+  }
+  // initialize sections on page load
   initSections();
 });

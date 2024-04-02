@@ -155,7 +155,7 @@
         <?php endif ?>
       </div>
     <?php endif ?>
-    <div class="plain-text-container" style="position: fixed; top: 0.5rem; right: 0.3rem;">
+    <div id="plainTextContainer" class="plain-text-container">
       <button id="togglePlainTextView" class="pseudo-list-item">Plain Text View</button>
 
       <?php

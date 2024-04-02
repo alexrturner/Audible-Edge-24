@@ -39,8 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   // select the SVG, dots and audio buttons
-  // var svgElement = document.querySelector("#logo-0 svg");
-  // var cls3Elements = svgElement.querySelectorAll(".cls-3");
   var svgElement = document.querySelector("#dots svg");
   // var cls3Elements = svgElement.querySelectorAll(".st0");
   var cls3Elements = svgElement.querySelectorAll("#dots path");
@@ -58,6 +56,28 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 
+  // Function to adjust the position by 2em without leaving the viewport
+  function adjustPosition(button) {
+    const emSize = parseFloat(getComputedStyle(document.body).fontSize);
+    const movement = 2 * emSize; // Convert 2em to pixels
+    let { left, top } = button.getBoundingClientRect();
+
+    // Adjusting position to move left or right, and up or down by 2em
+    // ensure the button doesn't move out of the viewport
+    left = Math.min(
+      window.innerWidth - button.offsetWidth,
+      Math.max(0, left + (Math.random() < 0.5 ? -movement : movement))
+    );
+    top = Math.min(
+      window.innerHeight - button.offsetHeight,
+      Math.max(0, top + (Math.random() < 0.5 ? -movement : movement))
+    );
+
+    // update button position
+    button.style.left = `${left}px`;
+    button.style.top = `${top}px`;
+  }
+
   audioButtons.forEach((button) => {
     const screenWidth = window.innerWidth;
     let attempts = 0;
@@ -72,18 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
       var containerRect = document
         .getElementById("svg-container")
         .getBoundingClientRect();
-
-      // var leftPixels =
-      //   svgRect.left +
-      //   cx * (svgRect.width / svgElement.viewBox.baseVal.width) -
-      //   button.offsetWidth / 2 -
-      //   containerRect.left;
-
-      // var topPixels =
-      //   svgRect.top +
-      //   cy * (svgRect.height / svgElement.viewBox.baseVal.height) -
-      //   button.offsetHeight / 2 -
-      //   containerRect.top;
 
       var leftPercent =
         ((svgRect.left +
@@ -101,15 +109,40 @@ document.addEventListener("DOMContentLoaded", function () {
       button.style.position = "absolute";
       button.style.left = `${leftPercent}%`;
       button.style.top = `${topPercent}%`;
-      // button.style.left = `${leftPixels}px`;
-      // button.style.top = `${topPixels}px`;
     }
 
+    // smaller screens: place the button on path
     if (screenWidth < 769) {
-      // smaller screens: place the button on path
-      var rCircle = Math.floor(Math.random() * cls3Elements.length);
-      var circle = cls3Elements[rCircle];
-      setPosition(circle);
+      let placed = false;
+      while (!placed && attempts < maxAttempts) {
+        var rCircle = Math.floor(Math.random() * cls3Elements.length);
+        var circle = cls3Elements[rCircle];
+        setPosition(circle);
+
+        let overlap = Array.from(audioButtons).some((otherButton) => {
+          return otherButton !== button && isOverlapping(button, otherButton);
+        });
+
+        if (!overlap) {
+          placed = true; // found a non-overlapping position
+          // break; // exit loop once a position is found
+        } else {
+          attempts++;
+        }
+      }
+
+      if (attempts === maxAttempts) {
+        console.log(
+          "Failed to place an audio button without overlapping after maximum attempts."
+        );
+        adjustPosition(button);
+      }
+      // if (!placed) {
+      //   console.log(
+      //     "Failed to place an audio button without overlapping after maximum attempts."
+      //   );
+      //   button.style.display = "none !important"; // This line hides the button if a position wasn't found
+      // }
     } else {
       // larger screens: find a non-overlapping position
       let placed = false;

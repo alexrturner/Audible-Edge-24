@@ -20,16 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         y: clickedButtonPosition.top + clickedButtonPosition.height / 2,
       },
     ];
-    // function determineOrder() {
-    //   const today = new Date();
-    //   if (today.getDay() % 2 === 0) {
-    //     // even day order
-    //     return [".ae-title", ".homepage__dates", ".homepage__tag"];
-    //   } else {
-    //     // odd day order
-    //     return [".homepage__dates", ".homepage__tag", ".ae-title"];
-    //   }
-    // }
 
     function shuffleOrder(array) {
       for (let i = array.length - 1; i > 0; i--) {
@@ -40,8 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const targetSelectors = [".ae-title", ".homepage__dates", ".homepage__tag"];
-    // todo: for determined selectors, use the following line instead
-    // const targetSelectors = determineOrder();
 
     const targetSelectorsOrdered = shuffleOrder(targetSelectors.slice());
 

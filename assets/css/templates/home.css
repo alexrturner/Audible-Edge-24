@@ -2,5 +2,9 @@
   .menu-toggle.toggle.pseudo-list-item {
     padding-left: 30px;
     width: auto;
+    background: transparent;
+  }
+  .audio-button {
+    mix-blend-mode: multiply;
   }
 }
