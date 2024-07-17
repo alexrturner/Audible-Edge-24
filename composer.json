@@ -16,10 +16,7 @@
   ],
   "homepage": "https://ae.tonelist.com.au",
   "support": {
-    "email": "support@getkirby.com",
-    "issues": "https://github.com/getkirby/starterkit/issues",
-    "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/getkirby/starterkit"
+    "email": "***REMOVED***"
   },
   "require": {
     "php": ">=8.0.0 <8.3.0",

@@ -496,7 +496,7 @@
 
 <div class="homepage__menu-header-container menu-header-container-global">
     <?php
-    // arguments: expanded (true/false)
+    // args: expanded (true/false)
     $expanded = "true";
     ?>
     <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
@@ -570,12 +570,6 @@
 
         <?php $index = 0; ?>
         <?php foreach ($site->files()->template('audio_intro') as $intro_audio) : ?>
-
-            <?php
-            // kt($site->audio_intro_text()) 
-            ?>
-
-
             <button onclick="playPauseIntro(this)" data-audio="audio-intro-<?= $index ?>" aria-label="Play introduction audio" aria-controls="audio-intro-<?= $index ?>">
                 <div id="visual-aid" class="audio-intro-button circle-button" data-audio="audio-intro-<?= $index ?>"></div>
                 <div class="audio-intro-text">

@@ -1,3 +1,8 @@
+# Install files
+# -----------
+/kirby
+/vendor
+
 # System files
 # ------------
 
@@ -48,7 +53,7 @@ Icon
 # ---------------
 
 /site/config/.license
-/site/config/config.starterkit.test.php
+/site/config/config.localhost.php
 
 # Local
 # ---------------
@@ -58,5 +63,14 @@ Icon
 /zzz/*
 /assets/font/Herbik
 /site/config/db.php
-# /site/templates/z_test.php
-# /content/z_test
+.editorconfig
+.htaccess
+error_log
+
+# Favicon
+# ---------------
+favicon-16x16.png
+favicon-32x32.png
+android-chrome-192x192.png
+android-chrome-512x512.png
+apple-touch-icon.png
