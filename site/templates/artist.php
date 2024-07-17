@@ -94,11 +94,6 @@
             <?php endif; ?>
         </div>
 
-
-
-
-
-
         <?php $links = $page->links()->toStructure(); ?>
         <?php if ($links->isNotEmpty()) : ?>
             <ul class="artist-links">

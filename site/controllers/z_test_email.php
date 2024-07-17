@@ -1,4 +1,7 @@
 <?php
+// controllers/z_test_email.php
+// This is a test controller to check if the email form is working
+
 return function ($kirby, $pages, $page) {
 
     $alert = null;

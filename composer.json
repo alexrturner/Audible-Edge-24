@@ -1,5 +1,5 @@
 {
-  "name": "Audible Edge",
+  "name": "tonelist/audible-edge",
   "description": "Festival of Sound",
   "type": "festival",
   "keywords": [
@@ -19,8 +19,9 @@
     "email": "***REMOVED***"
   },
   "require": {
-    "php": ">=8.0.0 <8.3.0",
-    "getkirby/cms": "^4.0"
+    "php": ">=8.0.0 <8.4.0",
+    "getkirby/cms": "^4.0",
+    "vlucas/phpdotenv": "^5.6"
   },
   "config": {
     "allow-plugins": {

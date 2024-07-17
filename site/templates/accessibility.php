@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 
 <main class="main content-container index">
-
     <section id="col1" class="intro" style="max-width: 60ch;">
         <?= kt($page->intro()) ?>
     </section>
@@ -13,9 +12,6 @@
     <section id="col3" class="form" style="max-width: 60ch;">
 
         <?= kt($page->form()) ?>
-
-
-
 
         <form method="post" action="<?= $page->url() ?>">
             <div class="honeypot" style="position: absolute; left: -9999px;">
@@ -54,6 +50,14 @@
 
 
         <?php
+
+        require 'vendor/autoload.php';
+
+        use Dotenv\Dotenv;
+
+        $dotenv = Dotenv::createImmutable(__DIR__);
+        $dotenv->load();
+
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             date_default_timezone_set('Australia/Perth');
@@ -66,11 +70,12 @@
             $submitted_at = date('Y-m-d H:i:s');
 
             // database connection parameters
-            $host = 'localhost';
-            $username = '***REMOVED***_ae24';
-            $password = 'kk6aGGh7GrRdmCU';
-            $database = '***REMOVED***_audible_edge_2024';
-            $usertable = "accessibility_requests";
+            // loaded from environment variables
+            $host = $_ENV['DB_HOST'];
+            $username = $_ENV['DB_USERNAME'];
+            $password = $_ENV['DB_PASSWORD'];
+            $database = $_ENV['DB_DATABASE'];
+            $usertable = $_ENV['DB_TABLE'];
 
             $conn = mysqli_connect($host, $username, $password, $database);
 
@@ -79,20 +84,23 @@
                 die("Error: could not connect. " . mysqli_connect_error());
             }
 
+
             $sql = "INSERT INTO $usertable (name, pronouns, email, phone, text, submitted_at) VALUES ('$name', '$pronouns', '$email', '$phone', '$text', '$submitted_at');";
 
+            // retrieve and display feedback messages
+            $successMessage = $kirby->site()->dbSuccessMessage()->kirbytext();
+            $errorMessage = $kirby->site()->dbErrorMessage()->kirbytext();
+
             if (mysqli_query($conn, $sql)) {
-                echo '<div class="form-container"><p class="form-text">Your message has been sent, thank you.</p><p class="form-text">The Tone List team will get back to you soon.</p></div>';
+                echo '<div class="form-container"><p class="form-text">' . $successMessage . '</p></div>';
             } else {
-                echo '<div class="form-container"><p class="form-text">ERROR: Unable to execute $sql.</p></div>' . mysqli_error($conn);
+                echo '<div class="form-container"><p class="form-text">' . $errorMessage . '</p></div>' . mysqli_error($conn);
             }
 
             mysqli_close($conn);
         }
         ?>
     </section>
-
 </main>
-
 
 <?php snippet('footer') ?>

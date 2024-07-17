@@ -18,7 +18,6 @@ tabs:
         create: default
         image: icon
 
-  # settings tab
   settings:
     label: Settings
     sections:
@@ -61,6 +60,16 @@ tabs:
           metaKeywords:
             label: Meta Keywords
             type: writer
+
+          dbSuccessMessage:
+            label: Database Connection Success Message
+            type: writer
+            width: 1/2
+
+          dbErrorMessage:
+            label: Database Connection Error Message
+            type: writer
+            width: 1/2
 
   media:
     label: files

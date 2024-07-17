@@ -1,7 +1,11 @@
-# Install files
+# Install
 # -----------
 /kirby
 /vendor
+
+# Sensitive
+# ---------------
+/.env
 
 # System files
 # ------------
@@ -26,6 +30,7 @@ Icon
 *.sublime-workspace
 /.vscode
 /.idea
+/.editorconfig
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -69,8 +74,9 @@ error_log
 
 # Favicon
 # ---------------
-favicon-16x16.png
-favicon-32x32.png
-android-chrome-192x192.png
-android-chrome-512x512.png
-apple-touch-icon.png
+/favicon-16x16.png
+/favicon-32x32.png
+/android-chrome-192x192.png
+/android-chrome-512x512.png
+/apple-touch-icon.png
+/site.webmanifest
