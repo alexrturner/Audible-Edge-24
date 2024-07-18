@@ -5,15 +5,10 @@ image:
 
 fields:
   description:
-    label: Description
+    label: {{ page.title }} Description
     type: textarea
 
   link_email:
     label: Email Newsletter Sign-up Link
-    type: url
-    width: 1/2
-
-  link_sms:
-    label: SMS Newsletter Sign-up Link
     type: url
     width: 1/2

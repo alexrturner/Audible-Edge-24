@@ -5,8 +5,6 @@
 
     .gallery-container {
         position: relative;
-        /* width: 100%;
-        padding: 0 !important; */
     }
 
     .gallery-images figure {
@@ -53,8 +51,6 @@
         }
     }
 
-    /* //todo revise 
-        */
     button.gallery-prev,
     button.gallery-next {
         top: 0%;
@@ -90,7 +86,5 @@
                 </figure>
             <?php endforeach; ?>
         </div>
-
-
     </div>
 <?php endif; ?>

@@ -33,7 +33,6 @@ sidebar:
   image:
     extends: sections/image
     label: 🪞
-    min: 1
     max: 1
     image:
       ratio: 1/1

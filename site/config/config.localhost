@@ -78,6 +78,18 @@ return [
     'api' => [
         'basicAuth' => true
     ],
+    'email' => [
+        'transport' => [
+            'type' => 'smtp',
+            // 'host' => 'smtp.company.com',
+            'host' => 'cp-wc01.per01.ds.network',
+            'port' => 465,
+            'security' => true,
+            'auth' => true,
+            'username' => '***REMOVED***',
+            'password' => "Dn;in'}47CAd,pk"
+        ]
+    ],
     'languages' => true,
     'thumbs' => [
         'srcsets' => [

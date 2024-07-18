@@ -8,6 +8,7 @@ return function ($kirby, $pages, $page) {
 
     if ($kirby->request()->is('POST') && get('submit')) {
         dump($_POST); // check if you get into this if-statement at all
+
         // check the honeypot
         if (empty(get('website')) === false) {
             go($page->url());
@@ -56,7 +57,6 @@ return function ($kirby, $pages, $page) {
                         'text'   => esc($data['text']),
                         'sender' => esc($data['name'])
                     ]
-
                 ]);
             } catch (Exception $error) {
                 if (option('debug')) :

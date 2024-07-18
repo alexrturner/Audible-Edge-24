@@ -47,8 +47,4 @@ Link-email: http://eepurl.com/iwklBs
 
 ----
 
-Link-sms: https://example.com
-
-----
-
 Uuid: aHVUvWb1uOZgJNAC

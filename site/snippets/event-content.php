@@ -1,9 +1,19 @@
 <?php
 $sectionSubtitle = $sectionSubtitle ?? '';
-?>
-<!-- title, subtitle, date time, venue, location -->
-<section class="section" id="col1">
 
+// central initialisation
+$ticket_link = $page->ticket_link()->url() ?? null;
+$ticket_price = $page->ticket_price()->value() ?? null;
+$ticket_price_text = $page->ticket_price_text()->html() ?? null;
+$subtitle = $page->subtitle() ?? '';
+$location = $page->location() ?? '';
+$venue = $page->venues()->toPages()->first() ?? null;
+$eventSchedules = $page->eventSchedule()->toStructure() ?? [];
+$description = kt($page->description()) ?? '';
+$accessibility = kt($page->accessibility()) ?? '';
+$artists = $page->artist_link()->toPages() ?? [];
+?>
+<section class="section" id="col1">
     <ul class="events" id="events-items">
         <h2 class="section-header mobile__section-subtitle"><?= $sectionSubtitle ?> Event</h2>
         <li class="events-item" data-type="events" data-id="<?= $page->id() ?>">
@@ -11,35 +21,31 @@ $sectionSubtitle = $sectionSubtitle ?? '';
         </li>
     </ul>
 
-
-
-
-
     <?php
     // tickets
     if ($page->ticketed()->toBool()) : ?>
         <div class="ticket-info">
-            <?php if ($ticket_link = $page->ticket_link()->url()) : ?>
+            <?php if ($ticket_link) : ?>
                 <?php if ($ticket_link->isNotEmpty()) : ?>
                     <a href="<?= $ticket_link ?>" class="button__link" aria-label="Visit to purchase tickets" aria-type="link">Tickets</a>
                 <?php endif; ?>
             <?php endif; ?>
-            <?php if ($ticket_price = $page->ticket_price()->value()) : ?>
+            <?php if ($ticket_price) : ?>
                 <span class="ticket-price">$<?= $ticket_price ?></span>
             <?php endif; ?>
-            <?php if ($ticket_price_text = $page->ticket_price_text()->html()) : ?>
+            <?php if ($ticket_price_text) : ?>
                 <span class="ticket-price-text"><?= $ticket_price_text ?></span>
             <?php endif; ?>
         </div>
     <?php endif; ?>
 
     <div class="subtitle">
-        <?php if ($subtitle = $page->subtitle()) : ?>
+        <?php if ($subtitle->isNotEmpty()) : ?>
             <span><?= kt($subtitle) ?></span>
         <?php endif; ?>
     </div>
 
-    <?php if ($location = $page->location()) : ?>
+    <?php if ($location) : ?>
         <p class="location"><?= kt($location) ?></p>
     <?php endif; ?>
 
@@ -60,9 +66,6 @@ $sectionSubtitle = $sectionSubtitle ?? '';
                     <?= $venue->title() ?>
                 </p>
             <?php endif; ?>
-
-
-
             <p>
                 <?= $venue->location()->html() ?>
             </p>
@@ -78,9 +81,7 @@ $sectionSubtitle = $sectionSubtitle ?? '';
 </section>
 
 <!-- artists, image -->
-<!-- <span class="mobile__section-subtitle">Lineup:</span> -->
 <section class="section" id="col2">
-
     <ul class="artists" id="artists-items">
         <h2 class="section-header mobile__section-subtitle">Artists</h2>
         <?php
@@ -91,11 +92,8 @@ $sectionSubtitle = $sectionSubtitle ?? '';
                     <?= $artist->title() ?>
                 </a>
             </li>
-
         <?php endforeach ?>
     </ul>
-
-
 
     <?php snippet('gallery', ['images' => $page->images()]); ?>
 
@@ -111,9 +109,8 @@ $sectionSubtitle = $sectionSubtitle ?? '';
     <ul class="event-schedules">
         <?php foreach ($page->eventSchedule()->toStructure() as $schedule) : ?>
             <li class="event-schedule pseudo-list-item">
-
                 <div class="column description">
-                    <?= $schedule->description()->kirbytext() ?>
+                    <?= kt($schedule->description()) ?>
                 </div>
                 <div class="column details">
                     <?php if ($schedule->location()->isNotEmpty()) : ?>

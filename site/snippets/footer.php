@@ -41,14 +41,13 @@ if ($page->isHomePage() || $page->uid() === "program" || $page->uid() === "night
 <?php endif ?>
 
 <?php $parent = $page->parent();
-
-// Check if the parent UID matches one of the specific pages
+// check if the parent UID matches one of the specific pages
 // and if the current page's template matches one of the specified templates
-if ($parent && in_array($parent->uid(), ['program', 'satellite', 'nightschool'])) : ?>
-  <?= js([
+if ($parent && in_array($parent->uid(), ['program', 'satellite', 'nightschool'])) :
+  js([
     'assets/js/event-svg.js'
-  ]) ?>
-<?php endif; ?>
+  ]);
+endif; ?>
 
 <div class="overlay" style="display: none;">
   <div class="overlay-svg-container">

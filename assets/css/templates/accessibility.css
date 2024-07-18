@@ -131,7 +131,7 @@ textarea:focus {
   border: 2px solid var(--cc-primary);
 }
 
-.form-text {
+.form-container p {
   font-family: var(--ff-serif);
   font-style: italic;
   max-width: 300px;

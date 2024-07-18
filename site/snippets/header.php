@@ -7,13 +7,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 
-  <?php if ($page->isHomePage()) : ?>
-    <title><?= $site->title()->esc() ?></title>
-  <?php else : ?>
-    <title>Audible Edge &#x25cf; <?= $page->title()->esc() ?></title>
-  <?php endif ?>
+  <title>
+    <?= $page->isHomePage() ? $site->title()->esc() : 'Audible Edge &#x25cf; ' . $page->title()->esc() ?>
+  </title>
 
   <script>
+    // plain text view: disable styles on page load
     document.addEventListener('DOMContentLoaded', () => {
       const isDisabled = localStorage.getItem('stylesDisabled') === 'true';
       for (let i = 0; i < document.styleSheets.length; i++) {
@@ -34,15 +33,13 @@
 
   <script src="https://d3js.org/d3.v7.js"></script>
 
-  <?php if ($page->isHomePage()) : ?>
-    <?= js('assets/js/countdown.js') ?>
-  <?php else : ?>
-    <?= js('assets/js/menu-overlay.js') ?>
-  <?php endif ?>
 
+  <?=
+  // Load countdown on home page, menu-overlay on all other pages
+  js($page->isHomePage() ? 'assets/js/countdown.js' : 'assets/js/menu-overlay.js')
+  ?>
 
-
-  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?= url('/assets/favicon.ico') ?>">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -50,7 +47,6 @@
   <meta name="keywords" content="<?= strip_tags($site->metaKeywords()->value()) ?>">
   <meta name="author" content="Tone List">
   <meta property="og:image" content="<?= url('/assets/img/AudibleEdge24.jpg') ?>">
-
 
 </head>
 
@@ -94,52 +90,38 @@
 
       <?php endif ?>
 
+
       <?php
-      if ($page->isHomePage()) : ?>
-        <?php // snippet('dates-global') 
-        ?>
-      <?php elseif ($page->uid() === 'program') : ?>
-        <?php snippet('dates-global') ?>
-      <?php elseif ($page->uid() === 'nightschool') : ?>
-        <?php snippet('dates-global', ['parentPage' => 'nightschool'])  ?>
-      <?php elseif ($page->uid() === 'satellite') : ?>
-        <?php snippet('dates-global', ['parentPage' => 'satellite'])  ?>
-      <?php else : ?>
-        <?php snippet('dates-local') ?>
-      <?php endif ?>
+      $snippetArgs = [];
+      if ($page->uid() === 'program') {
+        snippet('dates-global');
+      } elseif (in_array($page->uid(), ['nightschool', 'satellite'])) {
+        snippet('dates-global', ['parentPage' => $page->uid()]);
+      } elseif (!$page->isHomePage()) {
+        snippet('dates-local');
+      }
+      ?>
+
     </header>
     <?php if (!$page->isHomePage()) : ?>
 
       <div class="menu-header-container menu-header-container-global">
-        <?php
-        // arguments: expanded (true/false)
-        $expanded = "false";
-        ?>
-        <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
+        <?php $expanded = "false"; ?>
+
+        <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">
+          Menu
+        </button>
 
         <?php if ($page->uid() === 'program') : ?>
           <div class="desktop__section fixed" id="desktop-menu">
             <ul>
-              <li>
-                <a href="/satellite" id="page__satellite">
-                  Satellite
-                </a>
-              </li>
-              <li>
-                <a href="/nightschool" id="page__nightschool">
-                  Night School
-                </a>
-              </li>
+              <li><a href="/satellite" id="page__satellite">Satellite</a></li>
+              <li><a href="/nightschool" id="page__nightschool">Night School</a></li>
             </ul>
           </div>
-        <?php else : ?>
-
         <?php endif ?>
 
-
-
         <ul class="menu-items <?php e($expanded === "true", "", "hidden"); ?>" id="menu-items">
-
           <?php foreach ($site->children()->listed() as $p) : ?>
             <li class="menu-item">
               <a <?php e($p->isOpen(), 'aria-current="page"') ?> href="<?= $p->url() ?>" class="menu-link<?php e($p->isOpen(), ' active') ?>">
@@ -147,37 +129,31 @@
               </a>
             </li>
           <?php endforeach ?>
-
         </ul>
 
-        <?php if ($page->parent()) : ?>
-          <?php snippet('pagination-event') ?>
-        <?php endif ?>
+        <?php
+        if ($page->parent()) :
+          snippet('pagination-event');
+        endif ?>
       </div>
     <?php endif ?>
     <div id="plainTextContainer" class="plain-text-container">
       <button id="togglePlainTextView" class="pseudo-list-item">Plain Text View</button>
 
       <?php
-      // settings
+      // visual settings on home, program, satellite, nightschool
       if ($page->isHomePage() || in_array($page->uid(), ['program', 'satellite', 'nightschool'])) : ?>
         <?php snippet('settings') ?>
       <?php endif ?>
 
-      <?php if ($page->uid() === 'program') : ?>
-
-
-        <?php if ($site->ae_program()) : // Check if ae_program exists 
-          $ae_programs = $site->files()->template('ae_program');
-
-        ?>
-          <div class="ae-program-links">
-            <?php foreach ($ae_programs as $ae_program) : ?>
-              <a class="pseudo-list-item" href="<?= $ae_program->url() ?>"><?= $ae_program->filename() ?></a>
-            <?php endforeach ?>
-          </div>
-
-        <?php endif ?>
+      <?php if ($page->uid() === 'program' && $site->ae_program()) : ?>
+        <div class="ae-program-links">
+          <?php foreach ($site->files()->template('ae_program') as $ae_program) : ?>
+            <a class="pseudo-list-item" href="<?= $ae_program->url() ?>">
+              <?= $ae_program->filename() ?>
+            </a>
+          <?php endforeach ?>
+        </div>
       <?php endif ?>
     </div>
   </div>

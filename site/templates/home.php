@@ -37,16 +37,11 @@
         font-weight: normal;
     }
 
-
-
-
-
     .content-container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        /* width: 100vw; */
         width: 100%;
         margin: 0;
     }
@@ -58,7 +53,6 @@
         left: 1em;
         z-index: 100;
     }
-
 
     svg {
         width: 100%;
@@ -96,18 +90,8 @@
         align-items: center;
     }
 
-    /* .logo-container {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        max-width: 100vw;
-        top: 0;
-    } */
-
-
     @media screen and (max-width: 768px) {
         .logo-container {
-            /* position: absolute; */
             display: block !important;
         }
     }
@@ -290,12 +274,9 @@
     .homepage__tag {
         bottom: 10%;
         right: 15%;
-
         padding: 1rem;
         font-size: 1.5rem;
         color: var(--cc-olive);
-        /* color: var(--cc-olive-light);
-        color: var(--cc-purple-highlight); */
         font-size: var(--fs-big);
         line-height: 0.85;
         letter-spacing: -0.06em;
@@ -303,16 +284,11 @@
 
     .countdown-container {
         position: absolute !important;
-        /* left: 40.3em !important; */
-        /* top: 9em !important; */
-        /* top: 20%;
-        right: 20%; */
         top: 2em;
         right: 1.5em;
         font-family: var(--ff-serif);
         font-style: italic;
         color: var(--cc-olive-light);
-        /* color: var(--cc-blue-light); */
         opacity: 0.75;
     }
 
@@ -407,7 +383,6 @@
             margin-left: 0em;
         }
 
-
         .homepage__tag {
             top: 33%;
             /* top: 28%; */
@@ -424,8 +399,6 @@
         #audio-buttons-container {
             height: 300vh;
             height: clamp(3000px, 300vh, 6000px);
-            /* max-width: 80%; */
-            /* left: 20%; */
         }
 
         #audio-buttons-container {
@@ -440,7 +413,6 @@
 
         .ae-title {
             position: fixed;
-
             top: 20%;
             left: 1rem;
             pointer-events: none;
@@ -465,7 +437,6 @@
         text-align: center;
         right: unset;
         pointer-events: auto;
-        /* max-width: 20ch; */
     }
 
     @media (min-width: 768px) {
@@ -496,7 +467,6 @@
 
 <div class="homepage__menu-header-container menu-header-container-global">
     <?php
-    // args: expanded (true/false)
     $expanded = "true";
     ?>
     <button class="menu-toggle toggle pseudo-list-item" aria-expanded="<?= $expanded ?>" aria-controls="menu-items" aria-label="Toggle Menu">Menu</span></button>
@@ -529,10 +499,7 @@
 </div>
 
 <main class="content-container">
-
-
     <div id="svg-container" class="logo-container desktop" style="display: none;">
-
         <div id="dots" class="svg-dots">
             <?php $dots = $site->files()->template('ae_homepage_dot_svg');
             foreach ($dots as $dot) : ?>

@@ -51,6 +51,7 @@
 
         <?php
 
+        // DB connection from environment variables
         require 'vendor/autoload.php';
 
         use Dotenv\Dotenv;
@@ -70,12 +71,12 @@
             $submitted_at = date('Y-m-d H:i:s');
 
             // database connection parameters
-            // loaded from environment variables
+
             $host = $_ENV['DB_HOST'];
             $username = $_ENV['DB_USERNAME'];
             $password = $_ENV['DB_PASSWORD'];
             $database = $_ENV['DB_DATABASE'];
-            $usertable = $_ENV['DB_TABLE'];
+            $usertable = 'accessibility_requests';
 
             $conn = mysqli_connect($host, $username, $password, $database);
 
@@ -88,13 +89,13 @@
             $sql = "INSERT INTO $usertable (name, pronouns, email, phone, text, submitted_at) VALUES ('$name', '$pronouns', '$email', '$phone', '$text', '$submitted_at');";
 
             // retrieve and display feedback messages
-            $successMessage = $kirby->site()->dbSuccessMessage()->kirbytext();
+            $successMessage = $page->dbSuccessMessage()->kirbytext();
             $errorMessage = $kirby->site()->dbErrorMessage()->kirbytext();
 
             if (mysqli_query($conn, $sql)) {
-                echo '<div class="form-container"><p class="form-text">' . $successMessage . '</p></div>';
+                echo '<div class="form-container">' . $successMessage . '</div>';
             } else {
-                echo '<div class="form-container"><p class="form-text">' . $errorMessage . '</p></div>' . mysqli_error($conn);
+                echo '<div class="form-container">' . $errorMessage . '</div>' . mysqli_error($conn);
             }
 
             mysqli_close($conn);

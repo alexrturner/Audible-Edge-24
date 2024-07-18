@@ -21,6 +21,7 @@
         settingsButton.addEventListener("click", function() {
             settingsContainer.classList.toggle("hidden");
             settingsButton.classList.toggle("inactive");
+
             var isVisible = settingsContainer.style.visibility === 'visible';
             settingsContainer.style.visibility = isVisible ? 'hidden' : 'visible';
             settingsContainer.setAttribute('aria-hidden', isVisible);

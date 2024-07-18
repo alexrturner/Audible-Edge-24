@@ -5,4 +5,5 @@
     <?php snippet('event-content', ['sectionSubtitle' => 'Nightschool']) ?>
 
 </main>
+
 <?php snippet('footer') ?>

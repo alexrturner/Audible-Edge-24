@@ -4,8 +4,10 @@
 
     <!-- associsated event -->
     <section class="section" id="col1">
-        <?php $events = $page->events()->toPages(); ?>
-        <?php if ($events->isNotEmpty()) : ?>
+        <?php
+        $events = $page->events()->toPages();
+
+        if ($events->isNotEmpty()) : ?>
 
             <ul class="associated-events">
 
@@ -42,11 +44,9 @@
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
-
     </section>
 
     <!-- artists, images -->
-
     <section class="section" id="col2">
         <ul class="artists" id="events-items">
             <span class="mobile__section-subtitle">Artist:</span>
@@ -72,7 +72,6 @@
 
         <?php snippet('gallery', ['images' => $page->images()]); ?>
 
-
     </section>
 
     <!-- description and links -->
@@ -87,9 +86,7 @@
             <?php if ($page->bio_long()->isNotEmpty()) : ?>
                 <button id="toggleBio" class="toggle-bio-btn">+</button>
                 <div id="bioLong" class="bio-long" style="visibility:hidden;">
-
                     <?= $page->bio_long()->kt() ?>
-
                 </div>
             <?php endif; ?>
         </div>
@@ -104,7 +101,7 @@
 
                             <?= $link->text()->html() ?>
                             <?php
-                            // Construct the SVG file path based on the link type
+                            // construct the SVG file path based on the link type
                             $type = $link->type()->value();
                             $svgFilePath = 'assets/imgs/icons/' . $type . '.svg';
 

@@ -125,7 +125,6 @@ function setupHoverInteractions(data) {
   const liOffsetX = 0;
   const liOffsetY = 10;
 
-  // d3.selectAll(".dates li, .events-container li, .artists-container li")
   d3.selectAll(
     ".dates li:not(.first-item), .events-container li:not(.first-item), .artists-container li:not(.first-item)"
   )

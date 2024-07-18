@@ -11,7 +11,6 @@ if ($className === 'satellite') {
     $className = 'events';
 }
 
-
 if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->hasChildren()) : ?>
     <ul class="items" id="<?= $className ?>-items">
         <?php foreach ($parentPage->children()->listed() as $child) :
@@ -23,8 +22,6 @@ if ($parentPageSlug && ($parentPage = page($parentPageSlug)) && $parentPage->has
             <li tabindex="0" class="<?= $className ?>-item" data-type="<?= $className ?>" data-id="<?= $child->id() ?>" data-start-time="<?= $formattedStartTime ?>" data-end-time="<?= $formattedEndTime ?>">
                 <a href="<?= $child->url() ?>" class="<?= $className ?>-link">
                     <?php if ($child->display_title()->isNotEmpty()) : ?>
-
-
 
                         <?php foreach ($child->display_title()->toStructure() as $display) : ?>
                             <?= $display->name()->html() ?>
