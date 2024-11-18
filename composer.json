@@ -10,13 +10,13 @@
   "authors": [
     {
       "name": "Tone List",
-      "email": "***REMOVED***",
+      "email": "info@tonelist.com.au",
       "homepage": "https://tonelist.com.au"
     }
   ],
   "homepage": "https://ae.tonelist.com.au",
   "support": {
-    "email": "***REMOVED***"
+    "email": "info@tonelist.com.au"
   },
   "require": {
     "php": ">=8.0.0 <8.4.0",

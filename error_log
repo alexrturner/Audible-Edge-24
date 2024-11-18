@@ -1,467 +1,467 @@
-[08-Feb-2024 02:54:52 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+[08-Feb-2024 02:54:52 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:57 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:57 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:58 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:58 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:59 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:54:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:59 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:54:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:19 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:19 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:21 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:21 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:36 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:36 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:38 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:55:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:38 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:55:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:53 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:53 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 02:56:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:55 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 02:56:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:33 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:33 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:35 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:35 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:35 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:35 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:37 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:37 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:42 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:42 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:44 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 03:00:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/***REMOVED***/public_html/Audible-Edge/index.php:3
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:44 UTC] PHP Warning:  require(kirby/bootstrap.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 03:00:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'kirby/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/atcomau1/public_html/Audible-Edge/index.php:3
 Stack trace:
 #0 {main}
-  thrown in /home/***REMOVED***/public_html/Audible-Edge/index.php on line 3
-[08-Feb-2024 07:02:25 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+  thrown in /home/atcomau1/public_html/Audible-Edge/index.php on line 3
+[08-Feb-2024 07:02:25 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:02:32 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:02:32 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:02:36 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:02:36 UTC] Kirby\Exception\NotFoundException: The user "info@tonelist.com.au" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:02:40 UTC] Kirby\Exception\NotFoundException: The user "unhearable.chords@gmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:02:40 UTC] Kirby\Exception\NotFoundException: The user "unhearable.chords@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:21:31 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:21:31 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:21:37 UTC] Kirby\Exception\NotFoundException: The user "unhearable.chords@gmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:21:37 UTC] Kirby\Exception\NotFoundException: The user "unhearable.chords@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:21:42 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:21:42 UTC] Kirby\Exception\NotFoundException: The user "info@tonelist.com.au" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:22:51 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:22:51 UTC] Kirby\Exception\NotFoundException: The user "jostenmyburgh@protonmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:23:04 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:23:04 UTC] Kirby\Exception\NotFoundException: The user "alexrturner@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:23:05 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:23:05 UTC] Kirby\Exception\NotFoundException: The user "alexrturner@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:23:11 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:23:11 UTC] Kirby\Exception\NotFoundException: The user "alexrturner@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 07:23:55 UTC] Kirby\Exception\NotFoundException: The user "***REMOVED***" cannot be found in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
+[08-Feb-2024 07:23:55 UTC] Kirby\Exception\NotFoundException: The user "alexrturner@gmail.com" cannot be found in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php:527
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #2 [internal function]: Kirby\Cms\Api->{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #7 [internal function]: Kirby\Http\Route->{closure}()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#11 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #12 {main}
-[08-Feb-2024 08:23:33 UTC] Error: Call to a member function website() on null in /home/***REMOVED***/public_html/Audible-Edge/site/templates/event.php:61
+[08-Feb-2024 08:23:33 UTC] Error: Call to a member function website() on null in /home/atcomau1/public_html/Audible-Edge/site/templates/event.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#8 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
-[09-Feb-2024 02:30:25 UTC] Error: Call to a member function website() on null in /home/***REMOVED***/public_html/Audible-Edge/site/templates/event.php:61
+[09-Feb-2024 02:30:25 UTC] Error: Call to a member function website() on null in /home/atcomau1/public_html/Audible-Edge/site/templates/event.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#8 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
-[09-Feb-2024 02:30:44 UTC] Error: Call to a member function website() on null in /home/***REMOVED***/public_html/Audible-Edge/site/templates/event.php:61
+[09-Feb-2024 02:30:44 UTC] Error: Call to a member function website() on null in /home/atcomau1/public_html/Audible-Edge/site/templates/event.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#8 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
-[09-Feb-2024 02:50:05 UTC] Error: Call to a member function website() on null in /home/***REMOVED***/public_html/Audible-Edge/site/templates/event.php:61
+[09-Feb-2024 02:50:05 UTC] Error: Call to a member function website() on null in /home/atcomau1/public_html/Audible-Edge/site/templates/event.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#8 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
-[10-Feb-2024 00:15:00 UTC] Error: Call to a member function website() on null in /home/***REMOVED***/public_html/Audible-Edge/site/templates/event.php:61
+[10-Feb-2024 00:15:00 UTC] Error: Call to a member function website() on null in /home/atcomau1/public_html/Audible-Edge/site/templates/event.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#8 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#8 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #9 {main}
-[24-Feb-2024 00:48:36 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+[24-Feb-2024 00:48:36 UTC] Exception: The validator does not exist: phone in /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
-#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/atcomau1/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
 #3 [internal function]: Kirby\Cms\App->{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
-[24-Feb-2024 01:31:57 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/User.php:741
+[24-Feb-2024 01:31:57 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/User.php:741
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(522): Kirby\Cms\User->validatePassword()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(522): Kirby\Cms\User->validatePassword()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Auth.php(394): Kirby\Cms\Auth->validatePassword()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
 #3 [internal function]: Kirby\Cms\Api->{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(193): Closure->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Api/Api.php(454): Kirby\Cms\Api->call()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/config/routes.php(47): Kirby\Api\Api->render()
 #8 [internal function]: Kirby\Http\Route->{closure}()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
-#10 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
-#11 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
-#12 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(337): Kirby\Http\Router->call()
+#11 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->call()
+#12 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #13 {main}
-[24-Feb-2024 02:45:24 UTC] Whoops\Exception\ErrorException: include(/home/***REMOVED***/public_html/Audible-Edge/site/config/db.php): Failed to open stream: No such file or directory in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:33
+[24-Feb-2024 02:45:24 UTC] Whoops\Exception\ErrorException: include(/home/atcomau1/public_html/Audible-Edge/site/config/db.php): Failed to open stream: No such file or directory in /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php:33
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(33): Whoops\Run->handleError()
-#1 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(33): include()
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php(33): Whoops\Run->handleError()
+#1 /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php(33): include()
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
-[24-Feb-2024 10:12:06 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+[24-Feb-2024 10:12:06 UTC] Exception: The validator does not exist: phone in /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
-#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/atcomau1/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
 #3 [internal function]: Kirby\Cms\App->{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
-[25-Feb-2024 05:24:52 UTC] Exception: The validator does not exist: phone in /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
+[25-Feb-2024 05:24:52 UTC] Exception: The validator does not exist: phone in /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php:244
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
-#2 /home/***REMOVED***/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
+#0 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/V.php(91): Kirby\Toolkit\V::__callStatic()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/config/helpers.php(254): Kirby\Toolkit\V::invalid()
+#2 /home/atcomau1/public_html/Audible-Edge/site/controllers/accessibility.php(39): invalid()
 #3 [internal function]: Kirby\Cms\App->{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#9 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#10 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Controller.php(60): Closure->call()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(449): Kirby\Toolkit\Controller->call()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(319): Kirby\Cms\App->controller()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1007): Kirby\Cms\Page->controller()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#9 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#10 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #11 {main}
-[25-Feb-2024 05:26:52 UTC] Whoops\Exception\ErrorException: Undefined array key "name" in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:61
+[25-Feb-2024 05:26:52 UTC] Whoops\Exception\ErrorException: Undefined array key "name" in /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php:61
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(61): Whoops\Run->handleError()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php(61): Whoops\Run->handleError()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}
-[27-Feb-2024 01:35:43 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:17
+[27-Feb-2024 01:35:43 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php:17
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}
-[27-Feb-2024 01:36:10 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:17
+[27-Feb-2024 01:36:10 UTC] Whoops\Exception\ErrorException: Undefined variable $success in /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php:17
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php(17): Whoops\Run->handleError()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}
-[27-Feb-2024 01:45:45 UTC] Whoops\Exception\ErrorException: Undefined variable $text in /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php:74
+[27-Feb-2024 01:45:45 UTC] Whoops\Exception\ErrorException: Undefined variable $text in /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php:74
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/z_test.php(74): Whoops\Run->handleError()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/z_test.php(74): Whoops\Run->handleError()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}
-[15-Mar-2024 05:10:26 UTC] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Brien', '0437544791', '2024-03-15 05:10:26')' at line 1 in /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php:86
+[15-Mar-2024 05:10:26 UTC] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Brien', '0437544791', '2024-03-15 05:10:26')' at line 1 in /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php:86
 Stack trace:
-#0 /home/***REMOVED***/public_html/Audible-Edge/site/templates/signup.php(86): mysqli_query()
-#1 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/***REMOVED***/...')
-#2 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
-#3 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
-#4 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
-#5 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
-#6 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
-#7 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
-#8 /home/***REMOVED***/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
-#9 /home/***REMOVED***/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
+#0 /home/atcomau1/public_html/Audible-Edge/site/templates/signup.php(86): mysqli_query()
+#1 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(425): include('/home/atcomau1/...')
+#2 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/atcomau1/public_html/Audible-Edge/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/atcomau1/public_html/Audible-Edge/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load()
+#5 /home/atcomau1/public_html/Audible-Edge/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load()
+#6 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/Page.php(1017): Kirby\Template\Template->render()
+#7 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(775): Kirby\Cms\Page->render()
+#8 /home/atcomau1/public_html/Audible-Edge/kirby/src/Cms/App.php(1189): Kirby\Cms\App->io()
+#9 /home/atcomau1/public_html/Audible-Edge/index.php(5): Kirby\Cms\App->render()
 #10 {main}

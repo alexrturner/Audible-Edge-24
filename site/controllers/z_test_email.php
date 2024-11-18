@@ -49,9 +49,9 @@ return function ($kirby, $pages, $page) {
             try {
                 $kirby->email([
                     'template' => 'email',
-                    'from'    => '***REMOVED***',
+                    'from'    => 'admin@ae.tonelist.com.au',
                     'replyTo'  => $data['email'],
-                    'to'       => '***REMOVED***',
+                    'to'       => 'alexrturner@gmail.com',
                     'subject'  => esc($data['name']) . ' (' . esc($data['pronouns']) . ') sent you an accessibility request via the AE website.',
                     'data'     => [
                         'text'   => esc($data['text']),

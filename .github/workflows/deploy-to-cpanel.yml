@@ -16,8 +16,8 @@ jobs:
       - name: executing remote ssh commands using ssh key
         uses: appleboy/ssh-action@v0.1.6
         with:
-          host: ***REMOVED***
-          username: ***REMOVED***
+          host: a-t.com.au
+          username: atcomau1
           key: ${{ secrets.AE_AT_SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.AE_AT_COM_SSH_PRIVATE_KEY_PASSPHRASE }}
           port: 22
